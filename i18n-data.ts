@@ -660,7 +660,7 @@
             "ru": "Показать трекер",
             "id": "Tampilkan pelacak",
             "fil": "Ipakita ang tracker",
-            "zh": "显示跟踪器" //同上不确定
+            "zh": "显示跟踪器", //同上不确定
             "br": "Mostrar rastreador"
         },
         "DotaPlusSubscriber": {
