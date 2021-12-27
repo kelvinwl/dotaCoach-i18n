@@ -257,7 +257,7 @@ export const i18n = {
         },
         "InfoboxesTooltip": {
             "en": "Infoboxes are positioned on top of players in matches and provide insights on items and abilities.",
-            "de": "Infoboxen werden in Spielen über den Spielern positioniert und bieten Einblicke in Gegenstände und Fähigkeiten.",
+            "de": "Infoboxen sind während Spielen über den Spielern positioniert und bieten Einblicke in Gegenstände und Fähigkeiten.",
             "fr": "Les boîtes d'information sont placées au-dessus des joueurs lors des matchs et fournissent des informations sur les objets et les capacités.",
             "ru": "Инфобоксы расположены поверх игроков в матчах и предоставляют информацию о предметах и способностях.",
             "id": "Infobox diposisikan di atas pemain dalam pertandingan dan memberikan wawasan tentang item dan kemampuan.",
@@ -314,7 +314,7 @@ export const i18n = {
         },
         "EnemyBuybacks": {
             "en": "Enemy buybacks", // OK
-            "de": "Gegnerische Rückkäufe", // OK
+            "de": "Feindliche Rückkäufe", // OK
             "fr": "Rachats d'ennemis",
             "ru": "Вражеский выкуп", // OK
             "id": "Buyback musuh",
@@ -322,7 +322,7 @@ export const i18n = {
         },
         "EnemyUltimates": {
             "en": "Enemy ultimates", // OK
-            "de": "Gegnerische Ultimates", // OK
+            "de": "Feindliche Ultimates", // OK
             "fr": "Ultimes ennemis",
             "ru": "Способности врага", // OK, long form: "Особые вражеские способности"
             "id": "Ultimates musuh",
@@ -345,12 +345,12 @@ export const i18n = {
             "zh": "辅导"
         },
         "CoachingTooltip": {
-            "en": "Coaching for hero picks, item builds and enemy heroes can be set here.",
-            "de": "Coaching für Heldenauswahl, Item-Builds und feindliche Helden können hier eingestellt werden.",
-            "fr": "L'entraînement pour les choix de héros, les constructions d'objets et les héros ennemis peut être défini ici.",
-            "ru": "Здесь можно настроить коучинг для выбора героев, сборки предметов и вражеских героев.",
-            "id": "Pelatihan untuk memilih pahlawan, item membangun dan pahlawan musuh dapat diatur di sini.",
-            "zh": "可以在这里设置英雄精选、物品建造和敌方英雄的教练。"
+            "en": "Coaching for hero picks, item builds, own hero (voice) and enemy heroes (voice) can be set here.",
+            "de": "Coaching für Heldenauswahl, Item-Builds, eigener Held (Stimme) und feindliche Helden (Stimme) können hier eingestellt werden.",
+            "fr": "L'entraînement pour les choix de héros, les constructions d'objets et les héros ennemis peut être défini ici.", // Needs to be updated
+            "ru": "Здесь можно настроить коучинг для выбора героев, сборки предметов и вражеских героев.", // Needs to be updated
+            "id": "Pelatihan untuk memilih pahlawan, item membangun dan pahlawan musuh dapat diatur di sini.", // Needs to be updated
+            "zh": "可以在这里设置英雄精选、物品建造和敌方英雄的教练。" // Needs to be updated
         },
         "HeroPicksAndItemBuilds": {
             "en": "Hero picks & item builds", // OK
@@ -362,7 +362,7 @@ export const i18n = {
         },
         "OwnHeroVoice": {
             "en": "Own hero (voice)", // OK
-            "de": "Eigener Held (Stimme)", // OK
+            "de": "Eigener Held", // OK
             "fr": "Propre héros (voix)",
             "ru": "Свой герой (голос)", // OK, short form: "Собственный герой (голос)"
             "id": "Pahlawan sendiri (suara)",
@@ -370,7 +370,7 @@ export const i18n = {
         },
         "EnemyHeroesVoice": {
             "en": "Enemy heroes (voice)", // OK
-            "de": "Gegnerische Helden (Stimme)", // OK
+            "de": "Feindliche Helden", // OK
             "fr": "Héros ennemis (voix)",
             "ru": "Вражеские герои (голос)", // OK
             "id": "Pahlawan musuh (suara)",
@@ -738,7 +738,7 @@ export const i18n = {
         },
         "Reposition": {
             "en": "Reposition", // OK
-            "de": "Umpositionierung", // OK
+            "de": "Umpositionieren", // OK
             "fr": "Repositionnement",
             "ru": "Перестановка", //OP, long form: Изменение позиции"
             "id": "Reposisi",
