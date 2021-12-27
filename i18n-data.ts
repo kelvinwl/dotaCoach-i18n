@@ -640,7 +640,7 @@
             "ru": "Трекер КПД", // OK, long form: "Трекер производительности"
             "id": "Pelacak kinerja",
             "fil": "Performance tracker",
-            "zh": "Performance tracke", //不确定
+            "zh": "Performance tracker", //不确定
             "br": "Rastreador de performance"
         },
         "PerformanceTrackerTooltip": {
