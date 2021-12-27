@@ -279,7 +279,7 @@
             "fr": "canal",
             "ru": "канал",
             "fil": "channel",
-            "zh": "渠道", // 不太确定
+            "zh": "channel", // 不太确定
             "id": "saluran",
             "br": "canal"
         },
@@ -289,7 +289,7 @@
             "fr": "production",
             "ru": "производства",
             "fil": "produksyon",
-            "zh": "生产", // 不太确定
+            "zh": "production", // 不太确定
             "id": "produksi",
             "br": "produção"
         },
@@ -570,7 +570,7 @@
             "ru": "Дневное время", // OK
             "id": "Siang",
             "fil": "Daytime",
-            "zh": "白天",
+            "zh": "昼夜交替",
             "br": "Dia"
         },
         "Subtitles": {
@@ -640,7 +640,7 @@
             "ru": "Трекер КПД", // OK, long form: "Трекер производительности"
             "id": "Pelacak kinerja",
             "fil": "Performance tracker",
-            "zh": "绩效跟踪器", //不确定
+            "zh": "Performance tracke", //不确定
             "br": "Rastreador de performance"
         },
         "PerformanceTrackerTooltip": {
@@ -650,7 +650,7 @@
             "ru": "Настройте средство отслеживания производительности в соответствии со своими потребностями. Обратите внимание, что раскладка зависит от вашей подписки на Dota Plus в Dota 2.",
             "id": "Konfigurasikan pelacak kinerja sesuai kebutuhan Anda. Perhatikan bahwa tata letak tergantung pada langganan Dota Plus Anda di Dota 2.",
             "fil": "I-configure ang performance tracker sa pangangailangan mo. Note na ang layout ay naka depende sa iyong Dota Plus susbscription sa Dota 2.",
-            "zh": "根据需要配置绩效跟踪器。请注意，布局取决于您在Dota 2中的Dota Plus订阅。", //同上不确定
+            "zh": "Configure the performance tracker to your needs. Note that the layout depends on your Dota Plus subscription in Dota 2.", //同上不确定
             "br": "Configure o rastreador de performance de acordo com suas necessidades. Note que o layout depende de sua assinatura Dota Plus no Dota 2."
         },
         "ShowTracker": {
@@ -660,7 +660,7 @@
             "ru": "Показать трекер",
             "id": "Tampilkan pelacak",
             "fil": "Ipakita ang tracker",
-            "zh": "显示跟踪器", //同上不确定
+            "zh": "Show tracker", //同上不确定
             "br": "Mostrar rastreador"
         },
         "DotaPlusSubscriber": {
@@ -680,7 +680,7 @@
             "ru": "Цель слева:", // OK
             "id": "Tujuan kiri:",
             "fil": "Goal left:",
-            "zh": "左目标：", //不确定
+            "zh": "Goal left:", //不确定
             "br": "Objetivo à esquerda: "
         },
         "GoalRight": {
@@ -690,7 +690,7 @@
             "ru": "Цель справа:", // OK
             "id": "Tujuan yang tepat:",
             "fil": "Goal right:",
-            "zh": "右目标：", //不确定
+            "zh": "Goal right:", //不确定
             "br": "Objetivo à direita: "
         },
         "YourMedian": {
@@ -700,7 +700,7 @@
             "ru": "Ваш центр", // OK
             "id": "Median Anda",
             "fil": "Your median",
-            "zh": "你的中位战绩",
+            "zh": "你的平均表现",
             "br": "Sua média"
         },
         "YourBest": {
@@ -710,7 +710,7 @@
             "ru": "Ваш лучший",
             "id": "Yang terbaik",
             "fil": "Your best",
-            "zh": "你最好的战绩",
+            "zh": "你的最佳表现",
             "br": "Seu melhor"
         },
         "PeerMedian": {
@@ -720,7 +720,7 @@
             "ru": "Центр соратников", // OK
             "id": "Median sebaya",
             "fil": "Peer median", 
-            "zh": "同水平中位战绩",
+            "zh": "同水平的平均表现",
             "br": "De acordo com as médias"
         },
         "PeerBest": {
@@ -730,7 +730,7 @@
             "ru": "Лучший пир",
             "id": "Peer terbaik",
             "fil": "Peer best",
-            "zh": "同水平最好战绩",
+            "zh": "同水平的最佳表现",
             "br": "De acordo com o melhor"
         },
         "None": {
@@ -900,7 +900,7 @@
             "ru": "Пользователи, играющие в оконном режиме или имеющие два или более монитора, могут получить дополнительную информацию на втором экране.",
             "id": "Pengguna yang bermain dalam mode berjendela atau memiliki dua atau lebih monitor bisa mendapatkan keuntungan dari layar kedua yang memberikan informasi tambahan.",
             "fil": "Ang users na nag lalaro ng windowed mode o merong dalawang monitor o mas marami ay makikinabang mula sa pangalawang screen na nag pro-provide ng additional information.",
-            "zh": "在窗口模式下玩游戏或拥有两台或更多显示器的用户可以从提供额外信息的第二个屏幕中受益。",
+            "zh": "在窗口模式下玩游戏或拥有两台或更多显示器的用户，可以从第二个屏幕中获得额外信息而受益。",
             "br": "Usuários jogando em modo janela ou que tenham dois ou mais monitores podem se beneficiar de uma segunda tela que provê informações adicionais."
         },
         "Monitor": {
@@ -930,7 +930,7 @@
             "ru": "Перемещение позволяет перемещать информационные блоки и таймеры на экране. Во время изменения положения инфобоксы и таймеры деактивируются.",
             "id": "Reposisi memungkinkan Anda untuk memposisikan ulang kotak informasi dan timer di layar. Selama reposisi infobox dan timer dinonaktifkan.",
             "fil": "Ang Reposition ay para pwede mong ma i-position ang mga infoboxes at timers sa screen. Habang nag re-reposition, ang mga infoboxes at timers ay naka deactivate.",
-            "zh": "“重新定位” 允许您在屏幕上重新定位信息框和计时器。在重新定位期间，信息框和计时器被停用。",
+            "zh": "“重新定位”功能允许您在屏幕上重新定位信息框和计时器。在重新定位期间，信息框和计时器将会被停用。",
             "br": "Reposicionar permite que você reposicione caixas de informação e temporizadores na tela. Durante o reposicionamento as caixas de informação e os temporizadores serão desativados."
         },
         "ResetPosition": {
@@ -1122,7 +1122,7 @@
             "ru": "Регулировка",
             "id": "Penyesuaian",
             "fil": "Adjustment",
-            "zh": "调整",
+            "zh": "校准",
             "br": "Ajustes"
         },
         "Apply to all": {
@@ -1132,7 +1132,7 @@
             "ru": "Применить ко всем",
             "id": "Terapkan untuk semua",
             "fil": "Apply to all",
-            "zh": "适用于全部",
+            "zh": "全部应用",
             "br": "Aplicar a todos"
         },
         "Buyback": {
