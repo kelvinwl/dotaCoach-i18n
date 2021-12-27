@@ -6,4 +6,4 @@ You can contact us via e-mail (info@dota-coach.com) or on our discord server (ht
 
 # Thank you to all contributers!
 
-Chinese: subjadeites
+Chinese: https://github.com/subjadeites
