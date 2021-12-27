@@ -49,7 +49,7 @@ export const i18n = {
             "fr": "Connecté",
             "ru": "Залогинены",
             "id": "Masuk",
-            "zh": "已登录"
+            "zh": "注册"
         },
         "Logged in as": {
             "en": "Logged in as",
@@ -57,7 +57,7 @@ export const i18n = {
             "fr": "Connecté en tant que",
             "ru": "Вы вошли как",
             "id": "Masuk sebagai",
-            "zh": "以身份登录"
+            "zh": "通过第三方账号注册"
         },
         "Create ballot": {
             "en": "Create ballot",
@@ -65,7 +65,7 @@ export const i18n = {
             "fr": "Créer un bulletin de vote",
             "ru": "Создать бюллетень",
             "id": "Buat pemungutan suara",
-            "zh": "创建选票"
+            "zh": "开启投票"
         },
         "Watch tutorial": {
             "en": "Watch tutorial",
@@ -96,7 +96,7 @@ export const i18n = {
             "de": "Discord beitreten", // OK
             "fr": "Rejoignez Discord",
             "ru": "Присоединяйтесь к Дискорд",
-            "zh": "加入不和谐",
+            "zh": "加入Discord",
             "id": "Bergabung Perselisihan"
         },
         "Join Reddit": {
@@ -105,7 +105,7 @@ export const i18n = {
             "fr": "Rejoignez Reddit",
             "ru": "Присоединиться к Reddit",
             "id": "Bergabunglah Reddit",
-            "zh": "加入红书签交易",
+            "zh": "加入Reddit",
         },
         "Manage subscription": {
             "en": "Manage subscription",
@@ -139,7 +139,7 @@ export const i18n = {
             "fr": "AIDEZ-MOI",
             "ru": "ПОМОЩЬ",
             "id": "MEMBANTU",
-            "zh": "救命"
+            "zh": "帮助"
         },
         "FEEDBACK": {
             "en": "FEEDBACK",
@@ -163,7 +163,7 @@ export const i18n = {
             "fr": "Qu'est-ce que tu souhaites partager avec nous ?",
             "ru": "Что вы хотите с нами поделиться?",
             "id": "Apa yang ingin Anda bagikan dengan kami?",
-            "zh": "你想和我们分享什么？"
+            "zh": "给开发团队留言"
         },
         "Issue description": {
             "en": "Enter description of issue/bug or request for support",
@@ -228,7 +228,7 @@ export const i18n = {
             "de": "Kanal",
             "fr": "canal",
             "ru": "канал",
-            "zh": "渠道",
+            "zh": "渠道", // 不太确定
             "id": "saluran"
         },
         "production": {
@@ -236,7 +236,7 @@ export const i18n = {
             "de": "Produktion",
             "fr": "production",
             "ru": "производства",
-            "zh": "生产",
+            "zh": "生产", // 不太确定
             "id": "produksi"
         },
         "beta": {
@@ -261,7 +261,7 @@ export const i18n = {
             "fr": "Les boîtes d'information sont placées au-dessus des joueurs lors des matchs et fournissent des informations sur les objets et les capacités.",
             "ru": "Инфобоксы расположены поверх игроков в матчах и предоставляют информацию о предметах и способностях.",
             "id": "Infobox diposisikan di atas pemain dalam pertandingan dan memberikan wawasan tentang item dan kemampuan.",
-            "zh": "信息框位于比赛中玩家的顶部，提供有关物品和能力的见解。"
+            "zh": "信息框位于比赛中玩家的顶部，提供有关物品和技能的说明。"
         },
         "ItemsAndAbilities": {
             "en": "Items & abilities", // OK
@@ -286,7 +286,7 @@ export const i18n = {
             "fr": "Le chronomètre pour Roshan, Glyphe de fortification, Rachats et Ultimates peut être désactivé et activé ici.",
             "ru": "Таймер для Рошана, Символа укрепления, выкупа и ультиматов можно отключить и включить здесь.",
             "id": "Timer untuk Roshan, Glyph of Fortification, Buybacks dan Ultimates dapat dimatikan dan di sini.",
-            "zh": "肉山、防御符文、回购和终极版的计时器可以在这里关闭和开启。"
+            "zh": "肉山、防御符文、买活和终极技能的计时器可以在这里关闭和开启。"
         },
         "RoshanAndGlyph": {
             "en": "Roshan & glyph", // OK
@@ -294,7 +294,7 @@ export const i18n = {
             "fr": "Roshan & Glyphe",
             "ru": "Рошан и глиф", // Dota 2 uses "укрепление строений" for Glpyh of Fortification. Translation recommends to keep "глиф" as it is shorter and most of gamers (according to her Internet research) already use this term, and just in case there are a few articles in Russian explaining what "глиф" is.
             "id": "Roshan & mesin terbang",
-            "zh": "Roshan & glyph",
+            "zh": "肉山和防御符文",
         },
         "TeamBuybacks": {
             "en": "Team buybacks", // OK
@@ -302,7 +302,7 @@ export const i18n = {
             "fr": "Rachats d'équipe",
             "ru": "Командный выкуп", // OK
             "id": "Buyback tim",
-            "zh": "团队回购"
+            "zh": "团队买活情况"
         },
         "TeamUltimates": {
             "en": "Team ultimates", // OK
@@ -310,7 +310,7 @@ export const i18n = {
             "fr": "Ultimes d'équipe",
             "ru": "Способности команды", // OK, long form: "Особые командные способности"
             "id": "Ultimates tim",
-            "zh": "团队终极版"
+            "zh": "团队终极技能使用情况"
         },
         "EnemyBuybacks": {
             "en": "Enemy buybacks", // OK
@@ -318,7 +318,7 @@ export const i18n = {
             "fr": "Rachats d'ennemis",
             "ru": "Вражеский выкуп", // OK
             "id": "Buyback musuh",
-            "zh": "敌人回购"
+            "zh": "敌人买活情况"
         },
         "EnemyUltimates": {
             "en": "Enemy ultimates", // OK
@@ -326,14 +326,14 @@ export const i18n = {
             "fr": "Ultimes ennemis",
             "ru": "Способности врага", // OK, long form: "Особые вражеские способности"
             "id": "Ultimates musuh",
-            "zh": "敌人终极"
+            "zh": "敌人终极技能使用情况"
         },
         "subsOnly": {
             "en": "subs only",
             "de": "nur U-Boote",
             "fr": "sous-marins uniquement",
             "ru": "только подложки",
-            "zh": "仅限潜艇",
+            "zh": "仅限订阅者使用",
             "id": "kapal selam saja"
         },
         "Coaching": {
@@ -350,7 +350,7 @@ export const i18n = {
             "fr": "L'entraînement pour les choix de héros, les constructions d'objets et les héros ennemis peut être défini ici.", // Needs to be updated
             "ru": "Здесь можно настроить коучинг для выбора героев, сборки предметов и вражеских героев.", // Needs to be updated
             "id": "Pelatihan untuk memilih pahlawan, item membangun dan pahlawan musuh dapat diatur di sini.", // Needs to be updated
-            "zh": "可以在这里设置英雄精选、物品建造和敌方英雄的教练。" // Needs to be updated
+            "zh": "可以在这里设置英雄选择、物品推荐和双方英雄相关内容（语音）的指导。" // Needs to be updated
         },
         "HeroPicksAndItemBuilds": {
             "en": "Hero picks & item builds", // OK
@@ -358,7 +358,7 @@ export const i18n = {
             "fr": "Choix de héros et constructions d'objets",
             "ru": "Выбрать героев и предметы", // OK, long form: "Характеристики героев и предметов"
             "id": "Pahlawan picks & item membangun",
-            "zh": "英雄精选和物品构建"
+            "zh": "英雄选择和物品推荐"
         },
         "OwnHeroVoice": {
             "en": "Own hero (voice)", // OK
@@ -366,7 +366,7 @@ export const i18n = {
             "fr": "Propre héros (voix)",
             "ru": "Свой герой (голос)", // OK, short form: "Собственный герой (голос)"
             "id": "Pahlawan sendiri (suara)",
-            "zh": "自己的英雄（声音）"
+            "zh": "自己的英雄（语音）"
         },
         "EnemyHeroesVoice": {
             "en": "Enemy heroes (voice)", // OK
@@ -374,7 +374,7 @@ export const i18n = {
             "fr": "Héros ennemis (voix)",
             "ru": "Вражеские герои (голос)", // OK
             "id": "Pahlawan musuh (suara)",
-            "zh": "敌方英雄（声音）"
+            "zh": "敌方英雄（语音）"
         },
         "Notifications": {
             "en": "Notifications", // OK
@@ -398,7 +398,7 @@ export const i18n = {
             "fr": "Bounty runes",
             "ru": "Bounty Runes", // OK "Руны богатства"
             "id": "Rune Bounty",
-            "zh": "赏金符文"
+            "zh": "赏金符"
         },
         "WaterAndPowerRunes": {
             "en": "Water & power runes", // OK
@@ -406,7 +406,7 @@ export const i18n = {
             "fr": "Runes pour l'eau et l'énergie",
             "ru": "Water & Power Runes", // OK (Руны воды и силы)
             "id": "Rune air & daya",
-            "zh": "水和力量符文"
+            "zh": "圣水符和属性符"
         },
         "NeutralItems": {
             "en": "Neutral items",
@@ -414,7 +414,7 @@ export const i18n = {
             "fr": "Articles neutres",
             "ru": "Нейтральные предметы", // OK
             "id": "Item netral",
-            "zh": "中性物品"
+            "zh": "中立物品"
         },
         "ObserverWards": {
             "en": "Observer wards", // OK
@@ -422,7 +422,7 @@ export const i18n = {
             "fr": "Les quartiers des observateurs",
             "ru": "Observer Wards", // OK
             "id": "Pengamat bangsal",
-            "zh": "观察员病房"
+            "zh": "侦查守卫/假眼"
         },
         "SmokeOfDeceit": {
             "en": "Smoke of deceit", // OK
@@ -430,7 +430,7 @@ export const i18n = {
             "fr": "La fumée de la tromperie",
             "ru": "Smoke of Deceit", // OK
             "id": "Asap tipu daya",
-            "zh": "欺骗的烟雾"
+            "zh": "诡计之雾"
         },
         "TomeOfKnowledge": {
             "en": "Tome of knowledge", // OK
@@ -510,7 +510,7 @@ export const i18n = {
             "fr": "Roshan & Aegis",
             "ru": "Рошан и Aegis", // OK (Рошан и Эгида)
             "id": "Roshan & Aegis",
-            "zh": "Roshan & Aegis"
+            "zh": "肉山和防御符文"
         },
         "PerformanceTracker": {
             "en": "Performance tracker", // OK
@@ -518,7 +518,7 @@ export const i18n = {
             "fr": "Traqueur de performance",
             "ru": "Трекер КПД", // OK, long form: "Трекер производительности"
             "id": "Pelacak kinerja",
-            "zh": "绩效跟踪器"
+            "zh": "绩效跟踪器" //不确定
         },
         "PerformanceTrackerTooltip": {
             "en": "Configure the performance tracker to your needs. Note that the layout depends on your Dota Plus subscription in Dota 2.",
@@ -526,7 +526,7 @@ export const i18n = {
             "fr": "Configurez le suivi des performances selon vos besoins. Notez que la mise en page dépend de votre abonnement Dota Plus dans Dota 2.",
             "ru": "Настройте средство отслеживания производительности в соответствии со своими потребностями. Обратите внимание, что раскладка зависит от вашей подписки на Dota Plus в Dota 2.",
             "id": "Konfigurasikan pelacak kinerja sesuai kebutuhan Anda. Perhatikan bahwa tata letak tergantung pada langganan Dota Plus Anda di Dota 2.",
-            "zh": "根据需要配置绩效跟踪器。请注意，布局取决于您在Dota 2中的Dota Plus订阅。",
+            "zh": "根据需要配置绩效跟踪器。请注意，布局取决于您在Dota 2中的Dota Plus订阅。", //同上不确定
         },
         "ShowTracker": {
             "en": "Show tracker",
@@ -534,7 +534,7 @@ export const i18n = {
             "fr": "Afficher le tracker",
             "ru": "Показать трекер",
             "id": "Tampilkan pelacak",
-            "zh": "显示跟踪器"
+            "zh": "显示跟踪器" //同上不确定
         },
         "DotaPlusSubscriber": {
             "en": "Dota Plus subscriber", // OK
@@ -550,7 +550,7 @@ export const i18n = {
             "fr": "But à gauche :",
             "ru": "Цель слева:", // OK
             "id": "Tujuan kiri:",
-            "zh": "左进球："
+            "zh": "左目标：" //不确定
         },
         "GoalRight": {
             "en": "Goal right:", // OK
@@ -558,7 +558,7 @@ export const i18n = {
             "fr": "But droit :",
             "ru": "Цель справа:", // OK
             "id": "Tujuan yang tepat:",
-            "zh": "目标右："
+            "zh": "右目标：" //不确定
         },
         "YourMedian": {
             "en": "Your median", // OK
@@ -566,7 +566,7 @@ export const i18n = {
             "fr": "Votre médiane",
             "ru": "Ваш центр", // OK
             "id": "Median Anda",
-            "zh": "你的中位数"
+            "zh": "你的中位战绩"
         },
         "YourBest": {
             "en": "Your best", // OK
@@ -574,7 +574,7 @@ export const i18n = {
             "fr": "Votre meilleur",
             "ru": "Ваш лучший",
             "id": "Yang terbaik",
-            "zh": "你最好的"
+            "zh": "你最好的战绩"
         },
         "PeerMedian": {
             "en": "Peer median", // OK
@@ -582,7 +582,7 @@ export const i18n = {
             "fr": "Médiane des pairs",
             "ru": "Центр соратников", // OK
             "id": "Median sebaya",
-            "zh": "对等中位数"
+            "zh": "同水平中位战绩"
         },
         "PeerBest": {
             "en": "Peer best",  // OK
@@ -590,7 +590,7 @@ export const i18n = {
             "fr": "Meilleur par les pairs",
             "ru": "Лучший пир",
             "id": "Peer terbaik",
-            "zh": "同行最好"
+            "zh": "同水平最好战绩"
         },
         "None": {
             "en": "None",
@@ -654,7 +654,7 @@ export const i18n = {
             "fr": "Durée en secondes pendant laquelle l'entrée n'est pas enregistrée lorsque la souris entre pour la première fois dans les temporisateurs. La valeur par défaut est 0,2 seconde.",
             "ru": "Время в секундах, когда мышь впервые входит в таймеры, ввод не регистрируется. По умолчанию 0,2 секунды.",
             "id": "Waktu dalam hitungan detik bahwa input tidak terdaftar ketika mouse pertama kali memasuki timer. Default adalah 0,2 detik.",
-            "zh": "鼠标首次进入计时器时未注册输入的时间（以秒为单位）。默认值为0.2秒。"
+            "zh": "鼠标首次进入计时器后忽略点击的时间（以秒为单位）。默认值为0.2秒。"
         },
         "Delay": {
             "en": "Delay", // OK
@@ -831,7 +831,7 @@ export const i18n = {
             "de": "Ultimative",
             "fr": "Ultime",
             "ru": "Окончательный",
-            "zh": "终极",
+            "zh": "最终技能",
             "id": "Ultimate"
         },
         "TIMING MODIFIERS": {
@@ -848,7 +848,7 @@ export const i18n = {
             "fr": "Niveau ultime",
             "ru": "Окончательный уровень",
             "id": "Tingkat Ultimate",
-            "zh": "终极等级"
+            "zh": "最终技能等级"
         },
         "Items": {
             "en": "Items",
@@ -888,7 +888,7 @@ export const i18n = {
             "fr": "Pas de retard",
             "ru": "Без задержек",
             "id": "Tidak ada penundaan",
-            "zh": "没有延迟"
+            "zh": "无延迟"
         },
         "sec": {
             "en": "sec",
@@ -920,7 +920,7 @@ export const i18n = {
             "fr": "Rachat",
             "ru": "Выкуп",
             "id": "Buyback",
-            "zh": "回购"
+            "zh": "买活"
         },
 
         // Display of error message
