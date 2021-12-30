@@ -60,7 +60,8 @@
             "id": "Masuk",
             "fil": "Mag-logged in",
             "zh": "注册",
-            "br": "Sesión iniciada"
+            "br": "Logado",
+            "esp": "Sesión iniciada"
         },
         "Logged in as": {
             "en": "Logged in as",
