@@ -9,6 +9,9 @@ You can contact us via e-mail (info@dota-coach.com) or on our discord server (ht
 ## Current translators
 Primary translator (The user with the most contribution in each language) is bolded. An asterisk means they're not in the server. Thank you for contributing!
 
+Brazilian Portuguese:
+  - **Kelvão#8323 ([@kelvinwl](https://github.com/kelvinwl))**
+
 Chinese:
   - **subjadeites#9052 ([@subjadeites](https://github.com/subjadeites))**
 
