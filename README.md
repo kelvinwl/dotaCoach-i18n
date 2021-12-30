@@ -14,3 +14,6 @@ Chinese:
 
 Filipino:
   - **aeris#0018 ([@aeristhy](https://github.com/aeristhy))**
+
+German:
+  - **stresspresso#8464**
