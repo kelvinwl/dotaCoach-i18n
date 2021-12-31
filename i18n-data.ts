@@ -22,7 +22,7 @@
             { "code": "id", "name": "Indonesia" },
             { "code": "fil", "name": "Filipino" },
             { "code": "zh", "name": "中文" },
-            { "code": "br", "name": "Brasil" }
+            { "code": "br", "name": "Brasil" },
             { "code": "es", "name": "Español" }
         ]
     },
@@ -38,7 +38,7 @@
             "id": "Tampilkan/sembunyikan",
             "fil": "Show/hide",
             "zh": "显示/隐藏",
-            "br": "Mostrar/ocultar"
+            "br": "Mostrar/ocultar",
             "es": "Mostrar/ocultar"
         },
         "Sign in": {
@@ -49,7 +49,7 @@
             "id": "Masuk",
             "fil": "Mag-sign in",
             "zh": "登录",
-            "br": "Registrar"
+            "br": "Registrar",
             "es": "Ingresar"
         },
         "Logged in": {
@@ -71,7 +71,7 @@
             "id": "Masuk sebagai",
             "fil": "Naka-logged in bilang",
             "zh": "通过第三方账号注册",
-            "br": "Logado como"
+            "br": "Logado como",
             "es": "Conectado como"
         },
         "Create ballot": {
@@ -82,7 +82,7 @@
             "id": "Buat pemungutan suara",
             "fil": "Gumawa ng balota",
             "zh": "开启投票",
-            "br": "Criar votação"
+            "br": "Criar votação",
             "es": "Crear votación"
         },
         "Watch tutorial": {
@@ -93,7 +93,7 @@
             "id": "Menonton tutorial",
             "fil": "Panoorin ang tutorial",
             "zh": "观看教程",
-            "br": "Assistir tutorial"
+            "br": "Assistir tutorial",
             "es": "Ver el tutorial"
         },
         "Get help": {
@@ -104,7 +104,7 @@
             "id": "Dapatkan bantuan",
             "fil": "Humingi ng tulong",
             "zh": "获取帮助",
-            "br": "Obtenha ajuda"
+            "br": "Obtenha ajuda",
             "es": "Conseguir ayuda"
         },
         "Report issue": {
@@ -115,7 +115,7 @@
             "zh": "报告问题",
             "fil": "Report issue",
             "ru": "Сообщить о проблеме",
-            "br": "Relate um problema"
+            "br": "Relate um problema",
             "es": "Reportar un problema"
         },
         "Join Discord": {
@@ -126,7 +126,7 @@
             "fil": "Mag-join sa Discord",
             "zh": "加入Discord",
             "id": "Bergabung Perselisihan",
-            "br": "Participar do Discord"
+            "br": "Participar do Discord",
             "es": "Únete a Discord"
         },
         "Join Reddit": {
@@ -137,7 +137,7 @@
             "id": "Bergabunglah Reddit",
             "fil": "Mag-join sa Reddit",
             "zh": "加入Reddit",
-            "br": "Participar do Reddit"
+            "br": "Participar do Reddit",
             "es": "Únete a Reddit"
         },
         "Manage subscription": {
@@ -148,7 +148,7 @@
             "zh": "管理订阅",
             "fil": "I-manage ang subscription",
             "id": "Kelola langganan",
-            "br": "Gerenciar assinatura"
+            "br": "Gerenciar assinatura",
             "es": "administrar suscripción"
         },
         "Change settings": {
@@ -159,7 +159,7 @@
             "id": "Ubah pengaturan",
             "fil": "I-change ang settings",
             "zh": "更改设置",
-            "br": "Alterar configurações"
+            "br": "Alterar configurações",
             "es": "Cambiar ajustes"
         },
         "Click to sign in": {
@@ -170,7 +170,7 @@
             "id": "Klik untuk masuk ke akun Overwolf Anda",
             "fil": "I-click para mag sign in sa Overwolf account mo",
             "zh": "点击登录你的 Overwolf 账户",
-            "br": "Clique para entrar com sua conta da Overwolf"
+            "br": "Clique para entrar com sua conta da Overwolf",
             "es": "Haga clic para iniciar sesión en su cuenta de Overwolf"
         },
 
@@ -183,7 +183,7 @@
             "id": "MEMBANTU",
             "fil": "HELP",
             "zh": "帮助",
-            "br": "AJUDA"
+            "br": "AJUDA",
             "es": "AYUDA"
         },
         "FEEDBACK": {
@@ -194,7 +194,7 @@
             "id": "UMPAN BALIK",
             "fil": "FEEDBACK",
             "zh": "反馈",
-            "br": "COMENTÁRIOS"
+            "br": "COMENTÁRIOS",
             "es": "COMENTARIOS"
         },
         "Report an issue": {
@@ -205,7 +205,7 @@
             "id": "Melaporkan masalah/bug atau meminta dukungan",
             "fil": "Mag-report ng issue/bug o mag-request ng support",
             "zh": "报告问题/错误或请求支持",
-            "br": "Relate um problema"
+            "br": "Relate um problema",
             "es": "Reportar un problema"
         },
         "Share with us": {
@@ -216,7 +216,7 @@
             "id": "Apa yang ingin Anda bagikan dengan kami?",
             "fil": "Ano gusto mong i-share sa amin?",
             "zh": "给开发团队留言",
-            "br": "O que você gostaria de compartilhar conosco?"
+            "br": "O que você gostaria de compartilhar conosco?",
             "es": "¿Qué quieres compartir con nosotros?"
         },
         "Issue description": {
@@ -227,7 +227,7 @@
             "id": "Masukkan deskripsi masalah/bug atau permintaan untuk dukungan",
             "fil": "Ilagay ang description ng issue/bug or request ng support",
             "zh": "输入问题/错误描述或请求支持",
-            "br": "Descreva o problema/bug ou pedido de suporte"
+            "br": "Descreva o problema/bug ou pedido de suporte",
             "es": "Descripción del problema"
         },
         "SEND_REPORT": {
@@ -238,7 +238,7 @@
             "id": "KIRIM LAPORAN",
             "fil": "SEND REPORT",
             "zh": "发送报告",
-            "br": "ENVIAR RELATO"
+            "br": "ENVIAR RELATO",
             "es": "ENVIAR REPORTE"
         },
         "Contact details": {
@@ -249,7 +249,7 @@
             "id": "Rincian kontak (E-Mail/Perselisihan)",
             "fil": "Contact details (E-Mail/Discord)",
             "zh": "联系方式（电子邮件/Discord）",
-            "br": "Detalhes de contato (E-Mail/Discord)"
+            "br": "Detalhes de contato (E-Mail/Discord)",
             "es": "Detalles de contacto (E-Mail/Discord)"
         },
         "Enter contact details": {
@@ -260,7 +260,7 @@
             "id": "Masukkan detail kontak Anda",
             "fil": "Ilagay mo ang iyong contact details",
             "zh": "输入您的联系方式",
-            "br": "Insira seus detalhes de contato"
+            "br": "Insira seus detalhes de contato",
             "es": "Ingrese sus datos de contacto"
         },
         "Log files": {
@@ -271,7 +271,7 @@
             "id": "Lampirkan file log Dota Coach",
             "fil": "Attach Dota Coach log files",
             "zh": "附上 Dota Coach 日志文件",
-            "br": "Anexar arquivos de registro do Dota Coach"
+            "br": "Anexar arquivos de registro do Dota Coach",
             "es": "Adjunta los archivos de registro de Dota Coach"
         },
 
@@ -284,7 +284,7 @@
             "id": "PENGATURAN",
             "fil": "SETTINGS",
             "zh": "设置",
-            "br": "CONFIGURAÇÕES"
+            "br": "CONFIGURAÇÕES",
             "es": "CONFIGURACIÓN"
         },
         "version": {
@@ -295,7 +295,7 @@
             "id": "versi",
             "fil": "version",
             "zh": "版本",
-            "br": "versão"
+            "br": "versão",
             "es": "versión"
         },
         "channel": {
@@ -306,7 +306,7 @@
             "fil": "channel",
             "zh": "channel", // 不太确定
             "id": "saluran",
-            "br": "canal"
+            "br": "canal",
             "es": "canal"
         },
         "production": {
@@ -317,7 +317,7 @@
             "fil": "produksyon",
             "zh": "production", // 不太确定
             "id": "produksi",
-            "br": "produção"
+            "br": "produção",
             "es": "producción"
         },
         "beta": {
@@ -328,7 +328,7 @@
             "id": "beta",
             "fil": "beta",
             "zh": "测试版",
-            "br": "beta"
+            "br": "beta",
             "es": "beta"
         },
         "Infoboxes": {
@@ -338,7 +338,7 @@
             "ru": "Инфобоксы", // OK
             "id": "Infobox",
             "zh": "信息框",
-            "br": "Caixas de informação"
+            "br": "Caixas de informação",
             "es": "Caja de información"
         },
         "InfoboxesTooltip": {
@@ -349,7 +349,7 @@
             "id": "Infobox diposisikan di atas pemain dalam pertandingan dan memberikan wawasan tentang item dan kemampuan.",
             "fil": "Infoboxes ay naka position sa taas ng players in matches at para mag provide ng insights sa items and abilities.",
             "zh": "信息框位于比赛中玩家的顶部，提供有关物品和技能的说明。",
-            "br": "Caixas de informação são posicionadas acima dos jogadores em partidas e provêem insights em itens e habilidades"
+            "br": "Caixas de informação são posicionadas acima dos jogadores em partidas e provêem insights em itens e habilidades",
             "es": "Las cajas de información se colocan encima de los jugadores en los partidos y brindan información sobre elementos y habilidades."
         },
         "ItemsAndAbilities": {
@@ -361,7 +361,7 @@
             "id": "Item & kemampuan",
             "fil": "Items at abilities", // OK
             "zh": "物品和技能",
-            "br": "Itens e habilidades"
+            "br": "Itens e habilidades",
             "es": "Items y habilidades"
         },
         "Timers": {
@@ -372,7 +372,7 @@
             "id": "Timer",
             "fil": "Timers",
             "zh": "计时器",
-            "br": "Temporizador"
+            "br": "Temporizador",
             "es": "Temporizador"
         },
         "TimersTooltip": {
@@ -383,7 +383,7 @@
             "id": "Timer untuk Roshan, Glyph of Fortification, Buybacks dan Ultimates dapat dimatikan dan di sini.",
             "fil": "Ang timer para sa Roshan, Glyph of Fortification, Buybacks and Ultimates ay pwede ma i-turn off at on dito.",
             "zh": "肉山、防御符文、买活和终极技能的计时器可以在这里关闭和开启。",
-            "br": "O temporizador para Roshan, glifo de fortificação, reviver e ultis podem ser desativados e ativados aqui."
+            "br": "O temporizador para Roshan, glifo de fortificação, reviver e ultis podem ser desativados e ativados aqui.",
             "es": "El temporizador de Roshan, Glifo de fortificación, Buyback y Ultimates se puede activar y desactivar aquí."
         },
         "RoshanAndGlyph": {
@@ -394,7 +394,7 @@
             "id": "Roshan & mesin terbang",
             "fil": "Roshan at glyph",
             "zh": "肉山和防御符文",
-            "br": "Roshan e glifo"
+            "br": "Roshan e glifo",
             "es": "Roshan y glifo"
         },
         "TeamBuybacks": {
@@ -405,7 +405,7 @@
             "id": "Buyback tim",
             "fil": "Team buybacks",
             "zh": "团队买活情况",
-            "br": "Reviver aliados"
+            "br": "Reviver aliados",
             "es": "Buyback de aliados"
         },
         "TeamUltimates": {
@@ -416,7 +416,7 @@
             "id": "Ultimates tim",
             "fil": "Team ultimates",
             "zh": "团队终极技能使用情况",
-            "br": "Ultis aliados"
+            "br": "Ultis aliados",
             "es": "Ultis de aliados"
         },
         "EnemyBuybacks": {
@@ -427,7 +427,7 @@
             "id": "Buyback musuh",
             "fil": "Enemy buybacks",
             "zh": "敌人买活情况",
-            "br": "Reviver inimigos"
+            "br": "Reviver inimigos",
             "es": "Buyback de los enemigos"
         },
         "EnemyUltimates": {
@@ -438,7 +438,7 @@
             "id": "Ultimates musuh",
             "fil": "Enemy ultimates",
             "zh": "敌人终极技能使用情况",
-            "br": "Ultis inimigos"
+            "br": "Ultis inimigos",
             "es": "Ultis de los enemigos"
         },
         "subsOnly": {
@@ -449,7 +449,7 @@
             "fil": "subs only",
             "zh": "仅限订阅者使用",
             "id": "kapal selam saja",
-            "br": "só para inscritos"
+            "br": "só para inscritos",
             "es": "solo suscriptores"
         },
         "Coaching": {
@@ -460,7 +460,7 @@
             "id": "Coaching",
             "fil": "Coaching",
             "zh": "辅导",
-            "br": "Treinamento"
+            "br": "Treinamento",
             "es": "Entrenamiento"
         },
         "CoachingTooltip": {
@@ -471,8 +471,8 @@
             "id": "Pelatihan untuk memilih pahlawan, item membangun dan pahlawan musuh dapat diatur di sini.", // Needs to be updated
             "fil": "Coaching para sa hero picks, item builds, own hero (voice) at enemy heroes (voice) ay pwede ma i-set dito.",
             "zh": "可以在这里设置英雄选择、物品推荐和双方英雄相关内容（语音）的指导。", // Needs to be updated
-            "br": "Treinamento para seleção de heróis, construção de itens, próprio herói (voz) e heróis inimigos (voz) podem ser configurados aqui."
-            "es": "Aquí se puede configurar el entrenador para elegir héroes, item builds, héroe propio (voz) y héroes enemigos (voz)".,
+            "br": "Treinamento para seleção de heróis, construção de itens, próprio herói (voz) e heróis inimigos (voz) podem ser configurados aqui.",
+            "es": "Aquí se puede configurar el entrenador para elegir héroes, item builds, héroe propio (voz) y héroes enemigos (voz)"
         },
         "HeroPicksAndItemBuilds": {
             "en": "Hero picks & item builds", // OK
@@ -482,7 +482,7 @@
             "id": "Pahlawan picks & item membangun",
             "fil": "Hero picks at item builds",
             "zh": "英雄选择和物品推荐",
-            "br": "Seleção de heróis e construção de itens"
+            "br": "Seleção de heróis e construção de itens",
             "es": "Elecciones de héroes e item builds"
         },
         "OwnHeroVoice": {
@@ -493,7 +493,7 @@
             "id": "Pahlawan sendiri (suara)",
             "fil": "Saliring hero (boses)",
             "zh": "自己的英雄（语音）",
-            "br": "Próprio herói (voz)"
+            "br": "Próprio herói (voz)",
             "es": "Héroe propio (voz)"
         },
         "EnemyHeroesVoice": {
@@ -504,7 +504,7 @@
             "id": "Pahlawan musuh (suara)",
             "fil": "Enemy heroes (boses)",
             "zh": "敌方英雄（语音）",
-            "br": "Heróis inimigos (voz)"
+            "br": "Heróis inimigos (voz)",
             "es": "Héroes enemigos (voz)"
         },
         "Notifications": {
@@ -515,7 +515,7 @@
             "id": "Notifikasi",
             "fil": "Notifikasyon",
             "zh": "通知",
-            "br": "Notificações"
+            "br": "Notificações",
             "es": "Notificaciones"
         },
         "NotificationsTooltip": {
@@ -526,7 +526,7 @@
             "id": "Pemberitahuan yang disediakan selama pertandingan untuk mengingatkan Anda tentang peristiwa seperti apprearance dari rune karunia. Anda dapat mengaktifkan atau menonaktifkan pesan yang berbeda secara individual.",
             "fil": "Ang mga notifikasyon na i-provide habang nasa laro ay para ipaalaala sayo ang mga events katulad ng pag labas ng bounty runes. Pwede mo ma enable o i-disable ang iba't ibang mensahe individually.",
             "zh": "游戏期间提供的通知，提醒你注意诸如赏金符文出现之类的事件。您可以单独启用或禁用不同的消息。",
-            "br": "Notificações providenciados durante o jogo para te lembrar de eventos como o aparecimento de runas de recompensas. Você pode habilitar ou desabilitar as diferentes mensagens individualmente."
+            "br": "Notificações providenciados durante o jogo para te lembrar de eventos como o aparecimento de runas de recompensas. Você pode habilitar ou desabilitar as diferentes mensagens individualmente.",
             "es": "Notificaciones proporcionadas durante el juego para recordarle eventos como la aparición de runas de recompensa. Puede habilitar o deshabilitar los diferentes mensajes individualmente",
         },
         "BountyRunes": {
@@ -537,7 +537,7 @@
             "id": "Rune Bounty",
             "fil": "Bounty runes",
             "zh": "赏金符",
-            "br": "Runas de recompensas"
+            "br": "Runas de recompensas",
             "es": "Runas de recompensa"
         },
         "WaterAndPowerRunes": {
@@ -548,7 +548,7 @@
             "id": "Rune air & daya",
             "fil": "Water at power runes",
             "zh": "圣水符和属性符",
-            "br": "Runas de água e poder"
+            "br": "Runas de água e poder",
             "es": "Runas de água y de poder"
         },
         "NeutralItems": {
@@ -559,7 +559,7 @@
             "id": "Item netral",
             "fil": "Neutral items",
             "zh": "中立物品",
-            "br": "Itens neutros"
+            "br": "Itens neutros",
             "es": "Items neutrales"
         },
         "ObserverWards": {
@@ -570,7 +570,7 @@
             "id": "Pengamat bangsal",
             "fil": "Observer wards",
             "zh": "侦查守卫/假眼",
-            "br": "Sentinelas observadoras"
+            "br": "Sentinelas observadoras",
             "es": "Guardianes observadores"
         },
         "SmokeOfDeceit": {
@@ -581,7 +581,7 @@
             "id": "Asap tipu daya",
             "fil": "Smoke of deceit",
             "zh": "诡计之雾",
-            "br": "Fumaça da enganação"
+            "br": "Fumaça da enganação",
             "es": "Humo del engaño"
         },
         "TomeOfKnowledge": {
@@ -592,7 +592,7 @@
             "id": "Tome pengetahuan",
             "fil": "Tome of knowledge",
             "zh": "知识之书",
-            "br": "Tomo do conhecimento"
+            "br": "Tomo do conhecimento",
             "es": "Tomo del conocimiento"
         },
         "AghanimsShard": {
@@ -603,7 +603,7 @@
             "id": "Shard Aghanim",
             "fil": "Aghanim's shard",
             "zh": "阿哈利姆的碎片",
-            "br": "Fragmento de Aghanim"
+            "br": "Fragmento de Aghanim",
             "es": "Fragmento de Aghanim"
         },
         "SiegeCreeps": {
@@ -614,7 +614,7 @@
             "zh": "攻城小兵",
             "fil": "Siege creeps",
             "id": "Pengepungan merayap",
-            "br": "Criaturas de cerco"
+            "br": "Criaturas de cerco",
             "es": "Creep de asedio"
         },
         "Daytime": {
@@ -625,7 +625,7 @@
             "id": "Siang",
             "fil": "Daytime",
             "zh": "昼夜交替",
-            "br": "Dia"
+            "br": "Dia",
             "es": "Dia"
         },
         "Subtitles": {
@@ -636,7 +636,7 @@
             "id": "subtitel",
             "fil": "Subtitles",
             "zh": "字幕",
-            "br": "Legendas"
+            "br": "Legendas",
             "es": "Subtítulos"
         },
         "SubtitlesTooltip": {
@@ -647,7 +647,7 @@
             "id": "Konfigurasikan berbagi pesan manual dan otomatis melalui obrolan tim Dota 2. Berbagi pesan manual dipicu oleh klik kiri pada timer atau loudspeaker.",
             "fil": "I-configure ang manual at automated message sharing sa Dota 2 team chat. Manual message sharing ay ma i-trigger by left-clicking sa timers or sa loudspeaker.",
             "zh": "通过Dota 2团队聊天配置手动和自动消息共享。左键单击计时器或扬声器即可触发手动信息共享。",
-            "br": "Configure o compartilhamento de mensagens manuais e automáticas no chat de time do Dota 2. Compartilhamento manual de mensagens é acionado usando o clique com o botão esquerdo do mouse no ícone do autofalante."
+            "br": "Configure o compartilhamento de mensagens manuais e automáticas no chat de time do Dota 2. Compartilhamento manual de mensagens é acionado usando o clique com o botão esquerdo do mouse no ícone do autofalante.",
             "es": "Configura el intercambio de mensajes manual y automático a través del chat del equipo de Dota 2. El intercambio manual de mensajes se activa haciendo clic con el botón izquierdo en los temporizadores o en el altavoz."
         },
         "ShowSubtitles": {
@@ -658,7 +658,7 @@
             "id": "Tampilkan sub judul",
             "fil": "Show subtitles",
             "zh": "显示字幕",
-            "br": "Mostrar legendas"
+            "br": "Mostrar legendas",
             "es": "Mostrar subtítulos"
         },
         "ManualSharing": {
@@ -669,7 +669,7 @@
             "id": "Berbagi manual",
             "fil": "Manual sharing",
             "zh": "手动共享",
-            "br": "Compartilhamento manual"
+            "br": "Compartilhamento manual",
             "es": "Compartir manualmente"
         },
         "AutomatedSharing": {
@@ -680,7 +680,7 @@
             "id": "Berbagi otomatis",
             "fil": "Automated sharing",
             "zh": "自动共享",
-            "br": "Compartilhamento automático"
+            "br": "Compartilhamento automático",
             "es": "Compartir automáticamente"
         },
         "RoshanAndAegis": {
@@ -691,7 +691,7 @@
             "id": "Roshan & Aegis",
             "fil": "Roshan at Aegis",
             "zh": "肉山和防御符文",
-            "br": "Roshan e Aegis"
+            "br": "Roshan e Aegis",
             "es": "Roshan y Aegis"
         },
         "PerformanceTracker": {
@@ -702,7 +702,7 @@
             "id": "Pelacak kinerja",
             "fil": "Performance tracker",
             "zh": "Performance tracker", //不确定
-            "br": "Rastreador de performance"
+            "br": "Rastreador de performance",
             "es": "Rastreador de rendimiento"
         },
         "PerformanceTrackerTooltip": {
@@ -713,7 +713,7 @@
             "id": "Konfigurasikan pelacak kinerja sesuai kebutuhan Anda. Perhatikan bahwa tata letak tergantung pada langganan Dota Plus Anda di Dota 2.",
             "fil": "I-configure ang performance tracker sa pangangailangan mo. Note na ang layout ay naka depende sa iyong Dota Plus susbscription sa Dota 2.",
             "zh": "Configure the performance tracker to your needs. Note that the layout depends on your Dota Plus subscription in Dota 2.", //同上不确定
-            "br": "Configure o rastreador de performance de acordo com suas necessidades. Note que o layout depende de sua assinatura Dota Plus no Dota 2."
+            "br": "Configure o rastreador de performance de acordo com suas necessidades. Note que o layout depende de sua assinatura Dota Plus no Dota 2.",
             "es": "Configura el rastreador de rendimiento según tus necesidades. Ten en cuenta que el diseño depende de tu suscripción a Dota Plus en Dota 2.",
         },
         "ShowTracker": {
@@ -724,7 +724,7 @@
             "id": "Tampilkan pelacak",
             "fil": "Ipakita ang tracker",
             "zh": "Show tracker", //同上不确定
-            "br": "Mostrar rastreador"
+            "br": "Mostrar rastreador",
             "es": "Motrar rastreador"
         },
         "DotaPlusSubscriber": {
@@ -735,7 +735,7 @@
             "id": "Pelanggan Dota Plus",
             "fil": "Dota Plus subscriber",
             "zh": "刀塔 Plus 订阅者",
-            "br": "Assinante Dota Plus"
+            "br": "Assinante Dota Plus",
             "es": "Suscriptor de Dota Plus"
         },
         "GoalLeft": {
@@ -746,7 +746,7 @@
             "id": "Tujuan kiri:",
             "fil": "Goal left:",
             "zh": "Goal left:", //不确定
-            "br": "Objetivo à esquerda: "
+            "br": "Objetivo à esquerda: ",
             "es": "Objetivo a la izquierda"
         },
         "GoalRight": {
@@ -757,7 +757,7 @@
             "id": "Tujuan yang tepat:",
             "fil": "Goal right:",
             "zh": "Goal right:", //不确定
-            "br": "Objetivo à direita: "
+            "br": "Objetivo à direita: ",
             "es": "Objetivo a la derecha"
         },
         "YourMedian": {
@@ -768,7 +768,7 @@
             "id": "Median Anda",
             "fil": "Your median",
             "zh": "你的平均表现",
-            "br": "Sua média"
+            "br": "Sua média",
             "es": "Su media"
         },
         "YourBest": {
@@ -779,7 +779,7 @@
             "id": "Yang terbaik",
             "fil": "Your best",
             "zh": "你的最佳表现",
-            "br": "Seu melhor"
+            "br": "Seu melhor",
             "es": "Su mejor"
         },
         "PeerMedian": {
@@ -790,7 +790,7 @@
             "id": "Median sebaya",
             "fil": "Peer median", 
             "zh": "同水平的平均表现",
-            "br": "De acordo com as médias"
+            "br": "De acordo com as médias",
             "es": "Media de otros"
         },
         "PeerBest": {
@@ -801,7 +801,7 @@
             "id": "Peer terbaik",
             "fil": "Peer best",
             "zh": "同水平的最佳表现",
-            "br": "De acordo com o melhor"
+            "br": "De acordo com o melhor",
             "es": "Mejor de otros"
         },
         "None": {
@@ -812,7 +812,7 @@
             "id": "Tidak ada",
             "fil": "None",
             "zh": "无",
-            "br": "Nenhum"
+            "br": "Nenhum",
             "es": "Ninguno"
         },
         "YourNameLeaderboard": {
@@ -823,7 +823,7 @@
             "id": "Nama Anda (untuk leaderboard)",
             "fil": "Pangalan mo (para sa leaderboard)",
             "zh": "你的名字（用于排行榜）",
-            "br": "Seu nome (para tabela de líderes)"
+            "br": "Seu nome (para tabela de líderes)",
             "es": "Su nombre (para tablas de clasificación)"
         },
         "HideMainWindow": {
@@ -834,7 +834,7 @@
             "id": "Sembunyikan jendela utama",
             "fil": "Hide main window",
             "zh": "隐藏主窗口",
-            "br": "Ocultar janela principal"
+            "br": "Ocultar janela principal",
             "es": "Ocultar ventana principal"
         },
         "HideMainWindowTooltip": {
@@ -845,7 +845,7 @@
             "id": "Fitur ini memungkinkan Anda untuk secara otomatis menampilkan dan menyembunyikan aplikasi selama pertandingan.",
             "fil": "Etong feature na ito ay para pwede mong makita o maitago ang app habang nasa laro.",
             "zh": "此功能允许您在游戏过程中自动显示和隐藏应用程序。",
-            "br": "Essa função permite mostrar e ocultar automaticamente o aplicativo durante o jogo."
+            "br": "Essa função permite mostrar e ocultar automaticamente o aplicativo durante o jogo.",
             "es": "Esta función te permite mostrar y ocultar la aplicación automáticamente durante el juego"
         },
         "DuringHeroSelection": {
@@ -856,7 +856,7 @@
             "id": "Selama pemilihan pahlawan",
             "fil": "Habang nasa hero selection",
             "zh": "在英雄选择过程中",
-            "br": "Durante a seleção de heróis"
+            "br": "Durante a seleção de heróis",
             "es": "Durante la selección de héroes"
         },
         "DuringGame": {
@@ -867,7 +867,7 @@
             "id": "Selama pertandingan",
             "fil": "Habang nasa laro.",
             "zh": "在比赛中",
-            "br": "Durante a partida"
+            "br": "Durante a partida",
             "es": "Durante la partida"
         },
         "MisclickProtection": {
@@ -878,7 +878,7 @@
             "id": "Perlindungan misclick",
             "fil": "Misclick protection",
             "zh": "误点击保护",
-            "br": "Proteção contra misclick" // I know what it is, but I've never seen translation to this being used
+            "br": "Proteção contra misclick", // I know what it is, but I've never seen translation to this being used
             "es": "Protección contra misclicks" 
         },
         "MisclickProtectionTooltip": {
@@ -889,8 +889,8 @@
             "fil": "Oras sa segundo na hindi nakarehistro ang input ng unang pumasok ang mouse sa timer. Default ay 0.2 seconds.",
             "id": "Waktu dalam hitungan detik bahwa input tidak terdaftar ketika mouse pertama kali memasuki timer. Default adalah 0,2 detik.",
             "zh": "鼠标首次进入计时器后忽略点击的时间（以秒为单位）。默认值为0.2秒。",
-            "br": "Tempo em segundos para que o movimento do mouse não seja registrado na primeira vez que ele entrar nos temporizadores. Padrão é 0.2 segundos."
-            "es": "Tiempo en segundos que la entrada no se registra cuando el mouse ingresa por primera vez a los temporizadores. El valor predeterminado es 0.2 segundos".
+            "br": "Tempo em segundos para que o movimento do mouse não seja registrado na primeira vez que ele entrar nos temporizadores. Padrão é 0.2 segundos.",
+            "es": "Tiempo en segundos que la entrada no se registra cuando el mouse ingresa por primera vez a los temporizadores. El valor predeterminado es 0.2 segundos"
         },
         "Delay": {
             "en": "Delay", // OK
@@ -900,7 +900,7 @@
             "id": "Keterlambatan",
             "fil": "Delay",
             "zh": "延迟",
-            "br": "Demora"
+            "br": "Demora",
             "es": "Retraso"
         },
         "Audio": {
@@ -911,7 +911,7 @@
             "id": "Audio",
             "fil": "Audio",
             "zh": "音频",
-            "br": "Áudio"
+            "br": "Áudio",
             "es": "Audio"
         },
         "Disabled": {
@@ -922,7 +922,7 @@
             "id": "Dinonaktifkan",
             "fil": "Disabled",
             "zh": "已禁用",
-            "br": "Desabilitado"
+            "br": "Desabilitado",
             "es": "Deshabilitado"
         },
         "AudioTooltip": {
@@ -933,7 +933,7 @@
             "id": "Pilih perangkat speaker dan atur volume.",
             "fil": "Mag select ng speaker device at set volume.",
             "zh": "选择扬声器设备并设置音量。",
-            "br": "Selecione o dispositivo de som e ajuste o volume."
+            "br": "Selecione o dispositivo de som e ajuste o volume.",
             "es": "Seleccione el dispositivo de altavoz y configure el volumen"
         },
         "Speaker": {
@@ -944,7 +944,7 @@
             "id": "pengeras suara",
             "fil": "Speaker",
             "zh": "扬声器",
-            "br": "Dispositivo de som"
+            "br": "Dispositivo de som",
             "es": "Altavoz"
         },
         "Volume": {
@@ -955,7 +955,7 @@
             "id": "Volume",
             "fil": "Volume",
             "zh": "音量",
-            "br": "Volume"
+            "br": "Volume",
             "es": "Volumen"
         },
         "Test": {
@@ -966,7 +966,7 @@
             "id": "Tes",
             "fil": "Test",
             "zh": "测试",
-            "br": "Teste"
+            "br": "Teste",
             "es": "Test"
         },
         "SecondScreen": {
@@ -977,7 +977,7 @@
             "id": "Layar kedua",
             "fil": "Second screen",
             "zh": "第二个屏幕",
-            "br": "Segunda tela"
+            "br": "Segunda tela",
             "es": "Segunda pantalla"
         },
         "SecondScreenTooltip": {
@@ -988,7 +988,7 @@
             "id": "Pengguna yang bermain dalam mode berjendela atau memiliki dua atau lebih monitor bisa mendapatkan keuntungan dari layar kedua yang memberikan informasi tambahan.",
             "fil": "Ang users na nag lalaro ng windowed mode o merong dalawang monitor o mas marami ay makikinabang mula sa pangalawang screen na nag pro-provide ng additional information.",
             "zh": "在窗口模式下玩游戏或拥有两台或更多显示器的用户，可以从第二个屏幕中获得额外信息而受益。",
-            "br": "Usuários jogando em modo janela ou que tenham dois ou mais monitores podem se beneficiar de uma segunda tela que provê informações adicionais."
+            "br": "Usuários jogando em modo janela ou que tenham dois ou mais monitores podem se beneficiar de uma segunda tela que provê informações adicionais.",
             "es": "Los usuarios que juegan en modo ventana o que tienen dos o más monitores pueden beneficiarse de una segunda pantalla que proporciona información adicional"
         },
         "Monitor": {
@@ -999,7 +999,7 @@
             "id": "Memantau",
             "fil": "Monitor",
             "zh": "监控",
-            "br": "Monitor"
+            "br": "Monitor",
             "es": "Monitor"
         },
         "Reposition": {
@@ -1010,7 +1010,7 @@
             "id": "Reposisi",
             "fil": "Reposition",
             "zh": "重新定位",
-            "br": "Reposicionamento"
+            "br": "Reposicionamento",
             "es": "Reposicionamiento"
         },
         "RepositionTooltip": {
@@ -1021,7 +1021,7 @@
             "id": "Reposisi memungkinkan Anda untuk memposisikan ulang kotak informasi dan timer di layar. Selama reposisi infobox dan timer dinonaktifkan.",
             "fil": "Ang Reposition ay para pwede mong ma i-position ang mga infoboxes at timers sa screen. Habang nag re-reposition, ang mga infoboxes at timers ay naka deactivate.",
             "zh": "“重新定位”功能允许您在屏幕上重新定位信息框和计时器。在重新定位期间，信息框和计时器将会被停用。",
-            "br": "Reposicionar permite que você reposicione caixas de informação e temporizadores na tela. Durante o reposicionamento as caixas de informação e os temporizadores serão desativados."
+            "br": "Reposicionar permite que você reposicione caixas de informação e temporizadores na tela. Durante o reposicionamento as caixas de informação e os temporizadores serão desativados.",
             "es": "La reposición le permite reposicionar las cajas de información y los temporizadores en la pantalla. Durante el reposicionamiento, las cajas de información y los temporizadores se desactivan."
         },
         "ResetPosition": {
@@ -1032,7 +1032,7 @@
             "id": "Atur ulang posisi",
             "fil": "Reset position",
             "zh": "重置位置",
-            "br": "Reconfigurar posição"
+            "br": "Reconfigurar posição",
             "es": "Reconfigurar posición"
         },
         "RESET": {
@@ -1043,7 +1043,7 @@
             "id": "ATUR ULANG",
             "fil": "RESET",
             "zh": "重置",
-            "br": "RECONFIGURAR"
+            "br": "RECONFIGURAR",
             "es": "Reconfigurar"
         },
         "Language": {
@@ -1054,7 +1054,7 @@
             "id": "Bahasa",
             "fil": "Wika",
             "zh": "语言",
-            "br": "Idioma"
+            "br": "Idioma",
             "es": "Idioma"
         },
         "Hotkeys": {
@@ -1065,7 +1065,7 @@
             "id": "Hotkeys",
             "fil": "Hotkeys",
             "zh": "热键",
-            "br": "Teclas de atalho"
+            "br": "Teclas de atalho",
             "es": "Teclas de acceso rápido"
         },
         "HotkeysTooltip": {
@@ -1076,7 +1076,7 @@
             "id": "Hotkey untuk menampilkan & menyembunyikan aplikasi. Sebaiknya atur hotkey untuk Performance Tracker sama seperti yang Anda gunakan untuk menunjukkan Scoreboard Dota.",
             "fil": "Hotkey para makita o maitago ang app. Inirerekomenda namin na mag set ng hotkey para sa Performance Tracker sa katulad ng pag pakita ng Dota's Scoreboard.",
             "zh": "显示和隐藏应用程序的热键。我们建议将性能跟踪器的热键设置为与显示Dota记分牌时使用的快捷键相同。",
-            "br": "Tecla de atalho para mostrar e ocultar o aplicativo. Recomendamos ajustar a tecla de atalho para o Rastreador de Performance para a mesma que você utiliza para mostrar o placar do Dota."
+            "br": "Tecla de atalho para mostrar e ocultar o aplicativo. Recomendamos ajustar a tecla de atalho para o Rastreador de Performance para a mesma que você utiliza para mostrar o placar do Dota.",
             "es": "Tecla de acceso rápido para mostrar y ocultar la aplicación. Recomendamos configurar la tecla de acceso rápido para el Rastreador de rendimiento de la misma manera que usa para mostrar el marcador de Dota."
         },
         "ShowHideMainApp": {
@@ -1087,7 +1087,7 @@
             "id": "Tampilkan/sembunyikan aplikasi utama",
             "fil": "Pakita/itago ang main app",
             "zh": "显示/隐藏主应用程序",
-            "br": "Mostrar/ocultar o aplicativo"
+            "br": "Mostrar/ocultar o aplicativo",
             "es": "Mostrar/ocultar aplicación"
         },
         "ShowHideSecondScreen": {
@@ -1098,7 +1098,7 @@
             "id": "Tampilkan/sembunyikan layar kedua",
             "fil": "Pakita/itago ang second sreen",
             "zh": "显示/隐藏第二个屏幕",
-            "br": "Mostrar/ocultar segunda tela"
+            "br": "Mostrar/ocultar segunda tela",
             "es": "Mostrar/ocultar segunda pantalla"
         },
         "ShowHideTimers": {
@@ -1109,7 +1109,7 @@
             "id": "Tampilkan/sembunyikan timer",
             "fil": "Pakita/itago ang timer",
             "zh": "显示/隐藏计时器",
-            "br": "Mostrar/ocultar temporizadores"
+            "br": "Mostrar/ocultar temporizadores",
             "es": "Mostrar/ocultar temporizadores"
         },
           "ShowHidePerformanceTracker": {
@@ -1120,7 +1120,7 @@
             "id": "Tampilkan/sembunyikan pelacak kinerja",
             "fil": "Pakita/itago ang performance tracker",
             "zh": "显示/隐藏绩效跟踪器",
-            "br": "Mostrar/ocultar rastreador de performance"
+            "br": "Mostrar/ocultar rastreador de performance",
             "es": "Mostrar/ocultar el rastreador de rendimiento"
         },
 
@@ -1133,7 +1133,7 @@
             "fil": "Ultimate",
             "zh": "最终技能",
             "id": "Ultimate",
-            "br": "Ult"
+            "br": "Ult",
             "es": "Ult"
         },
         "TIMING MODIFIERS": {
@@ -1144,7 +1144,7 @@
             "id": "PENGUBAH WAKTU",
             "fil": "TIMING MODIFIERS",
             "zh": "时序修饰符",
-            "br": "MODIFICADOR DE TEMPORIZADOR"
+            "br": "MODIFICADOR DE TEMPORIZADOR",
             "es": "MODIFICADOR DE TEMPORIZADOR"
         },
         "Ultimate Level": {
@@ -1155,7 +1155,7 @@
             "id": "Tingkat Ultimate",
             "fil": "Ultimate Level",
             "zh": "最终技能等级",
-            "br": "Nível do ult"
+            "br": "Nível do ult",
             "es": "Nivel ult"
         },
         "Items": {
@@ -1166,7 +1166,7 @@
             "id": "Item",
             "fil": "Items",
             "zh": "物品",
-            "br": "Itens"
+            "br": "Itens",
             "es": "Items"
         },
         "Arcane Rune": {
@@ -1177,7 +1177,7 @@
             "id": "Rune Misteri",
             "fil": "Arcane Rune",
             "zh": "奥术符文",
-            "br": "Runa Arcana"
+            "br": "Runa Arcana",
             "es": "Runa Arcana"
         },
         "Talent": {
@@ -1188,7 +1188,7 @@
             "id": "Bakat",
             "fil": "Talent",
             "zh": "天赋",
-            "br": "Talento"
+            "br": "Talento",
             "es": "Talento"
         },
         "level": {
@@ -1199,7 +1199,7 @@
             "id": "level",
             "fil": "level",
             "zh": "级别",
-            "br": "nível"
+            "br": "nível",
             "es": "nivel"
         },
         "No delay": {
@@ -1210,7 +1210,7 @@
             "id": "Tidak ada penundaan",
             "fil": "No delay",
             "zh": "无延迟",
-            "br": "Sem espera"
+            "br": "Sem espera",
             "es": "Sin retraso"
         },
         "sec": {
@@ -1221,7 +1221,7 @@
             "id": "detik",
             "fil": "sec",
             "zh": "秒",
-            "br": "segundo"
+            "br": "segundo",
             "es": "segundo"
         },
         "Adjustment": {
@@ -1232,7 +1232,7 @@
             "id": "Penyesuaian",
             "fil": "Adjustment",
             "zh": "校准",
-            "br": "Ajustes"
+            "br": "Ajustes",
             "es": "Ajustes"
         },
         "Apply to all": {
@@ -1243,7 +1243,7 @@
             "id": "Terapkan untuk semua",
             "fil": "Apply to all",
             "zh": "全部应用",
-            "br": "Aplicar a todos"
+            "br": "Aplicar a todos",
             "es": "Aplicar a todos"
         },
         "Buyback": {
@@ -1254,7 +1254,7 @@
             "id": "Buyback",
             "fil": "Buyback",
             "zh": "买活",
-            "br": "Reviver"
+            "br": "Reviver",
             "es": "Buyback"
         },
 
@@ -1267,7 +1267,7 @@
             "id": "KESALAHAN",
             "fil": "ERROR",
             "zh": "错误",
-            "br": "ERRO"
+            "br": "ERRO",
             "es": "ERROR"
         }
     }

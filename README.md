@@ -20,3 +20,6 @@ Filipino:
 
 German:
   - **stresspresso#8464**
+
+Spanish:
+  - **Fonsett#6208 ([@Fonsett](https://github.com/Fonsett))**
