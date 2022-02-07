@@ -826,7 +826,18 @@
             "br": "Seu nome (para tabela de líderes)",
             "es": "Su nombre (para tablas de clasificación)"
         },
-        "HideMainWindow": {
+        "MainWindow": {
+            "en": "Main window", // OK
+            "de": "Hauptfenster", // OK
+            "fr": "Fenêtre principale", // OK
+            "ru": "Скрыть окно",
+            "id": "Jendela utama",
+            "fil": "Main window",
+            "zh": "主窗口",
+            "br": "Janela principal",
+            "es": "Ventana principal"
+        },
+        /*"MainWindow": {
             "en": "Hide main window", // OK
             "de": "App ausblenden", // OK
             "fr": "Masquer la fenêtre principale",
@@ -836,39 +847,52 @@
             "zh": "隐藏主窗口",
             "br": "Ocultar janela principal",
             "es": "Ocultar ventana principal"
+        },*/
+
+
+        "MainWindowTooltip": {
+            "en": "This feature allows you to automatically show and hide the main app window depending on the game state.",
+            "de": "Mit dieser Funktion können Sie die App während des Spiels automatisch ein- und ausblenden.", //  to be udpated
+            "fr": "Cette fonctionnalité vous permet d'afficher et de masquer automatiquement l'application pendant le jeu.",//  to be udpated
+            "ru": "Эта функция позволяет автоматически показывать и скрывать приложение во время игры.",//  to be udpated
+            "id": "Fitur ini memungkinkan Anda untuk secara otomatis menampilkan dan menyembunyikan aplikasi selama pertandingan.",//  to be udpated
+            "fil": "Etong feature na ito ay para pwede mong makita o maitago ang app habang nasa laro.",//  to be udpated
+            "zh": "此功能允许您在游戏过程中自动显示和隐藏应用程序。",//  to be udpated
+            "br": "Essa função permite mostrar e ocultar automaticamente o aplicativo durante o jogo.",//  to be udpated
+            "es": "Esta función te permite mostrar y ocultar la aplicación automáticamente durante el juego"//  to be udpated
         },
-        "HideMainWindowTooltip": {
-            "en": "This feature allows you to automatically show and hide app during game.",
-            "de": "Mit dieser Funktion können Sie die App während des Spiels automatisch ein- und ausblenden.",
-            "fr": "Cette fonctionnalité vous permet d'afficher et de masquer automatiquement l'application pendant le jeu.",
-            "ru": "Эта функция позволяет автоматически показывать и скрывать приложение во время игры.",
-            "id": "Fitur ini memungkinkan Anda untuk secara otomatis menampilkan dan menyembunyikan aplikasi selama pertandingan.",
-            "fil": "Etong feature na ito ay para pwede mong makita o maitago ang app habang nasa laro.",
-            "zh": "此功能允许您在游戏过程中自动显示和隐藏应用程序。",
-            "br": "Essa função permite mostrar e ocultar automaticamente o aplicativo durante o jogo.",
-            "es": "Esta función te permite mostrar y ocultar la aplicación automáticamente durante el juego"
+        "HideDuringPreGame": {
+            "en": "Hide during pre-game", // OK
+            "de": "Ausblenden während Vorbereitung",
+            "fr": "Cacher pendant l'avant-match",
+            "ru": "Скрыть во время пре-игры", // to be reviewed
+            "id": "Sembunyikan selama pra-permainan", // to be reviewed
+            "fil": "Itago sa panahon ng pre-game", // to be reviewed
+            "zh": "在赛前隐藏", // to be reviewed
+            "br": "Esconder durante o pré-jogo", // to be reviewed
+            "es": "Esconderse durante el juego previo", // to be reviewed
         },
-        "DuringHeroSelection": {
-            "en": "During hero selection", // OK
-            "de": "Während Heldenauswahl", // OK
-            "fr": "Pendant la sélection des héros",
-            "ru": "Во время выбора героя", // OK
-            "id": "Selama pemilihan pahlawan",
-            "fil": "Habang nasa hero selection",
-            "zh": "在英雄选择过程中",
-            "br": "Durante a seleção de heróis",
-            "es": "Durante la selección de héroes"
+        "HideDuringGame": {
+            "en": "Hide during game", // OK
+            "de": "Während des Spiels ausblenden",
+            "fr": "Cacher pendant le jeu",
+            "ru": "Скрывать во время игры", // to be reviewed
+            "id": "Sembunyikan selama pertandingan", // to be reviewed
+            "fil": "Itago sa panahon ng laro", // to be reviewed
+            "zh": "在游戏中隐藏", // to be reviewed
+            "br": "Esconder durante a partida", // to be reviewed
+            "es": "Esconderse durante la partida", // to be reviewed
         },
-        "DuringGame": {
-            "en": "During game", // OK
-            "de": "Während Spiel", // OK
-            "fr": "Pendant le match",
-            "ru": "Во время игры", // OK
-            "id": "Selama pertandingan",
-            "fil": "Habang nasa laro.",
-            "zh": "在比赛中",
-            "br": "Durante a partida",
-            "es": "Durante la partida"
+        "ShowAfterGame": {
+            "en": "Show after game", // OK
+            "de": "Nach dem Spiel einblenden",
+            "fr": "Afficher après le match",
+            "ru": "Шоу после игры", // to be reviewed
+            "id": "Tampilkan setelah pertandingan", // to be reviewed
+            "fil": "Ipakita pagkatapos ng laro", // to be reviewed
+            "zh": "赛后显示", // to be reviewed
+            "br": "Mostrar depois do jogo", // to be reviewed
+            "es": "Espectáculo tras partido", // to be reviewed
         },
         "MisclickProtection": {
             "en": "Misclick protection", // OK
