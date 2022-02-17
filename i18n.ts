@@ -22,7 +22,7 @@ window.language = 'en'
  */
 export function t(code: string) {
     if (!i18n.text.hasOwnProperty(code)) {
-        DotaLogger.log(`localization.t(): Invalid code ${code}`)
+        DotaLogger.log(`localization.t(): Invalid code '${code}'`)
         var err = new Error();
         console.warn(err.stack);
         code = "ERROR"
