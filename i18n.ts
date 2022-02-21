@@ -6,11 +6,11 @@
 import { i18n } from './i18n-data'
 import * as DotaLogger from '../../src/utility/log'
 
-declare namespace window {
+/*declare namespace window {
     let language: string
-}
+}*/
 
-window.language = 'en'
+let currentLanguage = 'en'
 
 
 
@@ -21,17 +21,17 @@ window.language = 'en'
  * @returns 
  */
 export function t(code: string) {
-    if (!i18n.text.hasOwnProperty(code)) {
+    if (!Object.prototype.hasOwnProperty.call(i18n.text, code)) {
         DotaLogger.log(`localization.t(): Invalid code '${code}'`)
-        var err = new Error();
+        const err = new Error();
         console.warn(err.stack);
         code = "ERROR"
     }
     
-    if (i18n.text[code].hasOwnProperty(window.language)) {
-        return i18n.text[code][window.language]
+    if (Object.prototype.hasOwnProperty.call(i18n.text[code], currentLanguage)) {
+        return i18n.text[code][currentLanguage]
     }
-    else if (window.language=='en') {
+    else if (currentLanguage=='en') {
         return code
     }
     else {
@@ -47,7 +47,7 @@ export function t(code: string) {
  */
 export function setLanguage(language: string) {
     const lang = findLanguage(language)
-    window.language = lang
+    currentLanguage = lang
 }
 export function findLanguage(language: string): string {
     const ls = i18n.config.languages
@@ -60,12 +60,12 @@ export function findLanguage(language: string): string {
 }
 
 export function getLanguage(): string {
-    return window.language
+    return currentLanguage
 }
 
 export function getLanguageName(): string {
-    DotaLogger.log(`localization.getLanguageName(): window.language = ${window.language}`)
-    return i18n.config.languages[window.language]
+    DotaLogger.log(`localization.getLanguageName(): currentLanguage = ${currentLanguage}`)
+    return i18n.config.languages[currentLanguage]
 }
 
 /**
