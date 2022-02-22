@@ -122,7 +122,7 @@
             "en": "Join Discord", // OK
             "de": "Discord beitreten", // OK
             "fr": "Rejoignez Discord",
-            "ru": "Дискорд",
+            "ru": "Discord",
             "fil": "Mag-join sa Discord",
             "zh": "加入Discord",
             "id": "Bergabung Perselisihan",
@@ -357,7 +357,7 @@
             //"de": "Gegenstände & Fähigkeiten",
             "de": "Gegenstände & Abilities", // OK
             "fr": "Objets et capacités",
-            "ru": "Предметы и Спобоности", // OK, long form: "Предметы и способности"
+            "ru": "Предметы и Способности", // OK, long form: "Предметы и способности"
             "id": "Item & kemampuan",
             "fil": "Items at abilities", // OK
             "zh": "物品和技能",
@@ -412,7 +412,7 @@
             "en": "Team ultimates", // OK
             "de": "Team Ultimates", // OK
             "fr": "Ultimes d'équipe",
-            "ru": "Ультимейты команды", // OK, long form: "Особые командные способности"
+            "ru": "Ультимейты союзников", // OK, long form: "Особые командные способности"
             "id": "Ultimates tim",
             "fil": "Team ultimates",
             "zh": "团队终极技能使用情况",
@@ -643,7 +643,7 @@
             "en": "Configure manual and automated message sharing through the Dota 2 team chat. Manual message sharing is triggered by left-clicking on timers or the loudspeaker.",
             "de": "Konfigurieren Sie die manuelle und automatisierte Nachrichtenfreigabe über den Dota 2-Teamchat. Die manuelle Nachrichtenfreigabe wird durch Linksklick auf Timer oder Lautsprecher ausgelöst.",
             "fr": "Configurez le partage manuel et automatique des messages via le chat d'équipe Dota 2. Le partage manuel des messages est déclenché par un clic gauche sur les minuteries ou le haut-parleur.",
-            "ru": "Настройте ручные и автоматические сообщения через командный чат Dota 2. Ручной обмен сообщениями запускается щелчком левой кнопки мыши на таймерах или комментаторе.",
+            "ru": "Настройте вывод сообщений через командный чат Dota 2. Обмен сообщениями вручную запускается щелчком левой кнопки мыши на таймерах или комментаторе.",
             "id": "Konfigurasikan berbagi pesan manual dan otomatis melalui obrolan tim Dota 2. Berbagi pesan manual dipicu oleh klik kiri pada timer atau loudspeaker.",
             "fil": "I-configure ang manual at automated message sharing sa Dota 2 team chat. Manual message sharing ay ma i-trigger by left-clicking sa timers or sa loudspeaker.",
             "zh": "通过Dota 2团队聊天配置手动和自动消息共享。左键单击计时器或扬声器即可触发手动信息共享。",
@@ -909,7 +909,7 @@
             "en": "Time in seconds that input isn't registered when the mouse first enters the timers. Default is 0.2 seconds.", // This seriously needs a better wording
             "de": "Zeit in Sekunden, die nicht registriert wird, wenn die Maus die Timer zum ersten Mal betritt. Die Standardeinstellung ist 0,2 Sekunden.",
             "fr": "Durée en secondes pendant laquelle l'entrée n'est pas enregistrée lorsque la souris entre pour la première fois dans les temporisateurs. La valeur par défaut est 0,2 seconde.",
-            "ru": "Время в секундах, при котором попадание мыши и нажатие на таймеры не вызывает их активацию. По умолчанию 0,2 секунды.",
+            "ru": "Время в секундах, при котором попадание мыши и нажатие на таймеры не вызывают их активацию. По умолчанию 0,2 секунды.",
             "fil": "Oras sa segundo na hindi nakarehistro ang input ng unang pumasok ang mouse sa timer. Default ay 0.2 seconds.",
             "id": "Waktu dalam hitungan detik bahwa input tidak terdaftar ketika mouse pertama kali memasuki timer. Default adalah 0,2 detik.",
             "zh": "鼠标首次进入计时器后忽略点击的时间（以秒为单位）。默认值为0.2秒。",
@@ -1096,7 +1096,7 @@
             "en": "Hotkey to show & hide app. We recommend setting the hotkey for the Performance Tracker to the same as you use to show Dota's Scoreboard.",
             "de": "Hotkey zum Ein- und Ausblenden der App. Wir empfehlen, den Hotkey für den Performance Tracker auf den gleichen Wert einzustellen, den Sie zum Anzeigen von Dota's Scoreboard verwenden.",
             "fr": "Raccourci clavier pour afficher et masquer l'application. Nous vous recommandons de définir le raccourci clavier du traqueur de performances sur le même que celui que vous utilisez pour afficher le tableau des scores de Dota.",
-            "ru": "Горячая клавиша для отображения и скрытия приложения. Мы рекомендуем установить горячую клавишу для отслеживания КПД так же, как и клавиша отображения табло Dota.",
+            "ru": "Горячая клавиша для отображения и скрытия приложения. Мы рекомендуем установить горячую клавишу для отслеживания КПД на клавишу отображения табло Dota.",
             "id": "Hotkey untuk menampilkan & menyembunyikan aplikasi. Sebaiknya atur hotkey untuk Performance Tracker sama seperti yang Anda gunakan untuk menunjukkan Scoreboard Dota.",
             "fil": "Hotkey para makita o maitago ang app. Inirerekomenda namin na mag set ng hotkey para sa Performance Tracker sa katulad ng pag pakita ng Dota's Scoreboard.",
             "zh": "显示和隐藏应用程序的热键。我们建议将性能跟踪器的热键设置为与显示Dota记分牌时使用的快捷键相同。",
