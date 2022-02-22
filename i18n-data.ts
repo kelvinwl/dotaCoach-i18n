@@ -11,7 +11,12 @@
  * 
  */
 
- export const i18n = {
+export interface Language {
+    code: string,
+    name: string
+}
+
+export const i18n = {
     // Lanuages currently supported by the Dota Coach App
     "config" : {
         "languages": [

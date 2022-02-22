@@ -3,16 +3,10 @@
  * 
  * Format to be used: <div id="i18n_#ENGLISH TEXT#" class="i18n">${i18n.t(#ENGLISH TEXT)}</div>`
  */
-import { i18n } from './i18n-data'
+import { i18n, Language } from './i18n-data'
 import * as DotaLogger from '../../src/utility/log'
 
-/*declare namespace window {
-    let language: string
-}*/
-
 let currentLanguage = 'en'
-
-
 
 /**
  * Function returns the text in the right language
@@ -72,7 +66,7 @@ export function getLanguageName(): string {
  * 
  * @returns Array of { <language code>: <language name> }
  */
-export function getLanguages(): any[] {
+export function getLanguages(): Language[] {
     return i18n.config.languages
 }
 
