@@ -43,6 +43,21 @@ export function setLanguage(language: string) {
 }
 
 /**
+ * Function checks if language is available in Dota Coach.
+ * @param language 'en', 'fr', 'de', etc.
+ * @returns
+ */
+export function isLanguageAvailable(language: string): boolean {
+  const ls = i18n.config.languages;
+  for (const l of ls) {
+    if (l.code == language) {
+      return true;
+    }
+  }
+  return false;
+}
+
+/**
  * Returns
  * @param language 'en', 'fr', 'de', etc.
  * @returns
