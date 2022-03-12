@@ -32,8 +32,8 @@ export function t(code: string) {
 }
 
 /**
- * This function initiates the library.
- * It needs to be called before the library can be used.
+ * This function initiates the library by setting the language.
+ * This function needs to be called before the library can be used.
  *
  * @param language Supported languages: 'en', 'ru', 'zh', 'id'
  */
@@ -41,6 +41,12 @@ export function setLanguage(language: string) {
   const lang = findLanguage(language);
   currentLanguage = lang;
 }
+
+/**
+ * Returns
+ * @param language 'en', 'fr', 'de', etc.
+ * @returns
+ */
 export function findLanguage(language: string): string {
   const ls = i18n.config.languages;
   for (const l of ls) {
@@ -55,11 +61,26 @@ export function getLanguage(): string {
   return currentLanguage;
 }
 
-export function getLanguageName(): string {
+/**
+ *
+ * @param language optional parameter, language short name such as 'en', 'de' and 'fr'. If not provided, language name of current language is returned
+ * @returns
+ */
+export function getLanguageName(language?: string): string {
   DotaLogger.log(
     `localization.getLanguageName(): currentLanguage = ${currentLanguage}`
   );
-  return i18n.config.languages[currentLanguage];
+  if (language == undefined) {
+    return i18n.config.languages[currentLanguage];
+  } else {
+    const ls = i18n.config.languages;
+    for (const l of ls) {
+      if (l.code == language) {
+        return l.name;
+      }
+    }
+    return i18n.config.languages["en"]; // Returns english if no name is found
+  }
 }
 
 /**
