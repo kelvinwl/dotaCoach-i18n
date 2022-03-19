@@ -16,7 +16,7 @@ let currentLanguage = "en";
  */
 export function t(code: string) {
   if (!Object.prototype.hasOwnProperty.call(i18n.text, code)) {
-    DotaLogger.log(`localization.t(): Invalid code '${code}'`);
+    DotaLogger.log(`18n.t(): Invalid code '${code}'`);
     const err = new Error();
     console.warn(err.stack);
     code = "ERROR";
@@ -24,11 +24,15 @@ export function t(code: string) {
 
   if (Object.prototype.hasOwnProperty.call(i18n.text[code], currentLanguage)) {
     return i18n.text[code][currentLanguage];
-  } else if (currentLanguage == "en") {
+  } else {
+    return i18n.text[code].en;
+  }
+
+  /*if (currentLanguage == "en") {
     return code;
   } else {
     return code;
-  }
+  }*/
 }
 
 /**
@@ -83,7 +87,7 @@ export function getLanguage(): string {
  */
 export function getLanguageName(language?: string): string {
   DotaLogger.log(
-    `localization.getLanguageName(): currentLanguage = ${currentLanguage}`
+    `i18n.getLanguageName(): currentLanguage = ${currentLanguage}`
   );
   if (language == undefined) {
     return i18n.config.languages[currentLanguage];
