@@ -357,17 +357,16 @@ export const i18n = {
       br: "Caixas de informação são posicionadas acima dos jogadores em partidas e provêem insights em itens e habilidades",
       es: "Las cajas de información se colocan encima de los jugadores en los partidos y brindan información sobre elementos y habilidades.",
     },
-    ItemsAndAbilities: {
-      en: "Items & abilities", // OK
-      //"de": "Gegenstände & Fähigkeiten",
-      de: "Gegenstände & Abilities", // OK
-      fr: "Objets et capacités",
-      ru: "Предметы и Способности", // OK, long form: "Предметы и способности"
-      id: "Item & kemampuan",
-      fil: "Items at abilities", // OK
-      zh: "物品和技能",
-      br: "Itens e habilidades",
-      es: "Items y habilidades",
+    InfoboxesCheckbox: {
+      en: "Show infoboxes", // OK
+      de: "Infoboxen einblenden",
+      fr: "Afficher les infoboxes",
+      ru: "Показать инфобоксы",
+      id: "Tampilkan kotak informasi",
+      fil: "Ipakita ang mga infobox",
+      zh: "显示信息框",
+      br: "Mostrar caixas de informações",
+      es: "Mostrar cuadros de información",
     },
     Timers: {
       en: "Timers",
@@ -390,6 +389,17 @@ export const i18n = {
       zh: "肉山、防御符文、买活和终极技能的计时器可以在这里关闭和开启。",
       br: "O temporizador para Roshan, glifo de fortificação, reviver e ultis podem ser desativados e ativados aqui.",
       es: "El temporizador de Roshan, Glifo de fortificación, Buyback y Ultimates se puede activar y desactivar aquí.",
+    },
+    Runes: {
+      en: "Runes", // OK
+      de: "Runen",
+      fr: "Runes",
+      ru: "Руны",
+      id: "Rune",
+      fil: "Runes",
+      zh: "符文",
+      br: "Runas",
+      es: "runas",
     },
     RoshanAndGlyph: {
       en: "Roshan & glyph", // OK
@@ -831,7 +841,40 @@ export const i18n = {
       br: "Seu nome (para tabela de líderes)",
       es: "Su nombre (para tablas de clasificación)",
     },
-    MainWindow: {
+
+    // Mouse click modifiers
+    MouseClickModifier: {
+      en: "Mouse click modifier",
+    },
+    MouseClickModifierTooltip: {
+      en: "The mouse click integration modifier can be used to enforce pressing a modifier for a click on a the overlay to work. This is a protection against inteference with the game.",
+    },
+    Modifier: {
+      en: "Modifier",
+    },
+    MouseClickModifierNone: {
+      en: "None",
+      de: "Keiner",
+      fr: "Aucun",
+      ru: "Нет",
+      id: "Tidak ada",
+      fil: "Wala",
+      zh: "无",
+      br: "Nenhum",
+      es: "Ninguna",
+    },
+    MouseClickModifierAlt: {
+      en: "Alt",
+    },
+    MouseClickModifierCtrl: {
+      en: "Ctrl",
+    },
+    MouseClickModifierShift: {
+      en: "Shift",
+    },
+
+    // Main window settings were removed
+    /*MainWindow: {
       en: "Main window", // OK
       de: "Hauptfenster", // OK
       fr: "Fenêtre principale", // OK
@@ -841,7 +884,7 @@ export const i18n = {
       zh: "主窗口",
       br: "Janela principal",
       es: "Ventana principal",
-    },
+    },*/
     /*"MainWindow": {
             "en": "Hide main window", // OK
             "de": "App ausblenden", // OK
@@ -854,7 +897,7 @@ export const i18n = {
             "es": "Ocultar ventana principal"
         },*/
 
-    MainWindowTooltip: {
+    /*MainWindowTooltip: {
       en: "This feature allows you to automatically show and hide the main app window depending on the game state.",
       de: "Mit dieser Funktion können Sie die App während des Spiels automatisch ein- und ausblenden.", //  to be udpated
       fr: "Cette fonctionnalité vous permet d'afficher et de masquer automatiquement l'application pendant le jeu.", //  to be udpated
@@ -930,7 +973,7 @@ export const i18n = {
       zh: "延迟",
       br: "Demora",
       es: "Retraso",
-    },
+    },*/
     Audio: {
       en: "Audio", // OK
       de: "Audio", // OK
@@ -1107,49 +1150,16 @@ export const i18n = {
       br: "Tecla de atalho para mostrar e ocultar o aplicativo. Recomendamos ajustar a tecla de atalho para o Rastreador de Performance para a mesma que você utiliza para mostrar o placar do Dota.",
       es: "Tecla de acceso rápido para mostrar y ocultar la aplicación. Recomendamos configurar la tecla de acceso rápido para el Rastreador de rendimiento de la misma manera que usa para mostrar el marcador de Dota.",
     },
-    ShowHideMainApp: {
-      en: "Show/hide main app", // OK
-      de: "App ein-/ausblenden", // OK
-      fr: "Afficher/masquer l'application principale",
-      ru: "Главное приложение", // OK, long form "Показать/скрыть главное приложение"
-      id: "Tampilkan/sembunyikan aplikasi utama",
-      fil: "Pakita/itago ang main app",
-      zh: "显示/隐藏主应用程序",
-      br: "Mostrar/ocultar o aplicativo",
-      es: "Mostrar/ocultar aplicación",
-    },
-    ShowHideSecondScreen: {
-      en: "Show/hide second screen", // OK
-      de: "Zweiter Bildschirm ein-/ausblenden", // OK
-      fr: "Afficher/masquer le deuxième écran",
-      ru: "Показать/скрыть второй экран", // OK
-      id: "Tampilkan/sembunyikan layar kedua",
-      fil: "Pakita/itago ang second sreen",
-      zh: "显示/隐藏第二个屏幕",
-      br: "Mostrar/ocultar segunda tela",
-      es: "Mostrar/ocultar segunda pantalla",
-    },
-    ShowHideTimers: {
-      en: "Show/hide timers", // OK
-      de: "Timer ein-/ausblenden", // OK
-      fr: "Afficher/masquer les minuteries",
-      ru: "Показать/скрыть таймеры", // OK
-      id: "Tampilkan/sembunyikan timer",
-      fil: "Pakita/itago ang timer",
-      zh: "显示/隐藏计时器",
-      br: "Mostrar/ocultar temporizadores",
-      es: "Mostrar/ocultar temporizadores",
-    },
-    ShowHidePerformanceTracker: {
-      en: "Show/hide performance tracker", // OK
-      de: "Performance-Tracker ein-/ausblenden", // OK
-      fr: "Afficher/masquer le suivi des performances",
-      ru: "Показать/скрыть трекер КПД", // OK, long form: "Показать/скрыть трекер производительности"
-      id: "Tampilkan/sembunyikan pelacak kinerja",
-      fil: "Pakita/itago ang performance tracker",
-      zh: "显示/隐藏绩效跟踪器",
-      br: "Mostrar/ocultar rastreador de performance",
-      es: "Mostrar/ocultar el rastreador de rendimiento",
+    ShowhideOverlay: {
+      en: "Show/hide in-game overlay",
+      de: "Spiel-Overlay ein-/ausblenden",
+      fr: "Afficher/masquer l'app dans le jeu",
+      ru: "Показать/скрыть внутриигровой оверлей",
+      id: "Tampilkan/sembunyikan overlay dalam game",
+      fil: "Ipakita/itago ang overlay ng in-game",
+      zh: "显示/隐藏游戏内叠加",
+      br: "Mostrar/ocultar sobreposição no jogo",
+      es: "Mostrar/ocultar superposición en el juego",
     },
 
     // Ultimate window
