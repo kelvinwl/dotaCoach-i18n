@@ -1296,6 +1296,30 @@ export const i18n = {
       es: "Buyback",
     },
 
+    // Stats
+    NoMatchData: {
+      en: "No recent match data available for this player.",
+      de: "Für diesen Spieler sind keine aktuellen Spieldaten verfügbar.",
+      fr: "Aucune donnée de match récente n'est disponible pour ce joueur.",
+      ru: "Для этого игрока нет данных о последних матчах.",
+      id: "Tidak ada data pencocokan terbaru yang tersedia untuk pemain ini.",
+      fil: "Walang kamakailang data ng pagtutugma na magagamit para sa player na ito.",
+      zh: "没有该球员的近期比赛数据。",
+      br: "Não há dados de partida recentes disponíveis para este jogador.",
+      es: "No hay datos de partidos recientes disponibles para este jugador.",
+    },
+    PrivateProfile: {
+      en: "Player profile is set to private.",
+      de: "Das Spielerprofil ist privat.",
+      fr: "Le profil du joueur est défini sur Privé.",
+      ru: "Профиль игрока настроен как приватный.",
+      id: "Profil pemain diatur ke pribadi.",
+      fil: "Ang profile ng manlalaro ay naka-set sa pribado.",
+      zh: "玩家个人资料已设置为私人。",
+      br: "O perfil do jogador está definido como privado.",
+      es: "El perfil del jugador está configurado como privado.",
+    },
+
     // Notifications
     GameStateIntegration: {
       en: "Dota Coach needs access to Game State Integration API provided by Dota 2.<br>Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
