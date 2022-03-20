@@ -1327,7 +1327,7 @@ export const i18n = {
       id: "Dota Coach membutuhkan akses ke API Integrasi Negara Game yang disediakan oleh Dota 2. <br>Pastikan untuk menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2.",
       de: "Dota Coach benötigt Zugriff auf die von Dota 2 bereitgestellte Game State Integration API. <br>Bitte stellen Sie sicher, dass Sie „-gamestateintegration“ zu den Startoptionen von Dota 2 hinzufügen.",
       fr: "Dota Coach doit avoir accès à l'API Game State Integration fournie par Dota 2. <br>Assurez-vous d'ajouter « -gamestateintegration » aux options de lancement de Dota 2.",
-      ru: "Тренеру по Dota необходим доступ к API интеграции состояния игры, предоставляемому Dota 2. <br>Пожалуйста, не забудьте добавить «-gamestateintegration» в параметры запуска Dota 2.",
+      ru: "Dota Coach необходим доступ к Игровой интеграции API, предоставляемому Dota 2. <br>Пожалуйста, убедитесь, что вы добавили «-gamestateintegration» в параметры запуска Dota 2.",
       br: "O Dota Coach precisa acessar a API de integração do estado do jogo fornecida pelo Dota 2. <br>Certifique-se de adicionar '-gamestateintegration' às opções de lançamento do Dota 2.",
       zh: "刀塔教练需要访问Dota 2提供的游戏状态集成API。<br>请务必在 Dota 2 启动选项中添加 “-gamestateintegration”。",
       es: "Dota Coach necesita acceso a la API de integración de Game State proporcionada por Dota 2. <br>Asegúrate de añadir '-gamestateintegration' a las opciones de lanzamiento de Dota 2.",
