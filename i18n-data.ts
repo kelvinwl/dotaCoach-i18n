@@ -848,7 +848,7 @@ export const i18n = {
     },
     MouseClickModifierTooltip: {
       en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
-      fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro."
+      fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro.",
     },
     Modifier: {
       en: "Modifier",
@@ -1166,7 +1166,7 @@ export const i18n = {
     // Ultimate window
     Ultimate: {
       en: "Ultimate",
-      de: "Ultimative",
+      de: "Ulti",
       fr: "Ultime",
       ru: "Ультимейт",
       fil: "Ultimate",
