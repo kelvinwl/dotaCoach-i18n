@@ -27,7 +27,7 @@ export const i18n = {
       { code: "id", name: "Indonesia" },
       { code: "fil", name: "Filipino" },
       { code: "zh", name: "中文" },
-      { code: "br", name: "Brasil" },
+      { code: "br", name: "Português - Brasil" },
       { code: "es", name: "Español" },
     ],
   },
@@ -175,7 +175,7 @@ export const i18n = {
       id: "Klik untuk masuk ke akun Overwolf Anda",
       fil: "I-click para mag sign in sa Overwolf account mo",
       zh: "点击登录你的 Overwolf 账户",
-      br: "Clique para entrar com sua conta da Overwolf",
+      br: "Clique para entrar com sua conta Overwolf",
       es: "Haga clic para iniciar sesión en su cuenta de Overwolf",
     },
 
@@ -210,7 +210,7 @@ export const i18n = {
       id: "Melaporkan masalah/bug atau meminta dukungan",
       fil: "Mag-report ng issue/bug o mag-request ng support",
       zh: "报告问题/错误或请求支持",
-      br: "Relate um problema",
+      br: "Reportar um problema",
       es: "Reportar un problema",
     },
     "Share with us": {
@@ -243,7 +243,7 @@ export const i18n = {
       id: "KIRIM LAPORAN",
       fil: "SEND REPORT",
       zh: "发送报告",
-      br: "ENVIAR RELATO",
+      br: "ENVIAR REPORTE",
       es: "ENVIAR REPORTE",
     },
     "Contact details": {
@@ -552,7 +552,7 @@ export const i18n = {
       id: "Rune Bounty",
       fil: "Bounty runes",
       zh: "赏金符",
-      br: "Runas de recompensas",
+      br: "Runas de recompensa",
       es: "Runas de recompensa",
     },
     WaterAndPowerRunes: {
@@ -574,7 +574,7 @@ export const i18n = {
       id: "Item netral",
       fil: "Neutral items",
       zh: "中立物品",
-      br: "Itens neutros",
+      br: "Itens neutrais",
       es: "Items neutrales",
     },
     ObserverWards: {
@@ -816,7 +816,7 @@ export const i18n = {
       id: "Peer terbaik",
       fil: "Peer best",
       zh: "同水平的最佳表现",
-      br: "De acordo com o melhor",
+      br: "De acordo com o melhor", // Needs a review
       es: "Mejor de otros",
     },
     None: {
@@ -845,13 +845,16 @@ export const i18n = {
     // Mouse click modifiers
     MouseClickModifier: {
       en: "Mouse click modifier",
+      br: "Modificador do clique do mouse",
     },
     MouseClickModifierTooltip: {
       en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
       fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro.",
+      br: "A integração do modificador de clique do mouse requer o pressionamento de uma tecla modificadora ao clicar no overlay. Isso oferece proteção contra interferências com o jogo.",
     },
     Modifier: {
       en: "Modifier",
+      br: "Modificador",
     },
     MouseClickModifierNone: {
       en: "None",
@@ -866,12 +869,15 @@ export const i18n = {
     },
     MouseClickModifierAlt: {
       en: "Alt",
+      br: "Alt",
     },
     MouseClickModifierCtrl: {
       en: "Ctrl",
+      br: "Ctrl",
     },
     MouseClickModifierShift: {
       en: "Shift",
+      br: "Shift",
     },
 
     // Main window settings were removed
@@ -1326,7 +1332,7 @@ export const i18n = {
       en: "Dota Coach needs access to Game State Integration API provided by Dota 2.<br>Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
       id: "Dota Coach membutuhkan akses ke API Integrasi Negara Game yang disediakan oleh Dota 2. <br>Pastikan untuk menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2.",
       de: "Dota Coach benötigt Zugriff auf die von Dota 2 bereitgestellte Game State Integration API. <br>Bitte stellen Sie sicher, dass Sie „-gamestateintegration“ zu den Startoptionen von Dota 2 hinzufügen.",
-      fr: "Dota Coach doit avoir accès à l'API Game State Integration fournie par Dota 2. <br>Assurez-vous d'ajouter « -gamestateintegration » aux options de lancement de Dota 2.",
+      fr: "Dota Coach doit avoir accès à l'API Game State Integration fournie par Dota 2. <br>Assurez-vous d'ajouter « -gamestateintegration » aux options de lancement de Dota 2.",
       ru: "Dota Coach необходим доступ к Игровой интеграции API, предоставляемому Dota 2. <br>Пожалуйста, убедитесь, что вы добавили «-gamestateintegration» в параметры запуска Dota 2.",
       br: "O Dota Coach precisa acessar a API de integração do estado do jogo fornecida pelo Dota 2. <br>Certifique-se de adicionar '-gamestateintegration' às opções de lançamento do Dota 2.",
       zh: "Dota Coach需要访问Dota 2提供的游戏状态集成API。<br>请务必在 Dota 2 启动选项中添加 “-gamestateintegration”。",
