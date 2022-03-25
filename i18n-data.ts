@@ -180,7 +180,7 @@ export const i18n = {
     },
 
     // Help window
-    HELP: {
+    /*HELP: {
       en: "HELP",
       de: "HILFE",
       fr: "AIDEZ-MOI",
@@ -190,7 +190,7 @@ export const i18n = {
       zh: "帮助",
       br: "AJUDA",
       es: "AYUDA",
-    },
+    },*/
     FEEDBACK: {
       en: "FEEDBACK",
       de: "FEEDBACK",
