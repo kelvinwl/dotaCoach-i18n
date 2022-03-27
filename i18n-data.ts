@@ -1316,7 +1316,7 @@ export const i18n = {
       es: "No hay datos de partidos recientes disponibles para este jugador.",
     },
     PrivateProfile: {
-      en: "Player profile is set to private.",
+      en: "Player profile is private.",
       de: "Das Spielerprofil ist privat.",
       fr: "Le profil du joueur est défini sur Privé.",
       ru: "Профиль игрока настроен как приватный.",
