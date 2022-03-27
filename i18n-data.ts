@@ -1326,6 +1326,17 @@ export const i18n = {
       br: "O perfil do jogador está definido como privado.",
       es: "El perfil del jugador está configurado como privado.",
     },
+    NoRecentMatches: {
+      en: "Player has no recent matches.",
+      de: "Der Spieler hat in letzter Zeit keine Spiele.",
+      fr: "Le joueur n'a pas fait de matches récents.",
+      ru: "У игрока нет последних матчей.",
+      id: "Pemain tidak memiliki pertandingan baru-baru ini.",
+      fil: "Ang manlalaro ay walang kamakailang mga tugma.",
+      zh: "玩家最近没有比赛。",
+      br: "O jogador não tem partidas recentes.",
+      es: "El jugador no tiene partidos recientes.",
+    },
 
     // Notifications
     GameStateIntegration: {
