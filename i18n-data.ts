@@ -1308,7 +1308,7 @@ export const i18n = {
       en: "No recent match data available for this player.",
       de: "Für diesen Spieler sind keine aktuellen Spieldaten verfügbar.",
       fr: "Aucune donnée de match récente n'est disponible pour ce joueur.",
-      ru: "Для этого игрока нет данных о последних матчах.",
+      ru: "У этого игрока не найдены последние матчи",
       id: "Tidak ada data pencocokan terbaru yang tersedia untuk pemain ini.",
       fil: "Walang recent match data na available para sa player na ito.",
       zh: "没有该玩家的近期比赛数据。",
