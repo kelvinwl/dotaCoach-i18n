@@ -1305,7 +1305,15 @@ export const i18n = {
 
     // Stats
     OpenDotaAccessError: {
-      en: "Error while accessing server data.",
+      en: "Error while accessing server.",
+      de: "Fehler beim Zugriff auf den Server.",
+      fr: "Erreur lors de l'accès au serveur.",
+      ru: "Ошибка при доступе к серверу.",
+      id: "Galat saat mengakses server.",
+      fil: "Error habang ina-access ang server.",
+      zh: "访问服务器时出错。",
+      br: "Erro ao acessar o servidor.",
+      es: "Error al acceder al servidor.",
     },
     NoMatchData: {
       en: "No recent match data available for this player.",
