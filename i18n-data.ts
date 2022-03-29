@@ -1350,6 +1350,7 @@ export const i18n = {
       es: "Dota Coach necesita acceso a la API de integración de Game State proporcionada por Dota 2. <br>Asegúrate de añadir '-gamestateintegration' a las opciones de lanzamiento de Dota 2.",
       fil: "Dota Coach ay nangangailangan ng access sa Game State Integration API na binigay ng Dota 2. <br>Siguraduhing ilagay ang '-gamestatereation' sa Dota 2 launch options.",
     },
+
     GameStateIntegrationMore: {
       en: "MORE",
       de: "MEHR",
@@ -1360,6 +1361,19 @@ export const i18n = {
       br: "MAIS",
       ru: "БОЛЬШЕ",
       es: "MÁS",
+    },
+
+    // Welcome message for new users
+    firstTimeUserMessage: {
+      en: "Make sure to add '-gamestateintegration' to your Dota launch options (<span id='notificationlink'>Click to here show Guide</span>).<br><br>Costumize Dota Coach to your needs. Head to the settings menu in the top right corner!<br><hr>Interact with timers and infoboxes during the game to get the competetive edge:<br><br>- Press<b> LEFT-CLICK </b>to start Roshan-, Glpyh-, Buyback-, Ultimate-Timers.<br>- Press<b> the red X </b>to stop Roshan-, Glpyh-, Buyback-, Ultimate-Timers.<br><br>- Press<b> LEFT-CLICK </b>to open infoboxes at the top and at the minimap.<br><hr>You are now an important member of the Dota Coach community<br>and we want to hear from you:<br><br>- Join our <span id='notificationlink'>Discord Server</span> to speak directly with our Pro-Coaches,<br>find like-minded players and suggest Dota Coach changes!<br><br>- Join our <span id='notificationlink'>Subreddit</span> or follow Dota Coach on <span id='notificationlink'>social media</span><br>to get live updates on upcoming changes and improvements!<hr>Still got questions? No worries, we got you covered:<br><br>- <span id='notificationlink'>FAQ</span><br><br>- <span id='notificationlink'>Heropedia</span><br><hr>Want to unleash the full power of Dota Coach in 3 minutes?<br>Watch the full guide video:<br><br><button id='notificationButton'>Guide Video</button><br>",
+      de: "",
+      fr: "",
+      id: "",
+      fil: "",
+      zh: "",
+      br: "",
+      ru: "",
+      es: "",
     },
 
     // Display of error message
