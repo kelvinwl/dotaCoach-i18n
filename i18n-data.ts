@@ -1304,6 +1304,9 @@ export const i18n = {
     },
 
     // Stats
+    OpenDotaAccessError: {
+      en: "Error while accessing server data.",
+    },
     NoMatchData: {
       en: "No recent match data available for this player.",
       de: "Für diesen Spieler sind keine aktuellen Spieldaten verfügbar.",
