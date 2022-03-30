@@ -468,10 +468,11 @@ export const i18n = {
       es: "solo suscriptores",
     },
     Coaching: {
-      en: "Coaching",
+      en: "Voice coaching",
+      // All to be updated
       fr: "Coaching",
       de: "Coaching",
-      ru: "Коучинг", // OK
+      ru: "Коучинг",
       id: "Coaching",
       fil: "Coaching",
       zh: "辅导",
@@ -479,13 +480,14 @@ export const i18n = {
       es: "Entrenamiento",
     },
     CoachingTooltip: {
-      en: "Coaching for hero picks, item builds, own hero (voice) and enemy heroes (voice) can be set here.",
-      de: "Coaching für Heldenauswahl, Item-Builds, eigener Held (Stimme) und feindliche Helden (Stimme) können hier eingestellt werden.",
-      fr: "L'entraînement pour les choix de héros, les constructions d'objets et les héros ennemis peut être défini ici.", // Needs to be updated
-      ru: "Коучинг для выбранных героев, сборки предметов, вашего героя (голос) и вражеских героев (голос) можно настроить здесь.", // Needs to be updated
-      id: "Pelatihan untuk memilih pahlawan, item membangun dan pahlawan musuh dapat diatur di sini.", // Needs to be updated
+      en: "Voice coaching for own hero and enemy heroes can be set here.",
+      // All to be updated (de is done)
+      de: "Coaching (Stimme) für eigener Held und feindliche Helden kann hier eingestellt werden.",
+      fr: "L'entraînement pour les choix de héros, les constructions d'objets et les héros ennemis peut être défini ici.",
+      ru: "Коучинг для выбранных героев, сборки предметов, вашего героя (голос) и вражеских героев (голос) можно настроить здесь.",
+      id: "Pelatihan untuk memilih pahlawan, item membangun dan pahlawan musuh dapat diatur di sini.",
       fil: "Coaching para sa hero picks, item builds, own hero (voice) at enemy heroes (voice) ay pwede ma i-set dito.",
-      zh: "可以在这里设置英雄选择、物品推荐和双方英雄相关内容（语音）的指导。", // Needs to be updated
+      zh: "可以在这里设置英雄选择、物品推荐和双方英雄相关内容（语音）的指导。",
       br: "Treinamento para seleção de heróis, construção de itens, próprio herói (voz) e heróis inimigos (voz) podem ser configurados aqui.",
       es: "Aquí se puede configurar el entrenador para elegir héroes, item builds, héroe propio (voz) y héroes enemigos (voz)",
     },
@@ -501,26 +503,26 @@ export const i18n = {
       es: "Elecciones de héroes e item builds",
     },
     OwnHeroVoice: {
-      en: "Own hero (voice)", // OK
+      en: "Own hero", // OK
       de: "Eigener Held", // OK
-      fr: "Propre héros (voix)",
-      ru: "Ваш герой (голос)", // OK, short form: "Собственный герой (голос)"
-      id: "Pahlawan sendiri (suara)",
-      fil: "Saliring hero (boses)",
-      zh: "自己的英雄（语音）",
-      br: "Próprio herói (voz)",
-      es: "Héroe propio (voz)",
+      fr: "Propre héros",
+      ru: "Ваш герой", // OK, short form: "Собственный герой (голос)"
+      id: "Pahlawan sendiri",
+      fil: "Saliring hero",
+      zh: "自己的英雄",
+      br: "Próprio herói",
+      es: "Héroe propio",
     },
     EnemyHeroesVoice: {
-      en: "Enemy heroes (voice)", // OK
+      en: "Enemy heroes", // OK
       de: "Feindliche Helden", // OK
-      fr: "Héros ennemis (voix)",
-      ru: "Вражеские герои (голос)", // OK
-      id: "Pahlawan musuh (suara)",
-      fil: "Enemy heroes (boses)",
-      zh: "敌方英雄（语音）",
-      br: "Heróis inimigos (voz)",
-      es: "Héroes enemigos (voz)",
+      fr: "Héros ennemis",
+      ru: "Вражеские герои", // OK
+      id: "Pahlawan musuh",
+      fil: "Enemy heroes",
+      zh: "敌方英雄",
+      br: "Heróis inimigos",
+      es: "Héroes enemigos",
     },
     Notifications: {
       en: "Notifications", // OK
@@ -699,15 +701,15 @@ export const i18n = {
       es: "Compartir automáticamente",
     },
     RoshanAndAegis: {
-      en: "Roshan & Aegis", // OK
-      de: "Roshan & Aegis", // OK
-      fr: "Roshan & Aegis",
-      ru: "Рошан и Аегис", // OK (Рошан и Эгида)
-      id: "Roshan & Aegis",
-      fil: "Roshan at Aegis",
+      en: "Roshan & aegis", // OK
+      de: "Roshan & aegis", // OK
+      fr: "Roshan & aegis",
+      ru: "Рошан и aегис", // OK (Рошан и Эгида)
+      id: "Roshan & aegis",
+      fil: "Roshan at aegis",
       zh: "肉山和防御符文",
-      br: "Roshan e Aegis",
-      es: "Roshan y Aegis",
+      br: "Roshan e aegis",
+      es: "Roshan y aegis",
     },
     PerformanceTracker: {
       en: "Performance tracker", // OK
