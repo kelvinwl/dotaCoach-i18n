@@ -120,6 +120,17 @@ export function updateHTML() {
   }
 }
 
+/**
+ * Function update static HTML elements declared as 'i18n' within an element
+ */
+export function updateHTMLElement(htmlElement: HTMLElement) {
+  const elements = htmlElement.getElementsByClassName("i18n");
+  for (const element of elements) {
+    element.innerHTML = t(element.id.replace("i18n_", "").replace("i18x_", ""));
+  }
+}
+
 export function div(code: string) {
+  DotaLogger.log(`*** i18n.div(${code})`);
   return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
 }
