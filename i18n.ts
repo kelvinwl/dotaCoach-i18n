@@ -131,6 +131,6 @@ export function updateHTMLElement(htmlElement: HTMLElement) {
 }
 
 export function div(code: string) {
-  DotaLogger.log(`*** i18n.div(${code})`);
+  /*DotaLogger.log(`*** i18n.div(${code})`);*/
   return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
 }
