@@ -9,30 +9,24 @@ import * as DotaLogger from "../../src/utility/log";
 let currentLanguage = "en";
 
 /**
- * Function returns the text in the right language
+ * Function returns the text for a token in the currently set language language
  *
  * @param code
  * @returns
  */
-export function t(code: string) {
-  if (!Object.prototype.hasOwnProperty.call(i18n.text, code)) {
-    DotaLogger.log(`18n.t(): Invalid code '${code}'`);
+export function t(token: string): string {
+  if (!Object.prototype.hasOwnProperty.call(i18n.text, token)) {
+    DotaLogger.log(`18n.t(): Invalid code '${token}'`);
     const err = new Error();
     console.warn(err.stack);
-    code = "ERROR";
+    token = "ERROR";
   }
 
-  if (Object.prototype.hasOwnProperty.call(i18n.text[code], currentLanguage)) {
-    return i18n.text[code][currentLanguage];
+  if (Object.prototype.hasOwnProperty.call(i18n.text[token], currentLanguage)) {
+    return i18n.text[token][currentLanguage];
   } else {
-    return i18n.text[code].en;
+    return i18n.text[token].en;
   }
-
-  /*if (currentLanguage == "en") {
-    return code;
-  } else {
-    return code;
-  }*/
 }
 
 /**
@@ -114,23 +108,56 @@ export function getLanguages(): Language[] {
  * Function update all static HTML elements declared as 'i18n' (class needs to be set to 'i18n' and html id equlas to i18n_<JSON code>)
  */
 export function updateHTML() {
-  const elements = document.getElementsByClassName("i18n");
-  for (const element of elements) {
-    element.innerHTML = t(element.id.replace("i18n_", "").replace("i18x_", ""));
-  }
+  updateHTMLElement(document.body);
 }
 
 /**
- * Function update static HTML elements declared as 'i18n' within an element
+ * Function updates the element itself if it as i18n element (has class 'i18n') or otherwise all contained elements
+ *
+ * @param htmlElement element to be update
  */
 export function updateHTMLElement(htmlElement: HTMLElement) {
-  const elements = htmlElement.getElementsByClassName("i18n");
-  for (const element of elements) {
-    element.innerHTML = t(element.id.replace("i18n_", "").replace("i18x_", ""));
+  if (htmlElement.classList.contains("i18n")) {
+    // Update this  element
+    updatei18nElement(htmlElement);
+  } else {
+    const elements = htmlElement.getElementsByClassName("i18n");
+    for (const element of elements) {
+      updatei18nElement(element);
+    }
   }
 }
 
-export function div(code: string) {
+function updatei18nElement(element: Element) {
+  const i18nToken = element.id.replace("i18n_", "").replace("i18x_", "");
+  const innerHTML = t(i18nToken);
+
+  element.innerHTML = innerHTML;
+  configureWebLinks(element);
+}
+
+function configureWebLinks(element: Element) {
+  const i18nToken = element.id.replace("i18n_", "").replace("i18x_", "");
+  let linkId = 0;
+
+  // Create unique IDs for webLinks
+  let innerHTML = element.innerHTML;
+  innerHTML = innerHTML.replace(/id="webLink"/g, () => {
+    return `id="webLink-${i18nToken}-${linkId++}"`;
+  });
+  element.innerHTML = innerHTML;
+
+  // Add listeners for webLinks
+  for (let i = 0; i < linkId; i++) {
+    console.log(`*** webLink-${i18nToken}-${i}`);
+    const e = document.getElementById(`webLink-${i18nToken}-${i}`);
+    e.addEventListener("click", () => {
+      overwolf.utils.openUrlInOverwolfBrowser(i18n.text[i18nToken].webLinks[i]);
+    });
+  }
+}
+
+export function div(code: string): string {
   /*DotaLogger.log(`*** i18n.div(${code})`);*/
   return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
 }
