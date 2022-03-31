@@ -762,7 +762,7 @@ export const i18n = {
       ru: "Цель слева:", // OK
       id: "Tujuan kiri:",
       fil: "Goal left:",
-      zh: "左侧目标:", 
+      zh: "左侧显示:", 
       br: "Objetivo à esquerda: ",
       es: "Objetivo a la izquierda",
     },
@@ -773,7 +773,7 @@ export const i18n = {
       ru: "Цель справа:", // OK
       id: "Tujuan yang tepat:",
       fil: "Goal right:",
-      zh: "右侧目标:", 
+      zh: "右侧显示:", 
       br: "Objetivo à direita: ",
       es: "Objetivo a la derecha",
     },
