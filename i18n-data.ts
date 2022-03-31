@@ -313,7 +313,7 @@ export const i18n = {
       fr: "canal",
       ru: "Канал",
       fil: "channel",
-      zh: "channel", // 不太确定
+      zh: "版本", 
       id: "saluran",
       br: "canal",
       es: "canal",
@@ -324,7 +324,7 @@ export const i18n = {
       fr: "production",
       ru: "Разработка",
       fil: "produksyon",
-      zh: "production", // 不太确定
+      zh: "生产环境", 
       id: "produksi",
       br: "produção",
       es: "producción",
@@ -722,7 +722,7 @@ export const i18n = {
       ru: "Показатель КПД", // OK, long form: "Трекер производительности"
       id: "Pelacak kinerja",
       fil: "Performance tracker",
-      zh: "Performance tracker", //不确定
+      zh: "个人表现追踪", 
       br: "Rastreador de performance",
       es: "Rastreador de rendimiento",
     },
@@ -733,7 +733,7 @@ export const i18n = {
       ru: "Настройте средство отслеживания в соответствии со своими потребностями. Обратите внимание, что вид трекера зависит от вашей подписки на Dota Plus в Dota 2.",
       id: "Konfigurasikan pelacak kinerja sesuai kebutuhan Anda. Perhatikan bahwa tata letak tergantung pada langganan Dota Plus Anda di Dota 2.",
       fil: "I-configure ang performance tracker sa pangangailangan mo. Note na ang layout ay naka depende sa iyong Dota Plus susbscription sa Dota 2.",
-      zh: "Configure the performance tracker to your needs. Note that the layout depends on your Dota Plus subscription in Dota 2.", //同上不确定
+      zh: "根据您的需要配置个人表现追踪。注意：个人表现追踪的位置取决于您是不是DotaPlus订阅者", 
       br: "Configure o rastreador de performance de acordo com suas necessidades. Note que o layout depende de sua assinatura Dota Plus no Dota 2.",
       es: "Configura el rastreador de rendimiento según tus necesidades. Ten en cuenta que el diseño depende de tu suscripción a Dota Plus en Dota 2.",
     },
@@ -744,7 +744,7 @@ export const i18n = {
       ru: "Показать трекер",
       id: "Tampilkan pelacak",
       fil: "Ipakita ang tracker",
-      zh: "Show tracker", //同上不确定
+      zh: "显示个人表现追踪", 
       br: "Mostrar rastreador",
       es: "Motrar rastreador",
     },
@@ -766,7 +766,7 @@ export const i18n = {
       ru: "Цель слева:", // OK
       id: "Tujuan kiri:",
       fil: "Goal left:",
-      zh: "Goal left:", //不确定
+      zh: "左侧显示:", 
       br: "Objetivo à esquerda: ",
       es: "Objetivo a la izquierda",
     },
@@ -777,7 +777,7 @@ export const i18n = {
       ru: "Цель справа:", // OK
       id: "Tujuan yang tepat:",
       fil: "Goal right:",
-      zh: "Goal right:", //不确定
+      zh: "右侧显示:", 
       br: "Objetivo à direita: ",
       es: "Objetivo a la derecha",
     },
