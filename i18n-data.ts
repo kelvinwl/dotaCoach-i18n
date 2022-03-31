@@ -1317,17 +1317,6 @@ export const i18n = {
       br: "Erro ao acessar o servidor.",
       es: "Error al acceder al servidor.",
     },
-    NoMatchData: {
-      en: "No recent match data available for this player.",
-      de: "Für diesen Spieler sind keine aktuellen Spieldaten verfügbar.",
-      fr: "Aucune donnée de match récente n'est disponible pour ce joueur.",
-      ru: "У этого игрока не найдены последние матчи",
-      id: "Tidak ada data pencocokan terbaru yang tersedia untuk pemain ini.",
-      fil: "Walang recent match data na available para sa player na ito.",
-      zh: "该玩家没有可用的比赛数据。",
-      br: "Não há dados de partida recentes disponíveis para este jogador.",
-      es: "No hay datos de partidos recientes disponibles para este jugador.",
-    },
     PrivateProfile: {
       en: "Player profile is private.",
       de: "Das Spielerprofil ist privat.",
