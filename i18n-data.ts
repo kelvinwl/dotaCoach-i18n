@@ -8,6 +8,7 @@
  * Instruction for webLinks:
  *     - Add HTML elements with an id set to "webLink"
  *     - Add a field webLinks, containing an array of http(s) links
+ *     - Variables can be added optionally, e.g. to write "5 days ago". The corresponding i18n-data would be "$ days ago"
  *
  * Source for country codes: "https://www.localeplanet.com/icu/"
  *
@@ -38,8 +39,504 @@ export const i18n = {
 
   // Translation of text for the Dota Coach App
   text: {
+    // Desktop window
+    // 'Notifications' exists already in settings
+    MatchAnalytics: {
+      en: "Match Analytics",
+      de: "Spielanalyse",
+      fr: "Analyse des matchs",
+      ru: "Аналитика матчей", // #toBeUpdated
+      id: "Match Analytics", // #toBeUpdated
+      fil: "Itugma ang Analytics", // #toBeUpdated
+      zh: "匹配分析", // #toBeUpdated
+      br: "Análise de correspondência", // #toBeUpdated
+      es: "Análisis de partidos", // #toBeUpdated
+    },
+
+    // Match analytics
+    WELCOME_TO_MATCH_ANALYTICS: {
+      en: "WELCOME TO MATCH ANALYTICS",
+      de: "WILLKOMMEN BEI DER SPIELANALYSE",
+      fr: "BIENVENUE DANS L'ANALYSE DES MATCHS",
+      ru: "ДОБРО ПОЖАЛОВАТЬ В АНАЛИТИКУ МАТЧА", // #toBeUpdated
+      id: "SELAMAT DATANG UNTUK MENCOCOKKAN ANALISIS", // #toBeUpdated
+      fil: "MALIGAYANG PAGDATING UPANG TUMUGMA SA ANALYTICS", // #toBeUpdated
+      zh: "欢迎使用匹配分析", // #toBeUpdated
+      br: "BEM-VINDO AO MATCH ANALYTICS", // #toBeUpdated
+      es: "BIENVENIDO A ANÁLISIS DE PARTIDOS", // #toBeUpdated
+    },
+    MatchAnalyticsIntro: {
+      en: "Play a match with Dota Coach to be able to use Match Analytics and to compare your performance with other players.",
+      de: "Spiele ein Match mit Dota Coach, um die Spielanalyse nutzen zu können und deine Leistung mit anderen Spielern zu vergleichen.",
+      fr: "Jouez un match avec Dota Coach pour pouvoir utiliser l'analyse des matchs et comparer vos performances avec celles des autres joueurs.",
+      ru: "Сыграйте матч с тренером по Dota, чтобы использовать аналитику матчей и сравнивать свои результаты с результатами других игроков.", // #toBeUpdated
+      id: "Mainkan pertandingan dengan Dota Coach untuk dapat menggunakan Match Analytics dan membandingkan kinerja Anda dengan pemain lain.", // #toBeUpdated
+      fil: "Maglaro ng isang tugma sa Dota Coach upang magamit ang Match Analytics at upang ihambing ang iyong pagganap sa iba pang mga manlalaro.", // #toBeUpdated
+      zh: "与Dota Coach进行一场比赛，即可使用比赛分析并比较你与其他牌手的表现。", // #toBeUpdated
+      br: "Jogue uma partida com o Dota Coach para poder usar o Match Analytics e comparar seu desempenho com outros jogadores.", // #toBeUpdated
+      es: "Juega un partido con Dota Coach para poder usar Match Analytics y comparar tu rendimiento con el de otros jugadores.", // #toBeUpdated
+    },
+    SupportedLobbies: {
+      en: "Supported lobbies",
+      de: "Unterstützte Lobbys", // #toBeUpdated
+      fr: "Lobbies soutenue", // #toBeUpdated
+      ru: "Поддерживаемые лобби", // #toBeUpdated
+      id: "Lobi yang didukung", // #toBeUpdated
+      fil: "Mga sinusuportahang lobbies", // #toBeUpdated
+      zh: "支持的大厅", // #toBeUpdated
+      br: "Lobbies apoiados", // #toBeUpdated
+      es: "Lobbies compatibles", // #toBeUpdated
+    },
+    SupportedLobbiesList: {
+      en: "Ranked and unranked.",
+      de: "Ranked and unranked.",
+      // #toBeUpdated if different in your language
+    },
+    SupportedRankedModes: {
+      en: "Supported ranked modes:",
+      de: "Unterstützte Ranked Modi:", // #toBeUpdated
+      fr: "Modes Ranked soutenus :", // #toBeUpdated
+      ru: "Поддерживаемые рейтинговые режимы:", // #toBeUpdated
+      id: "Mode peringkat yang didukung:", // #toBeUpdated
+      fil: "Sinusuportahang mga mode ng ranggo:", // #toBeUpdated
+      zh: "支持的排名模式：", // #toBeUpdated
+      br: "Modos de classificação suportados:", // #toBeUpdated
+      es: "Modos clasificados compatibles:", // #toBeUpdated
+    },
+
+    SupportedRankedModesList: {
+      en: "All pick, captains mode and random draft.",
+    },
+
+    SupportedUnrankgedModes: {
+      en: "Supported unranked modes:",
+      de: "Unterstützte unranked Modi:", // #toBeUpdated
+      fr: "Modes unranked pris en charge :", // #toBeUpdated
+      ru: "Поддерживаемые режимы без рейтинга:", // #toBeUpdated
+      id: "Mode unranked yang didukung:", // #toBeUpdated
+      fil: "Mga suportadong hindi naka-ranggo na mga mode:", // #toBeUpdated
+      zh: "支持的未排序模式：", // #toBeUpdated
+      br: "Modos não classificados suportados:", // #toBeUpdated
+      es: "Modos no clasificados compatibles:", // #toBeUpdated
+    },
+
+    SupportedUntrankedModesList: {
+      en: "All pick, turbo, single draft, random draft, all random.",
+    },
+
+    MATCH_ANALYTICS: {
+      en: "MATCH ANALYTICS",
+      de: "SPIELANALYSE",
+      fr: "ANALYSE DES MATCHS",
+      ru: "АНАЛИТИКА МАТЧЕЙ", // #toBeUpdated
+      id: "ANALISIS PERTANDINGAN", // #toBeUpdated
+      fil: "TUMUGMA SA ANALYTICS", // #toBeUpdated
+      zh: "匹配分析", // #toBeUpdated
+      br: "ANÁLISE DE CORRESPONDÊNCIA", // #toBeUpdated
+      es: "ANÁLISIS DE PARTIDOS", // #toBeUpdated
+    },
+    You: {
+      en: "You",
+      de: "Du",
+      fr: "Toi",
+      ru: "Ты", // #toBeUpdated
+      id: "Anda", // #toBeUpdated
+      fil: "Ikaw", // #toBeUpdated
+      zh: "你", // #toBeUpdated
+      br: "Você", // #toBeUpdated
+      es: "Tú", // #toBeUpdated
+    },
+    Benchmark: {
+      en: "Benchmark",
+      de: "Benchmark",
+      fr: "Repère",
+      ru: "Контрольный показатель", // #toBeUpdated
+      id: "Benchmark", // #toBeUpdated
+      fil: "Benchmark", // #toBeUpdated
+      zh: "基准", // #toBeUpdated
+      br: "Referência", // #toBeUpdated
+      es: "Referencia", // #toBeUpdated
+    },
+    InMatch: {
+      en: "In match",
+      de: "Im Spiel",
+      fr: "En match",
+      ru: "В матче", // #toBeUpdated
+      id: "Dalam pertandingan", // #toBeUpdated
+      fil: "Sa tugma", // #toBeUpdated
+      zh: "在比赛中", // #toBeUpdated
+      br: "Em jogo", // #toBeUpdated
+      es: "En partido", // #toBeUpdated
+    },
+    percentile: {
+      en: "percentile",
+      de: "Perzentil",
+      fr: "percentile",
+      ru: "процентиль", // #toBeUpdated
+      id: "persentil", // #toBeUpdated
+      fil: "percentile", // #toBeUpdated
+      zh: "百分位数", // #toBeUpdated
+      br: "percentil", // #toBeUpdated
+      es: "percentil", // #toBeUpdated
+    },
+    percentile75: {
+      en: "75 percentile",
+      de: "75 Perzentil", // #toBeUpdated
+      fr: "75 centile", // #toBeUpdated
+      ru: "75 процентиль", // #toBeUpdated
+      id: "75 persentil", // #toBeUpdated
+      fil: "75 porsiyento", // #toBeUpdated
+      zh: "75 百分位数", // #toBeUpdated
+      br: "percentil 75", // #toBeUpdated
+      es: "percentil 75", // #toBeUpdated
+    },
+    percentile25: {
+      en: "25 percentile",
+      de: "25 Perzentil", // #toBeUpdated
+      fr: "25 centile", // #toBeUpdated
+      ru: "25 процентиль", // #toBeUpdated
+      id: "25 persentil", // #toBeUpdated
+      fil: "25 porsiyento", // #toBeUpdated
+      zh: "25百分位数", // #toBeUpdated
+      br: "percentil 25", // #toBeUpdated
+      es: "percentil 25", // #toBeUpdated
+    },
+    LaningPhase: {
+      en: "Laning phase",
+      de: "Laning-Phase", // #toBeUpdated
+      fr: "Phase d'atterrissage", // #toBeUpdated
+      ru: "Фаза лайнинга", // #toBeUpdated
+      id: "fase laning", // #toBeUpdated
+      fil: "Laning phase", // #toBeUpdated
+      zh: "着陆阶段", // #toBeUpdated
+      br: "Fase de pouso", // #toBeUpdated
+      es: "Fase de aterrizaje", // #toBeUpdated
+    },
+    Denies: {
+      en: "Denies",
+      de: "Denies", // #toBeUpdated
+      fr: "Denies", // #toBeUpdated
+      ru: "отрицает", // #toBeUpdated
+      id: "Menyangkal", // #toBeUpdated
+      fil: "Tinanggihan", // #toBeUpdated
+      zh: "否认", // #toBeUpdated
+      br: "Nega", // #toBeUpdated
+      es: "Niega", // #toBeUpdated
+    },
+    Kills: {
+      en: "Kills",
+      de: "Kills", // #toBeUpdated
+      fr: "Kills", // #toBeUpdated
+      ru: "Убивает", // #toBeUpdated
+      id: "Membunuh", // #toBeUpdated
+      fil: "Kills", // #toBeUpdated
+      zh: "击杀", // #toBeUpdated
+      br: "Mortes", // #toBeUpdated
+      es: "muertes", // #toBeUpdated
+    },
+    MidLateGame: {
+      en: "Mid & late game",
+      de: "Mittleres und spätes Spiel", // #toBeUpdated
+      fr: "Mid & late game", // #toBeUpdated
+      ru: "Средняя и поздняя игра", // #toBeUpdated
+      id: "Pertengahan & akhir permainan", // #toBeUpdated
+      fil: "Mid at huli na laro", // #toBeUpdated
+      zh: "游戏中后期", // #toBeUpdated
+      br: "Jogo médio e final", // #toBeUpdated
+      es: "Juego medio y tardío", // #toBeUpdated
+    },
+    Deaths: {
+      en: "Deaths",
+      de: "Tode",
+      fr: "Morts",
+      ru: "Смерти", // #toBeUpdated
+      id: "Kematian", // #toBeUpdated
+      fil: "Pagkamatay", // #toBeUpdated
+      zh: "死亡", // #toBeUpdated
+      br: "Mortes", // #toBeUpdated
+      es: "Defunciones", // #toBeUpdated
+    },
+    GPM: {
+      en: "GPM",
+    },
+    XPM: {
+      en: "XPM",
+    },
+    LargeItems: {
+      en: "Large items",
+      de: "Große Gegenstände", // #toBeUpdated
+      fr: "Articles de grande taille", // #toBeUpdated
+      ru: "Крупные предметы", // #toBeUpdated
+      id: "Item besar", // #toBeUpdated
+      fil: "Malaking mga item", // #toBeUpdated
+      zh: "大件物品", // #toBeUpdated
+      br: "Itens grandes", // #toBeUpdated
+      es: "Artículos grandes", // #toBeUpdated
+    },
+    Item: {
+      en: "Item",
+      de: "Gegenstand", // #toBeUpdated
+      fr: "Article", // #toBeUpdated
+      ru: "Предмет", // #toBeUpdated
+      id: "Butir", // #toBeUpdated
+      fil: "Item", // #toBeUpdated
+      zh: "物品", // #toBeUpdated
+      br: "Item", // #toBeUpdated
+      es: "Ítem", // #toBeUpdated
+    },
+    BenchmarkMedian: {
+      en: "Benchmark<br>Median",
+      de: "Benchmark<br>Mittelwert", // #toBeUpdated
+      fr: "Médiane de<br>référence", // #toBeUpdated
+      ru: "Медиана контрольного<br>показателя", // #toBeUpdated
+      id: "Acuan<br>Median", // #toBeUpdated
+      fil: "Benchmark<br>Median", // #toBeUpdated
+      zh: "基准中位数", // #toBeUpdated
+      br: "Mediana de<br>referência", // #toBeUpdated
+      es: "Mediana de<br>referencia", // #toBeUpdated
+
+      /*en: "Median",
+      de: "Median", // #toBeUpdated
+      fr: "Médiane", // #toBeUpdated
+      ru: "Медиана", // #toBeUpdated
+      id: "Median", // #toBeUpdated
+      fil: "Median", // #toBeUpdated
+      zh: "中位数", // #toBeUpdated
+      br: "Mediana", // #toBeUpdated
+      es: "Mediana", // #toBeUpdated*/
+    },
+    Best: {
+      en: "Best",
+      de: "Am besten",
+      fr: "Meilleur",
+      ru: "Лучший", // #toBeUpdated
+      id: "Terbaik", // #toBeUpdated
+      fil: "Pinakamahusay", // #toBeUpdated
+      zh: "最好", // #toBeUpdated
+      br: "Melhor", // #toBeUpdated
+      es: "Mejor", // #toBeUpdated
+    },
+    Delta: {
+      // 'Delta' compared to benchmark / your results
+      en: "Delta",
+      de: "Abweichung", // #toBeUpdated
+      fr: "Différence", // #toBeUpdated
+      ru: "Дельта", // #toBeUpdated
+      id: "kuala", // #toBeUpdated
+      fil: "Delta", // #toBeUpdated
+      zh: "三角洲", // #toBeUpdated
+      br: "Delta", // #toBeUpdated
+      es: "Delta", // #toBeUpdated
+    },
+    SelectMatch: {
+      en: "Select Match",
+      de: "Wähle Spiel",
+      fr: "Choisir Jeu",
+      ru: "Выберите матч", // #toBeUpdated
+      id: "Pilih Cocok", // #toBeUpdated
+      fil: "Piliin ang Pagtutugma", // #toBeUpdated
+      zh: "选择 “匹配”", // #toBeUpdated
+      br: "Selecionar correspondência", // #toBeUpdated
+      es: "Seleccionar partido", // #toBeUpdated
+    },
+    SelectBenchmark: {
+      en: "Select Benchmark",
+      de: "Wähle Benchmark",
+      fr: "Sélectionnez Benchmark",
+      ru: "Выберите эталон", // #toBeUpdated
+      id: "Pilih Tolok Ukur", // #toBeUpdated
+      fil: "Piliin ang Benchmark", // #toBeUpdated
+      zh: "选择基准", // #toBeUpdated
+      br: "Selecione o benchmark", // #toBeUpdated
+      es: "Seleccione Benchmark", // #toBeUpdated
+    },
+    NoBenchmarkData: {
+      en: "Attention: Peer benchmark data is currently not available",
+      de: "Achtung: Peer-Benchmark-Daten sind derzeit nicht verfügbar", // #toBeUpdated
+      fr: "Attention : Les données de référence des pairs ne sont actuellement pas disponibles", // #toBeUpdated
+      ru: "Внимание: данные одноранговых тестов в настоящее время недоступны", // #toBeUpdated
+      id: "Perhatian: Data patokan peer saat ini tidak tersedia", // #toBeUpdated
+      fil: "Pansin: Kasalukuyang hindi magagamit ang data ng benchmark ng Peer", // #toBeUpdated
+      zh: "注意：同行基准测试数据目前不可用", // #toBeUpdated
+      br: "Atenção: Os dados de benchmark de pares não estão disponíveis no momento", // #toBeUpdated
+      es: "Atención: los datos de referencia de pares no están disponibles actualmente", // #toBeUpdated
+    },
+    RetryFetchBenchmark: {
+      en: "Try to fetch benchmark data again",
+      de: "Verusche Benchmark-Daten erneut abzurufen", // #toBeUpdated
+      fr: "Essayez à nouveau de charger les données de référence", // #toBeUpdated
+      ru: "Попробуйте снова получить контрольные данные", // #toBeUpdated
+      id: "Cobalah untuk mengambil data patokan lagi", // #toBeUpdated
+      fil: "Subukang kunin muli ang data ng benchmark", // #toBeUpdated
+      zh: "尝试再次获取基准数据", // #toBeUpdated
+      br: "Tente buscar dados de referência novamente", // #toBeUpdated
+      es: "Intente recuperar datos de referencia de nuevo", // #toBeUpdated
+    },
+    Today: {
+      en: "Today",
+      de: "Heute",
+      fr: "Aujourd'hui",
+      ru: "Сегодня", // #toBeUpdated
+      id: "Hari ini", // #toBeUpdated
+      fil: "Ngayon", // #toBeUpdated
+      zh: "今天", // #toBeUpdated
+      br: "Hoje", // #toBeUpdated
+      es: "Hoy", // #toBeUpdated
+    },
+    DaysAgo: {
+      // used to display "5 days ago" ; '$' sign represents number of days
+      en: "$ days ago",
+      de: "Vor $ Tagen", // #toBeUpdated
+      fr: "Il y a $ jours", // #toBeUpdated
+      ru: "$ дней назад", // #toBeUpdated
+      id: "$ hari lalu", // #toBeUpdated
+      fil: "$ mga araw na nakalipas", // #toBeUpdated
+      zh: "$ 天前", // #toBeUpdated
+      br: "há $ dias", // #toBeUpdated
+      es: "Hace $ días", // #toBeUpdated
+    },
+    Peers: {
+      en: "Peers",
+      de: "Peers", // #toBeUpdated
+      fr: "Pairs", // #toBeUpdated
+      ru: "сверстники", // #toBeUpdated
+      id: "rekan-rekan", // #toBeUpdated
+      fil: "Mga kapantay", // #toBeUpdated
+      zh: "同行", // #toBeUpdated
+      br: "Colegas", // #toBeUpdated
+      es: "Pares", // #toBeUpdated
+    },
+    Result: {
+      en: "Result",
+      de: "Ergebnis",
+      fr: "Résultat",
+      ru: "Результат", // #toBeUpdated
+      id: "Hasil", // #toBeUpdated
+      fil: "Resulta", // #toBeUpdated
+      zh: "结果", // #toBeUpdated
+      br: "Resultado", // #toBeUpdated
+      es: "Resultado", // #toBeUpdated
+    },
+    Won: {
+      en: "Won",
+      de: "Gewonnen",
+      fr: "Gagné",
+      ru: "Вона", // #toBeUpdated
+      id: "Menang", // #toBeUpdated
+      fil: "Won", // #toBeUpdated
+      zh: "赢了", // #toBeUpdated
+      br: "Ganhou", // #toBeUpdated
+      es: "Ganó", // #toBeUpdated
+    },
+    Lost: {
+      en: "Lost",
+      de: "Verloren", // #toBeUpdated
+      fr: "Perdu", // #toBeUpdated
+      ru: "Потерянный", // #toBeUpdated
+      id: "Hilang", // #toBeUpdated
+      fil: "Nawala", // #toBeUpdated
+      zh: "迷路了", // #toBeUpdated
+      br: "Perdido", // #toBeUpdated
+      es: "Perdido", // #toBeUpdated
+    },
+    Length: {
+      en: "Length",
+      de: "Dauer",
+      fr: "Durée",
+      ru: "Длина", // #toBeUpdated
+      id: "Panjangnya", // #toBeUpdated
+      fil: "Haba", // #toBeUpdated
+      zh: "长度", // #toBeUpdated
+      br: "Comprimento", // #toBeUpdated
+      es: "Longitud", // #toBeUpdated
+    },
+    Mode: {
+      en: "Mode",
+      de: "Modus", // #toBeUpdated
+      fr: "Mode", // #toBeUpdated
+      ru: "Режим", // #toBeUpdated
+      id: "Modus", // #toBeUpdated
+      fil: "Mode", // #toBeUpdated
+      zh: "模式", // #toBeUpdated
+      br: "Modo", // #toBeUpdated
+      es: "Moda", // #toBeUpdated
+    },
+    ID: {
+      // Match ID
+      en: "ID",
+      de: "ID",
+      fr: "ID",
+      ru: "ID", // #toBeUpdated
+      id: "ID", // #toBeUpdated
+      fil: "ID", // #toBeUpdated
+      zh: "身份证", // #toBeUpdated
+      br: "ID", // #toBeUpdated
+      es: "ID", // #toBeUpdated
+    },
+    OpenDota: {
+      en: "OpenDota",
+    },
+    Hero: {
+      en: "Hero",
+      de: "Held",
+      fr: "Héro",
+      ru: "герой", // #toBeUpdated
+      id: "Pahlawan", // #toBeUpdated
+      fil: "Hero", // #toBeUpdated
+      zh: "英雄", // #toBeUpdated
+      br: "Herói", // #toBeUpdated
+      es: "Héroe", // #toBeUpdated
+    },
+    Steam: {
+      en: "Steam",
+    },
+    Heropedia: {
+      en: "Heropedia",
+      de: "Heropedia", // #toBeUpdated
+      fr: "Héropedia", // #toBeUpdated
+      ru: "Геропедия", // #toBeUpdated
+      id: "Heropedia", // #toBeUpdated
+      fil: "Heropedia", // #toBeUpdated
+      zh: "Heropedia", // #toBeUpdated
+      br: "Heropedia", // #toBeUpdated
+      es: "Heropedia", // #toBeUpdated
+    },
+    Coaching: {
+      en: "Coaching",
+      de: "Coaching", // #toBeUpdated
+      fr: "Coaching", // #toBeUpdated
+      ru: "коучинг", // #toBeUpdated
+      id: "Coaching", // #toBeUpdated
+      fil: "Pagtuturo", // #toBeUpdated
+      zh: "辅导", // #toBeUpdated
+      br: "Coaching", // #toBeUpdated
+      es: "Coaching", // #toBeUpdated
+    },
+    GetPersonalCoach: {
+      en: "Get personal coach",
+      de: "Hole dir einen persönlichen Coach",
+      fr: "Obtenez un coach personnel",
+      ru: "Получите персонального тренера", // #toBeUpdated
+      id: "Dapatkan pelatih pribadi", // #toBeUpdated
+      fil: "Kumuha ng personal na coach", // #toBeUpdated
+      zh: "找私人教练", // #toBeUpdated
+      br: "Obtenha um treinador pessoal", // #toBeUpdated
+      es: "Consigue un entrenador personal", // #toBeUpdated
+    },
+    PARSE_MATCH: {
+      en: "PARSE MATCH",
+      de: "PARSE SPIEL", // #toBeUpdated
+      fr: "MATCH D'ANALYSE", // #toBeUpdated
+      ru: "СИНТАКСИЧЕСКИЙ МАТЧ", // #toBeUpdated
+      id: "MENGURAI PERTANDINGAN", // #toBeUpdated
+      fil: "I-PARSE ANG TUGMA", // #toBeUpdated
+      zh: "解析匹配", // #toBeUpdated
+      br: "PARSE MATCH", // #toBeUpdated
+      es: "ANALIZAR COINCIDENCIA", // #toBeUpdated
+    },
+
     // InGame window
-    "Show/hide": {
+    ShowHide: {
       en: "Show/hide",
       de: "Ein-/Ausblenden",
       fr: "Afficher/masquer",
@@ -50,7 +547,7 @@ export const i18n = {
       br: "Mostrar/ocultar",
       es: "Mostrar/ocultar",
     },
-    "Sign in": {
+    SignIn: {
       en: "Sign in",
       de: "Anmelden",
       fr: "Identifiez-vous",
@@ -61,7 +558,7 @@ export const i18n = {
       br: "Registrar",
       es: "Ingresar",
     },
-    "Logged in": {
+    LoggedIn: {
       en: "Logged in",
       de: "Angemeldet",
       fr: "Connecté",
@@ -72,7 +569,7 @@ export const i18n = {
       br: "Logado",
       es: "Sesión iniciada",
     },
-    "Logged in as": {
+    LoggedInAs: {
       en: "Logged in as",
       de: "Angemeldet als",
       fr: "Connecté en tant que",
@@ -83,7 +580,7 @@ export const i18n = {
       br: "Logado como",
       es: "Conectado como",
     },
-    "Create ballot": {
+    CreateBallot: {
       en: "Create ballot",
       de: "Stimmzettel erstellen",
       fr: "Créer un bulletin de vote",
@@ -94,7 +591,7 @@ export const i18n = {
       br: "Criar votação",
       es: "Crear votación",
     },
-    "Watch tutorial": {
+    WatchTutorial: {
       en: "Watch tutorial",
       de: "Tutorial ansehen",
       fr: "Regardez le didacticiel",
@@ -105,7 +602,7 @@ export const i18n = {
       br: "Assistir tutorial",
       es: "Ver el tutorial",
     },
-    "Get help": {
+    GetHelp: {
       en: "Get help",
       de: "Hilfe holen",
       fr: "Obtenez de l'aide",
@@ -116,7 +613,7 @@ export const i18n = {
       br: "Obtenha ajuda",
       es: "Conseguir ayuda",
     },
-    "Report issue": {
+    ReportIssue: {
       en: "Report issue",
       de: "Problem melden",
       id: "Melaporkan masalah",
@@ -127,7 +624,7 @@ export const i18n = {
       br: "Relate um problema",
       es: "Reportar un problema",
     },
-    "Join Discord": {
+    JoinDiscord: {
       en: "Join Discord", // OK
       de: "Discord beitreten", // OK
       fr: "Rejoignez Discord",
@@ -138,7 +635,7 @@ export const i18n = {
       br: "Participar do Discord",
       es: "Únete a Discord",
     },
-    "Join Reddit": {
+    JoinReddit: {
       en: "Join Reddit",
       de: "Reddit beitreten",
       fr: "Rejoignez Reddit",
@@ -149,7 +646,7 @@ export const i18n = {
       br: "Participar do Reddit",
       es: "Únete a Reddit",
     },
-    "Manage subscription": {
+    ManageSubscription: {
       en: "Manage subscription",
       de: "Abo verwalten",
       fr: "Gérer l'abonnement",
@@ -160,7 +657,7 @@ export const i18n = {
       br: "Gerenciar assinatura",
       es: "administrar suscripción",
     },
-    "Change settings": {
+    ChangeSettings: {
       en: "Change settings", // OK
       de: "Einstellungen ändern", // OK
       fr: "Modifier les paramètres",
@@ -171,7 +668,7 @@ export const i18n = {
       br: "Alterar configurações",
       es: "Cambiar ajustes",
     },
-    "Click to sign in": {
+    ClickToSignIn: {
       en: "Click to sign in to your Overwolf account",
       de: "Klicke hier, um dich bei deinem Overwolf-Konto anzumelden",
       fr: "Cliquez pour vous connecter à votre compte Overwolf",
@@ -206,7 +703,7 @@ export const i18n = {
       br: "COMENTÁRIOS",
       es: "COMENTARIOS",
     },
-    "Report an issue": {
+    ReportAnIssue: {
       en: "Report an issue/bug or request support",
       de: "Ein Problem/Bug melden oder Support anfragen",
       fr: "Signaler un problème/un bogue ou demander de l'aide",
@@ -217,7 +714,7 @@ export const i18n = {
       br: "Reportar um problema",
       es: "Reportar un problema",
     },
-    "Share with us": {
+    ShareWithUs: {
       en: "What do you want to share with us?",
       de: "Was möchtest du mit uns teilen?",
       fr: "Qu'est-ce que tu souhaites partager avec nous ?",
@@ -228,7 +725,7 @@ export const i18n = {
       br: "O que você gostaria de compartilhar conosco?",
       es: "¿Qué quieres compartir con nosotros?",
     },
-    "Issue description": {
+    IssueDescription: {
       en: "Enter description of issue/bug or request for support",
       de: "Geben Sie eine Beschreibung des Problems/Bugs oder eine Supportanfrage ein",
       fr: "Entrez la description du problème/du bogue ou de la demande d'assistance",
@@ -250,7 +747,7 @@ export const i18n = {
       br: "ENVIAR REPORTE",
       es: "ENVIAR REPORTE",
     },
-    "Contact details": {
+    ContactDetails: {
       en: "Contact details (E-Mail/Discord)",
       de: "Kontaktdaten (E-Mail/Discord)",
       fr: "Coordonnées (E-Mail/Discord)",
@@ -261,7 +758,7 @@ export const i18n = {
       br: "Detalhes de contato (E-Mail/Discord)",
       es: "Detalles de contacto (E-Mail/Discord)",
     },
-    "Enter contact details": {
+    EnterContactDetails: {
       en: "Enter your contact details",
       de: "Gib deine Kontaktdaten ein",
       fr: "Entrez vos coordonnées",
@@ -272,7 +769,7 @@ export const i18n = {
       br: "Insira seus detalhes de contato",
       es: "Ingrese sus datos de contacto",
     },
-    "Log files": {
+    LogFiles: {
       en: "Attach Dota Coach log files",
       de: "Dota Coach-Protokolldateien anhängen",
       fr: "Joindre les fichiers journaux Dota Coach",
@@ -471,17 +968,16 @@ export const i18n = {
       br: "só para inscritos",
       es: "solo suscriptores",
     },
-    Coaching: {
+    VoiceCoaching: {
       en: "Voice coaching",
-      // All to be updated
-      fr: "Coaching",
-      de: "Coaching",
-      ru: "Коучинг",
-      id: "Coaching",
-      fil: "Coaching",
-      zh: "语音指导",
-      br: "Treinamento",
-      es: "Entrenamiento",
+      de: "Sprach-Coaching",
+      fr: "Coaching vocal",
+      ru: "Голосовой коучинг", // #toBeUpdated
+      id: "Pelatihan suara", // #toBeUpdated
+      fil: "Pagtuturo ng boses", // #toBeUpdated
+      zh: "语音教练", // #toBeUpdated
+      br: "Coaching de voz", // #toBeUpdated
+      es: "Coaching de voz", // #toBeUpdated
     },
     CoachingTooltip: {
       en: "Voice coaching for own hero and enemy heroes can be set here.",
@@ -530,7 +1026,7 @@ export const i18n = {
     },
     Notifications: {
       en: "Notifications", // OK
-      de: "Benachrichtigungen", // OK
+      de: "Meldungen", // OK (Benachrichtigungen war auf dem Desktop zu lang)
       fr: "Les notifications",
       ru: "Уведомления", // OK
       id: "Notifikasi",
@@ -1187,7 +1683,7 @@ export const i18n = {
       br: "Ult",
       es: "Ult",
     },
-    "TIMING MODIFIERS": {
+    TIMING_MODIFIERS: {
       en: "TIMING MODIFIERS",
       de: "TIMING-MODIFIKATOREN",
       fr: "MODIFICATEURS DE TEMPORISATION",
@@ -1198,7 +1694,7 @@ export const i18n = {
       br: "MODIFICADOR DE TEMPORIZADOR",
       es: "MODIFICADOR DE TEMPORIZADOR",
     },
-    "Ultimate Level": {
+    UltimateLevel: {
       en: "Ultimate Level",
       de: "Ultimatives Level",
       fr: "Niveau ultime",
@@ -1220,7 +1716,7 @@ export const i18n = {
       br: "Itens",
       es: "Items",
     },
-    "Arcane Rune": {
+    ArcaneRune: {
       en: "Arcane Rune",
       de: "Arkane Rune",
       fr: "Rune des arcanes",
@@ -1253,7 +1749,8 @@ export const i18n = {
       br: "nível",
       es: "nivel",
     },
-    "No delay": {
+    NoDelay: {
+      // Currently not used (2.4.2022)
       en: "No delay",
       de: "Keine Verzögerung",
       fr: "Pas de retard",
@@ -1286,7 +1783,7 @@ export const i18n = {
       br: "Ajustes",
       es: "Ajustes",
     },
-    "Apply to all": {
+    ApplyToAll: {
       en: "Apply to all",
       de: "Auf alle anwenden",
       fr: "Appliquer à tous",

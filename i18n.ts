@@ -9,7 +9,9 @@ import * as DotaLogger from "../../src/utility/log";
 let currentLanguage = "en";
 
 /**
- * Function returns the text for a token in the currently set language language
+ * Function returns the text for a token in the currently set language
+ *
+ * Question:? Should we add a span?! with class i18n and id i18n_token, such that it could be updated autmatically on language change?! Probably not needed
  *
  * @param code
  * @returns
@@ -129,7 +131,10 @@ export function updateHTMLElement(htmlElement: HTMLElement) {
 }
 
 function updatei18nElement(element: Element) {
-  const i18nToken = element.id.replace("i18n_", "").replace("i18x_", "");
+  const i18nToken = element.id
+    .replace("i18n_", "")
+    .replace("i18x_", "")
+    .replace("i18y_", "");
   const innerHTML = t(i18nToken);
 
   element.innerHTML = innerHTML;
@@ -137,7 +142,10 @@ function updatei18nElement(element: Element) {
 }
 
 function configureWebLinks(element: Element) {
-  const i18nToken = element.id.replace("i18n_", "").replace("i18x_", "");
+  const i18nToken = element.id
+    .replace("i18n_", "")
+    .replace("i18x_", "")
+    .replace("i18y_", "");
   let linkId = 0;
 
   // Create unique IDs for webLinks
@@ -155,6 +163,10 @@ function configureWebLinks(element: Element) {
       overwolf.utils.openUrlInOverwolfBrowser(i18n.text[i18nToken].webLinks[i]);
     });
   }
+}
+
+export function span(code: string): string {
+  return `<span id="i18n_${code}" class="i18n">${t(code)}</span>`;
 }
 
 export function div(code: string): string {
