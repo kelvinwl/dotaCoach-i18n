@@ -535,6 +535,76 @@ export const i18n = {
       es: "ANALIZAR COINCIDENCIA", // #toBeUpdated
     },
 
+    // InGame pick/ban and roles
+    matches: {
+      en: "Matches",
+      de: "Spiele",
+    },
+    myRole: {
+      en: "Role",
+      de: "Rolle",
+    },
+
+    enemyHero: {
+      en: "Enemy hero",
+      de: "Gegner Held",
+    },
+
+    inMyLane: {
+      en: "My lane",
+      de: "Meine Linie",
+    },
+
+    counterItemsLane: {
+      en: "Counter items to consider (laning)",
+      de: "Berücksichtige Konter Gegenstände (Linie)",
+    },
+
+    spectatingMessage: {
+      en: "Enjoy watching!",
+      de: "Viel Spaß beim Zusehen!",
+    },
+
+    noRosterMessage: {
+      en: "Waiting for information on players...",
+      de: "Warte auf Spielerinformationen...",
+    },
+
+    banSuggestions: {
+      en: "Ban suggestions",
+      de: "Ban Vorschläge",
+    },
+
+    winLoseStreakNone: {
+      en: "No win/lose streak in the last three matches.",
+      de: "Keine Sieges/Niederlagen Serie in den letzten 3 Spielen.",
+    },
+
+    winLoseStreaks: {
+      en: "Winning / losing streaks",
+      de: "Sieges / Niederlagen Serien",
+    },
+
+    peoplePlayedWith: {
+      en: "People you played with",
+      de: "Spieler mit denen du gespielt hast",
+    },
+
+    heroToBanNone: {
+      en: "No spezific hero needs to be banned.",
+      de: "Kein spezifischer Held muss gebannt werden.",
+    },
+
+    heroNotToBanNone: {
+      en: "No spezific hero needs not be banned.",
+      de: "Kein spezifischer Held sollte nicht gebannt werden.",
+    },
+
+    dotaCoachUsers: {
+      en: "Players using Dota Coach",
+      de: "Spieler die Dota Coach verwenden",
+    },
+
     // InGame window
     ShowHide: {
       en: "Show/hide",
@@ -1347,10 +1417,12 @@ export const i18n = {
     // Mouse click modifiers
     MouseClickModifier: {
       en: "Mouse click modifier",
+      de: "Mausklickmodifizierung",
       br: "Modificador do clique do mouse",
     },
     MouseClickModifierTooltip: {
       en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
+      de: "Die Mausklickmodifizierung wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist die Modifizierung aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Modifizierungsknopf gedrückt werden.",
       fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro.",
       br: "A integração do modificador de clique do mouse requer o pressionamento de uma tecla modificadora ao clicar no overlay. Isso oferece proteção contra interferências com o jogo.",
     },
