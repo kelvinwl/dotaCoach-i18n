@@ -45,7 +45,7 @@ export const i18n = {
       en: "Match Analytics",
       de: "Spielanalyse",
       fr: "Analyse des matchs",
-      ru: "Аналитика матчей", // #toBeUpdated
+      ru: "Аналитика матчей",
       id: "Match Analytics", // #toBeUpdated
       fil: "Itugma ang Analytics", // #toBeUpdated
       zh: "匹配分析", // #toBeUpdated
@@ -58,7 +58,7 @@ export const i18n = {
       en: "WELCOME TO MATCH ANALYTICS",
       de: "WILLKOMMEN BEI DER SPIELANALYSE",
       fr: "BIENVENUE DANS L'ANALYSE DES MATCHS",
-      ru: "ДОБРО ПОЖАЛОВАТЬ В АНАЛИТИКУ МАТЧА", // #toBeUpdated
+      ru: "ДОБРО ПОЖАЛОВАТЬ В АНАЛИТИКУ МАТЧА",
       id: "SELAMAT DATANG UNTUK MENCOCOKKAN ANALISIS", // #toBeUpdated
       fil: "MALIGAYANG PAGDATING UPANG TUMUGMA SA ANALYTICS", // #toBeUpdated
       zh: "欢迎使用匹配分析", // #toBeUpdated
@@ -69,7 +69,7 @@ export const i18n = {
       en: "Play a match with Dota Coach to be able to use Match Analytics and to compare your performance with other players.",
       de: "Spiele ein Match mit Dota Coach, um die Spielanalyse nutzen zu können und deine Leistung mit anderen Spielern zu vergleichen.",
       fr: "Jouez un match avec Dota Coach pour pouvoir utiliser l'analyse des matchs et comparer vos performances avec celles des autres joueurs.",
-      ru: "Сыграйте матч с тренером по Dota, чтобы использовать аналитику матчей и сравнивать свои результаты с результатами других игроков.", // #toBeUpdated
+      ru: "Сыграйте матч с Dota Coach, чтобы использовать аналитику матчей и сравнить свои результаты с результатами других игроков.",
       id: "Mainkan pertandingan dengan Dota Coach untuk dapat menggunakan Match Analytics dan membandingkan kinerja Anda dengan pemain lain.", // #toBeUpdated
       fil: "Maglaro ng isang tugma sa Dota Coach upang magamit ang Match Analytics at upang ihambing ang iyong pagganap sa iba pang mga manlalaro.", // #toBeUpdated
       zh: "与Dota Coach进行一场比赛，即可使用比赛分析并比较你与其他牌手的表现。", // #toBeUpdated
@@ -80,7 +80,7 @@ export const i18n = {
       en: "Supported lobbies",
       de: "Unterstützte Lobbys", // #toBeUpdated
       fr: "Lobbies soutenue", // #toBeUpdated
-      ru: "Поддерживаемые лобби", // #toBeUpdated
+      ru: "Поддерживаемые лобби", 
       id: "Lobi yang didukung", // #toBeUpdated
       fil: "Mga sinusuportahang lobbies", // #toBeUpdated
       zh: "支持的大厅", // #toBeUpdated
@@ -89,6 +89,7 @@ export const i18n = {
     },
     SupportedLobbiesList: {
       en: "Ranked and unranked.",
+      ru: "Рейтинговые и безрейтинговые",
       de: "Ranked and unranked.",
       // #toBeUpdated if different in your language
     },
@@ -96,7 +97,7 @@ export const i18n = {
       en: "Supported ranked modes:",
       de: "Unterstützte Ranked Modi:", // #toBeUpdated
       fr: "Modes Ranked soutenus :", // #toBeUpdated
-      ru: "Поддерживаемые рейтинговые режимы:", // #toBeUpdated
+      ru: "Поддерживаемые рейтинговые режимы:", 
       id: "Mode peringkat yang didukung:", // #toBeUpdated
       fil: "Sinusuportahang mga mode ng ranggo:", // #toBeUpdated
       zh: "支持的排名模式：", // #toBeUpdated
@@ -112,7 +113,7 @@ export const i18n = {
       en: "Supported unranked modes:",
       de: "Unterstützte unranked Modi:", // #toBeUpdated
       fr: "Modes unranked pris en charge :", // #toBeUpdated
-      ru: "Поддерживаемые режимы без рейтинга:", // #toBeUpdated
+      ru: "Поддерживаемые безрейтинговые режимы:",
       id: "Mode unranked yang didukung:", // #toBeUpdated
       fil: "Mga suportadong hindi naka-ranggo na mga mode:", // #toBeUpdated
       zh: "支持的未排序模式：", // #toBeUpdated
@@ -128,7 +129,7 @@ export const i18n = {
       en: "MATCH ANALYTICS",
       de: "SPIELANALYSE",
       fr: "ANALYSE DES MATCHS",
-      ru: "АНАЛИТИКА МАТЧЕЙ", // #toBeUpdated
+      ru: "АНАЛИТИКА МАТЧЕЙ", 
       id: "ANALISIS PERTANDINGAN", // #toBeUpdated
       fil: "TUMUGMA SA ANALYTICS", // #toBeUpdated
       zh: "匹配分析", // #toBeUpdated
@@ -139,7 +140,7 @@ export const i18n = {
       en: "You",
       de: "Du",
       fr: "Toi",
-      ru: "Ты", // #toBeUpdated
+      ru: "Вы", 
       id: "Anda", // #toBeUpdated
       fil: "Ikaw", // #toBeUpdated
       zh: "你", // #toBeUpdated
@@ -150,7 +151,7 @@ export const i18n = {
       en: "Benchmark",
       de: "Benchmark",
       fr: "Repère",
-      ru: "Контрольный показатель", // #toBeUpdated
+      ru: "Контрольный показатель", 
       id: "Benchmark", // #toBeUpdated
       fil: "Benchmark", // #toBeUpdated
       zh: "基准", // #toBeUpdated
@@ -161,7 +162,7 @@ export const i18n = {
       en: "In match",
       de: "Im Spiel",
       fr: "En match",
-      ru: "В матче", // #toBeUpdated
+      ru: "В матче",
       id: "Dalam pertandingan", // #toBeUpdated
       fil: "Sa tugma", // #toBeUpdated
       zh: "在比赛中", // #toBeUpdated
@@ -172,7 +173,7 @@ export const i18n = {
       en: "percentile",
       de: "Perzentil",
       fr: "percentile",
-      ru: "процентиль", // #toBeUpdated
+      ru: "процентиль",
       id: "persentil", // #toBeUpdated
       fil: "percentile", // #toBeUpdated
       zh: "百分位数", // #toBeUpdated
@@ -183,7 +184,7 @@ export const i18n = {
       en: "75 percentile",
       de: "75 Perzentil", // #toBeUpdated
       fr: "75 centile", // #toBeUpdated
-      ru: "75 процентиль", // #toBeUpdated
+      ru: "75 процентиль",
       id: "75 persentil", // #toBeUpdated
       fil: "75 porsiyento", // #toBeUpdated
       zh: "75 百分位数", // #toBeUpdated
@@ -194,7 +195,7 @@ export const i18n = {
       en: "25 percentile",
       de: "25 Perzentil", // #toBeUpdated
       fr: "25 centile", // #toBeUpdated
-      ru: "25 процентиль", // #toBeUpdated
+      ru: "25 процентиль",
       id: "25 persentil", // #toBeUpdated
       fil: "25 porsiyento", // #toBeUpdated
       zh: "25百分位数", // #toBeUpdated
@@ -205,7 +206,7 @@ export const i18n = {
       en: "Laning phase",
       de: "Laning-Phase", // #toBeUpdated
       fr: "Phase d'atterrissage", // #toBeUpdated
-      ru: "Фаза лайнинга", // #toBeUpdated
+      ru: "Фаза лайнинга",
       id: "fase laning", // #toBeUpdated
       fil: "Laning phase", // #toBeUpdated
       zh: "着陆阶段", // #toBeUpdated
@@ -216,7 +217,7 @@ export const i18n = {
       en: "Denies",
       de: "Denies", // #toBeUpdated
       fr: "Denies", // #toBeUpdated
-      ru: "отрицает", // #toBeUpdated
+      ru: "Денаи",
       id: "Menyangkal", // #toBeUpdated
       fil: "Tinanggihan", // #toBeUpdated
       zh: "否认", // #toBeUpdated
@@ -227,7 +228,7 @@ export const i18n = {
       en: "Kills",
       de: "Kills", // #toBeUpdated
       fr: "Kills", // #toBeUpdated
-      ru: "Убивает", // #toBeUpdated
+      ru: "Убийства",
       id: "Membunuh", // #toBeUpdated
       fil: "Kills", // #toBeUpdated
       zh: "击杀", // #toBeUpdated
@@ -238,7 +239,7 @@ export const i18n = {
       en: "Mid & late game",
       de: "Mittleres und spätes Spiel", // #toBeUpdated
       fr: "Mid & late game", // #toBeUpdated
-      ru: "Средняя и поздняя игра", // #toBeUpdated
+      ru: "Средняя и поздняя игра",
       id: "Pertengahan & akhir permainan", // #toBeUpdated
       fil: "Mid at huli na laro", // #toBeUpdated
       zh: "游戏中后期", // #toBeUpdated
@@ -249,7 +250,7 @@ export const i18n = {
       en: "Deaths",
       de: "Tode",
       fr: "Morts",
-      ru: "Смерти", // #toBeUpdated
+      ru: "Смерти",
       id: "Kematian", // #toBeUpdated
       fil: "Pagkamatay", // #toBeUpdated
       zh: "死亡", // #toBeUpdated
@@ -266,7 +267,7 @@ export const i18n = {
       en: "Large items",
       de: "Große Gegenstände", // #toBeUpdated
       fr: "Articles de grande taille", // #toBeUpdated
-      ru: "Крупные предметы", // #toBeUpdated
+      ru: "Ключевые предметы",
       id: "Item besar", // #toBeUpdated
       fil: "Malaking mga item", // #toBeUpdated
       zh: "大件物品", // #toBeUpdated
@@ -277,7 +278,7 @@ export const i18n = {
       en: "Item",
       de: "Gegenstand", // #toBeUpdated
       fr: "Article", // #toBeUpdated
-      ru: "Предмет", // #toBeUpdated
+      ru: "Предмет",
       id: "Butir", // #toBeUpdated
       fil: "Item", // #toBeUpdated
       zh: "物品", // #toBeUpdated
@@ -288,7 +289,7 @@ export const i18n = {
       en: "Benchmark<br>Median",
       de: "Benchmark<br>Mittelwert", // #toBeUpdated
       fr: "Médiane de<br>référence", // #toBeUpdated
-      ru: "Медиана контрольного<br>показателя", // #toBeUpdated
+      ru: "Медиана контрольного<br>показателя",
       id: "Acuan<br>Median", // #toBeUpdated
       fil: "Benchmark<br>Median", // #toBeUpdated
       zh: "基准中位数", // #toBeUpdated
@@ -298,7 +299,7 @@ export const i18n = {
       /*en: "Median",
       de: "Median", // #toBeUpdated
       fr: "Médiane", // #toBeUpdated
-      ru: "Медиана", // #toBeUpdated
+      ru: "Медиана",
       id: "Median", // #toBeUpdated
       fil: "Median", // #toBeUpdated
       zh: "中位数", // #toBeUpdated
@@ -309,7 +310,7 @@ export const i18n = {
       en: "Best",
       de: "Am besten",
       fr: "Meilleur",
-      ru: "Лучший", // #toBeUpdated
+      ru: "Лучшее",
       id: "Terbaik", // #toBeUpdated
       fil: "Pinakamahusay", // #toBeUpdated
       zh: "最好", // #toBeUpdated
@@ -321,7 +322,7 @@ export const i18n = {
       en: "Delta",
       de: "Abweichung", // #toBeUpdated
       fr: "Différence", // #toBeUpdated
-      ru: "Дельта", // #toBeUpdated
+      ru: "Дельта",
       id: "kuala", // #toBeUpdated
       fil: "Delta", // #toBeUpdated
       zh: "三角洲", // #toBeUpdated
@@ -332,7 +333,7 @@ export const i18n = {
       en: "Select Match",
       de: "Wähle Spiel",
       fr: "Choisir Jeu",
-      ru: "Выберите матч", // #toBeUpdated
+      ru: "Выберите матч",
       id: "Pilih Cocok", // #toBeUpdated
       fil: "Piliin ang Pagtutugma", // #toBeUpdated
       zh: "选择 “匹配”", // #toBeUpdated
@@ -343,7 +344,7 @@ export const i18n = {
       en: "Select Benchmark",
       de: "Wähle Benchmark",
       fr: "Sélectionnez Benchmark",
-      ru: "Выберите эталон", // #toBeUpdated
+      ru: "Выберите контрольный показатель",
       id: "Pilih Tolok Ukur", // #toBeUpdated
       fil: "Piliin ang Benchmark", // #toBeUpdated
       zh: "选择基准", // #toBeUpdated
@@ -354,7 +355,7 @@ export const i18n = {
       en: "Attention: Peer benchmark data is currently not available",
       de: "Achtung: Peer-Benchmark-Daten sind derzeit nicht verfügbar", // #toBeUpdated
       fr: "Attention : Les données de référence des pairs ne sont actuellement pas disponibles", // #toBeUpdated
-      ru: "Внимание: данные одноранговых тестов в настоящее время недоступны", // #toBeUpdated
+      ru: "Внимание: данные одноранговых тестов в настоящее время недоступны",
       id: "Perhatian: Data patokan peer saat ini tidak tersedia", // #toBeUpdated
       fil: "Pansin: Kasalukuyang hindi magagamit ang data ng benchmark ng Peer", // #toBeUpdated
       zh: "注意：同行基准测试数据目前不可用", // #toBeUpdated
@@ -365,7 +366,7 @@ export const i18n = {
       en: "Try to fetch benchmark data again",
       de: "Verusche Benchmark-Daten erneut abzurufen", // #toBeUpdated
       fr: "Essayez à nouveau de charger les données de référence", // #toBeUpdated
-      ru: "Попробуйте снова получить контрольные данные", // #toBeUpdated
+      ru: "Попробуйте обновить контрольные данные",
       id: "Cobalah untuk mengambil data patokan lagi", // #toBeUpdated
       fil: "Subukang kunin muli ang data ng benchmark", // #toBeUpdated
       zh: "尝试再次获取基准数据", // #toBeUpdated
@@ -376,7 +377,7 @@ export const i18n = {
       en: "Today",
       de: "Heute",
       fr: "Aujourd'hui",
-      ru: "Сегодня", // #toBeUpdated
+      ru: "Сегодня",
       id: "Hari ini", // #toBeUpdated
       fil: "Ngayon", // #toBeUpdated
       zh: "今天", // #toBeUpdated
@@ -388,7 +389,7 @@ export const i18n = {
       en: "$ days ago",
       de: "Vor $ Tagen", // #toBeUpdated
       fr: "Il y a $ jours", // #toBeUpdated
-      ru: "$ дней назад", // #toBeUpdated
+      ru: "$ дней назад",
       id: "$ hari lalu", // #toBeUpdated
       fil: "$ mga araw na nakalipas", // #toBeUpdated
       zh: "$ 天前", // #toBeUpdated
@@ -399,7 +400,7 @@ export const i18n = {
       en: "Peers",
       de: "Peers", // #toBeUpdated
       fr: "Pairs", // #toBeUpdated
-      ru: "сверстники", // #toBeUpdated
+      ru: "Игроки на ранге",
       id: "rekan-rekan", // #toBeUpdated
       fil: "Mga kapantay", // #toBeUpdated
       zh: "同行", // #toBeUpdated
@@ -410,7 +411,7 @@ export const i18n = {
       en: "Result",
       de: "Ergebnis",
       fr: "Résultat",
-      ru: "Результат", // #toBeUpdated
+      ru: "Результат",
       id: "Hasil", // #toBeUpdated
       fil: "Resulta", // #toBeUpdated
       zh: "结果", // #toBeUpdated
@@ -421,7 +422,7 @@ export const i18n = {
       en: "Won",
       de: "Gewonnen",
       fr: "Gagné",
-      ru: "Вона", // #toBeUpdated
+      ru: "Победа",
       id: "Menang", // #toBeUpdated
       fil: "Won", // #toBeUpdated
       zh: "赢了", // #toBeUpdated
@@ -432,7 +433,7 @@ export const i18n = {
       en: "Lost",
       de: "Verloren", // #toBeUpdated
       fr: "Perdu", // #toBeUpdated
-      ru: "Потерянный", // #toBeUpdated
+      ru: "Поражение",
       id: "Hilang", // #toBeUpdated
       fil: "Nawala", // #toBeUpdated
       zh: "迷路了", // #toBeUpdated
@@ -443,7 +444,7 @@ export const i18n = {
       en: "Length",
       de: "Dauer",
       fr: "Durée",
-      ru: "Длина", // #toBeUpdated
+      ru: "Длина",
       id: "Panjangnya", // #toBeUpdated
       fil: "Haba", // #toBeUpdated
       zh: "长度", // #toBeUpdated
@@ -454,7 +455,7 @@ export const i18n = {
       en: "Mode",
       de: "Modus", // #toBeUpdated
       fr: "Mode", // #toBeUpdated
-      ru: "Режим", // #toBeUpdated
+      ru: "Режим",
       id: "Modus", // #toBeUpdated
       fil: "Mode", // #toBeUpdated
       zh: "模式", // #toBeUpdated
@@ -466,7 +467,7 @@ export const i18n = {
       en: "ID",
       de: "ID",
       fr: "ID",
-      ru: "ID", // #toBeUpdated
+      ru: "ID",
       id: "ID", // #toBeUpdated
       fil: "ID", // #toBeUpdated
       zh: "身份证", // #toBeUpdated
@@ -480,7 +481,7 @@ export const i18n = {
       en: "Hero",
       de: "Held",
       fr: "Héro",
-      ru: "герой", // #toBeUpdated
+      ru: "Герой",
       id: "Pahlawan", // #toBeUpdated
       fil: "Hero", // #toBeUpdated
       zh: "英雄", // #toBeUpdated
@@ -494,7 +495,7 @@ export const i18n = {
       en: "Heropedia",
       de: "Heropedia", // #toBeUpdated
       fr: "Héropedia", // #toBeUpdated
-      ru: "Геропедия", // #toBeUpdated
+      ru: "Heropedia",
       id: "Heropedia", // #toBeUpdated
       fil: "Heropedia", // #toBeUpdated
       zh: "Heropedia", // #toBeUpdated
@@ -505,7 +506,7 @@ export const i18n = {
       en: "Coaching",
       de: "Coaching", // #toBeUpdated
       fr: "Coaching", // #toBeUpdated
-      ru: "коучинг", // #toBeUpdated
+      ru: "Тренерство",
       id: "Coaching", // #toBeUpdated
       fil: "Pagtuturo", // #toBeUpdated
       zh: "辅导", // #toBeUpdated
@@ -516,7 +517,7 @@ export const i18n = {
       en: "Get personal coach",
       de: "Hole dir einen persönlichen Coach",
       fr: "Obtenez un coach personnel",
-      ru: "Получите персонального тренера", // #toBeUpdated
+      ru: "Получите персонального тренера",
       id: "Dapatkan pelatih pribadi", // #toBeUpdated
       fil: "Kumuha ng personal na coach", // #toBeUpdated
       zh: "找私人教练", // #toBeUpdated
@@ -527,7 +528,7 @@ export const i18n = {
       en: "PARSE MATCH",
       de: "PARSE SPIEL", // #toBeUpdated
       fr: "MATCH D'ANALYSE", // #toBeUpdated
-      ru: "СИНТАКСИЧЕСКИЙ МАТЧ", // #toBeUpdated
+      ru: "РАЗБОР МАТЧА",
       id: "MENGURAI PERTANDINGAN", // #toBeUpdated
       fil: "I-PARSE ANG TUGMA", // #toBeUpdated
       zh: "解析匹配", // #toBeUpdated
