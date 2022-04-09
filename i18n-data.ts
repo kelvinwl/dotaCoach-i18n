@@ -8,7 +8,9 @@
  * Instruction for webLinks:
  *     - Add HTML elements with an id set to "webLink"
  *     - Add a field webLinks, containing an array of http(s) links
- *     - Variables can be added optionally, e.g. to write "5 days ago". The corresponding i18n-data would be "$ days ago"
+ *     - Variables can be added optionally, e.g. to write "5 days ago". The corresponding i18n-data would be "$1 days ago"
+ *     - "You played agasinst $1 $2 days ago aga $3"
+ *      - Function t2(token, var1, var2, var3....)
  *
  * Source for country codes: "https://www.localeplanet.com/icu/"
  *
@@ -80,7 +82,7 @@ export const i18n = {
       en: "Supported lobbies",
       de: "Unterstützte Lobbys", // #toBeUpdated
       fr: "Lobbies soutenue", // #toBeUpdated
-      ru: "Поддерживаемые лобби", 
+      ru: "Поддерживаемые лобби",
       id: "Lobi yang didukung", // #toBeUpdated
       fil: "Mga sinusuportahang lobbies", // #toBeUpdated
       zh: "支持的大厅", // #toBeUpdated
@@ -97,7 +99,7 @@ export const i18n = {
       en: "Supported ranked modes:",
       de: "Unterstützte Ranked Modi:", // #toBeUpdated
       fr: "Modes Ranked soutenus :", // #toBeUpdated
-      ru: "Поддерживаемые рейтинговые режимы:", 
+      ru: "Поддерживаемые рейтинговые режимы:",
       id: "Mode peringkat yang didukung:", // #toBeUpdated
       fil: "Sinusuportahang mga mode ng ranggo:", // #toBeUpdated
       zh: "支持的排名模式：", // #toBeUpdated
@@ -129,7 +131,7 @@ export const i18n = {
       en: "MATCH ANALYTICS",
       de: "SPIELANALYSE",
       fr: "ANALYSE DES MATCHS",
-      ru: "АНАЛИТИКА МАТЧЕЙ", 
+      ru: "АНАЛИТИКА МАТЧЕЙ",
       id: "ANALISIS PERTANDINGAN", // #toBeUpdated
       fil: "TUMUGMA SA ANALYTICS", // #toBeUpdated
       zh: "匹配分析", // #toBeUpdated
@@ -140,7 +142,7 @@ export const i18n = {
       en: "You",
       de: "Du",
       fr: "Toi",
-      ru: "Вы", 
+      ru: "Вы",
       id: "Anda", // #toBeUpdated
       fil: "Ikaw", // #toBeUpdated
       zh: "你", // #toBeUpdated
@@ -151,7 +153,7 @@ export const i18n = {
       en: "Benchmark",
       de: "Benchmark",
       fr: "Repère",
-      ru: "Контрольный показатель", 
+      ru: "Контрольный показатель",
       id: "Benchmark", // #toBeUpdated
       fil: "Benchmark", // #toBeUpdated
       zh: "基准", // #toBeUpdated
@@ -385,16 +387,16 @@ export const i18n = {
       es: "Hoy", // #toBeUpdated
     },
     DaysAgo: {
-      // used to display "5 days ago" ; '$' sign represents number of days
-      en: "$ days ago",
-      de: "Vor $ Tagen", // #toBeUpdated
-      fr: "Il y a $ jours", // #toBeUpdated
-      ru: "$ дней назад",
-      id: "$ hari lalu", // #toBeUpdated
-      fil: "$ mga araw na nakalipas", // #toBeUpdated
-      zh: "$ 天前", // #toBeUpdated
-      br: "há $ dias", // #toBeUpdated
-      es: "Hace $ días", // #toBeUpdated
+      // used to display "5 days ago" ; '$1' sign represents number of days
+      en: "$1 days ago",
+      de: "Vor $1 Tagen", // #toBeUpdated
+      fr: "Il y a $1 jours", // #toBeUpdated
+      ru: "$1 дней назад",
+      id: "$1 hari lalu", // #toBeUpdated
+      fil: "$1 mga araw na nakalipas", // #toBeUpdated
+      zh: "$1 天前", // #toBeUpdated
+      br: "há $1 dias", // #toBeUpdated
+      es: "Hace $1 días", // #toBeUpdated
     },
     Peers: {
       en: "Peers",
