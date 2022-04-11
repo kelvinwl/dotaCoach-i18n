@@ -14,7 +14,7 @@ const i18n = {
       { code: "id", name: "Indonesia" },
       { code: "fil", name: "Filipino" },
       { code: "zh", name: "中文" },
-      { code: "br", name: "Português" },
+      { code: "br", name: "Português - Brasil" },
       { code: "es", name: "Español" },
     ],
   },
@@ -23,89 +23,109 @@ const i18n = {
       // Headers
       headerFaq: {
         en: "Frequently Asked Questions (FAQs)",
-        de: "Häufig gestellte Fragen (FAQs)"
+        de: "Häufig gestellte Fragen (FAQs)",
+        br: "Perguntas frequentes (FAQs)",
       },
       mostPopular: {
         en: "Most Popular Questions",
-        de: "Populäre Fragen"
+        de: "Populäre Fragen",
+        br: "Perguntas Mais Populares",
       },
       // Answer
       btnAnswer: {
         en: "Answer",
-        de: "Antwort"
+        de: "Antwort",
+        br: "Resposta",
       },
       // Navigation Buttons
       btnSubscription: {
         en: "Subscription",
-        de: "Abonnement"
+        de: "Abonnement",
+        br: "Inscrição",
       },
       btnAccount: {
         en: "Account",
-        de: "Konto"
+        de: "Konto",
+        br: "Conta",
       },
       btnApplication: {
         en: "Application",
-        de: "Applikation"
+        de: "Applikation",
+        br: "Aplicação",
       },
       btnIssues: {
         en: "Issues",
-        de: "Probleme"
+        de: "Probleme",
+        br: "Problemas",
       },
       btnAudio: {
         en: "Audio",
-        de: "Audio"
+        de: "Audio",
+        br: "Audio",
       },
       btnTimers: {
         en: "Timers",
-        de: "Timers"
+        de: "Timers",
+        br: "Temporizadores",
       },
       btnGamemodes: {
         en: "Game Modes",
-        de: "Spielmodi"
+        de: "Spielmodi",
+        br: "Modos de Jogo",
       },
       btnHeroguides: {
         en: "Hero Guides",
-        de: "Helden Ratgeber"
+        de: "Helden Ratgeber",
+        br: "Guias de Heróis",
       },
       btnWindows: {
         en: "Windows",
-        de: "Fenster"
+        de: "Fenster",
+        br: "Janelas",
       },
       btnHotkeys: {
         en: "Hotkeys",
-        de: "Hotkeys"
+        de: "Hotkeys",
+        br: "Atalhos",
       },
       // Most Popular Questions
       // QMP
       QMPGetStarted: {
         en: "How do I get started?",
-        de: "Wo fange ich an?"
+        de: "Wo fange ich an?",
+        br: "Como eu começo?",
       },
       QMPApplicationNotWork: {
         en: "Why does the application not work?",
-        de: "Warum funktoniert die Applikation nicht?"
+        de: "Warum funktoniert die Applikation nicht?",
+        br: "Por que a aplicação não funciona?",
       },
       QMPGetHelp: {
         en: "Where can I get additional help?",
-        de: "Wo kann ich zusätzliche Hilfe beanspruchen?"
+        de: "Wo kann ich zusätzliche Hilfe beanspruchen?",
+        br: "Onde posso conseguir ajuda adicional?",
       },
       QMPbanned: {
         en: "Can I get banned for using Dota Coach?",
-        de: "Kann ich für Dota Coach gebannt werden?"
+        de: "Kann ich für Dota Coach gebannt werden?",
+        br: "Posso ser banido por usar Dota Coach?",
       },
       QMPwindows: {
         en: "Why are some windows missing?",
-        de: "Warum fehlen manche Fenster?"
+        de: "Warum fehlen manche Fenster?",
+        br: "Por que algumas janelas não aparecem?",
       },
       QMPbug: {
         en: "Where can I report a bug or issue?",
-        de: "Wo kann ich einen Bug oder Fehler melden?"
+        de: "Wo kann ich einen Bug oder Fehler melden?",
+        br: "Onde posso reportar um bug ou problema?",
       },
       // Subscription questions 
       subFeatures: {
         question: {
           en: "What features do I get?",
           de: "Welche Besonderheiten weißt die pro Verion auf?"
+          br: "Quais funcionalidades eu ganho?",
         },
         content: {
           en: `Our pro coach version comes a long with a number of features:<br>
@@ -121,15 +141,35 @@ const i18n = {
 						<li>Einstellbare Ultimate-Timer für Gegner und Team.</li>
 						<li>Eine werbefreie Dota Coach Erfahrung.</li>
 						<li>Supporter Discord Rolle.</li>
-					</ul>`
+					</ul>`,
+          br: `Nossa versão pró vêm com várias funcionalidades:<br>
+					<ul>
+						<li>Treinamento por voz para todos os heróis que o Dota2 têm para oferecer.</li>
+						<li>Temporizadores ajustáveis de ults do adversário e seu time.</li>
+						<li>Tenha a experiência do Dota Coach grátis.</li>
+						<li>Cargo de apoiador no Discord.</li>
+					</ul>`,
         }
       },
       subPayment: {
         question: {
           en: "Which payment options do I have?",
+          br: "Quais opções de pagamento eu tenho?",
         },
         content: {
           en: `All payments are done through the <a class="link-danger" href="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf</a> 
+					platform which collaborates with a broad variety of payment providers.<br>
+					Most popular payment methods:<br>
+					<ul>
+						<li>Credit & Debit Cards</li>
+						<li>Paypal</li>
+						<li>Amazon Pay</li>
+						<li>Skrill</li>
+						<li>Visa</li>
+						<li>Maestro</li>
+					</ul>
+					Be aware that payment options can be limited depending on your current country of residence.<br>`,
+          br: `All payments are done through the <a class="link-danger" href="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf</a> 
 					platform which collaborates with a broad variety of payment providers.<br>
 					Most popular payment methods:<br>
 					<ul>
