@@ -23,89 +23,109 @@ const i18n = {
       // Headers
       headerFaq: {
         en: "Frequently Asked Questions (FAQs)",
-        de: "Häufig gestellte Fragen (FAQs)"
+        de: "Häufig gestellte Fragen (FAQs)",
+	cn: "常见问题解答(FAQs)"
       },
       mostPopular: {
         en: "Most Popular Questions",
-        de: "Populäre Fragen"
+        de: "Populäre Fragen",
+	cn: "最常见的问题"
       },
       // Answer
       btnAnswer: {
         en: "Answer",
-        de: "Antwort"
+        de: "Antwort",
+	cn: "回答"
       },
       // Navigation Buttons
       btnSubscription: {
         en: "Subscription",
-        de: "Abonnement"
+        de: "Abonnement",
+	cn: "订阅问题"
       },
       btnAccount: {
         en: "Account",
-        de: "Konto"
+        de: "Konto",
+	cn: "账号问题"
       },
       btnApplication: {
         en: "Application",
-        de: "Applikation"
+        de: "Applikation",
+	cn: "应用问题"
       },
       btnIssues: {
         en: "Issues",
-        de: "Probleme"
+        de: "Probleme",
+	cn: "使用问题"
       },
       btnAudio: {
         en: "Audio",
-        de: "Audio"
+        de: "Audio",
+	cn: "声音问题"
       },
       btnTimers: {
         en: "Timers",
-        de: "Timers"
+        de: "Timers",
+	cn: "计时器问题"
       },
       btnGamemodes: {
         en: "Game Modes",
-        de: "Spielmodi"
+        de: "Spielmodi",
+	cn: "游戏模式问题"
       },
       btnHeroguides: {
         en: "Hero Guides",
-        de: "Helden Ratgeber"
+        de: "Helden Ratgeber",
+	cn: "英雄指南问题"
       },
       btnWindows: {
         en: "Windows",
-        de: "Fenster"
+        de: "Fenster",
+	cn: "窗口问题"
       },
       btnHotkeys: {
         en: "Hotkeys",
-        de: "Hotkeys"
+        de: "Hotkeys",
+	cn: "热键问题"
       },
       // Most Popular Questions
       // QMP
       QMPGetStarted: {
         en: "How do I get started?",
-        de: "Wo fange ich an?"
+        de: "Wo fange ich an?,,
+	cn: "如何使用DotaCoach？"
       },
       QMPApplicationNotWork: {
         en: "Why does the application not work?",
-        de: "Warum funktoniert die Applikation nicht?"
+        de: "Warum funktoniert die Applikation nicht?",
+	cn: "为什么DotaCoach程序不工作？"
       },
       QMPGetHelp: {
         en: "Where can I get additional help?",
-        de: "Wo kann ich zusätzliche Hilfe beanspruchen?"
+        de: "Wo kann ich zusätzliche Hilfe beanspruchen?",
+	cn: "哪里可以获取到更多帮助信息？"
       },
       QMPbanned: {
         en: "Can I get banned for using Dota Coach?",
-        de: "Kann ich für Dota Coach gebannt werden?"
+        de: "Kann ich für Dota Coach gebannt werden?",
+	cn: "我会因为使用DotaCoach被封禁么？"
       },
       QMPwindows: {
         en: "Why are some windows missing?",
-        de: "Warum fehlen manche Fenster?"
+        de: "Warum fehlen manche Fenster?",
+	cn: "为什么有些窗口不见了？"
       },
       QMPbug: {
         en: "Where can I report a bug or issue?",
-        de: "Wo kann ich einen Bug oder Fehler melden?"
+        de: "Wo kann ich einen Bug oder Fehler melden?",
+	cn: "我可以在哪里提交BUG或者报告问题？"
       },
       // Subscription questions 
       subFeatures: {
         question: {
           en: "What features do I get?",
-          de: "Welche Besonderheiten weißt die pro Verion auf?"
+          de: "Welche Besonderheiten weißt die pro Verion auf?",
+	  cn: "订阅可以获得什么功能？"
         },
         content: {
           en: `Our pro coach version comes a long with a number of features:<br>
@@ -121,12 +141,20 @@ const i18n = {
 						<li>Einstellbare Ultimate-Timer für Gegner und Team.</li>
 						<li>Eine werbefreie Dota Coach Erfahrung.</li>
 						<li>Supporter Discord Rolle.</li>
+					</ul>`,
+	  cn: `DotaCoach专业版具有下列多个功能:<br>
+					<ul>
+						<li>Dota2全英雄语音指导。</li>
+						<li>队友和对手的终极技能计时器</li>
+						<li>添加免费DotaCoach体验</li>
+						<li>Discord支持者用户组</li>
 					</ul>`
         }
       },
       subPayment: {
         question: {
           en: "Which payment options do I have?",
+          cn: "DotaCoach支持哪些付款方式？"
         },
         content: {
           en: `All payments are done through the <a class="link-danger" href="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf</a> 
@@ -141,11 +169,24 @@ const i18n = {
 						<li>Maestro</li>
 					</ul>
 					Be aware that payment options can be limited depending on your current country of residence.<br>`,
+          cn:`所有的付款方式均通过 <a class="link-danger" href="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf</a> 
+					合作的支付提供商或者支付平台进行。<br>
+					最受欢迎的付款方式：<br>
+					<ul>
+						<li>Credit & Debit Cards</li>
+						<li>Paypal</li>
+						<li>Amazon Pay</li>
+						<li>Skrill</li>
+						<li>Visa</li>
+						<li>Maestro</li>
+					</ul>
+					注意：Overwolf的支付API暂时无法获取来自中国大陆的付款！<br>`,
         }
       },
       subGet: {
         question: {
           en: "How can I get the pro Version? ",
+          cn: "我怎么才能获得DotaCoach专业版？"
         },
         content: {
           en: `After installing Dota Coach with the overwolf client, you can subscribe to our services.<br>
@@ -159,6 +200,19 @@ const i18n = {
 					</ul>
 					Also check out the <a class="link-danger" href ="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf FAQ</a>
 					on how to subscribe to apps.<br>
+					<div class="mt-2"></div>
+					<img src="images/faqs/subscribesteps.png" class="img-fluid rounded shadow">`,
+          cn: `通过Overwolf安装DotaCoach客户端以后，即可订阅我们的服务。<br>
+					<ul>
+						<li>打开Overwolf桌面客户端。</li>
+						<li>打开'Library'。</li>
+						<li>点击DotaCoach徽标边上的小齿轮按钮。</li>
+						<li>点击'view in appstore'。</li>
+						<li>点击新弹出窗口内的'Subscribe'。</li>
+						<li>按照提示步骤操作。</li>
+					</ul>
+					可以通过观看<a class="link-danger" href ="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf FAQ</a>
+					来学习如何订阅。<br>
 					<div class="mt-2"></div>
 					<img src="images/faqs/subscribesteps.png" class="img-fluid rounded shadow">`,
         }
