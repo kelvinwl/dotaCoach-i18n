@@ -251,8 +251,8 @@ const i18n = {
         en: `Our pro coach version comes a long with a number of features:<br>
 					<ul>
 						<li>Voice coaching for all heroes Dota 2 has to offer.</li>
-						<li>Adjustable Ultimate timers for the enemy and your team.</li>
-						<li>Add free Dota Coach experience.</li>
+						<li>Adjustable ultimate timers for the enemy and your team.</li>
+						<li>Advertisement free Dota Coach experience.</li>
 						<li>Supporter Discord role.</li>
 					</ul>`,
         de: `Unsere pro Version kommt in einer Zahl von Besonderheiten:<br>
@@ -291,7 +291,7 @@ const i18n = {
       },
       content: {
         en: `All payments are done through the <a class="link-danger" href="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf</a> 
-					platform which collaborates with a broad variety of payment providers.<br>
+					platform which collaborates with a broad variety of payment providers.<br><br>
 					Most popular payment methods:<br>
 					<ul>
 						<li>Credit & Debit Cards</li>
@@ -337,7 +337,7 @@ const i18n = {
         es: "¿Cómo puedo obtener la versión pro?", // #toBeUpdated
       },
       content: {
-        en: `After installing Dota Coach with the overwolf client, you can subscribe to our services.<br>
+        en: `After installing Dota Coach you can subscribe to our services.<br>
 					<ul>
 						<li>Open the Overwolf Desktop Client.</li>
 						<li>Click on 'Library'.</li>
@@ -386,7 +386,7 @@ const i18n = {
         es: "¿Cómo puedo cancelar mi suscripción?", // #toBeUpdated
       },
       content: {
-        en: `All subscriptions are handled by Overwolf.<br>If you want to cancel your subscription, refund or forgot to cancel, please follow the offical <a class="link-danger" href ="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf FAQ</a>.`,
+        en: `All subscriptions are handled by Overwolf.<br><br>If you want to cancel your subscription, refund or forgot to cancel, please follow the offical <a class="link-danger" href ="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf FAQ</a>.`,
         de: `Alle Abonnements werden von Overwolf bearbeitet. </a><br>Wenn Sie Ihr Abonnement kündigen, eine Rückerstattung tätigen oder vergessen haben möchten, folgen Sie bitte den OfficaLoverwolf <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ. </a>`, // #toBeUpdated
         fr: `Tous les abonnements sont gérés par Overwolf. </a><br>Si vous souhaitez annuler votre abonnement, rembourser ou oublier d'annuler, veuillez suivre la <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ OfficalOverwolf.</a>`, // #toBeUpdated
         ru: `Все подписки обрабатываются Overwolf. </a><br>Если вы хотите отменить подписку, вернуть деньги или забыли ее отменить, пожалуйста, следуйте инструкциям на <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> странице часто задаваемых вопросов OfficalOverwolf.</a>`, // #toBeUpdated
@@ -548,16 +548,16 @@ const i18n = {
 						In the game the following timers will apprear for hero buybacks:<br>
 						<div class="mt-2"></div>
 						<img class="img-fluid rounded shadow" src="./images/faqs/buyback_timers.png" style="width: 38%"><br><br>
-						And the following for Roshan and the Glyph of Fortification:<br>
+						And the following for Roshan and Glyph of Fortification:<br>
 						<div class="mt-2"></div>
 						<img class="img-fluid rounded shadow" src="./images/faqs/roshan_timer_active.png" style="width:32%"><br><br>
 						If other players in your team are using Dota Coach, the activation of timers will be shared among the team.<br>
-						So if you forget to activate a timer, don't worry, a teammate might have activated it!
+						So if you forget to activate a timer, don't worry, a teammate might have activated it!<br>
 					
-					<p>Subscribers get hero coaching for all 123 heroes, access to ultimate timers, ads removed and support the developement of app.<br> 
+					<p>Subscribers get hero coaching for all 123 heroes, access to ultimate timers, ads removed and support the developement of the app.<br> 
 					The subscription fee is USD 1.99 per month.</p>
 					<p>
-					want to see the app in action and learn about its features? <a class="link-danger" href="https://dota-coach.com/video/DotaCoachTutorial.mp4">Watch our tutorial
+					Do you want to see the app in action and learn about its features? <a class="link-danger" href="https://dota-coach.com/video/DotaCoachTutorial.mp4">Watch our tutorial
 					video</a>!<br> 
 					Want to talk to us? No problem: <a class="link-danger" href="https://discord.gg/9WhAANq">Join our Discord community server</a>!
 					</p>`,
@@ -585,7 +585,7 @@ const i18n = {
         es: "¿Dónde puedo obtener ayuda adicional?", // #toBeUpdated
       },
       content: {
-        en: `Join our Discord for live support <a class="link-danger" href ="https://discord.gg/uabGsGazRe">here</a>.`,
+        en: `Join our Discord community server for live support <a class="link-danger" href ="https://discord.gg/uabGsGazRe">here</a>.`,
         de: `Treten Sie unserem Discord bei und erhalten Sie hier Live-Support <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
         fr: `Rejoignez notre Discord pour une assistance en direct ici <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
         ru: `Присоединяйтесь к нашему Discord для поддержки в реальном времени здесь <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
@@ -611,7 +611,7 @@ const i18n = {
       content: {
         en: `<p>
 					<b>The Dota Coach app will NOT get you banned.</b><br>
-					The Dota Coach app is built on top of the Overwolf platform.<br>
+					The app is built on top of the Overwolf platform.<br>
 					The Overwolf platform is built in collaboration with Valve and the Dota 2 team.<br>
 					Valve has since its beginnings supported the efforts of third party applications to create content and systems that enhance the player's experience.<br>
 					You can read more here: <a class="link-danger" href="https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned">Overwolf Won't Get You Banned</a><br>
@@ -653,7 +653,7 @@ const i18n = {
     },
     appGamestate: {
       question: {
-        en: "What is Gamestateintegration?",
+        en: "What is Game State Integration?",
         de: "Was ist Gamestate-Integration?", // #toBeUpdated
         fr: "Qu'est-ce que l'intégration de Gamestate?", // #toBeUpdated
         ru: "Что такое интеграция с игровым состоянием?", // #toBeUpdated
@@ -664,7 +664,7 @@ const i18n = {
         es: "¿Qué es la integración de Gamestate?", // #toBeUpdated
       },
       content: {
-        en: `The gamestateintegration is an integral part of Dota Coach. It is provided by Valve to access all events in a Dota 2 game.<br>
+        en: `The Game State Integration is an integral part of Dota Coach. It is provided by Valve to access all events in Dota 2 games.<br>
 					You must add '-gamestateintegration' as a Dota 2 launch parameter.<br>
 					Without it, Dota Coach will not work!<br>
 					For further information on how to enable it click <a class="link-danger" href="https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2">here</a>.`,
@@ -830,14 +830,14 @@ const i18n = {
         es: "¿Cómo puedo mejorar mis fotogramas por segundo (FPS)?", // #toBeUpdated
       },
       content: {
-        en: `If you encounter low frames per second during games, please restart Dota 2, in most cases this will fix frame rate problems without any further actions.<br>
+        en: `If you encounter low frames per second during games, please restart Dota 2, in most cases this will fix frame rate problems without any further actions.<br><br>
 					Tabbing (Alt+Tab) in between your desktop and Dota 2 will also cause frame rate problems overtime. If this happens, restart Dota 2.<br>
 					<br>
 					The steam notifaction message display also causes frame rate problems.<br>
 					You can disable it here:<br>
 					<ul>
 						<li>Open your frind list (Right click steam in the taskbar -> friends).</li>
-						<li>Llick on the settings wheel on the top right corner.</li>
+						<li>Left-click on the settings wheel on the top right corner.</li>
 						<li>Disable all notifactions as shown in the image below.</li>
 					</ul>
 					<div class="mt-2"></div>
@@ -1020,7 +1020,7 @@ const i18n = {
       content: {
         en: `Open the settings window.<br> 
 					You can find it in the top right corner under 'change settings'.<br>
-					You can the timers components which you do not want to see.<br>
+					You can then select the timers components you don't want to see.<br>
 					<div class="mt-2"></div>
 					<img class="img-fluid rounded shadow" src="./images/faqs/timers.png">`,
         de: `Öffne das Einstellungsfenster. <br>Sie finden es in der oberen rechten Ecke unter „Einstellungen ändern“. <br>Sie können die Timer-Komponenten, die Sie nicht sehen möchten. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, // #toBeUpdated
@@ -1188,7 +1188,7 @@ const i18n = {
       content: {
         en: `We have created in-game guides for every hero in the game.<br>
 					They contain all the tips and item builds that are provided in the "Dota Coach App".<br>
-					Subscribe to the them <a class="link-danger" href="https://dota-coach.com/heropedia/">here</a>.<br>
+					Subscribe to the them <a class="link-danger" href="https://dota-coach.github.io/dota_guides.html">here</a>.<br>
 					Select a hero and click on 'Get Steam Guide':<br>
 					<ul>
 					<li>Scroll down until you see a green button 'Subscribe'.</li>
@@ -1201,14 +1201,14 @@ const i18n = {
 					<li>You have to restart Dota to see your selected guides in the game!</li>
 					</ul>
           <script>_buildCarousell()</script>`,
-        de: `Wir haben für jeden Helden im Spiel Anleitungen im Spiel erstellt. <br>Sie enthalten alle Tipps und Item-Builds, die in der „Dota Coach App“ bereitgestellt werden. </a><br>Abonniere sie <a class='link-danger' href='https://dota-coach.com/heropedia/'>hier</a>. <br>Wähle einen Helden aus und klicke auf „Steam Guide holen“: <br><ul><li>Scrolle nach unten, bis du den grünen Button „Abonnieren“ siehst. </li><li>Klicke auf der Steam-Seite auf „Abonnieren“. </li><li>Wenn du noch nicht angemeldet bist, melde dich bitte bei Steam an. </li><li>Das Login ist nur beim ersten Mal erforderlich. </li><li>Klicke auf der Steam-Seite auf „Favorit“ - dadurch wird der Guide im Spiel ganz oben auf deiner Guide-Liste angezeigt</li>. <li>Klicke auf „Daumen hoch“, um den Guide für andere Benutzer besser sichtbar zu machen - optional, aber geschätzt! </li><li>Wiederhole den Vorgang für alle Helden, die du gerne spielst. </li><li>Du musst Dota neu starten, um deine ausgewählten Guides im Spiel zu sehen! </li></ul><script>_Karussell bauen ()</script>`, // #toBeUpdated
-        fr: `Nous avons créé des guides en jeu pour chaque héros du jeu. <br>Ils contiennent tous les conseils et les éléments fournis dans « l'application Dota Coach ». </a><br>Abonnez-vous au thème <a class='link-danger' href='https://dota-coach.com/heropedia/'>ici</a>. <br>Sélectionnez un héros et cliquez sur « Obtenir le guide Steam » : <br><ul><li>faites défiler vers le bas jusqu'à ce que vous voyiez un bouton vert « S'abonner ». </li><li>Cliquez sur « S'abonner » sur la page Steam. </li><li>Si vous n'êtes pas encore connecté, connectez-vous à Steam. </li><li>La connexion n'est nécessaire que la première fois. </li><li>Cliquez sur « Favoris » sur la page Steam - cela fera apparaître le guide en haut de votre liste de guides dans le jeu</li>. <li>Cliquez sur « Pouce levé » pour rendre le guide plus visible pour les autres utilisateurs - facultatif, mais apprécié ! </li><li>Répétez le processus pour tous les héros auxquels vous aimez jouer. </li><li>Vous devez redémarrer Dota pour voir les guides que vous avez sélectionnés dans le jeu ! </li></ul><script>_BuildCarousell ()</script>`, // #toBeUpdated
-        ru: `Мы создали внутриигровые руководства для каждого героя игры. <br>Они содержат все советы и сборки предметов, которые есть в «приложении Dota Coach». </a><br>Подпишитесь на них <a class='link-danger' href='https://dota-coach.com/heropedia/'>здесь</a>. <br>Выберите героя и нажмите «Получить руководство Steam»: <br><ul><li>прокрутите вниз, пока не увидите зеленую кнопку «Подписаться». </li><li>Нажмите «Подписаться» на странице Steam. </li><li>Если вы еще не вошли в систему, войдите в Steam. </li><li>Вход в систему необходим только в первый раз. </li><li>Нажмите «Избранное» на странице Steam - руководство появится в верхней части списка гидов в игре</li>. <li>Нажмите «Thumbs Up», чтобы сделать руководство более заметным для других пользователей - необязательно, но приветствуется! </li><li>Повторите процесс для всех героев, которых вы любите играть. </li><li>Вам нужно перезапустить Dota, чтобы увидеть выбранные гайды в игре! </li></ul><script>_Построить карусель ()</script>`, // #toBeUpdated
-        id: `Kami telah membuat panduan dalam game untuk setiap pahlawan dalam permainan. <br>Mereka berisi semua tips dan item membangun yang disediakan di 'Dota Coach App'. </a><br>Berlangganan mereka <a class='link-danger' href='https://dota-coach.com/heropedia/'>di sini</a>. <br>Pilih pahlawan dan klik 'Get Steam Guide':<br><ul><li>Gulir ke bawah sampai Anda melihat tombol hijau 'Berlangganan'. </li><li>Klik 'Berlangganan' pada halaman Uap. </li><li>Jika Anda belum login, silakan masuk ke Steam. </li><li>Login hanya diperlukan untuk pertama kalinya. </li><li>Klik 'Favorit' di halaman Uap - ini akan membuat panduan muncul di atas daftar panduan Anda dalam permainan</li><li>Klik 'Thumbs Up' untuk membuat panduan lebih terlihat oleh pengguna lain - opsional, tapi dihargai! </li><li>Ulangi proses untuk semua pahlawan yang ingin Anda mainkan. </li><li>Anda harus me-restart Dota untuk melihat panduan yang Anda pilih dalam permainan! </li></ul><script>_BuildCarousell ()</script>`, // #toBeUpdated
-        fil: `Gumawa kami ng mga in-game na gabay para sa bawat bayani sa laro. <br>Naglalaman ito ng lahat ng mga tip at item build na ibinigay sa 'Dota Coach App'. </a><br>Mag-subscribe sa kanila <a class='link-danger' href='https://dota-coach.com/heropedia/'>dito</a>. <br>Pumili ng isang bayani at mag-click sa 'Kumuha ng Steam Guide ':<br><ul><li>Mag-scroll pababa hanggang makita mo ang berdeng button na 'Mag-subscribe'. </li><li>I-click ang 'Mag-subscribe' sa pahina ng Steam. </li><li>Kung hindi ka pa naka-log in, mangyaring mag-log in sa Steam. </li><li>Ang pag-login ay kinakailangan lamang sa unang pagkakataon. </li><li>I-click ang 'Paboritong' sa pahina ng Steam - gagawin nito ang gabay na lumitaw sa ibabaw ng iyong listahan ng mga gabay sa laro I-click ang</li><li>'Thumbs Up 'upang gawing mas nakikita ang gabay sa iba pang mga gumagamit - opsyonal, ngunit pinahahalagahan! </li><li>Ulitin ang proseso para sa lahat ng mga bayani na gusto mong i-play. </li><li>Kailangan mong i-restart ang Dota upang makita ang iyong mga napiling gabay sa laro! </li></ul><script>_Build Carousell ()</script>`, // #toBeUpdated
-        zh: `我们已经为游戏中的每位英雄创建了游戏内指南。<br>它们包含 “Dota Coach App” 中提供的所有技巧和物品构建。</a><br><a class='link-danger' href='https://dota-coach.com/heropedia/'>在这里订阅他们。</a><br>选择一个英雄，然后点击 “获取Steam指南”：<br><ul><li>向下滚动，直到看到绿色按钮 “订阅”。</li><li>点击 Steam 页面上的 “订阅”。</li><li>如果你还没有登录，请登录 Steam。</li><li>只有在第一次时才需要登录。</li><li>点击 Steam 页面上的 “收藏”-这将使该指南出现在游戏中指南列表的顶部</li><li>单击 “竖起大拇指” 以使其他用户更容易看到该指南-可选，但不胜感激！</li><li>对所有你喜欢玩的英雄重复这个过程。</li><li>你必须重启Dota才能在游戏中看到你选择的向导！</li></ul><script>_buildCarousell ()</script>`, // #toBeUpdated
-        br: `Criamos guias no jogo para cada herói do jogo. <br>Eles contêm todas as dicas e compilações de itens que são fornecidas no 'Dota Coach App'. </a><br>Assine os <a class='link-danger' href='https://dota-coach.com/heropedia/'>aqui</a>. <br>Selecione um herói e clique em 'Obter Guia Steam': <br><ul><li>Role para baixo até ver um botão verde 'Inscrever'. </li><li>Clique em “Inscrever-se” na página do Steam. </li><li>Se você ainda não está logado, faça login no Steam. </li><li>O login só é necessário na primeira vez. </li><li>Clique em “Favorito” na página do Steam - isso fará com que o guia apareça no topo da sua lista de guias no jogo Clique em</li> <li>“Thumbs Up” para tornar o guia mais visível para outros usuários - opcional, mas apreciado! </li><li>Repita o processo para todos os heróis que você gosta de jogar. </li><li>Você precisa reiniciar o Dota para ver os guias selecionados no jogo! </li></ul><script>_Construir carrossel ()</script>`, // #toBeUpdated
-        es: `Hemos creado guías en el juego para todos los héroes del juego. <br>Contienen todos los consejos y construcciones de artículos que se proporcionan en la «Aplicación Dota Coach». </a><br>Suscríbete a ellos <a class='link-danger' href='https://dota-coach.com/heropedia/'>aquí</a>. <br>Selecciona un héroe y haz clic en «Obtener guía de Steam»: <br><ul><li>Desplázate hacia abajo hasta que veas un botón verde «Suscribirse». </li><li>Haz clic en Suscribirse en la página de Steam. </li><li>Si aún no has iniciado sesión, inicia sesión en Steam. </li><li>El inicio de sesión solo es necesario la primera vez. </li><li>Haz clic en «Favorito» en la página de Steam; esto hará que la guía aparezca en la parte superior de tu lista de guías en el juego</li>. <li>Haz clic en «Pulgar hacia arriba» para que la guía sea más visible para otros usuarios, ¡opcional, pero apreciada! </li><li>Repite el proceso para todos los héroes a los que te guste jugar. </li><li>¡Tienes que reiniciar Dota para ver las guías seleccionadas en el juego! </li></ul><script>_ Construir carrusel ()</script>`, // #toBeUpdated
+        de: `Wir haben für jeden Helden im Spiel Anleitungen im Spiel erstellt. <br>Sie enthalten alle Tipps und Item-Builds, die in der „Dota Coach App“ bereitgestellt werden. </a><br>Abonniere sie <a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>hier</a>. <br>Wähle einen Helden aus und klicke auf „Steam Guide holen“: <br><ul><li>Scrolle nach unten, bis du den grünen Button „Abonnieren“ siehst. </li><li>Klicke auf der Steam-Seite auf „Abonnieren“. </li><li>Wenn du noch nicht angemeldet bist, melde dich bitte bei Steam an. </li><li>Das Login ist nur beim ersten Mal erforderlich. </li><li>Klicke auf der Steam-Seite auf „Favorit“ - dadurch wird der Guide im Spiel ganz oben auf deiner Guide-Liste angezeigt</li>. <li>Klicke auf „Daumen hoch“, um den Guide für andere Benutzer besser sichtbar zu machen - optional, aber geschätzt! </li><li>Wiederhole den Vorgang für alle Helden, die du gerne spielst. </li><li>Du musst Dota neu starten, um deine ausgewählten Guides im Spiel zu sehen! </li></ul><script>_Karussell bauen ()</script>`, // #toBeUpdated
+        fr: `Nous avons créé des guides en jeu pour chaque héros du jeu. <br>Ils contiennent tous les conseils et les éléments fournis dans « l'application Dota Coach ». </a><br>Abonnez-vous au thème <a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>ici</a>. <br>Sélectionnez un héros et cliquez sur « Obtenir le guide Steam » : <br><ul><li>faites défiler vers le bas jusqu'à ce que vous voyiez un bouton vert « S'abonner ». </li><li>Cliquez sur « S'abonner » sur la page Steam. </li><li>Si vous n'êtes pas encore connecté, connectez-vous à Steam. </li><li>La connexion n'est nécessaire que la première fois. </li><li>Cliquez sur « Favoris » sur la page Steam - cela fera apparaître le guide en haut de votre liste de guides dans le jeu</li>. <li>Cliquez sur « Pouce levé » pour rendre le guide plus visible pour les autres utilisateurs - facultatif, mais apprécié ! </li><li>Répétez le processus pour tous les héros auxquels vous aimez jouer. </li><li>Vous devez redémarrer Dota pour voir les guides que vous avez sélectionnés dans le jeu ! </li></ul><script>_BuildCarousell ()</script>`, // #toBeUpdated
+        ru: `Мы создали внутриигровые руководства для каждого героя игры. <br>Они содержат все советы и сборки предметов, которые есть в «приложении Dota Coach». </a><br>Подпишитесь на них <a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>здесь</a>. <br>Выберите героя и нажмите «Получить руководство Steam»: <br><ul><li>прокрутите вниз, пока не увидите зеленую кнопку «Подписаться». </li><li>Нажмите «Подписаться» на странице Steam. </li><li>Если вы еще не вошли в систему, войдите в Steam. </li><li>Вход в систему необходим только в первый раз. </li><li>Нажмите «Избранное» на странице Steam - руководство появится в верхней части списка гидов в игре</li>. <li>Нажмите «Thumbs Up», чтобы сделать руководство более заметным для других пользователей - необязательно, но приветствуется! </li><li>Повторите процесс для всех героев, которых вы любите играть. </li><li>Вам нужно перезапустить Dota, чтобы увидеть выбранные гайды в игре! </li></ul><script>_Построить карусель ()</script>`, // #toBeUpdated
+        id: `Kami telah membuat panduan dalam game untuk setiap pahlawan dalam permainan. <br>Mereka berisi semua tips dan item membangun yang disediakan di 'Dota Coach App'. </a><br>Berlangganan mereka <a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>di sini</a>. <br>Pilih pahlawan dan klik 'Get Steam Guide':<br><ul><li>Gulir ke bawah sampai Anda melihat tombol hijau 'Berlangganan'. </li><li>Klik 'Berlangganan' pada halaman Uap. </li><li>Jika Anda belum login, silakan masuk ke Steam. </li><li>Login hanya diperlukan untuk pertama kalinya. </li><li>Klik 'Favorit' di halaman Uap - ini akan membuat panduan muncul di atas daftar panduan Anda dalam permainan</li><li>Klik 'Thumbs Up' untuk membuat panduan lebih terlihat oleh pengguna lain - opsional, tapi dihargai! </li><li>Ulangi proses untuk semua pahlawan yang ingin Anda mainkan. </li><li>Anda harus me-restart Dota untuk melihat panduan yang Anda pilih dalam permainan! </li></ul><script>_BuildCarousell ()</script>`, // #toBeUpdated
+        fil: `Gumawa kami ng mga in-game na gabay para sa bawat bayani sa laro. <br>Naglalaman ito ng lahat ng mga tip at item build na ibinigay sa 'Dota Coach App'. </a><br>Mag-subscribe sa kanila <a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>dito</a>. <br>Pumili ng isang bayani at mag-click sa 'Kumuha ng Steam Guide ':<br><ul><li>Mag-scroll pababa hanggang makita mo ang berdeng button na 'Mag-subscribe'. </li><li>I-click ang 'Mag-subscribe' sa pahina ng Steam. </li><li>Kung hindi ka pa naka-log in, mangyaring mag-log in sa Steam. </li><li>Ang pag-login ay kinakailangan lamang sa unang pagkakataon. </li><li>I-click ang 'Paboritong' sa pahina ng Steam - gagawin nito ang gabay na lumitaw sa ibabaw ng iyong listahan ng mga gabay sa laro I-click ang</li><li>'Thumbs Up 'upang gawing mas nakikita ang gabay sa iba pang mga gumagamit - opsyonal, ngunit pinahahalagahan! </li><li>Ulitin ang proseso para sa lahat ng mga bayani na gusto mong i-play. </li><li>Kailangan mong i-restart ang Dota upang makita ang iyong mga napiling gabay sa laro! </li></ul><script>_Build Carousell ()</script>`, // #toBeUpdated
+        zh: `我们已经为游戏中的每位英雄创建了游戏内指南。<br>它们包含 “Dota Coach App” 中提供的所有技巧和物品构建。</a><br><a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>在这里订阅他们。</a><br>选择一个英雄，然后点击 “获取Steam指南”：<br><ul><li>向下滚动，直到看到绿色按钮 “订阅”。</li><li>点击 Steam 页面上的 “订阅”。</li><li>如果你还没有登录，请登录 Steam。</li><li>只有在第一次时才需要登录。</li><li>点击 Steam 页面上的 “收藏”-这将使该指南出现在游戏中指南列表的顶部</li><li>单击 “竖起大拇指” 以使其他用户更容易看到该指南-可选，但不胜感激！</li><li>对所有你喜欢玩的英雄重复这个过程。</li><li>你必须重启Dota才能在游戏中看到你选择的向导！</li></ul><script>_buildCarousell ()</script>`, // #toBeUpdated
+        br: `Criamos guias no jogo para cada herói do jogo. <br>Eles contêm todas as dicas e compilações de itens que são fornecidas no 'Dota Coach App'. </a><br>Assine os <a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>aqui</a>. <br>Selecione um herói e clique em 'Obter Guia Steam': <br><ul><li>Role para baixo até ver um botão verde 'Inscrever'. </li><li>Clique em “Inscrever-se” na página do Steam. </li><li>Se você ainda não está logado, faça login no Steam. </li><li>O login só é necessário na primeira vez. </li><li>Clique em “Favorito” na página do Steam - isso fará com que o guia apareça no topo da sua lista de guias no jogo Clique em</li> <li>“Thumbs Up” para tornar o guia mais visível para outros usuários - opcional, mas apreciado! </li><li>Repita o processo para todos os heróis que você gosta de jogar. </li><li>Você precisa reiniciar o Dota para ver os guias selecionados no jogo! </li></ul><script>_Construir carrossel ()</script>`, // #toBeUpdated
+        es: `Hemos creado guías en el juego para todos los héroes del juego. <br>Contienen todos los consejos y construcciones de artículos que se proporcionan en la «Aplicación Dota Coach». </a><br>Suscríbete a ellos <a class='link-danger' href='https://dota-coach.github.io/dota_guides.html'>aquí</a>. <br>Selecciona un héroe y haz clic en «Obtener guía de Steam»: <br><ul><li>Desplázate hacia abajo hasta que veas un botón verde «Suscribirse». </li><li>Haz clic en Suscribirse en la página de Steam. </li><li>Si aún no has iniciado sesión, inicia sesión en Steam. </li><li>El inicio de sesión solo es necesario la primera vez. </li><li>Haz clic en «Favorito» en la página de Steam; esto hará que la guía aparezca en la parte superior de tu lista de guías en el juego</li>. <li>Haz clic en «Pulgar hacia arriba» para que la guía sea más visible para otros usuarios, ¡opcional, pero apreciada! </li><li>Repite el proceso para todos los héroes a los que te guste jugar. </li><li>¡Tienes que reiniciar Dota para ver las guías seleccionadas en el juego! </li></ul><script>_ Construir carrusel ()</script>`, // #toBeUpdated
       },
     },
     heroguidesMissing: {
