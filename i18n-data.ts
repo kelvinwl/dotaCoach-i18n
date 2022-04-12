@@ -542,70 +542,84 @@ export const i18n = {
     matches: {
       en: "Matches",
       de: "Spiele",
+      cn: "比赛",
     },
     myRole: {
       en: "Role",
       de: "Rolle",
+      cn: "分路",
     },
 
     enemyHero: {
       en: "Enemy hero",
       de: "Gegner Held",
+      cn: "敌方英雄",
     },
 
     inMyLane: {
       en: "My lane",
       de: "Meine Linie",
+      cn: "和我对线"
     },
 
     counterItemsLane: {
       en: "Counter items to consider (laning)",
       de: "Berücksichtige Konter Gegenstände (Linie)",
+      cn: "可以考虑针对使用的物品（对线期）",
     },
 
     spectatingMessage: {
       en: "Enjoy watching!",
       de: "Viel Spaß beim Zusehen!",
+      cn: "享受观看比赛的乐趣吧！",
     },
 
     noRosterMessage: {
       en: "Waiting for information on players...",
       de: "Warte auf Spielerinformationen...",
+      cn: "正在等待玩家信息",
     },
 
     banSuggestions: {
       en: "Ban suggestions",
       de: "Ban Vorschläge",
+      cn: "禁用英雄建议"
     },
 
     winLoseStreakNone: {
       en: "No win/lose streak in the last three matches.",
       de: "Keine Sieges/Niederlagen Serie in den letzten 3 Spielen.",
+      cn: "没有三连胜或者三连败",
     },
 
     winLoseStreaks: {
       en: "Winning / losing streaks",
       de: "Sieges / Niederlagen Serien",
+      cn: "正在连胜或者连败", 
     },
 
     peoplePlayedWith: {
       en: "People you played with",
       de: "Spieler mit denen du gespielt hast",
+      cn: "一起玩的队友",
     },
 
     heroToBanNone: {
       en: "No spezific hero needs to be banned.",
       de: "Kein spezifischer Held muss gebannt werden.",
+      cn: "没有需要去Ban掉的英雄"
     },
 
     heroNotToBanNone: {
       en: "No spezific hero needs not be banned.",
       de: "Kein spezifischer Held sollte nicht gebannt werden.",
+      cn: "没有完全不用考虑去Ban的英雄",
     },
 
     dotaCoachUsers: {
       en: "Players using Dota Coach",
       de: "Spieler die Dota Coach verwenden",
+      cn: "此玩家正在使用DotaCoach",
     },
 
     // InGame window
@@ -1422,16 +1436,19 @@ export const i18n = {
       en: "Mouse click modifier",
       de: "Mausklickmodifizierung",
       br: "Modificador do clique do mouse",
+      cn: "鼠标点击组合键",
     },
     MouseClickModifierTooltip: {
       en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
       de: "Die Mausklickmodifizierung wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist die Modifizierung aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Modifizierungsknopf gedrückt werden.",
       fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro.",
       br: "A integração do modificador de clique do mouse requer o pressionamento de uma tecla modificadora ao clicar no overlay. Isso oferece proteção contra interferências com o jogo.",
+      cn: "鼠标点击组合键功能要求用户在点击DotaCoach悬浮窗时，需要按下特定的组合键，以避免游戏操作导致的干扰。"
     },
     Modifier: {
       en: "Modifier",
       br: "Modificador",
+      cn: "组合键选择"
     },
     MouseClickModifierNone: {
       en: "None",
