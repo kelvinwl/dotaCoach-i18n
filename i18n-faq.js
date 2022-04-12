@@ -14,7 +14,7 @@ const i18n = {
       { code: "id", name: "Indonesia" },
       { code: "fil", name: "Filipino" },
       { code: "zh", name: "中文" },
-      { code: "br", name: "Português" },
+      { code: "br", name: "Português - Brasil" },
       { code: "es", name: "Español" },
     ],
   },
@@ -29,7 +29,7 @@ const i18n = {
       id: "Pertanyaan yang Sering Diajukan (FAQ)", // #toBeUpdated
       fil: "Mga Madalas Itanong (FAQ)", // #toBeUpdated
       zh: "常见问题解答(FAQs)",
-      br: "Perguntas frequentes (FAQs)", // #toBeUpdated
+      br: "Perguntas frequentes (FAQs)",
       es: "Preguntas frecuentes (FAQ)", // #toBeUpdated
     },
     mostPopular: {
@@ -40,7 +40,7 @@ const i18n = {
       id: "Pertanyaan Paling Populer", // #toBeUpdated
       fil: "Pinaka-popular na mga Tanong", // #toBeUpdated
       zh: "最常见的问题",
-      br: "Perguntas mais populares", // #toBeUpdated
+      br: "Perguntas mais populares",
       es: "Preguntas más populares", // #toBeUpdated
     },
     // Answer
@@ -52,7 +52,7 @@ const i18n = {
       id: "Jawaban", // #toBeUpdated
       fil: "Sagot", // #toBeUpdated
       zh: "回答",
-      br: "Resposta", // #toBeUpdated
+      br: "Resposta",
       es: "Respuesta", // #toBeUpdated
     },
     // Navigation Buttons
@@ -64,7 +64,7 @@ const i18n = {
       id: "Berlangganan", // #toBeUpdated
       fil: "Subscription", // #toBeUpdated
       zh: "订阅问题",
-      br: "Assinatura", // #toBeUpdated
+      br: "Assinatura",
       es: "Suscripción", // #toBeUpdated
     },
     btnAccount: {
@@ -75,7 +75,7 @@ const i18n = {
       id: "Akun", // #toBeUpdated
       fil: "Account", // #toBeUpdated
       zh: "账号问题", // #toBeUpdated
-      br: "Conta", // #toBeUpdated
+      br: "Conta",
       es: "Cuenta", // #toBeUpdated
     },
     btnApplication: {
@@ -86,7 +86,7 @@ const i18n = {
       id: "Aplikasi", // #toBeUpdated
       fil: "Application", // #toBeUpdated
       zh: "应用问题",
-      br: "Aplicação", // #toBeUpdated
+      br: "Aplicação",
       es: "Aplicación", // #toBeUpdated
     },
     btnIssues: {
@@ -108,7 +108,7 @@ const i18n = {
       id: "Audio", // #toBeUpdated
       fil: "Audio", // #toBeUpdated
       zh: "声音问题",
-      br: "Áudio", // #toBeUpdated
+      br: "Áudio",
       es: "Audio", // #toBeUpdated
     },
     btnTimers: {
@@ -119,7 +119,7 @@ const i18n = {
       id: "Timer", // #toBeUpdated
       fil: "Timers", // #toBeUpdated
       zh: "计时器问题",
-      br: "Temporizadores", // #toBeUpdated
+      br: "Temporizadores",
       es: "Temporizadores", // #toBeUpdated
     },
     btnGamemodes: {
@@ -130,7 +130,7 @@ const i18n = {
       id: "Mode Permainan", // #toBeUpdated
       fil: "Mga Mode ng Laro", // #toBeUpdated
       zh: "游戏模式问题",
-      br: "Modos de jogo", // #toBeUpdated
+      br: "Modos de jogo",
       es: "Modos de juego", // #toBeUpdated
     },
     btnHeroguides: {
@@ -141,7 +141,7 @@ const i18n = {
       id: "Panduan Pahlawan", // #toBeUpdated
       fil: "Mga Gabay sa Bayani", // #toBeUpdated
       zh: "英雄指南问题",
-      br: "Guias de heróis", // #toBeUpdated
+      br: "Guias de heróis",
       es: "Guías de héroes", // #toBeUpdated
     },
     btnWindows: {
@@ -152,7 +152,7 @@ const i18n = {
       id: "Windows", // #toBeUpdated
       fil: "Windows", // #toBeUpdated
       zh: "窗口问题",
-      br: "Janela", // #toBeUpdated
+      br: "Janela",
       es: "Windows", // #toBeUpdated
     },
     btnHotkeys: {
@@ -163,7 +163,7 @@ const i18n = {
       id: "Hotkeys", // #toBeUpdated
       fil: "Hotkeys", // #toBeUpdated
       zh: "热键问题",
-      br: "Teclas de atalho", // #toBeUpdated
+      br: "Teclas de atalho",
       es: "Teclas rápidas", // #toBeUpdated
     },
     // Most Popular Questions
@@ -176,7 +176,7 @@ const i18n = {
       id: "Bagaimana cara memulai?", // #toBeUpdated
       fil: "Paano ako makapagsimula?", // #toBeUpdated
       zh: "如何使用DotaCoach？",
-      br: "Como eu começo?", // #toBeUpdated
+      br: "Como eu começo?",
       es: "¿Cómo empiezo?", // #toBeUpdated
     },
     QMPApplicationNotWork: {
@@ -187,7 +187,7 @@ const i18n = {
       id: "Mengapa aplikasi tidak bekerja?", // #toBeUpdated
       fil: "Bakit hindi gumagana ang application?", // #toBeUpdated
       zh: "为什么DotaCoach程序不工作？",
-      br: "Por que o aplicativo não funciona?", // #toBeUpdated
+      br: "Por que o aplicativo não funciona?",
       es: "¿Por qué no funciona la aplicación?", // #toBeUpdated
     },
     QMPGetHelp: {
@@ -198,7 +198,7 @@ const i18n = {
       id: "Di mana saya bisa mendapatkan bantuan tambahan?", // #toBeUpdated
       fil: "Saan ako makakakuha ng karagdagang tulong?", // #toBeUpdated
       zh: "哪里可以获取到更多帮助信息？",
-      br: "Onde posso obter ajuda adicional?", // #toBeUpdated
+      br: "Onde posso obter ajuda adicional?",
       es: "¿Dónde puedo obtener ayuda adicional?", // #toBeUpdated
     },
     QMPbanned: {
@@ -209,7 +209,7 @@ const i18n = {
       id: "Bisakah saya dilarang menggunakan Dota Coach?", // #toBeUpdated
       fil: "Maaari ba akong makakuha ng pinagbawalan para sa paggamit ng Dota Coach?", // #toBeUpdated
       zh: "我会因为使用DotaCoach被封禁么？",
-      br: "Posso ser banido por usar o Dota Coach?", // #toBeUpdated
+      br: "Posso ser banido por usar o Dota Coach?",
       es: "¿Me pueden prohibir el uso de Dota Coach?", // #toBeUpdated
     },
     QMPwindows: {
@@ -220,7 +220,7 @@ const i18n = {
       id: "Mengapa beberapa jendela hilang?", // #toBeUpdated
       fil: "Bakit nawawala ang ilang mga bintana?", // #toBeUpdated
       zh: "为什么有些窗口不见了？",
-      br: "Por que algumas janelas estão faltando?", // #toBeUpdated
+      br: "Por que algumas janelas estão faltando?",
       es: "¿Por qué faltan algunas ventanas?", // #toBeUpdated
     },
     QMPbug: {
@@ -231,7 +231,7 @@ const i18n = {
       id: "Di mana saya dapat melaporkan bug atau masalah?", // #toBeUpdated
       fil: "Saan ako maaaring mag-ulat ng bug o isyu?", // #toBeUpdated
       zh: "我可以在哪里提交BUG或者报告问题？",
-      br: "Onde posso relatar um bug ou problema?", // #toBeUpdated
+      br: "Onde posso relatar um bug ou problema?",
       es: "¿Dónde puedo informar de un error o un problema?", // #toBeUpdated
     },
     // Subscription questions
@@ -244,7 +244,7 @@ const i18n = {
         id: "Fitur apa yang saya dapatkan?", // #toBeUpdated
         fil: "Anong mga tampok ang nakukuha ko?", // #toBeUpdated
         zh: "订阅可以获得什么功能？",
-        br: "Quais recursos eu recebo?", // #toBeUpdated
+        br: "Quais recursos eu recebo?",
         es: "¿Qué funciones obtengo?", // #toBeUpdated
       },
       content: {
@@ -273,7 +273,13 @@ const i18n = {
 						<li>添加免费DotaCoach体验</li>
 						<li>Discord支持者用户组</li>
 					</ul>`,
-        br: `Nossa versão pro coach vem com vários recursos: <br><ul><li>Coaching de voz para todos os heróis que Dota2 tem a oferecer. </li><li>Temporizadores Ultimate ajustáveis para o inimigo e sua equipe. </li><li>Adicione uma experiência gratuita do Dota Coach. </li><li>Papel do Supporter Discord. </li></ul>`, // #toBeUpdated
+        br: `Nossa versão pro coach vem com vários recursos: <br>
+					<ul>
+						<li>Coaching de voz para todos os heróis que Dota2 tem a oferecer. </li>
+						<li>Temporizadores Ultimate ajustáveis para o inimigo e sua equipe. </li>
+						<li>Adicione uma experiência gratuita do Dota Coach. </li>
+						<li>Cargo de apoiador no Discord. </li>
+					</ul>`,
         es: `Nuestra versión de entrenador profesional viene con una serie de características: <br><ul><li>Entrenamiento de voz para todos los héroes que Dota2 tiene para ofrecer. </li><li>Temporizadores definitivos ajustables para el enemigo y tu equipo. </li><li>Agrega experiencia gratuita de Dota Coach. </li><li>Rol de partidario en Discord. </li></ul>`, // #toBeUpdated
       },
     },
@@ -319,7 +325,17 @@ const i18n = {
 						<li>Maestro</li>
 					</ul>
 					注意：Overwolf的支付API暂时无法获取来自中国大陆的付款！<br>`,
-        br: `Todos os pagamentos são feitos através da plataforma <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a>, que colabora com uma ampla variedade de provedores de pagamento. <br>Métodos de pagamento mais populares: <br><ul><li>Cartões de crédito e débito</li> <li>Paypal</li> <li>Amazon Pay</li> <li>Skrill</li> <li>Visa</li> <li>Maestro</li></ul> Esteja ciente de que as opções de pagamento podem ser limitadas dependendo do seu país de residência atual. <br>`, // #toBeUpdated
+        br: `Todos os pagamentos são feitos através da plataforma <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a>, que colabora com uma ampla variedade de provedores de pagamento. <br>
+					Métodos de pagamento mais populares: <br>
+					<ul>
+						<li>Cartões de crédito e débito</li> 
+						<li>Paypal</li> 
+						<li>Amazon Pay</li>
+						<li>Skrill</li> 
+						<li>Visa</li> 
+						<li>Maestro</li>
+					</ul> 
+					Esteja ciente de que as opções de pagamento podem ser limitadas dependendo do seu país de residência atual. <br>`,
         es: `Todos los pagos se realizan a través de la plataforma <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a>, que colabora con una amplia variedad de proveedores de pagos. <br>Métodos de pago más populares: <br><ul><li>Tarjetas de crédito y débito</li> <li>Paypal</li> <li>Amazon Pay</li> <li>Skrill</li> <li>Visa</li> <li>Maestro</li></ul> Tenga en cuenta que las opciones de pago pueden ser limitadas según su país de residencia actual. <br>`, // #toBeUpdated
       },
 
@@ -333,7 +349,7 @@ const i18n = {
         id: "Bagaimana saya bisa mendapatkan Versi pro?", // #toBeUpdated
         fil: "Paano ko makukuha ang pro Version?", // #toBeUpdated
         zh: "我怎么才能获得DotaCoach专业版？",
-        br: "Como posso obter a versão pro?", // #toBeUpdated
+        br: "Como posso obter a versão pro?",
         es: "¿Cómo puedo obtener la versión pro?", // #toBeUpdated
       },
       content: {
@@ -369,7 +385,17 @@ const i18n = {
 					来学习如何订阅。<br>
 					<div class="mt-2"></div>
 					<img src="images/faqs/subscribesteps.png" class="img-fluid rounded shadow">`,
-        br: `Depois de instalar o Dota Coach com o cliente overwolf, você pode se inscrever em nossos serviços. <br><ul><li>Abra o cliente de desktop Overwolf. </li><li>Clique em 'Biblioteca'. </li><li>Clique no pequeno botão de configurações ao lado do logotipo do Dota Coach. </li><li>Clique em 'visualizar na appstore'</li> <li>Clique em 'Inscrever-se' dentro da nova janela. </li><li>Siga as etapas promovidas. </li></ul>Confira também as perguntas frequentes do <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> sobre como se inscrever em aplicativos. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+        br: `Depois de instalar o Dota Coach com o cliente overwolf, você pode se inscrever em nossos serviços. <br>
+					<ul>
+						<li>Abra o cliente de desktop Overwolf. </li>
+						<li>Clique em 'Biblioteca'. </li>
+						<li>Clique no pequeno botão de configurações ao lado do logotipo do Dota Coach. </li>
+						<li>Clique em 'visualizar na appstore'</li> 
+						<li>Clique em 'Inscrever-se' dentro da nova janela. </li>
+						<li>Siga as etapas promovidas. </li>
+					</ul>
+					Confira também as perguntas frequentes do <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> sobre como se inscrever em aplicativos. <br>
+					<div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`,
         es: `Después de instalar Dota Coach con el cliente overwolf, puedes suscribirte a nuestros servicios. <br><ul><li>Abra el cliente de escritorio de Overwolf. </li><li>Haga clic en «Biblioteca». </li><li>Haz clic en el pequeño botón de configuración junto al logotipo de Dota Coach. </li><li>Haga clic en «ver en la tienda de aplicaciones»</li> <li>Haga clic en «Suscribirse» dentro de la nueva ventana. </li><li>Siga los pasos promocionados. </li></ul>Consulta también las preguntas frecuentes de <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> sobre cómo suscribirte a las aplicaciones. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
       },
     },
@@ -393,7 +419,8 @@ const i18n = {
         id: `Semua langganan ditangani oleh Overwolf. </a><br>Jika Anda ingin membatalkan langganan, pengembalian dana atau lupa membatalkan, silakan ikuti <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ OfficalOverWolf.</a>`, // #toBeUpdated
         fil: `Ang lahat ng mga subscription ay hinahawakan ng Overwolf. </a><br>Kung nais mong kanselahin ang iyong subscription, refund o nakalimutan na kanselahin, mangyaring sundin ang <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ ng OfficaOverWolf.</a>`, // #toBeUpdated
         zh: `所有订阅均由 Overwolf 处理。</a><br>如果你想取消订阅、退款或忘记取消，请遵循 OfficaLoverWolf <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> 常见问题解答。</a>`, // #toBeUpdated
-        br: `Todas as assinaturas são gerenciadas pela Overwolf. </a><br>Se você deseja cancelar sua assinatura, reembolsar ou esquecer de cancelar, siga as <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> perguntas frequentes do OfficialOverwolf.</a>`, // #toBeUpdated
+        br: `Todas as assinaturas são gerenciadas pela Overwolf. </a><br>
+		Se você deseja cancelar sua assinatura, reembolsar ou esquecer de cancelar, siga as <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> perguntas frequentes do OfficialOverwolf.</a>`,
         es: `Overwolf gestiona todas las suscripciones. </a><br>Si desea cancelar su suscripción, reembolsar u olvidó cancelar, siga las <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> preguntas frecuentes de OfficalOverWolf.</a>` // #toBeUpdated
       },
     },
@@ -408,7 +435,7 @@ const i18n = {
         id: "Bagaimana cara membuat akun?", // #toBeUpdated
         fil: "Paano ako lilikha ng isang account?", // #toBeUpdated
         zh: "如何创建账户？", // #toBeUpdated
-        br: "Como eu crio uma conta?", // #toBeUpdated
+        br: "Como eu crio uma conta?",
         es: "¿Cómo creo una cuenta?", // #toBeUpdated
       },
       content: {
@@ -419,7 +446,7 @@ const i18n = {
         id: `Ikuti langkah overwolf demi langkah tutorial <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> tentang</a> cara membuat akun. <br>`, // #toBeUpdated
         fil: `Sundin ang overwolf step <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> sa</a> pamamagitan ng steptutorial kung paano lumikha ng isang account. <br>`, // #toBeUpdated
         zh: `按照overwolf分<a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> 步</a>教程了解如何创建账户。<br>`, // #toBeUpdated
-        br: `Siga o tutorial passo a passo do overwolf <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> sobre</a> como criar uma conta. <br>`, // #toBeUpdated
+        br: `Siga o tutorial passo a passo do overwolf <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> sobre</a> como criar uma conta. <br>`,
         es: `Sigue el tutorial paso a paso <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> sobre</a> cómo crear una cuenta. <br>`, // #toBeUpdated
       },
     },
@@ -432,7 +459,7 @@ const i18n = {
         id: "Bagaimana cara masuk?", // #toBeUpdated
         fil: "Paano ako mag-log in?", // #toBeUpdated
         zh: "我该如何登录？", // #toBeUpdated
-        br: "Como eu faço login?", // #toBeUpdated
+        br: "Como eu faço login?",
         es: "¿Cómo puedo iniciar sesión?", // #toBeUpdated
       },
       content: {
@@ -447,7 +474,11 @@ const i18n = {
         id: `Anda dapat login melalui klien overwolf, atau langsung dalam aplikasi kami. <br>Kedua login terletak di sudut kanan atas jendela mereka. <br>Cukup klik logo overwolf untuk membuka dialog login. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         fil: `Maaari kang mag-log in sa pamamagitan ng overwolf client, o direkta sa loob ng aming application. <br>Ang parehong mga pag-login ay matatagpuan sa kanang sulok sa itaas ng kanilang mga bintana. <br>I-click lamang ang logo ng overwolf upang buksan ang dialog ng pag-login. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         zh: `您可以通过overwolf客户端登录，也可以直接在我们的应用程序中登录。<br>两个登录帐户都位于其窗口的右上角。<br>只需单击 overwolf 徽标即可打开登录对话框。<br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-        br: `Você pode fazer login através do cliente overwolf ou diretamente em nosso aplicativo. <br>Ambos os logins estão localizados no canto superior direito de suas janelas. <br>Basta clicar no logotipo do overwolf para abrir a caixa de diálogo de login. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+        br: `Você pode fazer login através do cliente overwolf ou diretamente em nosso aplicativo. <br>
+		Ambos os logins estão localizados no canto superior direito de suas janelas. <br>
+		Basta clicar no logotipo do overwolf para abrir a caixa de diálogo de login. <br>
+		<div class='mt-2'></div>
+		<img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`,
         es: `Puedes iniciar sesión a través del cliente overwolf o directamente desde nuestra aplicación. <br>Ambos inicios de sesión se encuentran en la esquina superior derecha de sus ventanas. <br>Simplemente haz clic en el logo de overwolf para abrir el diálogo de inicio de sesión. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
       },
     },
@@ -460,7 +491,7 @@ const i18n = {
         id: "Bagaimana cara log out?", // #toBeUpdated
         fil: "Paano ako mag-log out?", // #toBeUpdated
         zh: "我该如何注销？", // #toBeUpdated
-        br: "Como faço para sair?", // #toBeUpdated
+        br: "Como faço para sair?",
         es: "¿Cómo me desconecto?", // #toBeUpdated
       },
       content: {
@@ -475,7 +506,11 @@ const i18n = {
         id: `Anda dapat log out melalui klien overwolf, atau langsung dalam aplikasi kami. <br>Kedua logout terletak di sudut kanan atas jendela mereka. <br>Cukup klik logo overwolf untuk membuka dialog logout. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         fil: `Maaari kang mag-log out sa pamamagitan ng overwolf client, o direkta sa loob ng aming application. <br>Ang parehong mga logout ay matatagpuan sa kanang sulok sa itaas ng kanilang mga bintana. <br>I-click lamang ang logo ng overwolf upang buksan ang dialog ng logout. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         zh: `您可以通过 overwolf 客户端注销，也可以直接在我们的应用程序中注销。<br>两个注销都位于其窗口的右上角。<br>只需单击 overwolf 徽标即可打开注销对话框。<br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-        br: `Você pode sair através do cliente overwolf ou diretamente em nosso aplicativo. <br>Ambos os logouts estão localizados no canto superior direito das janelas. <br>Basta clicar no logotipo do overwolf para abrir a caixa de diálogo de logout. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+        br: `Você pode sair através do cliente overwolf ou diretamente em nosso aplicativo. <br>
+		Ambos os logouts estão localizados no canto superior direito das janelas. <br>
+		Basta clicar no logotipo do overwolf para abrir a caixa de diálogo de logout. <br>
+		<div class='mt-2'></div>
+		<img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`,
         es: `Puede cerrar sesión a través del cliente overwolf o directamente desde nuestra aplicación. <br>Ambos cierres de sesión se encuentran en la esquina superior derecha de sus ventanas. <br>Simplemente haz clic en el logo de overwolf para abrir el diálogo de cierre de sesión. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
       },
     },
@@ -488,7 +523,7 @@ const i18n = {
         id: "Di mana saya dapat mengelola akun saya?", // #toBeUpdated
         fil: "Saan ko mapapamahalaan ang aking account?", // #toBeUpdated
         zh: "我可以在哪里管理我的账户？", // #toBeUpdated
-        br: "Onde posso gerenciar minha conta?", // #toBeUpdated
+        br: "Onde posso gerenciar minha conta?",
         es: "¿Dónde puedo administrar mi cuenta?" // #toBeUpdated
       },
       content: {
@@ -502,7 +537,10 @@ const i18n = {
         id: `Anda dapat mengelola akun overwolf Anda langsung di klien overwolf. <br>Klik pada logo overwolf di pojok kanan atas. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         fil: `Maaari mong pamahalaan ang iyong overwolf account nang direkta sa overwolf client. <br>Mag-click sa logo ng overwolf sa kanang sulok sa itaas. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         zh: `你可以直接在 overwolf 客户端中管理你的 overwolf 账户。<br>点击右上角的狼人标志。<br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-        br: `Você pode gerenciar sua conta overwolf diretamente no cliente overwolf. <br>Clique no logotipo do overwolf no canto superior direito. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+        br: `Você pode gerenciar sua conta overwolf diretamente no cliente overwolf. <br>
+		Clique no logotipo do overwolf no canto superior direito. <br>
+		<div class='mt-2'></div>
+		<img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`,
         es: `Puedes administrar tu cuenta de overwolf directamente en el cliente de overwolf. <br>Haz clic en el logo de overwolf en la esquina superior derecha. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>` // #toBeUpdated
       },
     },
@@ -516,7 +554,7 @@ const i18n = {
         id: "Bagaimana cara memulai?", // #toBeUpdated
         fil: "Paano ako makapagsimula?", // #toBeUpdated
         zh: "我该如何开始？", // #toBeUpdated
-        br: "Como eu começo?", // #toBeUpdated
+        br: "Como eu começo?",
         es: "¿Cómo empiezo?", // #toBeUpdated
       },
       content: {
@@ -567,7 +605,39 @@ const i18n = {
         id: `<p>Langkah pertama adalah menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2 Anda. <br>Jika Anda menambahkannya dan masih mendapatkan pesan peringatan, pastikan untuk masuk ke akun uap Anda. <br>Panduan tentang cara menambahkan parameter peluncuran Dota2 dapat ditemukan <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>di sini</a>. <p>Setelah itu, Anda dapat menyesuaikan aplikasi dengan kebutuhan Anda. <br>Buka menu pengaturan di pojok kanan atas:<br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>Kemudian mulailah kecocokan untuk mengakses fungsionalitas dalam game Dota Coach. </p><p>Selama fase pemilihan pahlawan Anda mendapatkan statistik pemain dan larangan dan picks yang direkomendasikan:<br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>Setelah pahlawan dipilih, Anda dapat memilih peran Anda (jalur bawa/aman, pertengahan, offlane, inti atau dukungan lembut/keras) dan pahlawan yang Anda harapkan untuk jalur melawan. <br>Berdasarkan Dota Coach ini akan merekomendasikan item counter untuk fase laning. <br>Perhatikan bahwa Anda harus menggabungkan item ini dengan item yang direkomendasikan oleh panduan kami di Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>Dalam permainan timer berikut akan menangkap untuk buyback pahlawan:<br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Dan berikut untuk Roshan dan Glyph of Fortification:<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Jika lain pemain dalam tim Anda menggunakan Dota Coach, aktivasi timer akan dibagi di antara tim. <br>Jadi jika Anda lupa untuk mengaktifkan timer, jangan khawatir, rekan satu tim mungkin telah mengaktifkannya! <p>Pelanggan mendapatkan pelatihan pahlawan untuk semua 123 pahlawan, akses ke timer utama, iklan dihapus dan mendukung pengembangan aplikasi. <br>Biaya langganan adalah USD 1.99 per bulan. </p><p>ingin melihat aplikasi dalam tindakan dan belajar tentang fitur-fiturnya? <a class='link-danger' href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Tonton video tutorial kami</a>! <br>Mau bicara dengan kami? Tidak masalah: <a class='link-danger' href='https://discord.gg/9WhAANq'>Bergabunglah dengan server komunitas Discord kami</a>! </p>`, // #toBeUpdated
         fil: `<p>Ang unang hakbang ay upang magdagdag ng '-gamestateintegration' sa iyong mga pagpipilian sa paglunsad ng Dota 2. <br>Kung idinagdag mo na ito at nakakakuha pa rin ng mensahe ng babala, siguraduhing mag-log in sa iyong steam account. <br>Ang isang gabay sa kung paano magdagdag ng mga parameter ng paglunsad ng Dota2 ay matatagpuan <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>dito</a>. <p>Pagkatapos nito, maaari mong ipasadya ang application sa iyong mga pangangailangan. <br>Tumungo sa menu ng mga setting sa kanang sulok sa itaas:<br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>Pagkatapos ay simulan ang isang tugma upang ma-access ang in-game functionality ng Dota Coach. </p><p>Sa panahon ng yugto ng pagpili ng bayani makakakuha ka ng mga istatistika ng manlalaro at inirekumendang mga pagbabawal at pagpili:<br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>Sa sandaling napili ang mga bayani maaari mong piliin ang iyong papel (dala/ligtas na lane, kalagitnaan, offlane, core o soft/hard support) at ang mga bayani na inaasahan mong lane laban. <br>Batay sa Dota Coach na ito ay magrekomenda ng mga counter item para sa laning phase. <br>Tandaan na dapat mong pagsamahin ang mga item na ito gamit ang mga item na inirerekomenda ng aming mga gabay sa Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>Sa laro ang mga sumusunod na timers ay lilitaw para sa mga buybacks ng bayani:<br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>At ang mga sumusunod para sa Roshan at ang Glyph ng Fortification:<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Kung iba pang mga Ang mga manlalaro sa iyong koponan ay gumagamit ng Dota Coach, ang activation ng timers ay ibabahagi sa mga koponan. <br>Kaya kung nakalimutan mong i-activate ang isang timer, huwag mag-alala, isang kasamahan sa koponan ay maaaring na-activate ito! <p>Ang mga subscriber ay nakakakuha ng bayani coaching para sa lahat ng 123 bayani, access sa ultimate timers, inalis ang mga ad at sinusuportahan ang pag-unlad ng app. <br>Ang bayad sa subscription ay USD 1.99 bawat buwan. </p><p>gusto mong makita ang app sa pagkilos at alamin ang tungkol sa mga tampok nito? <a class='link-danger' href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Panoorin ang aming tutorial video</a>! <br>Gusto mong makipag-usap sa amin? Walang problema: <a class='link-danger' href='https://discord.gg/9WhAANq'>Sumali sa aming server ng komunidad ng Discord</a>! </p>`, // #toBeUpdated
         zh: `<p>第一步是在你的 Dota 2 启动选项中添加 “-gamestateIntegration”。<br>如果你已经添加了它，但仍然收到警告消息，请务必登录你的 Steam 账户。<br>有关如何添加 Dota2 启动参数的指南可<a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>在此处</a>找到。<p>之后，您可以根据需要自定义应用程序。<br>前往右上角的设置菜单:<br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>然后开始比赛以访问Dota Coach的游戏内功能.</p><p>在英雄选择阶段，你将获得玩家统计数据以及推荐的禁令和选择：选择<br><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>英雄<div class='mt-2'></div>后，你可以选择自己的角色（携带/安全通道、mid、offlane、core 或软/硬支援）和你期望对抗的英雄。<br>基于此，Dota Coach将为对线阶段推荐反击物品。<br>请注意，您应该将这些物品与我们的指南在Dota 2中推荐的物品组合使用。<br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>在游戏中，英雄回购将出现以下计时器：<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>以下是 Roshan 和《防御符文》的内容：<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>如果是其他你队伍中的玩家正在使用Dota Coach，激活的计时器将在队伍中共享。<br>因此，如果你忘记激活计时器，别担心，队友可能已经激活了它！<p>订阅者可以获得所有 123 位英雄的英雄指导、终极计时器、移除广告以及支持 app 的开发。<br>订阅费为每月1.99美元。</p><p>想要查看该应用程序的运行情况并了解其功能吗？<a class='link-danger' href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>观看我们的教程视频</a>！<br>想和我们谈谈吗？没问题：<a class='link-danger' href='https://discord.gg/9WhAANq'>加入我们的Discord社区服务器</a>！</p>`, // #toBeUpdated
-        br: `<p>O primeiro passo é adicionar '-gamestateintegration' às suas opções de lançamento do Dota 2. <br>Se você já o adicionou e ainda recebe uma mensagem de aviso, certifique-se de fazer login na sua conta Steam. <br>Um guia sobre como adicionar parâmetros de lançamento do Dota2 pode ser encontrado <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aqui</a>. <p>Depois disso, você pode personalizar o aplicativo de acordo com suas necessidades. <br>Vá para o menu de configurações no canto superior direito: <br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>Em seguida, inicie uma partida para acessar a funcionalidade do jogo do Dota Coach. </p><p>Durante a fase de seleção de heróis, você obtém estatísticas do jogador e proibições e escolhas recomendadas: <br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>Depois que os heróis forem selecionados, você pode escolher sua função (carry/safe lane, mid, offlane, core ou suporte macio/duro) e os heróis que você espera enfrentar. <br>Com base nisso, o Dota Coach recomendará itens de contador para a fase de laning. <br>Observe que você deve combinar esses itens com os itens recomendados por nossos guias no Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>No jogo, os seguintes temporizadores aparecerão para recompra de heróis: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>E o seguinte para Roshan e o Glifo da Fortificação: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Se outro os jogadores da sua equipe estão usando o Dota Coach, a ativação dos temporizadores será compartilhada entre a equipe. <br>Então, se você esquecer de ativar um cronômetro, não se preocupe, um colega de equipe pode tê-lo ativado! <p>Os assinantes recebem treinamento de heróis para todos os 123 heróis, acesso aos melhores temporizadores, anúncios removidos e apoiam o desenvolvimento do aplicativo.<br>A taxa de inscrição é de USD 1,99 por mês. </p><p>quer ver o aplicativo em ação e aprender sobre seus recursos? <a class='link-danger' href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Assista ao nosso vídeo tutorial</a>! <br>Quer falar com a gente? Não há problema: <a class='link-danger' href='https://discord.gg/9WhAANq'>Junte-se ao nosso servidor da comunidade Discord</a> </p>`, // #toBeUpdated
+        br: `<p>O primeiro passo é adicionar '-gamestateintegration' às suas opções de lançamento do Dota 2. <br>
+			Se você já o adicionou e ainda recebe uma mensagem de aviso, certifique-se de fazer login na sua conta Steam. <br>
+			Um guia sobre como adicionar parâmetros de lançamento do Dota2 pode ser encontrado <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aqui</a>. 
+		<p>
+			Depois disso, você pode personalizar o aplicativo de acordo com suas necessidades. <br>
+			Vá para o menu de configurações no canto superior direito: <br>
+			<div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div>
+		<p>
+			Em seguida, inicie uma partida para acessar a funcionalidade do jogo do Dota Coach. </p>
+		<p>
+			Durante a fase de seleção de heróis, você obtém estatísticas do jogador e proibições e escolhas recomendadas: <br>
+			<div class='mt-2'></div>
+			<img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'>
+		<p>
+			Depois que os heróis forem selecionados, você pode escolher sua função (carry/safe lane, mid, offlane, core ou hard/soft support) e os heróis que você espera enfrentar. <br>
+			Com base nisso, o Dota Coach recomendará itens counters para a fase de trilha. <br>
+			Observe que você deve combinar esses itens com os itens recomendados por nossos guias no Dota 2. <br>
+			<div class='mt-2'></div>
+			<img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'>
+		<p>
+			No jogo, os seguintes temporizadores aparecerão para recompra de heróis: <br>
+			<div class='mt-2'></div> 
+			<img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>
+			E o seguinte para Roshan e o Glifo da Fortificação: <br>
+			<div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>
+			Se outro os jogadores da sua equipe estão usando o Dota Coach, a ativação dos temporizadores será compartilhada entre a equipe. <br>
+			Então, se você esquecer de ativar um cronômetro, não se preocupe, um colega de equipe pode tê-lo ativado! 
+		<p>
+			Os assinantes recebem treinamento de heróis para todos os 123 heróis, acesso aos melhores temporizadores, anúncios removidos e apoiam o desenvolvimento do aplicativo.<br>
+			A taxa de inscrição é de 1,99 dólares por mês. </p>
+		<p>
+			Quer ver o aplicativo em ação e aprender sobre seus recursos? <a class='link-danger' href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Assista ao nosso vídeo tutorial</a>! <br>
+			Quer falar com a gente? Não há problema: <a class='link-danger' href='https://discord.gg/9WhAANq'>Junte-se ao nosso servidor da comunidade Discord</a> </p>`,
         es: `<p>El primer paso es añadir '-gamestateintegration' a tus opciones de lanzamiento de Dota 2. <br>Si ya lo has añadido y sigues recibiendo un mensaje de advertencia, asegúrate de iniciar sesión en tu cuenta de Steam. <br>Puede encontrar una guía sobre cómo añadir parámetros de lanzamiento de Dota2 <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aquí</a>. <p>Después de eso, puede personalizar la aplicación según sus necesidades. <br>Dirígete al menú de configuración en la esquina superior derecha: <br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>luego comienza una partida para acceder a la funcionalidad del juego de Dota Coach. </p><p>Durante la fase de selección de héroes, obtienes estadísticas de jugadores y prohibiciones y selecciones recomendadas: <br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>Una vez seleccionados los héroes, puedes elegir tu rol (carril/carril seguro, medio, fuera de línea, núcleo o apoyo suave/duro) y los héroes contra los que esperas enfrentarte. <br>Basado en esto, el entrenador de Dota recomendará artículos de contador para la fase de carriles. <br>Ten en cuenta que debes combinar estos artículos con los artículos recomendados por nuestras guías en Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>En el juego aparecerán los siguientes temporizadores para las recompras de héroes: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Y lo siguiente para Roshan y el glifo de fortificación: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Si otro los jugadores de tu equipo utilizan Dota Coach, la activación de los temporizadores se compartirá entre el equipo. <br>Así que si olvidas activar un temporizador, no te preocupes, ¡es posible que un compañero de equipo lo haya activado! <p>Los suscriptores reciben entrenamiento de héroes para los 123 héroes, acceso a temporizadores definitivos, anuncios eliminados y apoyan el desarrollo de la aplicación. <br>La cuota de suscripción es de 1,99 USD al mes. </p><p>¿quieres ver la aplicación en acción y conocer sus funciones? <a class='link-danger' href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>¡Mira nuestro vídeo tutorial</a>! <br>¿Quieres hablar con nosotros? No hay problema: <a class='link-danger' href='https://discord.gg/9WhAANq'>¡únete a nuestro servidor comunitario de Discord</a>! </p>`, // #toBeUpdated
       },
     },
@@ -580,7 +650,7 @@ const i18n = {
         id: "Di mana saya bisa mendapatkan bantuan tambahan?", // #toBeUpdated
         fil: "Saan ako makakakuha ng karagdagang tulong?", // #toBeUpdated
         zh: "我在哪里可以获得其他帮助？", // #toBeUpdated
-        br: "Onde posso obter ajuda adicional?", // #toBeUpdated
+        br: "Onde posso obter ajuda adicional?",
         es: "¿Dónde puedo obtener ayuda adicional?", // #toBeUpdated
       },
       content: {
@@ -591,7 +661,7 @@ const i18n = {
         id: `Bergabunglah dengan Discord kami untuk dukungan langsung <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
         fil: `Sumali sa aming Discord para sa live na suporta doon <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
         zh: `加入我们的 Discord，在这里获得实时支持 <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>。</a>`, // #toBeUpdated
-        br: `Junte-se ao nosso Discord para suporte ao vivo aqui <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
+        br: `Junte-se ao nosso Discord para suporte ao vivo aqui <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`,
         es: `Únete a nuestro Discord para recibir soporte en vivo aquí <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
       },
     },
@@ -604,7 +674,7 @@ const i18n = {
         id: "Bisakah saya dilarang menggunakan Dota Coach?", // #toBeUpdated
         fil: "Maaari ba akong makakuha ng pinagbawalan para sa paggamit ng Dota Coach?", // #toBeUpdated
         zh: "我能否因为使用 Dota 教练而被禁止？", // #toBeUpdated
-        br: "Posso ser banido por usar o Dota Coach?", // #toBeUpdated
+        br: "Posso ser banido por usar o Dota Coach?",
         es: "¿Me pueden prohibir el uso de Dota Coach?", // #toBeUpdated
       },
       content: {
@@ -621,7 +691,11 @@ const i18n = {
         id: `<p><b>Aplikasi Dota Coach TIDAK akan membuat Anda dilarang. </b><br>Aplikasi Dota Coach dibangun di atas platform Overwolf. <br>Platform Overwolf dibangun bekerja sama dengan Valve dan tim Dota2. <br>Valve sejak awal mendukung upaya aplikasi pihak ketiga untuk membuat konten dan sistem yang meningkatkan pengalaman pemain. </p><br>Anda dapat membaca lebih lanjut di sini: <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf Tidak Akan Mendapatkan Anda Dilarang</a><br>`, // #toBeUpdated
         fil: `<p><b>Ang Dota Coach app ay HINDI makakakuha ka ng pinagbawalan. </b><br>Ang Dota Coach app ay binuo sa ibabaw ng Overwolf platform. <br>Ang Overwolf platform ay binuo sa pakikipagtulungan sa Valve at sa koponan ng Dota2. Ang<br>balbula ay mula noong simula nito ay suportado ang mga pagsisikap ng mga application ng third party upang lumikha ng nilalaman at mga sistema na nagpapabuti sa karanasan ng manlalaro. </p><br>Maari kang magbasa nang higit pa rito: <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf Won't Get You Banned</a><br>`, // #toBeUpdated
         zh: `<p><b>Dota Coach 应用程序不会让你被禁赛。</b><br>Dota Coach 应用程序建立在 Overwolf 平台之上。<br>Overwolf 平台是与 Valve 和 Dota2 团队合作构建的。<br>Valve自成立以来就一直支持第三方应用程序创建可增强玩家体验的内容和系统的努力。</p><br>你可以在这里阅读更多：<a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf 不会让你被禁赛</a> <br>`, // #toBeUpdated
-        br: `<p><b>O aplicativo Dota Coach NÃO fará com que você seja banido. </b><br>O aplicativo Dota Coach é construído sobre a plataforma Overwolf. <br>A plataforma Overwolf é construída em colaboração com a Valve e a equipe Dota2. <br>Desde o início, a Valve tem apoiado os esforços de aplicativos de terceiros para criar conteúdo e sistemas que aprimoram a experiência do jogador. </p><br>Você pode ler mais aqui: <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf não fará com que você seja banido</a> <br>`, // #toBeUpdated
+        br: `<p><b>O aplicativo Dota Coach NÃO fará com que você seja banido. </b><br>
+			O aplicativo Dota Coach é construído sobre a plataforma Overwolf. <br>
+			A plataforma Overwolf é construída em colaboração com a Valve e a equipe Dota2. <br>
+			Desde o início, a Valve tem apoiado os esforços de aplicativos de terceiros para criar conteúdo e sistemas que aprimoram a experiência do jogador. </p><br>
+			Você pode ler mais aqui: <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf não fará com que você seja banido</a> <br>`,
         es: `<p><b>La aplicación Dota Coach NO te prohibirá. </b><br>La aplicación Dota Coach se basa en la plataforma Overwolf. <br>La plataforma Overwolf se creó en colaboración con Valve y el equipo de Dota2. <br>Desde sus inicios, Valve ha apoyado los esfuerzos de aplicaciones de terceros para crear contenido y sistemas que mejoren la experiencia del jugador. </p><br>Puedes leer más aquí: <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf no te prohibirá</a> <br>`, // #toBeUpdated
       },
 
@@ -635,7 +709,7 @@ const i18n = {
         id: "Apakah Anda memiliki panduan video?", // #toBeUpdated
         fil: "Mayroon ka bang gabay sa video?", // #toBeUpdated
         zh: "你有视频指南吗？", // #toBeUpdated
-        br: "Você tem um guia em vídeo?", // #toBeUpdated
+        br: "Você tem um guia em vídeo?",
         es: "¿Tienes una videoguía?", // #toBeUpdated
       },
       content: {
@@ -646,7 +720,7 @@ const i18n = {
         id: `Anda dapat menemukan panduan video 3 menit kami di sini <a class='link-danger' href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
         fil: `Maaari mong mahanap ang aming 3 minutong gabay sa video dito <a class='link-danger' href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
         zh: `你可以在这里找到我们的3分钟视频指南 <a class='link-danger' href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>。</a>`, // #toBeUpdated
-        br: `Você pode encontrar nosso guia de vídeo de 3 minutos aqui <a class='link-danger' href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
+        br: `Você pode encontrar nosso guia de vídeo de 3 minutos aqui <a class='link-danger' href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`,
         es: `Puedes encontrar nuestra guía en vídeo de 3 minutos aquí <a class='link-danger' href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
         },
     },
@@ -659,7 +733,7 @@ const i18n = {
         id: "Apa itu Gamestateintegration?", // #toBeUpdated
         fil: "Ano ang pagsasama ng Gamestate?", // #toBeUpdated
         zh: "什么是 Gamestate 集成？", // #toBeUpdated
-        br: "O que é a integração do Gamestate?", // #toBeUpdated
+        br: "O que é a integração do Gamestate?",
         es: "¿Qué es la integración de Gamestate?", // #toBeUpdated
       },
       content: {
@@ -673,7 +747,10 @@ const i18n = {
         id: `The gamestateintegration merupakan bagian integral dari Dota Coach. Ini disediakan oleh Valve untuk mengakses semua acara dalam permainan Dota2. <br>Anda harus menambahkan '-gamestateintegration' sebagai parameter peluncuran Dota2. <br>Tanpa itu, Dota Coach tidak akan bekerja! <br>Untuk informasi lebih lanjut tentang cara mengaktifkannya klik <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>di sini</a>.`, // #toBeUpdated
         fil: `Ang gamestateintegration ay isang mahalagang bahagi ng Dota Coach. Ito ay ibinibigay ng Valve upang ma-access ang lahat ng mga kaganapan sa isang laro ng Dota2. <br>Dapat kang magdagdag ng '-gamestateintegration' bilang parameter ng paglunsad ng Dota2. <br>Kung wala ito, ang Dota Coach ay hindi gagana! <br>Para sa karagdagang impormasyon kung paano paganahin ito mag-click <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>dito</a>.`, // #toBeUpdated
         zh: `游戏状态集成是 Dota Coach 不可或缺的一部分。它由Valve提供，用于访问Dota2游戏中的所有事件。<br>你必须添加 “-gamestateIntegration” 作为 Dota2 启动参数。<br>没有它，Dota教练将无法工作！<br>有关如何启用它的更多信息，请单击<a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>此处</a>。`, // #toBeUpdated
-        br: `A integração do estado do jogo é parte integrante do Dota Coach. É fornecido pela Valve para acessar todos os eventos em um jogo Dota2. <br>Você deve adicionar '-gamestateintegration' como um parâmetro de lançamento do Dota2. <br>Sem isso, o Dota Coach não funcionará! <br>Para mais informações sobre como ativá-lo, clique <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aqui</a>.`, // #toBeUpdated
+        br: `A integração do estado do jogo é parte integrante do Dota Coach. É fornecido pela Valve para acessar todos os eventos em um jogo Dota2. <br>
+			Você deve adicionar '-gamestateintegration' como um parâmetro de lançamento do Dota2. <br>
+			Sem isso, o Dota Coach não funcionará! <br>
+			Para mais informações sobre como ativá-lo, clique <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aqui</a>.`,
         es: `La integración de gamestateintegration es una parte integral de Dota Coach. Valve lo proporciona para acceder a todos los eventos de un juego de Dota2. <br>Debe añadir '-gamestateintegration' como parámetro de lanzamiento de Dota2. <br>¡Sin él, Dota Coach no funcionará! <br>Para obtener más información sobre cómo habilitarlo, haga clic <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aquí</a>.`, // #toBeUpdated
       },
     },
@@ -686,7 +763,7 @@ const i18n = {
         id: "Bagaimana saya bisa mengubah bahasa?", // #toBeUpdated
         fil: "Paano ko mababago ang wika?", // #toBeUpdated
         zh: "我怎样才能更改语言？", // #toBeUpdated
-        br: "Como posso mudar o idioma?", // #toBeUpdated
+        br: "Como posso mudar o idioma?",
         es: "¿Cómo puedo cambiar el idioma?", // #toBeUpdated
       },
       content: {
@@ -702,7 +779,11 @@ const i18n = {
         id: `Buka jendela pengaturan. Anda dapat menemukannya di menu di sudut kanan atas jendela desktop. <br>Pengaturan languge terletak di sudut kanan bawah. <br>Perlu diketahui, bahwa kami hanya mendukung satu set bahasa tertentu. <br>Jika bahasa ibu Anda hilang, beri tahu kami atau bantu terjemahannya! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         fil: `Buksan ang window ng mga setting. Makikita mo ito sa menu sa kanang sulok sa itaas ng window ng desktop. <br>Ang setting ng wika ay matatagpuan sa kanang sulok sa ibaba. <br>Mangyaring magkaroon ng kamalayan, na sinusuportahan lamang namin ang isang tiyak na hanay ng mga wika. <br>Kung nawawala ang iyong katutubong wika, ipaalam sa amin o tumulong sa pagsasalin! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         zh: `打开设置窗口。您可以在桌面窗口右上角的菜单中找到它。<br>语言设置位于右下角。<br>请注意，我们只支持一组特定的语言。<br>如果缺少您的母语，请告知我们或帮助翻译！<br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-        br: `Abra a janela de configurações. Você pode encontrá-lo no menu no canto superior direito da janela da área de trabalho. <br>A configuração do idioma está localizada no canto inferior direito. <br>Esteja ciente de que só suportamos um determinado conjunto de idiomas. <br>Se sua língua nativa estiver faltando, informe-nos ou ajude-nos com a tradução! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+        br: `Abra a janela de configurações. Você pode encontrá-lo no menu no canto superior direito da janela da área de trabalho. <br>
+			A configuração do idioma está localizada no canto inferior direito. <br>
+			Esteja ciente de que só suportamos um determinado conjunto de idiomas. <br>
+			Se sua língua nativa estiver faltando, informe-nos ou ajude-nos com a tradução! <br>
+			<div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`,
         es: `Abre la ventana de configuración. Puedes encontrarlo en el menú de la esquina superior derecha de la ventana del escritorio. <br>La configuración de idioma se encuentra en la esquina inferior derecha. <br>Tenga en cuenta que solo admitimos un conjunto determinado de idiomas. <br>Si falta su idioma nativo, ¡háganoslo saber o ayudarlo con la traducción! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
       },
     },
@@ -715,7 +796,7 @@ const i18n = {
         id: "Dapatkah saya membantu dengan terjemahan?", // #toBeUpdated
         fil: "Maaari ba akong tumulong sa pagsasalin?", // #toBeUpdated
         zh: "我能帮忙翻译吗？", // #toBeUpdated
-        br: "Posso ajudar com a tradução?", // #toBeUpdated
+        br: "Posso ajudar com a tradução?",
         es: "¿Puedo ayudar con la traducción?", // #toBeUpdated
       },
       content: {
@@ -730,7 +811,11 @@ const i18n = {
         id: `Ya tentu saja! Hubungi kami di sini:<br><ul><li>Info<li><a class='link-danger' href='https://discord.gg/uabGsGazRe'>Perselisihan</a></li><li><a class='link-danger' href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li>(at) dota-coach.com</li>`, // #toBeUpdated
         fil: `Oo siyempre! Makipag-ugnay sa amin dito:<br><ul><li>Impormasyon ng<li><a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a></li><li><a class='link-danger' href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li>(at) dota-coach.com</li>`, // #toBeUpdated
         zh: `当然可以！在这里联系我们：<br><ul><li><a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a></li> <li><a class='link-danger' href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li> <li>信息 (at) dota-coach.com</li>`, // #toBeUpdated
-        br: `Sim, claro! Entre em contato conosco aqui: <br><ul><li>Informações <li><a class='link-danger' href='https://github.com/roserens/dotaCoach-i18n'>do Github</a></li> do <li><a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a></li> (at) dota-coach.com</li>`, // #toBeUpdated
+        br: `Sim, claro! Entre em contato conosco aqui: <br>
+			<ul>
+				<li><a class='link-danger' href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li>
+				<li><a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a></li>
+				<li>info (arroba) dota-coach.com</li>`,
         es: `¡Sí, por supuesto! Contáctanos aquí: <br><ul><li>Información de <li><a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a></li> <li><a class='link-danger' href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li> (at) dota-coach.com</li>`, // #toBeUpdated
       },
     },
@@ -743,7 +828,7 @@ const i18n = {
         id: "Bagaimana Dota Coach menghasilkan uang?", // #toBeUpdated
         fil: "Paano gumagana ang Dota Coach gumawa ng pera?", // #toBeUpdated
         zh: "Dota Coach 是如何赚钱的？", // #toBeUpdated
-        br: "Como o Dota Coach ganha dinheiro?", // #toBeUpdated
+        br: "Como o Dota Coach ganha dinheiro?",
         es: "¿Cómo gana dinero Dota Coach?", // #toBeUpdated
       },
       content: {
@@ -757,7 +842,10 @@ const i18n = {
         id: `Sebagian besar fitur aplikasi tersedia untuk semua pemain secara gratis. <br>Aplikasi Dota Coach menghasilkan uang melalui menampilkan iklan di beberapa bagian aplikasi. <br>Juga pemain dapat membayar biaya berlangganan bulanan untuk mendapatkan akses ke beberapa fitur eksklusif. <br>Langganan pro juga mematikan iklan. <br>`, // #toBeUpdated
         fil: `Karamihan sa mga tampok ng app ay magagamit sa lahat ng mga manlalaro nang libre. <br>Ang Dota Coach app ay gumagawa ng pera sa pamamagitan ng pagpapakita ng mga ad sa ilang bahagi ng app. <br>Gayundin ang mga manlalaro ay maaaring magbayad ng isang buwanang bayad sa subscription upang makakuha ng access sa ilang mga eksklusibong tampok. <br>Ang pro subscription ay lumiliko rin sa mga ad. <br>`, // #toBeUpdated
         zh: `该应用程序的大多数功能均可免费提供给所有玩家。<br>Dota Coach应用程序通过在应用程序的某些部分展示广告来赚钱。<br>此外，玩家可以按月支付订阅费以使用某些独家功能。<br>专业版订阅还会关闭广告。<br>`, // #toBeUpdated
-        br: `A maioria dos recursos do aplicativo está disponível para todos os jogadores gratuitamente. <br>O aplicativo Dota Coach ganha dinheiro exibindo anúncios em algumas partes do aplicativo. <br>Além disso, os jogadores podem pagar uma taxa de assinatura mensal para obter acesso a alguns recursos exclusivos. <br>A assinatura profissional também desativa os anúncios. <br>`, // #toBeUpdated
+        br: `A maioria dos recursos do aplicativo está disponível para todos os jogadores gratuitamente. <br>
+			O aplicativo Dota Coach ganha dinheiro exibindo anúncios em algumas partes do aplicativo. <br>
+			Além disso, os jogadores podem pagar uma taxa de assinatura mensal para obter acesso a alguns recursos exclusivos. <br>
+			A assinatura profissional também desativa os anúncios. <br>`,
         es: `La mayoría de las funciones de la aplicación están disponibles para todos los jugadores de forma gratuita. <br>La aplicación Dota Coach gana dinero al mostrar anuncios en algunas partes de la aplicación. <br>Además, los jugadores pueden pagar una tarifa de suscripción mensual para obtener acceso a algunas funciones exclusivas. <br>La suscripción profesional también desactiva los anuncios. <br>`, // #toBeUpdated
       },
     },
@@ -771,7 +859,7 @@ const i18n = {
         id: "Mengapa aplikasi tidak bekerja?", // #toBeUpdated
         fil: "Bakit hindi gumagana ang application?", // #toBeUpdated
         zh: "为什么应用程序不起作用？", // #toBeUpdated
-        br: "Por que o aplicativo não funciona?", // #toBeUpdated
+        br: "Por que o aplicativo não funciona?",
         es: "¿Por qué no funciona la aplicación?", // #toBeUpdated
       },
       content: {
@@ -785,7 +873,8 @@ const i18n = {
         id: `<p>Anda harus menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2 agar aplikasi berfungsi. <br>Informasi tambahan cara menambahkan parameter peluncuran dapat ditemukan <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>di sini</a>. </p>`, // #toBeUpdated
         fil: `<p>Dapat kang magdagdag ng '-gamestateintegration' sa iyong mga opsyon sa paglulunsad ng Dota 2 para magtrabaho ang app. <br>Ang karagdagang impormasyon kung paano idagdag ang parameter ng paglunsad ay matatagpuan <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>dito</a>. </p>`, // #toBeUpdated
         zh: `<p>你必须在你的 Dota 2 启动选项中添加 “-gamestateIntegration” 才能使应用程序正常运行。<br>有关如何添加 launch 参数的更多信息，请参见<a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>此处</a>。</p>`, // #toBeUpdated
-        br: `<p>Você deve adicionar '-gamestateintegration' às suas opções de inicialização do Dota 2 para que o aplicativo funcione. <br>Informações adicionais sobre como adicionar o parâmetro de lançamento podem ser encontradas <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aqui</a>. </p>`, // #toBeUpdated
+        br: `<p>Você deve adicionar '-gamestateintegration' às suas opções de inicialização do Dota 2 para que o aplicativo funcione. <br>
+			Informações adicionais sobre como adicionar o parâmetro de lançamento podem ser encontradas <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aqui</a>. </p>`,
         es: `<p>Debes añadir '-gamestateintegration' a tus opciones de lanzamiento de Dota 2 para que la aplicación funcione. <br>Puede encontrar información adicional sobre cómo añadir el parámetro de lanzamiento <a class='link-danger' href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>aquí</a>. </p>`, // #toBeUpdated
       },
     },
@@ -798,7 +887,7 @@ const i18n = {
         id: "Bagaimana cara melaporkan masalah atau bug?", // #toBeUpdated
         fil: "Paano ako mag-ulat ng isyu o bug?", // #toBeUpdated
         zh: "如何报告问题或错误？", // #toBeUpdated
-        br: "Como posso relatar um problema ou bug?", // #toBeUpdated
+        br: "Como posso relatar um problema ou bug?",
         es: "¿Cómo puedo informar de un problema o error?", // #toBeUpdated
       },
       content: {
@@ -812,7 +901,10 @@ const i18n = {
         id: `Anda dapat menemukan tombol 'laporan masalah' di menu atas jendela aplikasi desktop. <br>Jika Anda memerlukan bantuan lebih lanjut, silakan bergabung dengan server <a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a> kami! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         fil: `Makikita mo ang pindutang 'isyu ng ulat' sa tuktok na menu ng window ng application ng desktop. <br>Kung kailangan mo ng karagdagang tulong, mangyaring sumali sa aming <a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a> server! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         zh: `您可以在桌面应用程序窗口的顶部菜单中找到 “报告问题” 按钮。<br>如果您需要进一步的帮助，请加入我们的 <a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a> 服务器！<br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-        br: `Você pode encontrar o botão 'relatar problema' no menu superior da janela do aplicativo de desktop. <br>Se precisar de mais ajuda, junte-se ao nosso servidor <a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a>! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+        br: `Você pode encontrar o botão 'relatar problema' no menu superior da janela do aplicativo de desktop. <br>
+			Se precisar de mais ajuda, junte-se ao nosso servidor <a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a>! <br>
+			<div class='mt-2'></div>
+			<img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`,
         es: `Puede encontrar el botón «informar de un problema» en el menú superior de la ventana de la aplicación de escritorio. <br>Si necesitas más ayuda, únete a nuestro servidor de <a class='link-danger' href='https://discord.gg/uabGsGazRe'>Discord</a>. <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
       },
     },
@@ -825,7 +917,7 @@ const i18n = {
         id: "Bagaimana cara meningkatkan frame saya per detik (FPS)?", // #toBeUpdated
         fil: "Paano ko mapapabuti ang aking mga frame sa bawat segundo (FPS)?", // #toBeUpdated
         zh: "如何提高每秒帧数 (FPS)？", // #toBeUpdated
-        br: "Como posso melhorar meus quadros por segundo (FPS)?", // #toBeUpdated
+        br: "Como posso melhorar meus quadros por segundo (FPS)?",
         es: "¿Cómo puedo mejorar mis fotogramas por segundo (FPS)?", // #toBeUpdated
       },
       content: {
@@ -847,7 +939,17 @@ const i18n = {
         id: `Jika Anda menemukan frame rendah per detik selama pertandingan, silakan restart Dota2, dalam banyak kasus ini akan memperbaiki masalah frame rate tanpa tindakan lebih lanjut. <br>Tabbing (Alt+Tab) di antara desktop Anda dan Dota2 juga akan menyebabkan masalah frame rate lembur. Jika ini terjadi, restart Dota2. <br><br>Tampilan pesan notifaction uap juga menyebabkan masalah frame rate. <br>Anda dapat menonaktifkannya di sini:<br><ul><li>Buka daftar frind Anda (Klik kanan uap di taskbar -> teman). </li><li>Llick pada roda pengaturan di sudut kanan atas. </li><li>Nonaktifkan semua notifactions seperti yang ditunjukkan pada gambar di bawah ini.</li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         fil: `Kung nakatagpo ka ng mga mababang frame sa bawat segundo sa panahon ng mga laro, mangyaring i-restart ang Dota2, sa karamihan ng mga kaso ayusin nito ang mga problema sa frame rate nang walang anumang karagdagang mga pagkilos. Ang<br>pag-tab (Alt+Tab) sa pagitan ng iyong desktop at Dota2 ay magdudulot din ng mga problema sa overtime ng frame rate. Kung mangyari ito, i-restart ang Dota2. <br><br>Ang display ng mensahe ng notification ng singaw ay nagdudulot din ng mga problema sa frame rate. <br>Maaari mo itong i-disable dito:<br><ul><li>Buksan ang iyong listahan ng kaibigan (I-right click ang steam sa taskbar -> mga kaibigan). </li><li>Mag-click sa mga setting ng gulong sa kanang sulok sa itaas. </li><li>Huwag paganahin ang lahat ng mga notification tulad ng ipinapakita sa larawan sa ibaba. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
         zh: `如果您在游戏中遇到每秒帧数较低的情况，请重启Dota2，在大多数情况下，这将解决帧速率问题，而无需采取任何进一步措施。<br>在桌面和 Dota2 之间切换 Tab 键（Alt+Tab）也会导致帧速率问题超时。如果发生这种情况，请重新启动 Dota2。<br><br>Steam 通知消息显示也会导致帧速率问题。<br>你可以在这里禁用它：<br><ul><li>打开你的朋 友列表（右键单击任务栏中的 steam-> 朋友）。</li><li>单击右上角的设置轮。</li><li>禁用所有通知，如下图所示。</li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-        br: `Se você encontrar quadros baixos por segundo durante os jogos, reinicie o Dota2, na maioria dos casos, isso corrigirá problemas de taxa de quadros sem nenhuma ação adicional. <br>Tabular (Alt+Tab) entre a área de trabalho e o Dota2 também causará problemas de taxa de quadros ao longo do tempo. Se isso acontecer, reinicie o Dota2. <br><br>A exibição da mensagem de notificação do Steam também causa problemas na taxa de quadros. <br>Você pode desativá-lo aqui: <br><ul><li>Abra sua lista de amigos (clique com o botão direito do mouse na barra de tarefas -> amigos). </li><li>Clique na roda de configurações no canto superior direito. </li><li>Desative todas as notificações conforme mostrado na imagem abaixo. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+        br: `Se você encontrar quadros baixos por segundo durante os jogos, reinicie o Dota2, na maioria dos casos, isso corrigirá problemas de taxa de quadros sem nenhuma ação adicional. <br>
+			Tabular (Alt+Tab) entre a área de trabalho e o Dota2 também causará problemas de taxa de quadros ao longo do tempo. Se isso acontecer, reinicie o Dota2. <br><br>
+			A exibição da mensagem de notificação do Steam também causa problemas na taxa de quadros. <br>
+			Você pode desativá-lo aqui: <br>
+			<ul>
+				<li>Abra sua lista de amigos (clique com o botão direito do mouse na barra de tarefas -> amigos). </li>
+				<li>Clique na roda de configurações no canto superior direito. </li>
+				<li>Desative todas as notificações conforme mostrado na imagem abaixo. </li>
+			</ul>
+			<div class='mt-2'></div>
+			<img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`,
         es: `Si encuentra fotogramas por segundo bajos durante los juegos, reinicie Dota2, en la mayoría de los casos, esto solucionará los problemas de velocidad de fotogramas sin ninguna otra acción. <br>Las tabulaciones (Alt+Tab) entre el escritorio y Dota2 también causarán problemas de velocidad de fotogramas con el tiempo. Si esto ocurre, reinicie Dota2. <br><br>La visualización del mensaje de notificación de vapor también provoca problemas de velocidad de fotogramas. <br>Puede desactivarlo aquí: <br><ul><li>Abra su lista de amigos (haga clic con el botón derecho en Steam en la barra de tareas -> amigos). </li><li>Haz clic en la rueda de ajustes en la esquina superior derecha. </li><li>Deshabilite todas las notificaciones como se muestra en la imagen de abajo. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
       },
     },
@@ -860,7 +962,7 @@ const i18n = {
         id: "Mengapa jendela tidak ditampilkan?", // #toBeUpdated
         fil: "Bakit hindi nagpapakita ang isang window?", // #toBeUpdated
         zh: "为什么窗户没有显示？", // #toBeUpdated
-        br: "Por que uma janela não está aparecendo?", // #toBeUpdated
+        br: "Por que uma janela não está aparecendo?", 
         es: "¿Por qué no se ve una ventana?", // #toBeUpdated
       },
       content: {
@@ -874,7 +976,10 @@ const i18n = {
         id: `Hal ini dapat terjadi ketika Anda menyesuaikan lokasi timer dan kemudian mengubah resolusi layar. <br>Kami menyarankan agar Anda mengatur ulang posisi timer di menu pengaturan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
         fil: `Maaaring mangyari ito kapag na-customize mo ang lokasyon ng mga timers at pagkatapos ay baguhin ang resolution ng screen. <br>Iminumungkahi namin na i-reset mo ang posisyon ng mga timers sa menu ng mga setting. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
         zh: `当您自定义计时器的位置然后更改屏幕分辨率时，可能会发生这种情况。<br>我们建议您在设置菜单中重置计时器的位置。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
-        br: `Isso pode acontecer quando você personaliza a localização dos temporizadores e altera a resolução da tela. <br>Sugerimos que você redefina a posição dos temporizadores no menu de configurações. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
+        br: `Isso pode acontecer quando você personaliza a localização dos temporizadores e altera a resolução da tela. <br>
+			Sugerimos que você redefina a posição dos temporizadores no menu de configurações. <br>
+			<div class='mt-2'></div>
+			<img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`,
         es: `Esto puede suceder cuando personaliza la ubicación de los temporizadores y, a continuación, cambia la resolución de la pantalla. <br>Le sugerimos que restablezca la posición de los temporizadores en el menú de configuración. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
       },
     },
@@ -887,7 +992,7 @@ const i18n = {
         id: "Mengapa saya tidak melihat timer Ultimate?", // #toBeUpdated
         fil: "Bakit hindi ko nakikita ang Ultimate timers?", // #toBeUpdated
         zh: "为什么我看不到终极计时器？", // #toBeUpdated
-        br: "Por que não vejo os temporizadores Ultimate?", // #toBeUpdated
+        br: "Por que não vejo os temporizadores de Ultimates?",
         es: "¿Por qué no veo los temporizadores Ultimate?", // #toBeUpdated
       },
       content: {
@@ -904,7 +1009,11 @@ const i18n = {
         id: `Ultimate timer adalah fitur premium yang hanya tersedia untuk pelanggan kami. <br>Langganan adalah 1.99$ /bulan. <br>Buka menu aplikasi dan klik kelola langganan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
         fil: `Ang mga ultimate timers ay isang premium na tampok na magagamit lamang sa aming mga tagasuskribi. <br>Ang isang subscription ay 1.99$/buwan. <br>Buksan ang menu ng application at mag-click sa pamahalaan ang subscription. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
         zh: `终极计时器是一项高级功能，仅对我们的订阅者可用。<br>订阅费用为每月1.99美元。<br>打开应用程序菜单，然后单击管理订阅。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
-        br: `Os temporizadores finais são um recurso premium que está disponível apenas para nossos assinantes. <br>A assinatura custa 1,99 $/mês. <br>Abra o menu do aplicativo e clique em gerenciar assinatura. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
+        br: `Os temporizadores de Ultimates são um recurso premium que está disponível apenas para nossos assinantes. <br>
+			A assinatura custa 1,99 $/mês. <br>
+			Abra o menu do aplicativo e clique em gerenciar assinatura. <br>
+			<div class='mt-2'></div>
+			<img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`,
         es: `Los temporizadores definitivos son una función premium que solo está disponible para nuestros suscriptores. <br>Una suscripción cuesta 1.99 $/mes. <br>Abra el menú de la aplicación y haga clic en administrar suscripción. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
       },
     },
@@ -918,7 +1027,7 @@ const i18n = {
         id: "Bagaimana cara memulai timer?", // #toBeUpdated
         fil: "Paano ako magsisimula ng timer?", // #toBeUpdated
         zh: "如何启动计时器？", // #toBeUpdated
-        br: "Como faço para iniciar um cronômetro?", // #toBeUpdated
+        br: "Como faço para iniciar um cronômetro?",
         es: "¿Cómo puedo poner en marcha un temporizador?", // #toBeUpdated
       },
       content: {
