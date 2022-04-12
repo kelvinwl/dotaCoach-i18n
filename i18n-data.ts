@@ -51,7 +51,7 @@ export const i18n = {
       id: "Match Analytics", // #toBeUpdated
       fil: "Itugma ang Analytics", // #toBeUpdated
       zh: "匹配分析", // #toBeUpdated
-      br: "Análise de correspondência", // #toBeUpdated
+      br: "Análise de partida",
       es: "Análisis de partidos", // #toBeUpdated
     },
 
@@ -64,7 +64,7 @@ export const i18n = {
       id: "SELAMAT DATANG UNTUK MENCOCOKKAN ANALISIS", // #toBeUpdated
       fil: "MALIGAYANG PAGDATING UPANG TUMUGMA SA ANALYTICS", // #toBeUpdated
       zh: "欢迎使用匹配分析", // #toBeUpdated
-      br: "BEM-VINDO AO MATCH ANALYTICS", // #toBeUpdated
+      br: "BEM-VINDO À ANÁLISE DE PARTIDA",
       es: "BIENVENIDO A ANÁLISIS DE PARTIDOS", // #toBeUpdated
     },
     MatchAnalyticsIntro: {
@@ -75,7 +75,7 @@ export const i18n = {
       id: "Mainkan pertandingan dengan Dota Coach untuk dapat menggunakan Match Analytics dan membandingkan kinerja Anda dengan pemain lain.", // #toBeUpdated
       fil: "Maglaro ng isang tugma sa Dota Coach upang magamit ang Match Analytics at upang ihambing ang iyong pagganap sa iba pang mga manlalaro.", // #toBeUpdated
       zh: "与Dota Coach进行一场比赛，即可使用比赛分析并比较你与其他牌手的表现。", // #toBeUpdated
-      br: "Jogue uma partida com o Dota Coach para poder usar o Match Analytics e comparar seu desempenho com outros jogadores.", // #toBeUpdated
+      br: "Jogue uma partida com o Dota Coach para poder usar a Análise de Partida e comparar seu desempenho com outros jogadores.",
       es: "Juega un partido con Dota Coach para poder usar Match Analytics y comparar tu rendimiento con el de otros jugadores.", // #toBeUpdated
     },
     SupportedLobbies: {
@@ -93,6 +93,7 @@ export const i18n = {
       en: "Ranked and unranked.",
       ru: "Рейтинговые и безрейтинговые",
       de: "Ranked and unranked.",
+      br: "Competitiva e casual.",
       // #toBeUpdated if different in your language
     },
     SupportedRankedModes: {
@@ -103,15 +104,16 @@ export const i18n = {
       id: "Mode peringkat yang didukung:", // #toBeUpdated
       fil: "Sinusuportahang mga mode ng ranggo:", // #toBeUpdated
       zh: "支持的排名模式：", // #toBeUpdated
-      br: "Modos de classificação suportados:", // #toBeUpdated
+      br: "Modos competitivos suportados:", // #toBeUpdated
       es: "Modos clasificados compatibles:", // #toBeUpdated
     },
 
     SupportedRankedModesList: {
       en: "All pick, captains mode and random draft.",
+      br: "Escolha livre, modo de capitães e seleção aleatória.",
     },
 
-    SupportedUnrankgedModes: {
+    SupportedUnrankedModes: {
       en: "Supported unranked modes:",
       de: "Unterstützte unranked Modi:", // #toBeUpdated
       fr: "Modes unranked pris en charge :", // #toBeUpdated
@@ -119,12 +121,13 @@ export const i18n = {
       id: "Mode unranked yang didukung:", // #toBeUpdated
       fil: "Mga suportadong hindi naka-ranggo na mga mode:", // #toBeUpdated
       zh: "支持的未排序模式：", // #toBeUpdated
-      br: "Modos não classificados suportados:", // #toBeUpdated
+      br: "Modos casuais suportados:",
       es: "Modos no clasificados compatibles:", // #toBeUpdated
     },
 
-    SupportedUntrankedModesList: {
+    SupportedUnrankedModesList: {
       en: "All pick, turbo, single draft, random draft, all random.",
+      br: "Escolha livre, turbo, seleção individual, seleção aleatória e todos aleatórios.",
     },
 
     MATCH_ANALYTICS: {
@@ -135,7 +138,7 @@ export const i18n = {
       id: "ANALISIS PERTANDINGAN", // #toBeUpdated
       fil: "TUMUGMA SA ANALYTICS", // #toBeUpdated
       zh: "匹配分析", // #toBeUpdated
-      br: "ANÁLISE DE CORRESPONDÊNCIA", // #toBeUpdated
+      br: "ANÁLISE DE PARTIDA",
       es: "ANÁLISIS DE PARTIDOS", // #toBeUpdated
     },
     You: {
@@ -146,7 +149,7 @@ export const i18n = {
       id: "Anda", // #toBeUpdated
       fil: "Ikaw", // #toBeUpdated
       zh: "你", // #toBeUpdated
-      br: "Você", // #toBeUpdated
+      br: "Você",
       es: "Tú", // #toBeUpdated
     },
     Benchmark: {
@@ -157,7 +160,7 @@ export const i18n = {
       id: "Benchmark", // #toBeUpdated
       fil: "Benchmark", // #toBeUpdated
       zh: "基准", // #toBeUpdated
-      br: "Referência", // #toBeUpdated
+      br: "Referência",
       es: "Referencia", // #toBeUpdated
     },
     InMatch: {
@@ -168,7 +171,7 @@ export const i18n = {
       id: "Dalam pertandingan", // #toBeUpdated
       fil: "Sa tugma", // #toBeUpdated
       zh: "在比赛中", // #toBeUpdated
-      br: "Em jogo", // #toBeUpdated
+      br: "Em jogo",
       es: "En partido", // #toBeUpdated
     },
     percentile: {
@@ -179,7 +182,7 @@ export const i18n = {
       id: "persentil", // #toBeUpdated
       fil: "percentile", // #toBeUpdated
       zh: "百分位数", // #toBeUpdated
-      br: "percentil", // #toBeUpdated
+      br: "percentil",
       es: "percentil", // #toBeUpdated
     },
     percentile75: {
@@ -190,7 +193,7 @@ export const i18n = {
       id: "75 persentil", // #toBeUpdated
       fil: "75 porsiyento", // #toBeUpdated
       zh: "75 百分位数", // #toBeUpdated
-      br: "percentil 75", // #toBeUpdated
+      br: "percentil 75",
       es: "percentil 75", // #toBeUpdated
     },
     percentile25: {
@@ -201,7 +204,7 @@ export const i18n = {
       id: "25 persentil", // #toBeUpdated
       fil: "25 porsiyento", // #toBeUpdated
       zh: "25百分位数", // #toBeUpdated
-      br: "percentil 25", // #toBeUpdated
+      br: "percentil 25",
       es: "percentil 25", // #toBeUpdated
     },
     LaningPhase: {
@@ -212,7 +215,7 @@ export const i18n = {
       id: "fase laning", // #toBeUpdated
       fil: "Laning phase", // #toBeUpdated
       zh: "着陆阶段", // #toBeUpdated
-      br: "Fase de pouso", // #toBeUpdated
+      br: "Fase de trilha",
       es: "Fase de aterrizaje", // #toBeUpdated
     },
     Denies: {
@@ -223,7 +226,7 @@ export const i18n = {
       id: "Menyangkal", // #toBeUpdated
       fil: "Tinanggihan", // #toBeUpdated
       zh: "否认", // #toBeUpdated
-      br: "Nega", // #toBeUpdated
+      br: "Negados",
       es: "Niega", // #toBeUpdated
     },
     Kills: {
@@ -234,7 +237,7 @@ export const i18n = {
       id: "Membunuh", // #toBeUpdated
       fil: "Kills", // #toBeUpdated
       zh: "击杀", // #toBeUpdated
-      br: "Mortes", // #toBeUpdated
+      br: "Vítimas",
       es: "muertes", // #toBeUpdated
     },
     MidLateGame: {
@@ -245,7 +248,7 @@ export const i18n = {
       id: "Pertengahan & akhir permainan", // #toBeUpdated
       fil: "Mid at huli na laro", // #toBeUpdated
       zh: "游戏中后期", // #toBeUpdated
-      br: "Jogo médio e final", // #toBeUpdated
+      br: "Mid e late game",
       es: "Juego medio y tardío", // #toBeUpdated
     },
     Deaths: {
@@ -256,14 +259,16 @@ export const i18n = {
       id: "Kematian", // #toBeUpdated
       fil: "Pagkamatay", // #toBeUpdated
       zh: "死亡", // #toBeUpdated
-      br: "Mortes", // #toBeUpdated
+      br: "Mortes",
       es: "Defunciones", // #toBeUpdated
     },
     GPM: {
       en: "GPM",
+      br: "OPM",
     },
     XPM: {
       en: "XPM",
+      br: "XPM",
     },
     LargeItems: {
       en: "Large items",
@@ -273,7 +278,7 @@ export const i18n = {
       id: "Item besar", // #toBeUpdated
       fil: "Malaking mga item", // #toBeUpdated
       zh: "大件物品", // #toBeUpdated
-      br: "Itens grandes", // #toBeUpdated
+      br: "Itens grandes",
       es: "Artículos grandes", // #toBeUpdated
     },
     Item: {
@@ -284,7 +289,7 @@ export const i18n = {
       id: "Butir", // #toBeUpdated
       fil: "Item", // #toBeUpdated
       zh: "物品", // #toBeUpdated
-      br: "Item", // #toBeUpdated
+      br: "Item",
       es: "Ítem", // #toBeUpdated
     },
     BenchmarkMedian: {
@@ -295,7 +300,7 @@ export const i18n = {
       id: "Acuan<br>Median", // #toBeUpdated
       fil: "Benchmark<br>Median", // #toBeUpdated
       zh: "基准中位数", // #toBeUpdated
-      br: "Mediana de<br>referência", // #toBeUpdated
+      br: "Media de<br>referência",
       es: "Mediana de<br>referencia", // #toBeUpdated
 
       /*en: "Median",
@@ -316,7 +321,7 @@ export const i18n = {
       id: "Terbaik", // #toBeUpdated
       fil: "Pinakamahusay", // #toBeUpdated
       zh: "最好", // #toBeUpdated
-      br: "Melhor", // #toBeUpdated
+      br: "Melhor",
       es: "Mejor", // #toBeUpdated
     },
     Delta: {
@@ -328,7 +333,7 @@ export const i18n = {
       id: "kuala", // #toBeUpdated
       fil: "Delta", // #toBeUpdated
       zh: "三角洲", // #toBeUpdated
-      br: "Delta", // #toBeUpdated
+      br: "Delta",
       es: "Delta", // #toBeUpdated
     },
     SelectMatch: {
@@ -339,7 +344,7 @@ export const i18n = {
       id: "Pilih Cocok", // #toBeUpdated
       fil: "Piliin ang Pagtutugma", // #toBeUpdated
       zh: "选择 “匹配”", // #toBeUpdated
-      br: "Selecionar correspondência", // #toBeUpdated
+      br: "Selecionar partida",
       es: "Seleccionar partido", // #toBeUpdated
     },
     SelectBenchmark: {
@@ -350,7 +355,7 @@ export const i18n = {
       id: "Pilih Tolok Ukur", // #toBeUpdated
       fil: "Piliin ang Benchmark", // #toBeUpdated
       zh: "选择基准", // #toBeUpdated
-      br: "Selecione o benchmark", // #toBeUpdated
+      br: "Selecione a referência",
       es: "Seleccione Benchmark", // #toBeUpdated
     },
     NoBenchmarkData: {
@@ -361,7 +366,7 @@ export const i18n = {
       id: "Perhatian: Data patokan peer saat ini tidak tersedia", // #toBeUpdated
       fil: "Pansin: Kasalukuyang hindi magagamit ang data ng benchmark ng Peer", // #toBeUpdated
       zh: "注意：同行基准测试数据目前不可用", // #toBeUpdated
-      br: "Atenção: Os dados de benchmark de pares não estão disponíveis no momento", // #toBeUpdated
+      br: "Atenção: Os dados de referência de outros não estão disponíveis no momento",
       es: "Atención: los datos de referencia de pares no están disponibles actualmente", // #toBeUpdated
     },
     RetryFetchBenchmark: {
@@ -372,7 +377,7 @@ export const i18n = {
       id: "Cobalah untuk mengambil data patokan lagi", // #toBeUpdated
       fil: "Subukang kunin muli ang data ng benchmark", // #toBeUpdated
       zh: "尝试再次获取基准数据", // #toBeUpdated
-      br: "Tente buscar dados de referência novamente", // #toBeUpdated
+      br: "Tente buscar dados de referência novamente",
       es: "Intente recuperar datos de referencia de nuevo", // #toBeUpdated
     },
     Today: {
@@ -383,7 +388,7 @@ export const i18n = {
       id: "Hari ini", // #toBeUpdated
       fil: "Ngayon", // #toBeUpdated
       zh: "今天", // #toBeUpdated
-      br: "Hoje", // #toBeUpdated
+      br: "Hoje",
       es: "Hoy", // #toBeUpdated
     },
     DaysAgo: {
@@ -395,7 +400,7 @@ export const i18n = {
       id: "$1 hari lalu", // #toBeUpdated
       fil: "$1 mga araw na nakalipas", // #toBeUpdated
       zh: "$1 天前", // #toBeUpdated
-      br: "há $1 dias", // #toBeUpdated
+      br: "há $1 dias",
       es: "Hace $1 días", // #toBeUpdated
     },
     Peers: {
@@ -406,7 +411,7 @@ export const i18n = {
       id: "rekan-rekan", // #toBeUpdated
       fil: "Mga kapantay", // #toBeUpdated
       zh: "同行", // #toBeUpdated
-      br: "Colegas", // #toBeUpdated
+      br: "Outros",
       es: "Pares", // #toBeUpdated
     },
     Result: {
@@ -417,7 +422,7 @@ export const i18n = {
       id: "Hasil", // #toBeUpdated
       fil: "Resulta", // #toBeUpdated
       zh: "结果", // #toBeUpdated
-      br: "Resultado", // #toBeUpdated
+      br: "Resultado",
       es: "Resultado", // #toBeUpdated
     },
     Won: {
@@ -428,7 +433,7 @@ export const i18n = {
       id: "Menang", // #toBeUpdated
       fil: "Won", // #toBeUpdated
       zh: "赢了", // #toBeUpdated
-      br: "Ganhou", // #toBeUpdated
+      br: "Ganhou",
       es: "Ganó", // #toBeUpdated
     },
     Lost: {
@@ -439,7 +444,7 @@ export const i18n = {
       id: "Hilang", // #toBeUpdated
       fil: "Nawala", // #toBeUpdated
       zh: "迷路了", // #toBeUpdated
-      br: "Perdido", // #toBeUpdated
+      br: "Perdeu", // #toBeUpdated
       es: "Perdido", // #toBeUpdated
     },
     Length: {
@@ -450,7 +455,7 @@ export const i18n = {
       id: "Panjangnya", // #toBeUpdated
       fil: "Haba", // #toBeUpdated
       zh: "长度", // #toBeUpdated
-      br: "Comprimento", // #toBeUpdated
+      br: "Duração",
       es: "Longitud", // #toBeUpdated
     },
     Mode: {
@@ -461,7 +466,7 @@ export const i18n = {
       id: "Modus", // #toBeUpdated
       fil: "Mode", // #toBeUpdated
       zh: "模式", // #toBeUpdated
-      br: "Modo", // #toBeUpdated
+      br: "Modo",
       es: "Moda", // #toBeUpdated
     },
     ID: {
@@ -473,11 +478,12 @@ export const i18n = {
       id: "ID", // #toBeUpdated
       fil: "ID", // #toBeUpdated
       zh: "身份证", // #toBeUpdated
-      br: "ID", // #toBeUpdated
+      br: "ID da partida",
       es: "ID", // #toBeUpdated
     },
     OpenDota: {
       en: "OpenDota",
+      br: "OpenDota",
     },
     Hero: {
       en: "Hero",
@@ -487,11 +493,12 @@ export const i18n = {
       id: "Pahlawan", // #toBeUpdated
       fil: "Hero", // #toBeUpdated
       zh: "英雄", // #toBeUpdated
-      br: "Herói", // #toBeUpdated
+      br: "Herói",
       es: "Héroe", // #toBeUpdated
     },
     Steam: {
       en: "Steam",
+      br: "Steam",
     },
     Heropedia: {
       en: "Heropedia",
@@ -501,7 +508,7 @@ export const i18n = {
       id: "Heropedia", // #toBeUpdated
       fil: "Heropedia", // #toBeUpdated
       zh: "Heropedia", // #toBeUpdated
-      br: "Heropedia", // #toBeUpdated
+      br: "Heroipedia",
       es: "Heropedia", // #toBeUpdated
     },
     Coaching: {
@@ -512,7 +519,7 @@ export const i18n = {
       id: "Coaching", // #toBeUpdated
       fil: "Pagtuturo", // #toBeUpdated
       zh: "辅导", // #toBeUpdated
-      br: "Coaching", // #toBeUpdated
+      br: "Coaching",
       es: "Coaching", // #toBeUpdated
     },
     GetPersonalCoach: {
@@ -523,7 +530,7 @@ export const i18n = {
       id: "Dapatkan pelatih pribadi", // #toBeUpdated
       fil: "Kumuha ng personal na coach", // #toBeUpdated
       zh: "找私人教练", // #toBeUpdated
-      br: "Obtenha um treinador pessoal", // #toBeUpdated
+      br: "Obtenha um treinador pessoal",
       es: "Consigue un entrenador personal", // #toBeUpdated
     },
     PARSE_MATCH: {
@@ -534,7 +541,7 @@ export const i18n = {
       id: "MENGURAI PERTANDINGAN", // #toBeUpdated
       fil: "I-PARSE ANG TUGMA", // #toBeUpdated
       zh: "解析匹配", // #toBeUpdated
-      br: "PARSE MATCH", // #toBeUpdated
+      br: "ANALISAR PARTIDA",
       es: "ANALIZAR COINCIDENCIA", // #toBeUpdated
     },
 
@@ -543,83 +550,97 @@ export const i18n = {
       en: "Matches",
       de: "Spiele",
       cn: "比赛",
+      br: "Partidas",
     },
     myRole: {
       en: "Role",
       de: "Rolle",
       cn: "分路",
+      br: "Função",
     },
 
     enemyHero: {
       en: "Enemy hero",
       de: "Gegner Held",
       cn: "敌方英雄",
+      br: "Herói inimigo",
     },
 
     inMyLane: {
       en: "My lane",
       de: "Meine Linie",
       cn: "和我对线"
+      br: "Minha trilha",
     },
 
     counterItemsLane: {
       en: "Counter items to consider (laning)",
       de: "Berücksichtige Konter Gegenstände (Linie)",
       cn: "可以考虑针对使用的物品（对线期）",
+      br: "Itens counters a se considerar (fase de trilha)",
     },
 
     spectatingMessage: {
       en: "Enjoy watching!",
       de: "Viel Spaß beim Zusehen!",
       cn: "享受观看比赛的乐趣吧！",
+      br: "Aproveite!",
     },
 
     noRosterMessage: {
       en: "Waiting for information on players...",
       de: "Warte auf Spielerinformationen...",
       cn: "正在等待玩家信息",
+      br: "Aguardando informação dos jogadores...",
     },
 
     banSuggestions: {
       en: "Ban suggestions",
       de: "Ban Vorschläge",
       cn: "禁用英雄建议"
+      br: "Sugestão de ban",
     },
 
     winLoseStreakNone: {
       en: "No win/lose streak in the last three matches.",
       de: "Keine Sieges/Niederlagen Serie in den letzten 3 Spielen.",
       cn: "没有三连胜或者三连败",
+      br: "Nenhuma sequência de vitória/perda nas últimas 3 partidas",
     },
 
     winLoseStreaks: {
       en: "Winning / losing streaks",
       de: "Sieges / Niederlagen Serien",
       cn: "正在连胜或者连败", 
+      br: "Sequência de vitória/derrota",
     },
 
     peoplePlayedWith: {
       en: "People you played with",
       de: "Spieler mit denen du gespielt hast",
       cn: "一起玩的队友",
+      br: "Pessoas com quem você jogou",
     },
 
     heroToBanNone: {
       en: "No spezific hero needs to be banned.",
       de: "Kein spezifischer Held muss gebannt werden.",
       cn: "没有需要去Ban掉的英雄"
+      br: "Nenhum herói específico precisa ser banido.",
     },
 
     heroNotToBanNone: {
       en: "No spezific hero needs not be banned.",
       de: "Kein spezifischer Held sollte nicht gebannt werden.",
       cn: "没有完全不用考虑去Ban的英雄",
+      br: "Nenhum herói específico precisa não ser banido.",
     },
 
     dotaCoachUsers: {
       en: "Players using Dota Coach",
       de: "Spieler die Dota Coach verwenden",
       cn: "此玩家正在使用DotaCoach",
+      br: "Jogadores usando Dota Coach",
     },
 
     // InGame window
@@ -1063,7 +1084,7 @@ export const i18n = {
       id: "Pelatihan suara", // #toBeUpdated
       fil: "Pagtuturo ng boses", // #toBeUpdated
       zh: "语音教练", // #toBeUpdated
-      br: "Coaching de voz", // #toBeUpdated
+      br: "Coaching de voz",
       es: "Coaching de voz", // #toBeUpdated
     },
     CoachingTooltip: {
@@ -2000,7 +2021,7 @@ export const i18n = {
       id: "Menghapus iklan", // #toBeUpdated
       fil: "Mag-alis ng mga ad", // #toBeUpdated
       zh: "移除广告", // #toBeUpdated
-      br: "Remover anúncios", // #toBeUpdated
+      br: "Remover anúncios",
       es: "Eliminar anuncios", // #toBeUpdated
     },
 
