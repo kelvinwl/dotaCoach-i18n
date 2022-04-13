@@ -166,74 +166,6 @@
 			br: "Teclas de atalho",
 			es: "Teclas rápidas", // #toBeUpdated
 		},
-		// Most Popular Questions
-		// QMP
-		QMPGetStarted: {
-			en: "How do I get started?",
-			de: "Wo fange ich an?",
-			fr: "Comment démarrer ?", // #toBeUpdated
-			ru: "С чего мне начать?", // #toBeUpdated
-			id: "Bagaimana cara memulai?", // #toBeUpdated
-			fil: "Paano ako makapagsimula?", // #toBeUpdated
-			zh: "如何使用DotaCoach？",
-			br: "Como eu começo?",
-			es: "¿Cómo empiezo?", // #toBeUpdated
-		},
-		QMPApplicationNotWork: {
-			en: "Why does the application not work?",
-			de: "Warum funktioniert die Applikation nicht?",
-			fr: "Pourquoi l'application ne fonctionne-t-elle pas ?", // #toBeUpdated
-			ru: "Почему приложение не работает?", // #toBeUpdated
-			id: "Mengapa aplikasi tidak bekerja?", // #toBeUpdated
-			fil: "Bakit hindi gumagana ang application?", // #toBeUpdated
-			zh: "为什么DotaCoach程序不工作？",
-			br: "Por que o aplicativo não funciona?",
-			es: "¿Por qué no funciona la aplicación?", // #toBeUpdated
-		},
-		QMPGetHelp: {
-			en: "Where can I get additional help?",
-			de: "Wo erhalte ich zusätzliche Hilfe?", // #toBeUpdated
-			fr: "Où puis-je obtenir de l'aide supplémentaire ?", // #toBeUpdated
-			ru: "Где можно получить дополнительную помощь?", // #toBeUpdated
-			id: "Di mana saya bisa mendapatkan bantuan tambahan?", // #toBeUpdated
-			fil: "Saan ako makakakuha ng karagdagang tulong?", // #toBeUpdated
-			zh: "哪里可以获取到更多帮助信息？",
-			br: "Onde posso obter ajuda adicional?",
-			es: "¿Dónde puedo obtener ayuda adicional?", // #toBeUpdated
-		},
-		QMPbanned: {
-			en: "Can I get banned for using Dota Coach?",
-			de: "Kann ich für Dota Coach gebannt werden?",
-			fr: "Puis-je être banni pour utiliser Dota Coach ?", // #toBeUpdated
-			ru: "Могу ли я получить бан за использование Dota Coach?", // #toBeUpdated
-			id: "Bisakah saya dilarang menggunakan Dota Coach?", // #toBeUpdated
-			fil: "Maaari ba akong makakuha ng pinagbawalan para sa paggamit ng Dota Coach?", // #toBeUpdated
-			zh: "我会因为使用DotaCoach被封禁么？",
-			br: "Posso ser banido por usar o Dota Coach?",
-			es: "¿Me pueden prohibir el uso de Dota Coach?", // #toBeUpdated
-		},
-		QMPwindows: {
-			en: "Why are some windows missing?",
-			de: "Warum fehlen manche Fenster?",
-			fr: "Pourquoi certaines fenêtres manquent-elles ?", // #toBeUpdated
-			ru: "Почему некоторые окна отсутствуют?", // #toBeUpdated
-			id: "Mengapa beberapa jendela hilang?", // #toBeUpdated
-			fil: "Bakit nawawala ang ilang mga bintana?", // #toBeUpdated
-			zh: "为什么有些窗口不见了？",
-			br: "Por que algumas janelas estão faltando?",
-			es: "¿Por qué faltan algunas ventanas?", // #toBeUpdated
-		},
-		QMPbug: {
-			en: "Where can I report a bug or issue?",
-			de: "Wo kann ich einen Bug oder Fehler melden?",
-			fr: "Où puis-je signaler un bogue ou un problème ?", // #toBeUpdated
-			ru: "Где я могу сообщить об ошибке или проблеме?", // #toBeUpdated
-			id: "Di mana saya dapat melaporkan bug atau masalah?", // #toBeUpdated
-			fil: "Saan ako maaaring mag-ulat ng bug o isyu?", // #toBeUpdated
-			zh: "我可以在哪里提交BUG或者报告问题？",
-			br: "Onde posso relatar um bug ou problema?",
-			es: "¿Dónde puedo informar de un error o un problema?", // #toBeUpdated
-		},
 		// Subscription questions
 		subFeatures: {
 			question: {
@@ -979,39 +911,6 @@
 					<div class='mt-2'></div>
 					<img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`,
 				es: `Esto puede suceder cuando personaliza la ubicación de los temporizadores y, a continuación, cambia la resolución de la pantalla. <br>Le sugerimos que restablezca la posición de los temporizadores en el menú de configuración. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
-			},
-		},
-		issueTimers: {
-			question: {
-				en: "Why do I not see Ultimate timers?",
-				de: "Warum sehe ich keine Ultimate-Timer?", // #toBeUpdated
-				fr: "Pourquoi les minuteurs Ultimate ne s'affichent-ils pas ?", // #toBeUpdated
-				ru: "Почему я не вижу таймеры Ultimate?", // #toBeUpdated
-				id: "Mengapa saya tidak melihat timer Ultimate?", // #toBeUpdated
-				fil: "Bakit hindi ko nakikita ang Ultimate timers?", // #toBeUpdated
-				zh: "为什么我看不到终极计时器？", // #toBeUpdated
-				br: "Por que não vejo os cronômetros Ultimate?",
-				es: "¿Por qué no veo los temporizadores Ultimate?", // #toBeUpdated
-			},
-			content: {
-				en: `Ultimate timers are a premium feature that is only available to our subscribers.<br>
-					A subscription is 1.99$ / month.<br>
-					Open the application menu and click on manage subscription.<br>
-					<div class="mt-2"></div>
-					<img class="img-fluid rounded shadow" src="./images/faqs/subscribe.png">`,
-				de: `Ultimate-Timer sind eine Premium-Funktion, die nur unseren Abonnenten zur Verfügung steht. <br>Ein Abonnement kostet 1,99$ /Monat. <br>Öffnen Sie das Anwendungsmenü und klicken Sie auf Abonnement verwalten. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`,
-				// #toBeUpdated
-				fr: `Les minuteries Ultimate sont une fonctionnalité premium qui n'est disponible que pour nos abonnés. <br>Un abonnement coûte 1,99 $/mois. <br>Ouvrez le menu de l'application et cliquez sur Gérer l'abonnement. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`,
-				// #toBeUpdated
-				ru: `Таймеры Ultimate — это премиум-функция, доступная только нашим подписчикам. <br>Подписка составляет 1,99$ в месяц. <br>Откройте меню приложения и нажмите «Управление подпиской». <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
-				id: `Ultimate timer adalah fitur premium yang hanya tersedia untuk pelanggan kami. <br>Langganan adalah 1.99$ /bulan. <br>Buka menu aplikasi dan klik kelola langganan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
-				fil: `Ang mga ultimate timers ay isang premium na tampok na magagamit lamang sa aming mga tagasuskribi. <br>Ang isang subscription ay 1.99$/buwan. <br>Buksan ang menu ng application at mag-click sa pamahalaan ang subscription. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
-				zh: `终极计时器是一项高级功能，仅对我们的订阅者可用。<br>订阅费用为每月1.99美元。<br>打开应用程序菜单，然后单击管理订阅。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
-				br: `Os cronômetros finais são um recurso premium que está disponível apenas para nossos assinantes. <br>
-					A assinatura custa 1,99 $/mês. <br>
-					Abra o menu do aplicativo e clique em gerenciar assinatura. <br>
-					<div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`,
-				es: `Los temporizadores definitivos son una función premium que solo está disponible para nuestros suscriptores. <br>Una suscripción cuesta 1.99 $/mes. <br>Abra el menú de la aplicación y haga clic en administrar suscripción. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
 			},
 		},
 		// Timers
