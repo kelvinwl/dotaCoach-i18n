@@ -651,15 +651,15 @@
 				es: "¿Dónde puedo obtener ayuda adicional?", // #toBeUpdated
 			},
 			content: {
-				en: `Join our Discord community server for live support <a class="link-danger" href ="https://discord.gg/uabGsGazRe">here</a>.`,
-				de: `Treten Sie unserem Discord bei und erhalten Sie hier Live-Support <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
-				fr: `Rejoignez notre Discord pour une assistance en direct ici <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
-				ru: `Присоединяйтесь к нашему Discord для поддержки в реальном времени здесь <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
-				id: `Bergabunglah dengan Discord kami untuk dukungan langsung <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
-				fil: `Sumali sa aming Discord para sa live na suporta doon <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
-				zh: `加入我们的 Discord，在这里获得实时支持 <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>。</a>`, // #toBeUpdated
-				br: `Junte-se ao nosso Discord para suporte ao vivo aqui <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`,
-				es: `Únete a nuestro Discord para recibir soporte en vivo aquí <a class='link-danger' href =' https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
+				en: `Join our Discord community server for live support <a class="link-danger" href="https://discord.gg/uabGsGazRe">here</a>.`,
+				de: `Treten Sie unserem Discord bei und erhalten Sie <a class='link-danger' href='https://discord.gg/uabGsGazRe'>hier</a> Live-Support.`, // #toBeUpdated
+				fr: `Rejoignez notre Discord pour une assistance en direct <a class='link-danger' href='https://discord.gg/uabGsGazRe'>ici</a>.`, // #toBeUpdated
+				ru: `Присоединяйтесь к нашему Discord для поддержки в реальном времени здесь <a class='link-danger' href='https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
+				id: `Bergabunglah dengan Discord kami untuk dukungan langsung <a class='link-danger' href='https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
+				fil: `Sumali sa aming Discord para sa live na suporta doon <a class='link-danger' href='https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
+				zh: `加入我们的 Discord，在这里获得实时支持 <a class='link-danger' href='https://discord.gg/uabGsGazRe'>。</a>`, // #toBeUpdated
+				br: `Junte-se ao nosso Discord para suporte ao vivo <a class='link-danger' href='https://discord.gg/uabGsGazRe'>aqui</a>.`,
+				es: `Únete a nuestro Discord para recibir soporte en vivo <a class='link-danger' href='https://discord.gg/uabGsGazRe'>aquí</a>.`, // #toBeUpdated
 			},
 		},
 		appBanned: {
