@@ -166,6 +166,10 @@
 			br: "Teclas de atalho",
 			es: "Teclas rápidas", // #toBeUpdated
 		},
+		btnStreaming: {
+			en: "Streaming",
+			de: "Streaming",
+		},
 		// Subscription questions
 		subFeatures: {
 			question: {
@@ -1772,6 +1776,41 @@
 					</ul>
 					<div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`,
 				es: `Las teclas de acceso rápido de la aplicación se cambian en la configuración de la aplicación overwolf. <br><ul><li>Haz clic con el botón derecho en el símbolo del lobo en la barra de tareas. </li><li>Selecciona los ajustes. </li><li>Selecciona Superposición y teclas de acceso rápido en la esquina superior izquierda. </li><li>Selecciona Dota 2 como juego. </li><li>Ve a la sección Dota Coach. </li><li>Cambia las teclas de acceso rápido según tus necesidades. </li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, // #toBeUpdated
+			},
+		},
+		// Streaming
+		streamAllowed: {
+			question: {
+				en: "Am I allowed to stream with the App?",
+			},
+			content: {
+				en: `You are allowed to stream with our app at any given time!<br>`,
+			},
+		},
+		streamMissingWindows: {
+			question: {
+				en: "Why are some windows missing on stream?",
+			},
+			content: {
+				en: `OBS offers a variety of possibilites to capture in-game overlays.<br>
+				If some of the app windows are missing on your stream, you should try the following:
+				<ul>
+				<li>Get the Dota2 window with game capture (right click Source -> Add -> Gamecapture)</li>
+				<li>Get the Dota2 window with monitor capture (right click Source -> Add -> Monitorcapture)</li>
+				</ul>`,
+			},
+		},
+		streamPartner: {
+			question: {
+				en: "Can I get a partnership?",
+			},
+			content: {
+				en: `Yes, we offer partnerships to streamers, coaches and content creators!<br> 
+				Please contact us with your proposal:
+				<ul>
+				<li>E-Mail: info (at) dota-coach.com</li>
+				<li>Discord: Dota Coach#4076</li>
+				</ul>`,
 			},
 		},
 	},
