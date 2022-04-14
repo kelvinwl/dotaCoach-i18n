@@ -79,15 +79,15 @@ export const i18n = {
       es: "Juega un partido con Dota Coach para poder usar Match Analytics y comparar tu rendimiento con el de otros jugadores.", // #toBeUpdated
     },
     SupportedLobbies: {
-      en: "Supported lobbies",
-      de: "Unterstützte Lobbys", // #toBeUpdated
-      fr: "Lobbies soutenue", // #toBeUpdated
-      ru: "Поддерживаемые лобби",
-      id: "Lobi yang didukung", // #toBeUpdated
-      fil: "Mga sinusuportahang lobbies", // #toBeUpdated
-      zh: "支持的大厅", // #toBeUpdated
-      br: "Lobbies apoiados", // #toBeUpdated
-      es: "Lobbies compatibles", // #toBeUpdated
+      en: "Supported lobbies:",
+      de: "Unterstützte Lobbys:", // #toBeUpdated
+      fr: "Lobbies soutenue :", // #toBeUpdated
+      ru: "Поддерживаемые лобби:",
+      id: "Lobi yang didukung:", // #toBeUpdated
+      fil: "Mga sinusuportahang lobbies:", // #toBeUpdated
+      zh: "支持的大厅: ", // #toBeUpdated
+      br: "Lobbies apoiados:", // #toBeUpdated
+      es: "Lobbies compatibles:", // #toBeUpdated
     },
     SupportedLobbiesList: {
       en: "Ranked and unranked.",
@@ -124,7 +124,6 @@ export const i18n = {
       br: "Modos casuais suportados:",
       es: "Modos no clasificados compatibles:", // #toBeUpdated
     },
-
     SupportedUnrankedModesList: {
       en: "All pick, turbo, single draft, random draft, all random.",
       br: "Escolha livre, turbo, seleção individual, seleção aleatória e todos aleatórios.",
