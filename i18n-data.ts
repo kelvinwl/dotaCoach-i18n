@@ -611,7 +611,7 @@ export const i18n = {
     winLoseStreaks: {
       en: "Winning / losing streaks",
       de: "Sieges / Niederlagen Serien",
-      cn: "正在连胜或者连败", 
+      cn: "正在连胜或者连败",
       br: "Sequência de vitória/derrota",
     },
 
@@ -625,7 +625,7 @@ export const i18n = {
     heroToBanNone: {
       en: "No spezific hero needs to be banned.",
       de: "Kein spezifischer Held muss gebannt werden.",
-      cn: "没有需要去Ban掉的英雄"
+      cn: "没有需要去Ban掉的英雄",
       br: "Nenhum herói específico precisa ser banido.",
     },
 
@@ -641,6 +641,11 @@ export const i18n = {
       de: "Spieler die Dota Coach verwenden",
       cn: "此玩家正在使用DotaCoach",
       br: "Jogadores usando Dota Coach",
+    },
+
+    playerIsSmurf: {
+      en: "#### is likely to be a smurf. He has a win rate of ####% over the last #### matches.",
+      de: "#### ist wahrscheinlich ein Smurf. Er hat eine Gewinnrate von ####% in den letzten #### Spielen.",
     },
 
     // InGame window

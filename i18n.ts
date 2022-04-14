@@ -1,12 +1,48 @@
+// i18n.ts
 /**
  * i18n library for Dota Coach
  *
  * Format to be used: <div id="i18n_#ENGLISH TEXT#" class="i18n">${i18n.t(#ENGLISH TEXT)}</div>`
  */
 import { i18n, Language } from "./i18n-data";
-import * as DotaLogger from "../../src/utility/log";
+import * as DL from "../../src/utility/log";
 
+const i18nVarToken = "####";
+
+/**
+ * Variable for current language
+ * Default: en
+ */
 let currentLanguage = "en";
+
+export function replaceVarTokens(
+  i18nString: string,
+  ...tokens: string[]
+): string {
+  // Builds regex
+  const re = new RegExp(i18nVarToken, "");
+
+  // Checks how many variables occur
+  const occuCount = i18nString.split(i18nVarToken).length - 1;
+
+  let strReplaced = i18nString;
+
+  // Checks if variable occurances do not match parameter length
+  if (occuCount != tokens.length) {
+    DL.error(
+      "i18n.replaceVarTokens: Params to replace / arr constraints do not match!"
+    );
+    return;
+  }
+
+  // Replaces every orrucance with function parameter list
+  for (let i = 0; i < tokens.length; i++) {
+    DL.log(tokens[i]);
+    strReplaced = strReplaced.replace(re, tokens[i]);
+  }
+
+  return strReplaced;
+}
 
 /**
  * Function returns the text for a token in the currently set language
@@ -18,7 +54,7 @@ let currentLanguage = "en";
  */
 export function t(token: string): string {
   if (!Object.prototype.hasOwnProperty.call(i18n.text, token)) {
-    DotaLogger.log(`18n.t(): Invalid code '${token}'`);
+    DL.log(`18n.t(): Invalid code '${token}'`);
     const err = new Error();
     console.warn(err.stack);
     token = "ERROR";
@@ -58,9 +94,11 @@ export function isLanguageAvailable(language: string): boolean {
 }
 
 /**
- * Returns
+ * Checks if langcode is available in config.
+ * Returnn "en" if not found.
+ *
  * @param language 'en', 'fr', 'de', etc.
- * @returns
+ * @returns langcode
  */
 export function findLanguage(language: string): string {
   const ls = i18n.config.languages;
@@ -77,14 +115,13 @@ export function getLanguage(): string {
 }
 
 /**
+ * Gets full language name from langCode
  *
  * @param language optional parameter, language short name such as 'en', 'de' and 'fr'. If not provided, language name of current language is returned
- * @returns
+ * @returns Full language name of langCode
  */
 export function getLanguageName(language?: string): string {
-  DotaLogger.log(
-    `i18n.getLanguageName(): currentLanguage = ${currentLanguage}`
-  );
+  DL.log(`i18n.getLanguageName(): currentLanguage = ${currentLanguage}`);
   if (language == undefined) {
     return i18n.config.languages[currentLanguage];
   } else {
@@ -182,6 +219,6 @@ export function span(code: string): string {
  * @returns Builds HTML div string
  */
 export function div(code: string): string {
-  /*DotaLogger.log(`*** i18n.div(${code})`);*/
+  /*DL.log(`*** i18n.div(${code})`);*/
   return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
 }
