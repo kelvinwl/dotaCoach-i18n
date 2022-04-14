@@ -165,10 +165,22 @@ function configureWebLinks(element: Element) {
   }
 }
 
+/**
+ * Inline text with spans inside divs.
+ *
+ * @param code Json ID of the text to be displayed
+ * @returns Builds HTML span string
+ */
 export function span(code: string): string {
   return `<span id="i18n_${code}" class="i18n">${t(code)}</span>`;
 }
 
+/**
+ * Builds div with localized text
+ *
+ * @param code Json ID of the text to be displayed
+ * @returns Builds HTML div string
+ */
 export function div(code: string): string {
   /*DotaLogger.log(`*** i18n.div(${code})`);*/
   return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
