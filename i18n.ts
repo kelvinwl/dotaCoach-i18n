@@ -6,8 +6,10 @@
  */
 import { i18n, Language } from "./i18n-data";
 import * as DL from "../../src/utility/log";
+import { json } from "stream/consumers";
 
 const i18nVarToken = "####";
+const i18nVarTokenValues = {};
 
 /**
  * Variable for current language
@@ -16,16 +18,25 @@ const i18nVarToken = "####";
 let currentLanguage = "en";
 
 export function replaceVarTokens(
-  i18nString: string,
+  buildSpan: boolean,
+  i18nT: string,
   ...tokens: string[]
 ): string {
   // Builds regex
+  DL.log(
+    "replaceVarTokens called with: " + i18nT + " " + JSON.stringify(tokens)
+  );
+
+  // Builds Regex for replace
   const re = new RegExp(i18nVarToken, "");
 
-  // Checks how many variables occur
-  const occuCount = i18nString.split(i18nVarToken).length - 1;
+  i18nVarTokenValues[i18nT] = tokens;
+  DL.log("JSON" + JSON.stringify(i18nVarTokenValues));
 
-  let strReplaced = i18nString;
+  let strReplaced = t(i18nT);
+
+  DL.log(strReplaced);
+  const occuCount = strReplaced.split(i18nVarToken).length - 1;
 
   // Checks if variable occurances do not match parameter length
   if (occuCount != tokens.length) {
@@ -40,8 +51,14 @@ export function replaceVarTokens(
     DL.log(tokens[i]);
     strReplaced = strReplaced.replace(re, tokens[i]);
   }
+  DL.log("replaceVarTokens end");
 
-  return strReplaced;
+  if (buildSpan == true) {
+    return `<span id="i18n_${i18nT}" class="i18n">${strReplaced}</span>`;
+    //return span(strReplaced);
+  } else {
+    return strReplaced;
+  }
 }
 
 /**
@@ -172,10 +189,17 @@ function updatei18nElement(element: Element) {
     .replace("i18n_", "")
     .replace("i18x_", "")
     .replace("i18y_", "");
-  const innerHTML = t(i18nToken);
-
-  element.innerHTML = innerHTML;
-  configureWebLinks(element);
+  if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
+    element.innerHTML = replaceVarTokens(
+      false,
+      i18nToken,
+      ...i18nVarTokenValues[i18nToken]
+    );
+  } else {
+    const innerHTML = t(i18nToken);
+    element.innerHTML = innerHTML;
+    configureWebLinks(element);
+  }
 }
 
 function configureWebLinks(element: Element) {
