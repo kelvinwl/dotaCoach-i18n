@@ -53,9 +53,9 @@ export function replaceVarTokens(
   }
   DL.log("replaceVarTokens end");
 
+  // Builds span
   if (buildSpan == true) {
     return `<span id="i18n_${i18nT}" class="i18n">${strReplaced}</span>`;
-    //return span(strReplaced);
   } else {
     return strReplaced;
   }
