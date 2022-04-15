@@ -8,7 +8,16 @@ import { i18n, Language } from "./i18n-data";
 import * as DL from "../../src/utility/log";
 import { json } from "stream/consumers";
 
+/**
+ * Variable template that will be replaced with dynamic content
+ * from datamanager.
+ */
 const i18nVarToken = "####";
+
+/**
+ * Variable Token values for a given i18n token.
+ * Example: "isSmurf":[name,winrate]
+ */
 const i18nVarTokenValues = {};
 
 /**
@@ -17,45 +26,52 @@ const i18nVarTokenValues = {};
  */
 let currentLanguage = "en";
 
+/**
+ * Replaces variable tokens inside i18n-data.ts strings.
+ * VarToken to replace is set in i18nVarToken.
+ *
+ * @param buildSpan Flag=true to return element as span
+ * @param i18nT i18n Token
+ * @param tokens Variable values to replace inside i18n string
+ * @returns i18n string of current language with replaced variable tokens.
+ */
 export function replaceVarTokens(
   buildSpan: boolean,
   i18nT: string,
   ...tokens: string[]
 ): string {
   // Builds regex
-  DL.log(
-    "replaceVarTokens called with: " + i18nT + " " + JSON.stringify(tokens)
-  );
+  DL.log("replaceVarTokens: " + i18nT + " " + JSON.stringify(tokens));
 
-  // Builds Regex for replace
+  // Builds Regex for .replace function
   const re = new RegExp(i18nVarToken, "");
 
+  // Safes all incoming parameters in the global object so updateHTML
+  // can access the data if langauge is swapped
   i18nVarTokenValues[i18nT] = tokens;
-  DL.log("JSON" + JSON.stringify(i18nVarTokenValues));
 
+  // Gets string of the given token
   let strReplaced = t(i18nT);
 
-  DL.log(strReplaced);
+  // Counts variables in the returned string
   const occuCount = strReplaced.split(i18nVarToken).length - 1;
 
   // Checks if variable occurances do not match parameter length
   if (occuCount != tokens.length) {
-    DL.error(
-      "i18n.replaceVarTokens: Params to replace / arr constraints do not match!"
-    );
+    DL.error("i18n.replaceVarTokens: Params length != Variable count");
     return;
   }
 
-  // Replaces every orrucance with function parameter list
+  // Replaces every var orrucance with the called parameter array in order.
   for (let i = 0; i < tokens.length; i++) {
-    DL.log(tokens[i]);
     strReplaced = strReplaced.replace(re, tokens[i]);
   }
-  DL.log("replaceVarTokens end");
 
-  // Builds span
+  // Returns inserted parameter string inside element span
   if (buildSpan == true) {
     return `<span id="i18n_${i18nT}" class="i18n">${strReplaced}</span>`;
+
+    // Returns insereted parameter without span element
   } else {
     return strReplaced;
   }
