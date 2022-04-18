@@ -371,15 +371,15 @@ export const AppTranslations: Translations = {
   },
   DaysAgo: {
     // used to display "5 days ago" ; '$1' sign represents number of days
-    en: "$1 days ago",
-    de: "Vor $1 Tagen", // #toBeUpdated
-    fr: "Il y a $1 jours", // #toBeUpdated
-    ru: "$1 дней назад",
-    id: "$1 hari lalu", // #toBeUpdated
-    fil: "$1 mga araw na nakalipas", // #toBeUpdated
-    zh: "$1 天前", // #toBeUpdated
-    br: "há $1 dias",
-    es: "Hace $1 días", // #toBeUpdated
+    en: "#### days ago",
+    de: "Vor #### Tagen", // #toBeUpdated
+    fr: "Il y a #### jours", // #toBeUpdated
+    ru: "#### дней назад",
+    id: "#### hari lalu", // #toBeUpdated
+    fil: "#### mga araw na nakalipas", // #toBeUpdated
+    zh: "#### 天前", // #toBeUpdated
+    br: "há #### dias",
+    es: "Hace #### días", // #toBeUpdated
   },
   Peers: {
     en: "Peers",
@@ -546,6 +546,41 @@ export const AppTranslations: Translations = {
     de: "Rolle",
     zh: "分路",
     br: "Função",
+  },
+
+  dotaCoachUsers: {
+    en: "Players using Dota Coach:",
+    de: "Spieler die Dota Coach verwenden:",
+    cn: "此玩家正在使用DotaCoach:",
+    br: "Jogadores usando Dota Coach:",
+  },
+
+  dotaCoachUsersTeam: {
+    en: "In your team: ####",
+    de: "In deinem team: ####",
+  },
+
+  dotaCoachUsersEnemy: {
+    en: "In enemy team: ####",
+    de: "Im gegnerischen team: ####",
+  },
+
+  playedWithWonWith: {
+    en: `<span class="txt-green">Won</span> as #### with #### as #### #### days ago.`,
+    de: `<span class="txt-green">Won</span> als #### mit #### als #### vor #### Tagen.`,
+  },
+
+  playedWithLostWith: {
+    en: `<span class="txt-red">Lost</span> as #### with #### as #### #### days ago.`,
+    de: `<span class="txt-red">Verloren</span> als #### mit #### als #### vor #### Tagen.`,
+  },
+  playedWithWonVs: {
+    en: `<span class="txt-green">Won</span> as #### vs #### as #### #### days ago.`,
+    de: `<span class="txt-green">Gewonnen</span> als #### gegen #### als #### vor #### Tagen.`,
+  },
+  playedWithLostVs: {
+    en: `<span class="txt-red">Lost</span> as #### vs #### as #### #### days ago.`,
+    de: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`,
   },
 
   enemyHero: {
