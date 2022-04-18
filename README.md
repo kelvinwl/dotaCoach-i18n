@@ -14,7 +14,7 @@ Create a pull-request to contribute. You will get a Translator role on our Disco
 How to add web links to tanslations?
 
 - Add a HTML element with an id set to "webLink". Example: _&lsaquo;span id='webLink'&rsaquo;Click here to see Guide&lsaquo;/span&rsaquo;_
-- Add a field **webLinks** to the translation containing an array of http(s) links
+- Then add a field **webLinks** to the translation. Thie field shall contian an array of http(s) links
 
 How to add variables to translations?
 
