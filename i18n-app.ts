@@ -70,10 +70,14 @@ export const AppTranslations: Translations = {
   },
   SupportedLobbiesList: {
     en: "Ranked and unranked.",
-    ru: "Рейтинговые и безрейтинговые",
     de: "Ranked and unranked.",
+    fr: "Classé et non classé.", // #toBeUpdated
+    ru: "Рейтинговые и безрейтинговые",
+    id: "Peringkat dan unranking.", // #toBeUpdated
+    fil: "Niraranggo at walang ranggo.", // #toBeUpdated
+    zh: "排名和未排名。", // #toBeUpdated
     br: "Competitiva e casual.",
-    // #toBeUpdated if different in your language
+    es: "Clasificados y no clasificados.", // #toBeUpdated
   },
   SupportedRankedModes: {
     en: "Supported ranked modes:",
@@ -89,7 +93,14 @@ export const AppTranslations: Translations = {
 
   SupportedRankedModesList: {
     en: "All pick, captains mode and random draft.",
+    de: "Alle wählen, Kapitänsmodus und zufälliger Entwurf.", // #toBeUpdated
+    fr: "Tous les choix, le mode capitaines et le draft aléatoire.", // #toBeUpdated
+    ru: "Режим всех пиков, капитанов и случайный драфт.", // #toBeUpdated
+    id: "Semua memilih, mode kapten dan draft acak.", // #toBeUpdated
+    fil: "Lahat ng pick, captains mode at random draft.", // #toBeUpdated
+    zh: "全选、队长模式和随机选秀。", // #toBeUpdated
     br: "Escolha livre, modo de capitães e seleção aleatória.",
+    es: "Todas las selecciones, modo capitanes y draft aleatorio.", // #toBeUpdated
   },
 
   SupportedUnrankedModes: {
@@ -105,7 +116,14 @@ export const AppTranslations: Translations = {
   },
   SupportedUnrankedModesList: {
     en: "All pick, turbo, single draft, random draft, all random.",
+    de: "Alle Auswahl, Turbo, Einzelentwurf, zufälliger Entwurf, alles zufällig.", // #toBeUpdated
+    fr: "Tout pick, turbo, simple draft, draft aléatoire, tout aléatoire.", // #toBeUpdated
+    ru: "Все пики, турбо, одиночные драфты, случайные драфты, все случайные.", // #toBeUpdated
+    id: "Semua pick, turbo, draft tunggal, draft acak, semua acak.", // #toBeUpdated
+    fil: "Lahat ng pick, turbo, solong draft, random draft, lahat ng random.", // #toBeUpdated
+    zh: "所有选择、turbo、单草稿、随机草稿，都是随机的。", // #toBeUpdated
     br: "Escolha livre, turbo, seleção individual, seleção aleatória e todos aleatórios.",
+    es: "Todas las selecciones, turbo, borrador simple, borrador aleatorio, todo aleatorio.", // #toBeUpdated
   },
 
   MATCH_ANALYTICS: {
@@ -242,11 +260,25 @@ export const AppTranslations: Translations = {
   },
   GPM: {
     en: "GPM",
+    de: "GPM", // #toBeUpdated
+    fr: "GAL/MIN", // #toBeUpdated
+    ru: "ГАЛЛОНОВ В МИНУТУ", // #toBeUpdated
+    id: "GPM", // #toBeUpdated
+    fil: "GPM", // #toBeUpdated
+    zh: "GPM", // #toBeUpdated
     br: "OPM",
+    es: "GPM", // #toBeUpdated
   },
   XPM: {
     en: "XPM",
+    de: "XPM", // #toBeUpdated
+    fr: "XPM", // #toBeUpdated
+    ru: "XPM", // #toBeUpdated
+    id: "XPM", // #toBeUpdated
+    fil: "XPM", // #toBeUpdated
+    zh: "XPM", // #toBeUpdated
     br: "XPM",
+    es: "XPM", // #toBeUpdated
   },
   LargeItems: {
     en: "Large items",
@@ -471,8 +503,16 @@ export const AppTranslations: Translations = {
     es: "ID", // #toBeUpdated
   },
   OpenDota: {
+    // https://www.opendota.com/
     en: "OpenDota",
+    de: "OpenDota", // #toBeUpdated
+    fr: "OpenDota", // #toBeUpdated
+    ru: "OpenDota", // #toBeUpdated
+    id: "OpenDota", // #toBeUpdated
+    fil: "OpenDota", // #toBeUpdated
+    zh: "OpenDota", // #toBeUpdated
     br: "OpenDota",
+    es: "OpenDota", // #toBeUpdated
   },
   Hero: {
     en: "Hero",
@@ -487,7 +527,14 @@ export const AppTranslations: Translations = {
   },
   Steam: {
     en: "Steam",
+    de: "Steam", // #toBeUpdated
+    fr: "Steam", // #toBeUpdated
+    ru: "Steam", // #toBeUpdated
+    id: "Steam", // #toBeUpdated
+    fil: "Steam", // #toBeUpdated
+    zh: "Steam", // #toBeUpdated
     br: "Steam",
+    es: "Steam", // #toBeUpdated
   },
   Heropedia: {
     en: "Heropedia",
@@ -538,14 +585,24 @@ export const AppTranslations: Translations = {
   matches: {
     en: "Matches",
     de: "Spiele",
+    fr: "Matchs", // #toBeUpdated
+    ru: "Матчи", // #toBeUpdated
+    id: "Pertandingan", // #toBeUpdated
+    fil: "Mga Tugma", // #toBeUpdated
     zh: "比赛",
     br: "Partidas",
+    es: "Partidos", // #toBeUpdated
   },
   myRole: {
-    en: "Role",
+    en: "Rolle",
     de: "Rolle",
+    fr: "Rolle", // #toBeUpdated
+    ru: "Ролле", // #toBeUpdated
+    id: "Rolle", // #toBeUpdated
+    fil: "Rolle", // #toBeUpdated
     zh: "分路",
     br: "Função",
+    es: "Rolle", // #toBeUpdated
   },
 
   dotaCoachUsers: {
@@ -1478,20 +1535,35 @@ export const AppTranslations: Translations = {
   MouseClickModifier: {
     en: "Mouse click modifier",
     de: "Mausklickmodifizierung",
-    br: "Modificador do clique do mouse",
+    fr: "Modificateur de clic souris", // #toBeUpdated
+    ru: "Модификатор щелчка мыши", // #toBeUpdated
+    id: "Pengubah klik mouse", // #toBeUpdated
+    fil: "Mouse click modifier", // #toBeUpdated
     zh: "鼠标点击组合键",
+    br: "Modificador do clique do mouse",
+    es: "Modificador de clic del ratón", // #toBeUpdated
   },
   MouseClickModifierTooltip: {
     en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
     de: "Die Mausklickmodifizierung wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist die Modifizierung aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Modifizierungsknopf gedrückt werden.",
+    fr: "L'intégration du modificateur de clic de souris nécessite que l'utilisateur appuie sur une touche de modification lorsqu'il clique sur la superposition. Cela fournit une protection contre les interférences avec le jeu.", // #toBeUpdated
+    ru: "Интеграция модификатора щелчка мышью требует, чтобы пользователь нажимал клавишу-модификатор при нажатии на наложение. Это обеспечивает защиту от вмешательства в игру.", // #toBeUpdated
+    id: "Integrasi pengubah klik mouse mengharuskan pengguna untuk menekan tombol pengubah saat mengklik overlay. Ini memberikan perlindungan terhadap gangguan dengan permainan.", // #toBeUpdated
     fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro.",
-    br: "A integração do modificador de clique do mouse requer o pressionamento de uma tecla modificadora ao clicar no overlay. Isso oferece proteção contra interferências com o jogo.",
     zh: "鼠标点击组合键功能要求用户在点击DotaCoach悬浮窗时，需要按下特定的组合键，以避免游戏操作导致的干扰。",
+    br: "A integração do modificador de clique do mouse requer o pressionamento de uma tecla modificadora ao clicar no overlay. Isso oferece proteção contra interferências com o jogo.",
+    es: "La integración del modificador de clic del ratón requiere que el usuario presione una tecla modificadora al hacer clic en la superposición. Esto proporciona protección contra interferencias con el juego.", // #toBeUpdated
   },
   Modifier: {
     en: "Modifier",
-    br: "Modificador",
+    de: "Modifizierer", // #toBeUpdated
+    fr: "Modificateur", // #toBeUpdated
+    ru: "модификатор", // #toBeUpdated
+    id: "Pengubah", // #toBeUpdated
+    fil: "Modifier", // #toBeUpdated
     zh: "组合键选择",
+    br: "Modificador",
+    es: "Modificador", // #toBeUpdated
   },
   MouseClickModifierNone: {
     en: "None",
@@ -1506,15 +1578,36 @@ export const AppTranslations: Translations = {
   },
   MouseClickModifierAlt: {
     en: "Alt",
+    de: "Alt", // #toBeUpdated
+    fr: "Alt", // #toBeUpdated
+    ru: "Alt", // #toBeUpdated
+    id: "Alt", // #toBeUpdated
+    fil: "Alt", // #toBeUpdated
+    zh: "Alt", // #toBeUpdated
     br: "Alt",
+    es: "Alt", // #toBeUpdated
   },
   MouseClickModifierCtrl: {
     en: "Ctrl",
+    de: "Strg", // #toBeUpdated
+    fr: "Ctrl", // #toBeUpdated
+    ru: "Ctrl", // #toBeUpdated
+    id: "Ctrl", // #toBeUpdated
+    fil: "Ctrl", // #toBeUpdated
+    zh: "Ctrl", // #toBeUpdated
     br: "Ctrl",
+    es: "Ctrl", // #toBeUpdated
   },
   MouseClickModifierShift: {
     en: "Shift",
+    de: "Umschalttaste", // #toBeUpdated
+    fr: "Shift", // #toBeUpdated
+    ru: "Shift", // #toBeUpdated
+    id: "Pergeseran", // #toBeUpdated
+    fil: "Shift", // #toBeUpdated
+    zh: "Shift", // #toBeUpdated
     br: "Shift",
+    es: "Turno", // #toBeUpdated
   },
 
   // Main window settings were removed
