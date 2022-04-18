@@ -4,11 +4,6 @@
  *
  */
 
-export interface Language {
-  code: string;
-  name: string;
-}
-
 import { Translations } from "./i18n";
 
 export const WebsiteTranslations: Translations = {
