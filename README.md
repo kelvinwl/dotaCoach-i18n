@@ -1,6 +1,6 @@
 # dotaCoach-i18n
 
-Translation files for Dota Coach App and Website.
+Translation files for Dota Coach App and Websites (dota-coach.com and dota-coach.github.io).
 
 # Contributing
 
@@ -8,37 +8,39 @@ Create a pull-request to contribute. You will get a Translator role on our Disco
 
 ## Instructions for translators
 
-- Lines with an OK, have already been reviewed by a nativ speaker
-- Comments and potential issues are added at the end of each line, after the // signs
+- Lines with a **#toBeUpdated** tag need to be reviewed by a native speaker
+- Comments and potential issues can be added at the end of each line after two forward slashes ('//')
 
-Comments on webLinks:
+How to add web links to tanslations:
 
-- Add HTML elements with an id set to "webLink"
-- Add a field webLinks, containing an array of http(s) links
-- Variables can be added optionally, e.g. to write "5 days ago". The corresponding i18n-app would be "#### days ago"
-- Another example: "You played against #### #### days ago with ####"
-- Function t2(token, var1, var2, var3....)
+- Add a HTML element with an id set to "webLink". Example: <span id='webLink'>Click here to see Guide</span>
+- Add a field webLinks to the translation containing an array of http(s) links
 
-## The i18n files
+How to add variables to translations:
 
-There are currently the following 3 translation files:
+- Variables can be added optionally and are marked with ####
+- The get a text like **5 days ago**, you would write **#### days ago**
+
+## i18n files explained
+
+There are currently the following 4 translation files:
 
 - i18n-languages: List of supported languages
-- i18n-app: These translations are used by the app
-- i18n-faq: Used for website with FAQ (which is openend when users click on FAQ in the app)
-- i18n-website: Translation of dota-coach.com
+- i18n-website: Translation of the main website (https://dota-coach.com)
+- i18n-app: Translation of the app
+- i18n-faq: Translations of the FAQ webpage (https://dota-coach.github.io/faqs.html; this page is also opened when a users clicks on FAQ in the app)
 
-## Dota 2
+## Dota 2 languages
 
 Note that Dota 2 provides audio translation for the following 4 languages: English, Korean, Simplified Chinese and Russian
 
 ## Contact
 
-You can contact us via e-mail (info@dota-coach.com) or on our discord server (https://discord.gg/K5kPrh4z; user 'Dota Coach#4076')
+You can contact us via e-mail (info@dota-coach.com) or on discord (server: https://discord.gg/K5kPrh4z; user: **Dota Coach#4076**)
 
 ## Current translators
 
-Primary translator (The user with the most contribution in each language) is bolded. An asterisk means they're not in the server. Thank you for contributing!
+Current contributors (languages sorted alphabetically).
 
 Brazilian Portuguese:
 
@@ -59,3 +61,5 @@ German:
 Spanish:
 
 - **Fonsett#6208 ([@Fonsett](https://github.com/Fonsett))**
+
+Thank you all for contributing!
