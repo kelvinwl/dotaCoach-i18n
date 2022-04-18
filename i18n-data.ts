@@ -8,7 +8,7 @@
  * Instruction for webLinks:
  *     - Add HTML elements with an id set to "webLink"
  *     - Add a field webLinks, containing an array of http(s) links
- *     - Variables can be added optionally, e.g. to write "5 days ago". The corresponding i18n-data would be "$1 days ago"
+ *     - Variables can be added optionally, e.g. to write "5 days ago". The corresponding in-app would be "$1 days ago"
  *     - "You played agasinst $1 $2 days ago aga $3"
  *      - Function t2(token, var1, var2, var3....)
  *

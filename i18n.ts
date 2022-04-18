@@ -4,7 +4,7 @@
  *
  * Format to be used: <div id="i18n_#ENGLISH TEXT#" class="i18n">${i18n.t(#ENGLISH TEXT)}</div>`
  */
-import { i18n, Language } from "./i18n-data";
+import { i18n, Language } from "./i18n-app";
 import * as DL from "../../src/utility/log";
 import { json } from "stream/consumers";
 
@@ -27,7 +27,7 @@ const i18nVarTokenValues = {};
 let currentLanguage = "en";
 
 /**
- * Replaces variable tokens inside i18n-data.ts strings.
+ * Replaces variable tokens inside i18n-app.ts strings.
  * VarToken to replace is set in i18nVarToken.
  *
  * @param buildSpan Flag=true to return element as span
