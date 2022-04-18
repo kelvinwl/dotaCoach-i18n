@@ -275,9 +275,9 @@ function configureWebLinks(element: Element) {
     console.log(`*** webLink-${i18nToken}-${i}`);
     const e = document.getElementById(`webLink-${i18nToken}-${i}`);
     e.addEventListener("click", () => {
-      overwolf.utils.openUrlInOverwolfBrowser(
+      /*overwolf.utils.openUrlInOverwolfBrowser(
         activeTranslations[i18nToken].webLinks[i]
-      );
+      );*/
     });
   }
 }

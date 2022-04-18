@@ -608,7 +608,7 @@ export const AppTranslations: Translations = {
   dotaCoachUsers: {
     en: "Players using Dota Coach:",
     de: "Spieler die Dota Coach verwenden:",
-    cn: "此玩家正在使用DotaCoach:",
+    zh: "此玩家正在使用DotaCoach:",
     br: "Jogadores usando Dota Coach:",
   },
 
@@ -736,13 +736,6 @@ export const AppTranslations: Translations = {
     de: "Kein spezifischer Held sollte nicht gebannt werden.",
     zh: "没有完全不用考虑去Ban的英雄",
     br: "Nenhum herói específico precisa não ser banido.",
-  },
-
-  dotaCoachUsers: {
-    en: "Players using Dota Coach",
-    de: "Spieler die Dota Coach verwenden",
-    zh: "此玩家正在使用DotaCoach",
-    br: "Jogadores usando Dota Coach",
   },
 
   playerIsSmurf: {
