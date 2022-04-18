@@ -614,7 +614,7 @@ export const AppTranslations: Translations = {
 
   dotaCoachUsersTeam: {
     en: "In your team: ####",
-    de: "In deinem team: ####",
+    de: "In deinem Team: ####",
     fr: "Dans votre équipe : ####", // #toBeUpdated
     ru: "В вашей команде: ####", // #toBeUpdated
     id: "Dalam tim Anda: ####", // #toBeUpdated
@@ -626,7 +626,7 @@ export const AppTranslations: Translations = {
 
   dotaCoachUsersEnemy: {
     en: "In enemy team: ####",
-    de: "Im gegnerischen team: ####",
+    de: "Im gegnerischen Team: ####",
     fr: "Dans l'équipe ennemie : ####", // #toBeUpdated
     ru: "Во вражеской команде: ####", // #toBeUpdated
     id: "Dalam tim musuh: ####", // #toBeUpdated
