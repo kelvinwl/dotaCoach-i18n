@@ -615,16 +615,37 @@ export const AppTranslations: Translations = {
   dotaCoachUsersTeam: {
     en: "In your team: ####",
     de: "In deinem team: ####",
+    fr: "Dans votre équipe : ####", // #toBeUpdated
+    ru: "В вашей команде: ####", // #toBeUpdated
+    id: "Dalam tim Anda: ####", // #toBeUpdated
+    fil: "Sa iyong koponan: ####", // #toBeUpdated
+    zh: "在你的团队中：####", // #toBeUpdated
+    br: "Em sua equipe: ####", // #toBeUpdated
+    es: "En tu equipo: ####", // #toBeUpdated
   },
 
   dotaCoachUsersEnemy: {
     en: "In enemy team: ####",
     de: "Im gegnerischen team: ####",
+    fr: "Dans l'équipe ennemie : ####", // #toBeUpdated
+    ru: "Во вражеской команде: ####", // #toBeUpdated
+    id: "Dalam tim musuh: ####", // #toBeUpdated
+    fil: "Sa koponan ng kaaway: ####", // #toBeUpdated
+    zh: "在敌方队伍中：####", // #toBeUpdated
+    br: "Na equipe inimiga: ####", // #toBeUpdated
+    es: "En el equipo enemigo: ####", // #toBeUpdated
   },
 
   playedWithWonWith: {
     en: `<span class="txt-green">Won</span> as #### with #### as #### #### days ago.`,
     de: `<span class="txt-green">Won</span> als #### mit #### als #### vor #### Tagen.`,
+    fr: `<span class="txt-green">A gagné</span> #### avec #### comme #### #### il y a quelques jours.`, // #toBeUpdated
+    ru: `<span class="txt-green">Выиграл</span> как #### с #### как #### ### дней назад.`, // #toBeUpdated
+    id: `<span class="txt-green">Menang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
+    fil: `<span class="txt-green">Nanalo</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
+    zh: `几天前以 #### 的身份@@ <span class="txt-green">赢得</span> ##### ### ##。`, // #toBeUpdated
+    br: `<span class="txt-green">Ganhou</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
+    es: `<span class="txt-green">Ganó</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
 
   playedWithLostWith: {
@@ -727,6 +748,13 @@ export const AppTranslations: Translations = {
   playerIsSmurf: {
     en: "#### is likely to be a smurf. He has a win rate of ####% over the last #### matches.",
     de: "#### ist wahrscheinlich ein Smurf. Er hat eine Gewinnrate von ####% in den letzten #### Spielen.",
+    fr: "#### est probablement un schtroumpf. Il a un taux de victoire de ####% sur les derniers #### matchs.", // #toBeUpdated
+    ru: "#### скорее всего, смурф. У него винрейт ####% в последних матчах ####.", // #toBeUpdated
+    id: "#### kemungkinan akan menjadi smurf. Dia memiliki tingkat kemenangan #####% selama pertandingan #### terakhir.", // #toBeUpdated
+    fil: "#### ay malamang na maging isang smurf. Siya ay may panalo rate ng ####% sa huling #### na mga tugma.", // #toBeUpdated
+    zh: "#### 很可能是蓝精灵。在过去的 #### 场比赛中，他的胜率为 ####%。", // #toBeUpdated
+    br: "#### é provável que seja um smurf. Ele tem uma taxa de vitória de ####% nas últimas partidas ####.", // #toBeUpdated
+    es: "#### es probable que sea un pitufo. Tiene una tasa de victorias de ####% en los últimos #### partidos.", // #toBeUpdated
   },
 
   // InGame window
