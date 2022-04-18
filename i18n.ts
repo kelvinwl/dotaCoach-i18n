@@ -4,9 +4,30 @@
  *
  * Format to be used: <div id="i18n_#ENGLISH TEXT#" class="i18n">${i18n.t(#ENGLISH TEXT)}</div>`
  */
-import { i18n, Language } from "./i18n-data";
+import { Languages } from "./i18n-languages";
 import * as DL from "../../src/utility/log";
-import { json } from "stream/consumers";
+
+export type Translations = {
+  [key: string]: Translation;
+};
+
+export type Translation = {
+  en: string;
+  de?: string;
+  fr?: string;
+  ru?: string;
+  id?: string;
+  fil?: string;
+  zh?: string;
+  br?: string;
+  es?: string;
+  webLinks?: string[]; // Web links to be inserted into <span id='webLink>TEXT</span> elements
+};
+
+export interface Language {
+  code: string;
+  name: string;
+}
 
 /**
  * Variable template that will be replaced with dynamic content
@@ -26,8 +47,14 @@ const i18nVarTokenValues = {};
  */
 let currentLanguage = "en";
 
+let activeTranslations = {};
+
+export function setTranslations(translations: Translations) {
+  activeTranslations = translations;
+}
+
 /**
- * Replaces variable tokens inside i18n-data.ts strings.
+ * Replaces variable tokens inside i18n-app.ts strings.
  * VarToken to replace is set in i18nVarToken.
  *
  * @param buildSpan Flag=true to return element as span
@@ -86,17 +113,29 @@ export function replaceVarTokens(
  * @returns
  */
 export function t(token: string): string {
-  if (!Object.prototype.hasOwnProperty.call(i18n.text, token)) {
+  if (!Object.prototype.hasOwnProperty.call(activeTranslations, token)) {
     DL.log(`18n.t(): Invalid code '${token}'`);
     const err = new Error();
     console.warn(err.stack);
-    token = "ERROR";
+
+    if (
+      Object.prototype.hasOwnProperty.call(errorTranslation, currentLanguage)
+    ) {
+      return errorTranslation[currentLanguage];
+    } else {
+      return errorTranslation.en;
+    }
   }
 
-  if (Object.prototype.hasOwnProperty.call(i18n.text[token], currentLanguage)) {
-    return i18n.text[token][currentLanguage];
+  if (
+    Object.prototype.hasOwnProperty.call(
+      activeTranslations[token],
+      currentLanguage
+    )
+  ) {
+    return activeTranslations[token][currentLanguage];
   } else {
-    return i18n.text[token].en;
+    return activeTranslations[token].en;
   }
 }
 
@@ -117,8 +156,7 @@ export function setLanguage(language: string) {
  * @returns
  */
 export function isLanguageAvailable(language: string): boolean {
-  const ls = i18n.config.languages;
-  for (const l of ls) {
+  for (const l of Languages) {
     if (l.code == language) {
       return true;
     }
@@ -128,13 +166,13 @@ export function isLanguageAvailable(language: string): boolean {
 
 /**
  * Checks if langcode is available in config.
- * Returnn "en" if not found.
+ * Returns "en" if not found.
  *
  * @param language 'en', 'fr', 'de', etc.
- * @returns langcode
+ * @returns language core code, e.g. 'en' and 'fr'
  */
 export function findLanguage(language: string): string {
-  const ls = i18n.config.languages;
+  const ls = Languages;
   for (const l of ls) {
     if (l.code == language) {
       return language;
@@ -148,24 +186,24 @@ export function getLanguage(): string {
 }
 
 /**
- * Gets full language name from langCode
+ * Function returns full language name
  *
- * @param language optional parameter, language short name such as 'en', 'de' and 'fr'. If not provided, language name of current language is returned
- * @returns Full language name of langCode
+ * @param language Language short name such as 'en', 'de' and 'fr' (optional parameter)
+ * @returns Full language name of language code; if language is not provided, then the funciton returns the name of the current language
  */
 export function getLanguageName(language?: string): string {
   DL.log(`i18n.getLanguageName(): currentLanguage = ${currentLanguage}`);
   if (language == undefined) {
-    return i18n.config.languages[currentLanguage];
-  } else {
-    const ls = i18n.config.languages;
-    for (const l of ls) {
-      if (l.code == language) {
-        return l.name;
-      }
-    }
-    return i18n.config.languages["en"]; // Returns english if no name is found
+    language = currentLanguage;
+    //return i18n.config.languages[currentLanguage];
   }
+
+  for (const l of Languages) {
+    if (l.code == language) {
+      return l.name;
+    }
+  }
+  return Languages[0].name; // Returns english if no name is found
 }
 
 /**
@@ -173,7 +211,7 @@ export function getLanguageName(language?: string): string {
  * @returns Array of { <language code>: <language name> }
  */
 export function getLanguages(): Language[] {
-  return i18n.config.languages;
+  return Languages;
 }
 
 /**
@@ -194,7 +232,7 @@ export function updateHTMLElement(htmlElement: HTMLElement) {
     updatei18nElement(htmlElement);
   } else {
     const elements = htmlElement.getElementsByClassName("i18n");
-    for (const element of elements) {
+    for (const element of Array.from(elements)) {
       updatei18nElement(element);
     }
   }
@@ -237,7 +275,9 @@ function configureWebLinks(element: Element) {
     console.log(`*** webLink-${i18nToken}-${i}`);
     const e = document.getElementById(`webLink-${i18nToken}-${i}`);
     e.addEventListener("click", () => {
-      overwolf.utils.openUrlInOverwolfBrowser(i18n.text[i18nToken].webLinks[i]);
+      overwolf.utils.openUrlInOverwolfBrowser(
+        activeTranslations[i18nToken].webLinks[i]
+      );
     });
   }
 }
@@ -262,3 +302,16 @@ export function div(code: string): string {
   /*DL.log(`*** i18n.div(${code})`);*/
   return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
 }
+
+// Display of error message
+const errorTranslation: Translation = {
+  en: "ERROR",
+  de: "FEHLER",
+  fr: "ERREUR",
+  ru: "ОШИБКА",
+  id: "KESALAHAN",
+  fil: "ERROR",
+  zh: "错误",
+  br: "ERRO",
+  es: "ERROR",
+};
