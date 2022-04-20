@@ -1,5 +1,5 @@
 /**
- * This file contains all translations for the video guide: https://dota-coach.com/video/DotaCoachTutorial.mp4com
+ * This file contains all translations for the video guide: https://dota-coach.com/video/DotaCoachTutorial.mp4
  *
  * Comment: Amazon Polly doesn't support hte following languages:
  *   - Indonesian
