@@ -50,6 +50,11 @@ let currentLanguage = "en";
 let activeTranslations = {};
 
 export function setTranslations(translations: Translations) {
+  DL.log(
+    `i18n.setTranslations(): Setting translations with ${
+      Object.keys(translations).length
+    } tokens`
+  );
   activeTranslations = translations;
 }
 
