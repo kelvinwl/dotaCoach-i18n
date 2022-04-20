@@ -26,7 +26,14 @@ export type Translation = {
 
 export interface Language {
   code: string;
+  pollyConfig: PollyConfig;
   name: string;
+}
+
+export interface PollyConfig {
+  LanguageCode: string; //language code used with Amazon Polly
+  VoiceId: string;
+  Engine: "neural" | "standard";
 }
 
 /**
@@ -213,6 +220,20 @@ export function getLanguageName(language?: string): string {
 
 /**
  *
+ * @param language Language code as used by the Dota Coach app, e.g. 'en'
+ * @returns Language code used by Amazon Polly, e.g. en-US
+ */
+export function getPollyLanguageConfig(language: string): PollyConfig {
+  for (const l of Languages) {
+    if (l.code == language) {
+      return l.pollyConfig;
+    }
+  }
+  return Languages[0].pollyConfig; // Returns english if no name is found
+}
+
+/**
+ *
  * @returns Array of { <language code>: <language name> }
  */
 export function getLanguages(): Language[] {
@@ -280,9 +301,9 @@ function configureWebLinks(element: Element) {
     console.log(`*** webLink-${i18nToken}-${i}`);
     const e = document.getElementById(`webLink-${i18nToken}-${i}`);
     e.addEventListener("click", () => {
-      overwolf.utils.openUrlInOverwolfBrowser(
+      /*overwolf.utils.openUrlInOverwolfBrowser(
         activeTranslations[i18nToken].webLinks[i]
-      );
+      );*/
     });
   }
 }
