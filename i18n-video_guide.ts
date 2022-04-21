@@ -7,7 +7,7 @@
  *   - French
  *   - Russian
  *   - Chinese
- *   - Portugese (Brazil)
+ *   - Brazilian Portugese
  *   - Spanish
  *
  * Comment: Amazon Polly doesn't support the following languages:
