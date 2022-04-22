@@ -1402,7 +1402,7 @@ export const AppTranslations: Translations = {
   Notifications: {
     en: "Notifications", // OK
     de: "Meldungen", // OK (Benachrichtigungen war auf dem Desktop zu lang)
-    fr: "Les notifications",
+    fr: "Notifications",
     ru: "Уведомления", // OK
     id: "Notifikasi",
     fil: "Notifikasyon",
