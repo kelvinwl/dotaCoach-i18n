@@ -62,4 +62,8 @@ Spanish:
 
 - **Fonsett#6208 ([@Fonsett](https://github.com/Fonsett))**
 
+Russian:
+
+- **Tutoshniy Net#6995 ([@Tutoshniy](https://github.com/Tutoshniy))**
+
 **Thank you all for contributing!**
