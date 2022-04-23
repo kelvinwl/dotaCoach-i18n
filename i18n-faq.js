@@ -25,7 +25,7 @@
 			en: "Frequently Asked Questions (FAQs)",
 			de: "Häufig gestellte Fragen (FAQs)",
 			fr: "Foire aux questions (FAQ)", // #toBeUpdated
-			ru: "Часто задаваемые вопросы (FAQ)", // #toBeUpdated
+			ru: "Часто задаваемые вопросы (FAQ)", 
 			id: "Pertanyaan yang Sering Diajukan (FAQ)", // #toBeUpdated
 			fil: "Mga Madalas Itanong (FAQ)", // #toBeUpdated
 			zh: "常见问题解答(FAQs)",
@@ -36,7 +36,7 @@
 			en: "Most Popular Questions",
 			de: "Populäre Fragen",
 			fr: "Questions les plus populaires", // #toBeUpdated
-			ru: "Самые популярные вопросы", // #toBeUpdated
+			ru: "Самые популярные вопросы", 
 			id: "Pertanyaan Paling Populer", // #toBeUpdated
 			fil: "Pinaka-popular na mga Tanong", // #toBeUpdated
 			zh: "最常见的问题",
@@ -48,7 +48,7 @@
 			en: "Answer",
 			de: "Antwort",
 			fr: "Réponse", // #toBeUpdated
-			ru: "Ответ", // #toBeUpdated
+			ru: "Ответ", 
 			id: "Jawaban", // #toBeUpdated
 			fil: "Sagot", // #toBeUpdated
 			zh: "回答",
@@ -60,7 +60,7 @@
 			en: "Subscription",
 			de: "Abo",
 			fr: "Abonnement",
-			ru: "подписка", // #toBeUpdated
+			ru: "Подписка", 
 			id: "Berlangganan", // #toBeUpdated
 			fil: "Subscription", // #toBeUpdated
 			zh: "订阅问题",
@@ -71,7 +71,7 @@
 			en: "Account",
 			de: "Konto",
 			fr: "Compte", // #toBeUpdated
-			ru: "учетная запись", // #toBeUpdated
+			ru: "Учетная запись", 
 			id: "Akun", // #toBeUpdated
 			fil: "Account", // #toBeUpdated
 			zh: "账号问题", // #toBeUpdated
@@ -82,7 +82,7 @@
 			en: "Application",
 			de: "Applikation",
 			fr: "Demande", // #toBeUpdated
-			ru: "заявка", // #toBeUpdated
+			ru: "Приложение", 
 			id: "Aplikasi", // #toBeUpdated
 			fil: "Application", // #toBeUpdated
 			zh: "应用问题",
@@ -93,7 +93,7 @@
 			en: "Issues",
 			de: "Probleme",
 			fr: "Problèmes", // #toBeUpdated
-			ru: "Проблемы", // #toBeUpdated
+			ru: "Проблемы", 
 			id: "Masalah", // #toBeUpdated
 			fil: "Mga Isyu", // #toBeUpdated
 			zh: "使用问题", // #toBeUpdated
@@ -104,7 +104,7 @@
 			en: "Audio",
 			de: "Audio",
 			fr: "Système audio", // #toBeUpdated
-			ru: "Аудио", // #toBeUpdated
+			ru: "Аудио", 
 			id: "Audio", // #toBeUpdated
 			fil: "Audio", // #toBeUpdated
 			zh: "声音问题",
@@ -115,7 +115,7 @@
 			en: "Timers",
 			de: "Timer",
 			fr: "Minuteries", // #toBeUpdated
-			ru: "Таймеры", // #toBeUpdated
+			ru: "Таймеры", 
 			id: "Timer", // #toBeUpdated
 			fil: "Timers", // #toBeUpdated
 			zh: "计时器问题",
@@ -126,7 +126,7 @@
 			en: "Game Modes",
 			de: "Spielmodi",
 			fr: "Modes de jeu", // #toBeUpdated
-			ru: "Игровые режимы", // #toBeUpdated
+			ru: "Игровые режимы", 
 			id: "Mode Permainan", // #toBeUpdated
 			fil: "Mga Mode ng Laro", // #toBeUpdated
 			zh: "游戏模式问题",
@@ -137,7 +137,7 @@
 			en: "Hero Guides",
 			de: "Helden Ratgeber",
 			fr: "Guides des héros", // #toBeUpdated
-			ru: "Руководства по героям", // #toBeUpdated
+			ru: "Руководства по героям", 
 			id: "Panduan Pahlawan", // #toBeUpdated
 			fil: "Mga Gabay sa Bayani", // #toBeUpdated
 			zh: "英雄指南问题",
@@ -148,7 +148,7 @@
 			en: "Windows",
 			de: "Fenster",
 			fr: "Fenêtres", // #toBeUpdated
-			ru: "Windows", // #toBeUpdated
+			ru: "Окно Dota Coach", 
 			id: "Windows", // #toBeUpdated
 			fil: "Windows", // #toBeUpdated
 			zh: "窗口问题",
@@ -159,7 +159,7 @@
 			en: "Hotkeys",
 			de: "Hotkeys",
 			fr: "Raccourcis clavier", // #toBeUpdated
-			ru: "Горячие клавиши", // #toBeUpdated
+			ru: "Горячие клавиши", 
 			id: "Hotkeys", // #toBeUpdated
 			fil: "Hotkeys", // #toBeUpdated
 			zh: "热键问题",
@@ -168,6 +168,7 @@
 		},
 		btnStreaming: {
 			en: "Streaming",
+			ru: "Трансляция",
 			de: "Streaming",
 		},
 		// Subscription questions
@@ -176,7 +177,7 @@
 				en: "What features do I get?",
 				de: "Welche Besonderheiten weißt die pro Verion auf?",
 				fr: "Quelles sont les fonctionnalités que j'obtiens ?", // #toBeUpdated
-				ru: "Какие функции я получу?", // #toBeUpdated
+				ru: "Какие возможности я получу?", 
 				id: "Fitur apa yang saya dapatkan?", // #toBeUpdated
 				fil: "Anong mga tampok ang nakukuha ko?", // #toBeUpdated
 				zh: "订阅可以获得什么功能？",
@@ -199,7 +200,7 @@
 						<li>Supporter Discord Rolle.</li>
 					</ul>`,
 				fr: `Notre version coach pro est livrée avec un certain nombre de fonctionnalités : le <br><ul><li>coaching vocal pour tous les héros que Dota 2 a à offrir. </li><li>Timers Ultimate ajustables pour l'ennemi et votre équipe. </li><li>Ajoutez une expérience gratuite de Dota Coach. </li><li>Rôle Supporter Discord. </li></ul>`, // #toBeUpdated
-				ru: `Наша версия для профессиональных тренеров имеет ряд функций: <br><ul><li>голосовой коучинг для всех героев, которые может предложить Dota 2. </li><li>Регулируемые таймеры Ultimate для противника и вашей команды. </li><li>Добавьте бесплатный опыт Dota Coach. </li><li>Роль сторонника Discord. </li></ul>`, // #toBeUpdated
+				ru: `Наша версия профессиональная версия Dota Coach имеет ряд функций: <br><ul><li>голосовой коучинг для всех героев, которые есть в Dota 2. </li><li>Регулируемые таймеры Ultimate для противника и вашей команды. </li><li>Отключение рекламы. </li><li>Роль подписчика в Discord. </li></ul>`, 
 				id: `Versi pelatih pro kami hadir lama dengan sejumlah fitur:<br><ul><li>Pelatihan suara untuk semua pahlawan yang ditawarkan Dota 2. </li><li>Timer Ultimate yang dapat disesuaikan untuk musuh dan tim Anda. </li><li>Tambahkan pengalaman Dota Coach gratis. </li><li>Peran pendukung Discord. </li></ul>`, // #toBeUpdated
 				fil: `Ang aming pro coach version ay may mahabang bilang ng mga tampok:<br><ul><li>Voice coaching para sa lahat ng mga bayani Dota 2 ay dapat mag-alok. </li><li>Adjustable Ultimate timers para sa kaaway at ang iyong koponan. </li><li>Magdagdag ng libreng Dota Coach karanasan. </li><li>Tungkulin ng Tagasuporta ng Discord. </li></ul>`, // #toBeUpdated
 				zh: `DotaCoach专业版具有下列多个功能:<br>
@@ -224,7 +225,7 @@
 				en: "Which payment options do I have?",
 				de: "Welche Zahlungsmöglichkeiten habe ich?", // #toBeUpdated
 				fr: "Quelles sont les options de paiement dont je dispose ?", // #toBeUpdated
-				ru: "Какие варианты оплаты у меня есть?", // #toBeUpdated
+				ru: "Какие варианты оплаты существуют?", 
 				id: "Pilihan pembayaran apa yang saya miliki?", // #toBeUpdated
 				fil: "Aling mga pagpipilian sa pagbabayad ang mayroon ako?", // #toBeUpdated
 				zh: "DotaCoach支持哪些付款方式？",
@@ -246,7 +247,7 @@
 					Be aware that payment options can be limited depending on your current country of residence.<br>`,
 				de: `Alle Zahlungen erfolgen über die <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf-Plattform</a>, die mit einer Vielzahl von Zahlungsanbietern zusammenarbeitet. <br>Die beliebtesten Zahlungsmethoden: <br><ul><li>Kredit- und Debitkarten</li> <li>Paypal</li> <li>Amazon Pay</li> <li>Skrill</li> <li>Visa</li> <li>Maestro</li></ul> Beachten Sie, dass die Zahlungsoptionen je nach Ihrem aktuellen Wohnsitzland eingeschränkt sein können. <br>`, // #toBeUpdated
 				fr: `Tous les paiements sont effectués via la plateforme <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> qui collabore avec un large éventail de fournisseurs de paiement. Modes de <br>paiement les plus populaires : <br><ul><li>Cartes de crédit et de débit</li> <li>Paypal</li> <li>Amazon Pay</li> <li>Skrill</li> <li>Visa</li> <li>Maestro</li></ul> Sachez que les options de paiement peuvent être limitées en fonction de votre pays de résidence actuel. <br>`, // #toBeUpdated
-				ru: `Все платежи осуществляются через платформу <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a>, которая сотрудничает с широким спектром платежных систем. <br>Самые популярные способы оплаты: <br><ul><li>Кредитные и дебетовые карты</li> <li>Paypal <li>Amazon Pay</li></li> <li>Skrill</li> <li>Visa</li> <li>Maestro</li></ul> Имейте в виду, что варианты оплаты могут быть ограничены в зависимости от вашей текущей страны проживания. <br>`, // #toBeUpdated
+				ru: `Все платежи осуществляются через платформу <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a>, которая сотрудничает с широким спектром платежных систем. <br>Самые популярные способы оплаты: <br><ul><li>Кредитные и дебетовые карты</li> <li>Paypal <li>Amazon Pay</li></li> <li>Skrill</li> <li>Visa</li> <li>Maestro</li></ul> Имейте в виду, что варианты оплаты могут быть ограничены в зависимости от вашей текущей страны проживания. <br>`,
 				id: `Semua pembayaran dilakukan melalui platform <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a>yang berkolaborasi dengan berbagai penyedia pembayaran. <br>Metode pembayaran yang paling populer:<br><ul><li>Kartu Kredit & Debit</li><li>Paypal</li><li>Amazon Pay</li><li>Skrill</li><li>Visa</li><li>Maestro</li></ul>Sadarilah bahwa opsi pembayaran dapat dibatasi tergantung pada negara tempat tinggal Anda saat ini. <br>`, // #toBeUpdated
 				fil: `Ang lahat ng mga pagbabayad ay ginagawa sa pamamagitan ng <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a>platform na nakikipagtulungan sa iba't ibang uri ng mga provider ng pagbabayad. <br>Pinaka-popular na paraan ng pagbabayad:<br><ul><li>Credit & Debit Cards</li><li>Paypal Amazon Pay</li><li><li>Skrill</li><li>Visa</li><li>Maestro</li>Magkaroon</li></ul>ng kamalayan na ang mga pagpipilian sa pagbabayad ay maaaring limitado depende sa iyong kasalukuyang bansa ng paninirahan. <br>`, // #toBeUpdated
 				zh: `所有的付款方式均通过 <a class="link-danger" target="_blank" rel="noopener noreferrer" href="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf</a> 
@@ -281,7 +282,7 @@
 				en: "How can I get the pro Version?",
 				de: "Wie kann ich die Pro-Version bekommen?", // #toBeUpdated
 				fr: "Comment puis-je obtenir la version pro ?", // #toBeUpdated
-				ru: "Как я могу получить профессиональную версию?", // #toBeUpdated
+				ru: "Как я могу получить профессиональную версию?",
 				id: "Bagaimana saya bisa mendapatkan Versi pro?", // #toBeUpdated
 				fil: "Paano ko makukuha ang pro Version?", // #toBeUpdated
 				zh: "我怎么才能获得DotaCoach专业版？",
@@ -305,7 +306,7 @@
 
 				de: `Nachdem Sie Dota Coach mit dem overwolf Client installiert haben, können Sie unsere Dienste abonnieren. <br><ul><li>Öffnen Sie den Overwolf Desktop Client. </li><li>Klicke auf „Bibliothek“. </li><li>Klicken Sie auf die kleine Einstellungsschaltfläche neben dem Dota Coach-Logo. </li><li>Klicke auf „Im Appstore anzeigen“</li> <li>Klicke im neuen Fenster auf „Abonnieren“. </li><li>Befolgen Sie die beworbenen Schritte. </li></ul>Lesen Sie auch die <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf FAQ</a> zum Abonnieren von Apps. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fr: `Après avoir installé Dota Coach avec le client Overwolf, vous pouvez vous abonner à nos services. <br><ul><li>Ouvrez le client de bureau Overwolf. </li><li>Cliquez sur « Bibliothèque ». </li><li>Cliquez sur le petit bouton des paramètres à côté du logo Dota Coach. </li><li>Cliquez sur « Afficher dans l'Appstore »</li> <li>Cliquez sur « S'abonner » dans la nouvelle fenêtre. </li><li>Suivez les étapes proposées. </li></ul>Consultez également la FAQ d'<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> pour savoir comment vous abonner à des applications. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-				ru: `После установки Dota Coach с клиентом overwolf вы можете подписаться на наши услуги. <br><ul><li>Откройте настольный клиент Overwolf. </li><li>Нажмите «Библиотека». </li><li>Нажмите на небольшую кнопку настроек рядом с логотипом Dota Coach. </li><li>Нажмите «посмотреть в магазине приложений»</li> <li>Нажмите «Подписаться» в новом окне. </li><li>Следуйте инструкциям. </li></ul>Также ознакомьтесь с часто задаваемыми вопросами по <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> о том, как подписаться на приложения. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+				ru: `После установки Dota Coach с клиентом overwolf вы можете подписаться на наши услуги. <br><ul><li>Откройте клиент Overwolf. </li><li>Нажмите «Library». </li><li>Нажмите на небольшую кнопку настроек рядом с логотипом Dota Coach. </li><li>Нажмите «View in appstore»</li> <li>Нажмите «Subscribe» в новом окне. </li><li>Следуйте инструкциям. </li></ul>Также ознакомьтесь с часто задаваемыми вопросами <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> о том, как подписаться на приложения. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`,
 				id: `Setelah menginstal Dota Coach dengan klien overwolf, Anda dapat berlangganan layanan kami. <br><ul><li>Buka Overwolf Desktop Client. </li><li>Klik 'Perpustakaan'. </li><li>Klik pada tombol pengaturan kecil di sebelah logo Dota Coach. </li><li>Klik 'lihat di appstore' Klik '</li><li>Berlangganan' di dalam jendela baru. </li><li>Ikuti langkah-langkah yang dipromosikan. </li></ul>Lihat juga FAQ <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> tentang cara berlangganan aplikasi. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fil: `Pagkatapos i-install ang Dota Coach sa overwolf client, maaari kang mag-subscribe sa aming mga serbisyo. <br><ul><li>Buksan ang Overwolf Desktop Client. </li><li>Mag-click sa 'Library'. </li><li>Mag-click sa pindutan ng maliit na setting sa tabi ng logo ng Dota Coach. </li><li>Mag-click sa 'view sa appstore'</li><li>I-click ang 'Mag-subscribe' sa loob ng bagong window. </li><li>Sundin ang mga na-promote na hakbang. </li></ul>Tingnan din ang FAQ ng <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'>Overwolf</a> kung paano mag-subscribe sa apps. <br><div class='mt-2'></div><img src='images/faqs/subscribesteps.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				zh: `通过Overwolf安装DotaCoach客户端以后，即可订阅我们的服务。<br>
@@ -339,7 +340,7 @@
 				en: "How can I cancel my Subscription?",
 				de: "Wie kann ich mein Abo kündigen?", // #toBeUpdated
 				fr: "Comment puis-je annuler mon abonnement ?", // #toBeUpdated
-				ru: "Как я могу отменить подписку?", // #toBeUpdated
+				ru: "Как я могу отменить подписку?",
 				id: "Bagaimana cara membatalkan langganan saya?", // #toBeUpdated
 				fil: "Paano ko kanselahin ang aking subscription?", // #toBeUpdated
 				zh: "如何取消我的订阅？", // #toBeUpdated
@@ -350,7 +351,7 @@
 				en: `All subscriptions are handled by Overwolf.<br><br>If you want to cancel your subscription, refund or forgot to cancel, please follow the offical <a class="link-danger" target="_blank" rel="noopener noreferrer" href ="https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/">Overwolf FAQ</a>.`,
 				de: `Alle Abonnements werden von Overwolf bearbeitet. </a><br>Wenn Sie Ihr Abonnement kündigen, eine Rückerstattung tätigen oder vergessen haben möchten, folgen Sie bitte den OfficaLoverwolf <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ. </a>`, // #toBeUpdated
 				fr: `Tous les abonnements sont gérés par Overwolf. </a><br>Si vous souhaitez annuler votre abonnement, rembourser ou oublier d'annuler, veuillez suivre la <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ OfficalOverwolf.</a>`, // #toBeUpdated
-				ru: `Все подписки обрабатываются Overwolf. </a><br>Если вы хотите отменить подписку, вернуть деньги или забыли ее отменить, пожалуйста, следуйте инструкциям на <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> странице часто задаваемых вопросов OfficalOverwolf.</a>`, // #toBeUpdated
+				ru: `Все подписки обрабатываются Overwolf. </a><br>Если вы хотите отменить подписку, вернуть деньги или забыли ее отменить, пожалуйста, следуйте инструкциям на <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> странице часто задаваемых вопросов(FAQ) Приложение Overwolf.</a>`,
 				id: `Semua langganan ditangani oleh Overwolf. </a><br>Jika Anda ingin membatalkan langganan, pengembalian dana atau lupa membatalkan, silakan ikuti <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ OfficalOverWolf.</a>`, // #toBeUpdated
 				fil: `Ang lahat ng mga subscription ay hinahawakan ng Overwolf. </a><br>Kung nais mong kanselahin ang iyong subscription, refund o nakalimutan na kanselahin, mangyaring sundin ang <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> FAQ ng OfficaOverWolf.</a>`, // #toBeUpdated
 				zh: `所有订阅均由 Overwolf 处理。</a><br>如果你想取消订阅、退款或忘记取消，请遵循 OfficaLoverWolf <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000178332-app-subscriptions-faq/'> 常见问题解答。</a>`, // #toBeUpdated
@@ -365,7 +366,7 @@
 				en: "How do I create an account?",
 				de: "Wie erstelle ich ein Konto?", // #toBeUpdated
 				fr: "Comment créer un compte ?", // #toBeUpdated
-				ru: "Как мне создать аккаунт?", // #toBeUpdated
+				ru: "Как мне создать аккаунт?", 
 				id: "Bagaimana cara membuat akun?", // #toBeUpdated
 				fil: "Paano ako lilikha ng isang account?", // #toBeUpdated
 				zh: "如何创建账户？", // #toBeUpdated
@@ -376,7 +377,7 @@
 				en: `Follow the overwolf step by step <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'>tutorial</a> on how to create an account.<br>`,
 				de: `Folgen Sie dem <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'>Overwolf Schritt für Schritt Tutorial, um zu erfahren, wie Sie ein Konto erstellen.</a> <br>`, // #toBeUpdated
 				fr: `<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'>Suivez le tutoriel étape par étape Overwolf pour savoir comment créer un compte.</a> <br>`, // #toBeUpdated
-				ru: `Следуйте пошаговому руководству overwolf <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> о</a> том, как создать учетную запись. <br>`, // #toBeUpdated
+				ru: `Следуйте пошаговому руководству Overwolf <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> о</a> о том, как создать учетную запись. <br>`, // #toBeUpdated
 				id: `Ikuti langkah overwolf demi langkah tutorial <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> tentang</a> cara membuat akun. <br>`, // #toBeUpdated
 				fil: `Sundin ang overwolf step <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> sa</a> pamamagitan ng steptutorial kung paano lumikha ng isang account. <br>`, // #toBeUpdated
 				zh: `按照overwolf分<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000176960-how-to-create-an-overwolf-account-'> 步</a>教程了解如何创建账户。<br>`, // #toBeUpdated
@@ -389,7 +390,7 @@
 				en: "How do I log in?",
 				de: "Wie melde ich mich an?", // #toBeUpdated
 				fr: "Comment me connecter ?", // #toBeUpdated
-				ru: "Как мне войти в систему?", // #toBeUpdated
+				ru: "Как мне войти в систему?",
 				id: "Bagaimana cara masuk?", // #toBeUpdated
 				fil: "Paano ako mag-log in?", // #toBeUpdated
 				zh: "我该如何登录？", // #toBeUpdated
@@ -404,7 +405,7 @@
 					<img src="images/faqs/loginout.png" class="img-fluid rounded shadow">`,
 				de: `Sie können sich über den Overwolf-Client oder direkt in unserer Anwendung anmelden. <br>Beide Anmeldungen befinden sich in der oberen rechten Ecke ihres Fensters. <br>Klicken Sie einfach auf das Overwolf-Logo, um den Anmeldedialog zu öffnen. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fr: `Vous pouvez vous connecter via le client overwolf, ou directement dans notre application. <br>Les deux identifiants se trouvent dans le coin supérieur droit de leurs fenêtres. <br>Cliquez simplement sur le logo Overwolf pour ouvrir la boîte de dialogue de connexion. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-				ru: `Вы можете войти в систему через клиент overwolf или непосредственно в нашем приложении. <br>Оба входа расположены в правом верхнем углу окна. <br>Просто нажмите на логотип overwolf, чтобы открыть диалоговое окно входа в систему. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+				ru: `Вы можете войти в систему через клиент Overwolf или непосредственно в нашем приложении. <br>Оба входа расположены в правом верхнем углу окна. <br>Просто нажмите на логотип Overwolf, чтобы открыть диалоговое окно входа в систему. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, 
 				id: `Anda dapat login melalui klien overwolf, atau langsung dalam aplikasi kami. <br>Kedua login terletak di sudut kanan atas jendela mereka. <br>Cukup klik logo overwolf untuk membuka dialog login. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fil: `Maaari kang mag-log in sa pamamagitan ng overwolf client, o direkta sa loob ng aming application. <br>Ang parehong mga pag-login ay matatagpuan sa kanang sulok sa itaas ng kanilang mga bintana. <br>I-click lamang ang logo ng overwolf upang buksan ang dialog ng pag-login. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				zh: `您可以通过overwolf客户端登录，也可以直接在我们的应用程序中登录。<br>两个登录帐户都位于其窗口的右上角。<br>只需单击 overwolf 徽标即可打开登录对话框。<br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
@@ -421,7 +422,7 @@
 				en: "How do I log out?",
 				de: "Wie melde ich mich ab?", // #toBeUpdated
 				fr: "Comment me déconnecter ?", // #toBeUpdated
-				ru: "Как мне выйти из системы?", // #toBeUpdated
+				ru: "Как мне выйти из системы?", 
 				id: "Bagaimana cara log out?", // #toBeUpdated
 				fil: "Paano ako mag-log out?", // #toBeUpdated
 				zh: "我该如何注销？", // #toBeUpdated
@@ -436,7 +437,7 @@
 					<img src="images/faqs/loginout.png" class="img-fluid rounded shadow">`,
 				de: `Sie können sich über den Overwolf Client oder direkt in unserer Anwendung abmelden. <br>Beide Abmeldungen befinden sich in der oberen rechten Ecke ihrer Fenster. <br>Klicken Sie einfach auf das Overwolf-Logo, um den Abmelde-Dialog zu öffnen. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fr: `Vous pouvez vous déconnecter via le client overwolf ou directement dans notre application. <br>Les deux déconnexions se trouvent dans le coin supérieur droit de leurs fenêtres. <br>Cliquez simplement sur le logo Overwolf pour ouvrir la boîte de dialogue de déconnexion. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-				ru: `Вы можете выйти из системы через клиент overwolf или непосредственно в нашем приложении. <br>Оба выхода расположены в правом верхнем углу окна. <br>Просто нажмите на логотип overwolf, чтобы открыть диалоговое окно выхода из системы. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+				ru: `Вы можете выйти из системы через клиент Overwolf или непосредственно в нашем приложении. <br>Оба выхода расположены в правом верхнем углу окна. <br>Просто нажмите на логотип Overwolf, чтобы открыть диалоговое окно выхода из системы. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`,
 				id: `Anda dapat log out melalui klien overwolf, atau langsung dalam aplikasi kami. <br>Kedua logout terletak di sudut kanan atas jendela mereka. <br>Cukup klik logo overwolf untuk membuka dialog logout. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fil: `Maaari kang mag-log out sa pamamagitan ng overwolf client, o direkta sa loob ng aming application. <br>Ang parehong mga logout ay matatagpuan sa kanang sulok sa itaas ng kanilang mga bintana. <br>I-click lamang ang logo ng overwolf upang buksan ang dialog ng logout. <br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				zh: `您可以通过 overwolf 客户端注销，也可以直接在我们的应用程序中注销。<br>两个注销都位于其窗口的右上角。<br>只需单击 overwolf 徽标即可打开注销对话框。<br><div class='mt-2'></div><img src='images/faqs/loginout.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
@@ -453,7 +454,7 @@
 				en: "Where can I manage my account?",
 				de: "Wo kann ich mein Konto verwalten?", // #toBeUpdated
 				fr: "Où puis-je gérer mon compte ?", // #toBeUpdated
-				ru: "Где я могу управлять своим счетом?", // #toBeUpdated
+				ru: "Где я могу управлять своей учетной записью?", 
 				id: "Di mana saya dapat mengelola akun saya?", // #toBeUpdated
 				fil: "Saan ko mapapamahalaan ang aking account?", // #toBeUpdated
 				zh: "我可以在哪里管理我的账户？", // #toBeUpdated
@@ -467,7 +468,7 @@
 					<img src="images/faqs/overwolfaccmanage.png" class="img-fluid rounded shadow">`,
 				de: `Du kannst dein Overwolf-Konto direkt im Overwolf Client verwalten. <br>Klicke auf das Overwolf-Logo in der oberen rechten Ecke. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fr: `Vous pouvez gérer votre compte Overwolf directement dans le client overwolf. <br>Cliquez sur le logo Overwolf dans le coin supérieur droit. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-				ru: `Управлять аккаунтом overwolf можно прямо в клиенте overwolf. <br>Нажмите на логотип overwolf в правом верхнем углу. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+				ru: `Управлять аккаунтом Overwolf можно прямо в клиенте Overwolf. <br>Нажмите на логотип Overwolf в правом верхнем углу. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, 
 				id: `Anda dapat mengelola akun overwolf Anda langsung di klien overwolf. <br>Klik pada logo overwolf di pojok kanan atas. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fil: `Maaari mong pamahalaan ang iyong overwolf account nang direkta sa overwolf client. <br>Mag-click sa logo ng overwolf sa kanang sulok sa itaas. <br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				zh: `你可以直接在 overwolf 客户端中管理你的 overwolf 账户。<br>点击右上角的狼人标志。<br><div class='mt-2'></div><img src='images/faqs/overwolfaccmanage.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
@@ -484,7 +485,7 @@
 				en: "How do I get started?",
 				de: "Wie fange ich an?", // #toBeUpdated
 				fr: "Comment démarrer ?", // #toBeUpdated
-				ru: "С чего мне начать?", // #toBeUpdated
+				ru: "С чего мне начать?", 
 				id: "Bagaimana cara memulai?", // #toBeUpdated
 				fil: "Paano ako makapagsimula?", // #toBeUpdated
 				zh: "我该如何开始？", // #toBeUpdated
@@ -535,7 +536,7 @@
 					</p>`,
         		de: `<p>Der erste Schritt besteht darin, '-gamestateintegration' zu Ihren Dota 2-Startoptionen hinzuzufügen. <br>Wenn du es bereits hinzugefügt hast und trotzdem eine Warnmeldung erhältst, melde dich bei deinem Steam-Konto an. <br>Eine Anleitung zum Hinzufügen von Dota2-Startparametern finden Sie <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>hier</a>. <p>Danach können Sie die Anwendung an Ihre Bedürfnisse anpassen. <br>Gehe zum Einstellungsmenü in der oberen rechten Ecke: <br><p>Starte <div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div>dann ein Match, um auf die Spielfunktionalität von Dota Coach zuzugreifen. </p><p>Während der Heldenauswahlphase erhältst du Spielerstatistiken und empfohlene Bans und Picks: <br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>Sobald Helden ausgewählt wurden, kannst du deine Rolle wählen (Carry/Safe Lane, Mid, Offlane, Core oder Soft/Hard Support) und die Helden, gegen die Sie voraussichtlich antreten werden. <br>Darauf aufbauend wird Dota Coach Gegenstücke für die Laning-Phase empfehlen. <br>Beachten Sie, dass Sie diese Artikel mit den Artikeln kombinieren sollten, die von unseren Handbüchern in Dota 2 empfohlen werden. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>Im Spiel werden folgende Timer für Heldenrückkäufe erscheinen: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Und das Folgende für Roshan und die Glyphe der Befestigung: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Wenn andere Spieler in Ihrem Team verwenden Dota Coach, die Aktivierung der Timer wird im Team geteilt. <br>Wenn Sie also vergessen, einen Timer zu aktivieren, machen Sie sich keine Sorgen, ein Teamkollege hat ihn möglicherweise aktiviert! <p>Abonnenten erhalten Heldencoaching für alle 123 Helden, Zugriff auf ultimative Timer, entfernte Anzeigen und unterstützen die Entwicklung von Apps. <br>Die Abonnementgebühr beträgt 1,99 USD pro Monat. </p><p>Sie möchten die App in Aktion sehen und mehr über ihre Funktionen erfahren? <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Schau dir unser Tutorial-Video</a> an <br>Willst du mit uns sprechen? Kein Problem: <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://discord.gg/9WhAANq'>Trete unserem Discord Community Server</a> bei!</p>`, // #toBeUpdated
         		fr: `<p>La première étape consiste à ajouter « -gamestateintegration » à vos options de lancement de Dota 2. <br>Si vous l'avez déjà ajouté et que vous recevez toujours un message d'avertissement, assurez-vous de vous connecter à votre compte Steam. <br>Un guide sur la façon d'ajouter des paramètres de lancement Dota2 est disponible <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>ici</a>. <p>Ensuite, vous pouvez personnaliser l'application selon vos besoins. <br>Rendez-vous dans le menu des paramètres en haut à droite : <br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>puis lancez un match pour accéder à la fonctionnalité en jeu de Dota Coach. </p><p>Pendant la phase de sélection des héros, vous obtenez les statistiques des joueurs et les bannissements et choix recommandés : <br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>une fois les héros sélectionnés, vous pouvez choisir votre rôle (carry/safe lane, mid, off-lane, core ou support souple/dur) et les héros contre lesquels vous vous attendez à affronter. <br>Sur cette base, Dota Coach recommandera des articles de comptoir pour la phase d'atterrissage. <br>Notez que vous devez combiner ces éléments avec les éléments recommandés par nos guides dans Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>Dans le jeu, les minuteries suivantes apparaîtront pour les rachats de héros : <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Et ce qui suit pour Roshan et le glyphe de la fortification : <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Si d'autres les joueurs de votre équipe utilisent Dota Coach, l'activation des chronomètres sera partagée entre l'équipe. <br>Donc, si vous oubliez d'activer un chronomètre, ne vous inquiétez pas, un coéquipier l'a peut-être activé ! <p>Les abonnés bénéficient d'un coaching de héros pour les 123 héros, d'un accès à des chronomètres ultimes, de publicités supprimées et d'un soutien au développement de l'application. <br>Les frais d'abonnement s'élèvent à 1,99 USD par mois. </p><p>Vous souhaitez voir l'application en action et en savoir plus sur ses fonctionnalités ? <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Regardez notre vidéo de tutoriel</a> ! <br>Vous voulez nous parler ? Pas de problème : <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://discord.gg/9WhAANq'>rejoignez notre serveur communautaire Discord</a> ! </p>`, // #toBeUpdated
-       			ru: `<p>Первым делом нужно добавить «-gamestateintegration» в параметры запуска Dota 2. <br>Если вы уже добавили его и по-прежнему получаете предупреждающее сообщение, обязательно войдите в свой аккаунт steam. <br>Руководство по добавлению параметров запуска Dota2 можно найти <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>здесь</a>. <p>После этого вы можете настроить приложение под свои нужды. <br>Перейдите в меню настроек в правом верхнем углу. <br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>Затем начните матч, чтобы получить доступ к внутриигровой функциональности Dota Coach. </p><p>На этапе выбора героя вы получаете статистику игрока и рекомендуемые баны и подборки: <br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>После выбора героев вы можете выбрать свою роль (несущая/безопасная линия, средняя, оффлайн, основная или мягкая/жесткая поддержка) и героев, против которых вы ожидаете выступить на линии. <br>Исходя из этого, тренер по Dota будет рекомендовать встречные предметы для фазы лайнинга. <br>Обратите внимание, что вы должны сочетать эти предметы с предметами, рекомендованными нашими гайдами в Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>В игре появятся следующие таймеры для выкупа героев: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>И следующее для Рошана и Символа укрепления: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Если другое игроки в вашей команде используют Dota Coach, активация таймеров будет распределена между командой. <br>Так что, если вы забыли активировать таймер, не волнуйтесь, его мог активировать товарищ по команде! <p>Подписчики получают обучение героев для всех 123 героев, доступ к максимальным таймерам, убирают рекламу и поддерживают разработку приложения. <br>Абонентская плата составляет 1,99 долларов США в месяц. </p><p>Хотите увидеть приложение в действии и узнать о его функциях? <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Посмотрите наше обучающее видео</a>! <br>Хочешь поговорить с нами? Нет проблем: <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://discord.gg/9WhAANq'>присоединяйтесь к нашему серверу сообщества Discord</a>! </p>`, // #toBeUpdated
+       			ru: `<p>Первым делом нужно добавить «-gamestateintegration» в параметры запуска Dota 2. <br>Если вы уже добавили его и по-прежнему получаете предупреждающее сообщение, обязательно войдите в свой аккаунт steam. <br>Руководство по добавлению параметров запуска Dota2 можно найти <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>здесь</a>. <p>После этого вы можете настроить приложение под свои нужды. <br>Перейдите в меню настроек в правом верхнем углу. <br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>Затем начните матч, чтобы получить доступ к внутриигровым фкнуциям Dota Coach. </p><p>На этапе выбора героя вы получаете статистику игрока и рекомендуемые баны и пики: <br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>После выбора героев вы можете выбрать свою роль (керри/лёгкая линия, средняя, оффлайн, основная или саппорт 4 (soft) или 5(hard) позиции) и героев, против которых вы ожидаете стоять на линии. <br>Исходя из этого, Dota Coach будет рекомендовать контр-предметы для фазы лайнинга. <br>Обратите внимание, что вы должны сочетать эти предметы с предметами, рекомендованными нашими гайдами в Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>В игре появятся следующие таймеры для выкупа героев: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>И следующее для Рошана и Глифа: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Если другие игроки в вашей команде используют Dota Coach, активация таймеров будет распределена между командой. <br>Так что, если вы забыли активировать таймер, не волнуйтесь, его мог активировать товарищ по команде! <p>Подписчики получают обучение для всех 123 героев, доступ к дополнительным таймерам, отсутствие рекламы, а также поддерживают разработку приложения. <br>Абонентская плата составляет 1,99 долларов США в месяц. </p><p>Хотите увидеть приложение в действии и узнать о его функциях? <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Посмотрите наше обучающее видео</a>! <br>Хочешь поговорить с нами? Нет проблем: <a class="link-danger" target="_blank" rel="noopener noreferrer" target="_blank" rel="noopener noreferrer" href='https://discord.gg/9WhAANq'>присоединяйтесь к нашему серверу сообщества Discord</a>! </p>`, 
 				id: `<p>Langkah pertama adalah menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2 Anda. <br>Jika Anda menambahkannya dan masih mendapatkan pesan peringatan, pastikan untuk masuk ke akun uap Anda. <br>Panduan tentang cara menambahkan parameter peluncuran Dota 2 dapat ditemukan <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>di sini</a>. <p>Setelah itu, Anda dapat menyesuaikan aplikasi dengan kebutuhan Anda. <br>Buka menu pengaturan di pojok kanan atas:<br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>Kemudian mulailah kecocokan untuk mengakses fungsionalitas dalam game Dota Coach. </p><p>Selama fase pemilihan pahlawan Anda mendapatkan statistik pemain dan larangan dan picks yang direkomendasikan:<br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>Setelah pahlawan dipilih, Anda dapat memilih peran Anda (jalur bawa/aman, pertengahan, offlane, inti atau dukungan lembut/keras) dan pahlawan yang Anda harapkan untuk jalur melawan. <br>Berdasarkan Dota Coach ini akan merekomendasikan item counter untuk fase laning. <br>Perhatikan bahwa Anda harus menggabungkan item ini dengan item yang direkomendasikan oleh panduan kami di Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>Dalam permainan timer berikut akan menangkap untuk buyback pahlawan:<br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Dan berikut untuk Roshan dan Glyph of Fortification:<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Jika lain pemain dalam tim Anda menggunakan Dota Coach, aktivasi timer akan dibagi di antara tim. <br>Jadi jika Anda lupa untuk mengaktifkan timer, jangan khawatir, rekan satu tim mungkin telah mengaktifkannya! <p>Pelanggan mendapatkan pelatihan pahlawan untuk semua 123 pahlawan, akses ke timer utama, iklan dihapus dan mendukung pengembangan aplikasi. <br>Biaya langganan adalah USD 1.99 per bulan. </p><p>ingin melihat aplikasi dalam tindakan dan belajar tentang fitur-fiturnya? <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Tonton video tutorial kami</a>! <br>Mau bicara dengan kami? Tidak masalah: <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/9WhAANq'>Bergabunglah dengan server komunitas Discord kami</a>! </p>`, // #toBeUpdated
 				fil: `<p>Ang unang hakbang ay upang magdagdag ng '-gamestateintegration' sa iyong mga pagpipilian sa paglunsad ng Dota 2. <br>Kung idinagdag mo na ito at nakakakuha pa rin ng mensahe ng babala, siguraduhing mag-log in sa iyong steam account. <br>Ang isang gabay sa kung paano magdagdag ng mga parameter ng paglunsad ng Dota 2 ay matatagpuan <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>dito</a>. <p>Pagkatapos nito, maaari mong ipasadya ang application sa iyong mga pangangailangan. <br>Tumungo sa menu ng mga setting sa kanang sulok sa itaas:<br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>Pagkatapos ay simulan ang isang tugma upang ma-access ang in-game functionality ng Dota Coach. </p><p>Sa panahon ng yugto ng pagpili ng bayani makakakuha ka ng mga istatistika ng manlalaro at inirekumendang mga pagbabawal at pagpili:<br><div class='mt-2'></div><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>Sa sandaling napili ang mga bayani maaari mong piliin ang iyong papel (dala/ligtas na lane, kalagitnaan, offlane, core o soft/hard support) at ang mga bayani na inaasahan mong lane laban. <br>Batay sa Dota Coach na ito ay magrekomenda ng mga counter item para sa laning phase. <br>Tandaan na dapat mong pagsamahin ang mga item na ito gamit ang mga item na inirerekomenda ng aming mga gabay sa Dota 2. <br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>Sa laro ang mga sumusunod na timers ay lilitaw para sa mga buybacks ng bayani:<br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>At ang mga sumusunod para sa Roshan at ang Glyph ng Fortification:<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>Kung iba pang mga Ang mga manlalaro sa iyong koponan ay gumagamit ng Dota Coach, ang activation ng timers ay ibabahagi sa mga koponan. <br>Kaya kung nakalimutan mong i-activate ang isang timer, huwag mag-alala, isang kasamahan sa koponan ay maaaring na-activate ito! <p>Ang mga subscriber ay nakakakuha ng bayani coaching para sa lahat ng 123 bayani, access sa ultimate timers, inalis ang mga ad at sinusuportahan ang pag-unlad ng app. <br>Ang bayad sa subscription ay USD 1.99 bawat buwan. </p><p>gusto mong makita ang app sa pagkilos at alamin ang tungkol sa mga tampok nito? <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>Panoorin ang aming tutorial video</a>! <br>Gusto mong makipag-usap sa amin? Walang problema: <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/9WhAANq'>Sumali sa aming server ng komunidad ng Discord</a>! </p>`, // #toBeUpdated
 				zh: `<p>第一步是在你的 Dota 2 启动选项中添加 “-gamestateintegration”。<br>如果你已经添加了它，但仍然收到警告消息，请务必登录你的 Steam 账户。<br>有关如何添加 Dota 2 启动参数的指南可<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>在此处</a>找到。<p>之后，您可以根据需要自定义应用程序。<br>前往右上角的设置菜单:<br><div class='mt-2'><img src='./images/faqs/settings.png' class='img-fluid rounded shadow' style='width:61%' /></div><p>然后开始比赛以访问Dota Coach的游戏内功能.</p><p>在英雄选择阶段，你将获得玩家统计数据以及推荐的禁令和选择：选择<br><img src='./images/faqs/hero_selection.png' class='img-fluid rounded shadow' style='width:39%'><p>英雄<div class='mt-2'></div>后，你可以选择自己的角色（携带/安全通道、mid、offlane、core 或软/硬支援）和你期望对抗的英雄。<br>基于此，Dota Coach将为对线阶段推荐反击物品。<br>请注意，您应该将这些物品与我们的指南在Dota 2中推荐的物品组合使用。<br><div class='mt-2'></div><img src='./images/faqs/items_recommendation.png' class='img-fluid rounded shadow' style='width:39%'><p>在游戏中，英雄回购将出现以下计时器：<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>以下是 Roshan 和《防御符文》的内容：<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:32%'><br><br>如果是其他你队伍中的玩家正在使用Dota Coach，激活的计时器将在队伍中共享。<br>因此，如果你忘记激活计时器，别担心，队友可能已经激活了它！<p>订阅者可以获得所有 123 位英雄的英雄指导、终极计时器、移除广告以及支持 app 的开发。<br>订阅费为每月1.99美元。</p><p>想要查看该应用程序的运行情况并了解其功能吗？<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.com/video/DotaCoachTutorial.mp4'>观看我们的教程视频</a>！<br>想和我们谈谈吗？没问题：<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/9WhAANq'>加入我们的Discord社区服务器</a>！</p>`, // #toBeUpdated
@@ -578,7 +579,7 @@
 				en: "Where can I get additional help?",
 				de: "Wo erhalte ich zusätzliche Hilfe?", // #toBeUpdated
 				fr: "Où puis-je obtenir de l'aide supplémentaire ?", // #toBeUpdated
-				ru: "Где можно получить дополнительную помощь?", // #toBeUpdated
+				ru: "Где можно получить дополнительную помощь?", 
 				id: "Di mana saya bisa mendapatkan bantuan tambahan?", // #toBeUpdated
 				fil: "Saan ako makakakuha ng karagdagang tulong?", // #toBeUpdated
 				zh: "我在哪里可以获得其他帮助？", // #toBeUpdated
@@ -589,7 +590,7 @@
 				en: `Join our Discord community server for live support <a class="link-danger" target="_blank" rel="noopener noreferrer" href="https://discord.gg/uabGsGazRe">here</a>.`,
 				de: `Treten Sie unserem Discord bei und erhalten Sie <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>hier</a> Live-Support.`, // #toBeUpdated
 				fr: `Rejoignez notre Discord pour une assistance en direct <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>ici</a>.`, // #toBeUpdated
-				ru: `Присоединяйтесь к нашему Discord для поддержки в реальном времени здесь <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
+				ru: `Присоединяйтесь к нашему Discord для поддержки в реальном времени здесь <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>.</a>`, 
 				id: `Bergabunglah dengan Discord kami untuk dukungan langsung <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
 				fil: `Sumali sa aming Discord para sa live na suporta doon <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>.</a>`, // #toBeUpdated
 				zh: `加入我们的 Discord，在这里获得实时支持 <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>。</a>`, // #toBeUpdated
@@ -602,7 +603,7 @@
 				en: "Can I get banned for using Dota Coach?",
 				de: "Kann ich für die Verwendung von Dota Coach gebannt werden?", // #toBeUpdated
 				fr: "Puis-je être banni pour utiliser Dota Coach ?", // #toBeUpdated
-				ru: "Могу ли я получить бан за использование Dota Coach?", // #toBeUpdated
+				ru: "Могу ли я получить бан за использование Dota Coach?", 
 				id: "Bisakah saya dilarang menggunakan Dota Coach?", // #toBeUpdated
 				fil: "Maaari ba akong makakuha ng pinagbawalan para sa paggamit ng Dota Coach?", // #toBeUpdated
 				zh: "我能否因为使用 Dota 教练而被禁止？", // #toBeUpdated
@@ -618,7 +619,7 @@
 					</p>`,
 				de: `Mit <p><b>der Dota Coach-App werden Sie NICHT gebannt. </b><br>Die Dota Coach-App basiert auf der Overwolf-Plattform. <br>Die Overwolf-Plattform wurde in Zusammenarbeit mit Valve und dem Dota 2-Team entwickelt. <br>Valve hat seit seinen Anfängen die Bemühungen von Anwendungen von Drittanbietern unterstützt, Inhalte und Systeme zu erstellen, die das Spielerlebnis verbessern. </p><br>Sie können hier mehr lesen: <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf wird dich nicht gebannt</a> <br>`, // #toBeUpdated
 				fr: `<p><b>L'application Dota Coach ne vous fera PAS bannir. </b><br>L'application Dota Coach est construite sur la plateforme Overwolf. <br>La plateforme Overwolf est construite en collaboration avec Valve et l'équipe Dota 2. <br>Depuis ses débuts, Valve soutient les efforts d'applications tierces pour créer du contenu et des systèmes qui améliorent l'expérience du joueur. </p><br>Vous pouvez en savoir plus ici : <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf ne vous fera pas bannir</a> <br>`, // #toBeUpdated
-				ru: `<p><b>Приложение Dota Coach НЕ заблокирует вас. </b><br>Приложение Dota Coach построено на платформе Overwolf. <br>Платформа Overwolf построена в сотрудничестве с Valve и командой Dota 2. <br>Valve с самого начала поддерживала усилия сторонних приложений по созданию контента и систем, улучшающих впечатления игроков. </p><br>Вы можете прочитать больше здесь: <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf не забанит вас</a> <br>`, // #toBeUpdated
+				ru: `<p><b>Приложение Dota Coach НЕ заблокирует вас. </b><br>Приложение Dota Coach построено на платформе Overwolf. <br>Платформа Overwolf построена в сотрудничестве с Valve и командой Dota 2. <br>Valve с самого начала поддерживала усилия сторонних приложений по созданию контента и систем, которые усиливают впечатления от игры. </p><br>Вы можете прочитать больше здесь: <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf не забанит вас</a> <br>`, 
 				id: `<p><b>Aplikasi Dota Coach TIDAK akan membuat Anda dilarang. </b><br>Aplikasi Dota Coach dibangun di atas platform Overwolf. <br>Platform Overwolf dibangun bekerja sama dengan Valve dan tim Dota 2. <br>Valve sejak awal mendukung upaya aplikasi pihak ketiga untuk membuat konten dan sistem yang meningkatkan pengalaman pemain. </p><br>Anda dapat membaca lebih lanjut di sini: <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf Tidak Akan Mendapatkan Anda Dilarang</a><br>`, // #toBeUpdated
 				fil: `<p><b>Ang Dota Coach app ay HINDI makakakuha ka ng pinagbawalan. </b><br>Ang Dota Coach app ay binuo sa ibabaw ng Overwolf platform. <br>Ang Overwolf platform ay binuo sa pakikipagtulungan sa Valve at sa koponan ng Dota 2. Ang<br>balbula ay mula noong simula nito ay suportado ang mga pagsisikap ng mga application ng third party upang lumikha ng nilalaman at mga sistema na nagpapabuti sa karanasan ng manlalaro. </p><br>Maari kang magbasa nang higit pa rito: <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf Won't Get You Banned</a><br>`, // #toBeUpdated
 				zh: `<p><b>Dota Coach 应用程序不会让你被禁赛。</b><br>Dota Coach 应用程序建立在 Overwolf 平台之上。<br>Overwolf 平台是与 Valve 和 Dota 2 团队合作构建的。<br>Valve自成立以来就一直支持第三方应用程序创建可增强玩家体验的内容和系统的努力。</p><br>你可以在这里阅读更多：<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000182312-overwolf-won-t-get-you-banned'>Overwolf 不会让你被禁赛</a> <br>`, // #toBeUpdated
@@ -637,7 +638,7 @@
 				en: "Do you have a video guide?",
 				de: "Hast du eine Videoanleitung?", // #toBeUpdated
 				fr: "Disposez-vous d'un guide vidéo ?", // #toBeUpdated
-				ru: "У вас есть видеогид?", // #toBeUpdated
+				ru: "У вас есть видеогайд?", 
 				id: "Apakah Anda memiliki panduan video?", // #toBeUpdated
 				fil: "Mayroon ka bang gabay sa video?", // #toBeUpdated
 				zh: "你有视频指南吗？", // #toBeUpdated
@@ -648,7 +649,7 @@
 				en: `You can find our 3 minute video guide <a class="link-danger" target="_blank" rel="noopener noreferrer" href ="https://dota-coach.com/video/DotaCoachTutorial.mp4">here</a>.`,
 				de: `Unsere dreiminütige Videoanleitung findest du hier <a class="link-danger" target="_blank" rel="noopener noreferrer" href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
 				fr: `Vous trouverez notre guide vidéo de 3 minutes ici <a class="link-danger" target="_blank" rel="noopener noreferrer" href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
-				ru: `Наш 3-минутный видеогид вы можете найти здесь <a class="link-danger" target="_blank" rel="noopener noreferrer" href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
+				ru: `Наш 3-минутный видеогайд вы можете найти здесь <a class="link-danger" target="_blank" rel="noopener noreferrer" href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, 
 				id: `Anda dapat menemukan panduan video 3 menit kami di sini <a class="link-danger" target="_blank" rel="noopener noreferrer" href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
 				fil: `Maaari mong mahanap ang aming 3 minutong gabay sa video dito <a class="link-danger" target="_blank" rel="noopener noreferrer" href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>.</a>`, // #toBeUpdated
 				zh: `你可以在这里找到我们的3分钟视频指南 <a class="link-danger" target="_blank" rel="noopener noreferrer" href =' https://dota-coach.com/video/DotaCoachTutorial.mp4'>。</a>`, // #toBeUpdated
@@ -661,7 +662,7 @@
 				en: "What is Game State Integration?",
 				de: "Was ist Gamestate-Integration?", // #toBeUpdated
 				fr: "Qu'est-ce que l'intégration de Gamestate?", // #toBeUpdated
-				ru: "Что такое интеграция с игровым состоянием?", // #toBeUpdated
+				ru: "Что такое Game State Integration?",
 				id: "Apa itu Gamestateintegration?", // #toBeUpdated
 				fil: "Ano ang pagsasama ng Gamestate?", // #toBeUpdated
 				zh: "什么是 Gamestate 集成？", // #toBeUpdated
@@ -675,7 +676,7 @@
 					For further information on how to enable it click <a class="link-danger" target="_blank" rel="noopener noreferrer" href="https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2">here</a>.`,
 				de: `Die Gamestate-Integration ist ein integraler Bestandteil von Dota Coach. Es wird von Valve bereitgestellt, um auf alle Ereignisse in einem Dota 2-Spiel zuzugreifen. <br>Sie müssen '-gamestateintegration' als Dota 2-Startparameter hinzufügen. <br>Ohne sie wird Dota Coach nicht funktionieren! <br>Weitere Informationen zur Aktivierung <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>finden Sie hier</a>.`, // #toBeUpdated
 				fr: `L'intégration de l'état de jeu fait partie intégrante de Dota Coach. Il est fourni par Valve pour accéder à tous les événements d'un jeu Dota 2. <br>Vous devez ajouter « -gamestateintegration » en tant que paramètre de lancement Dota 2. <br>Sans cela, Dota Coach ne fonctionnera pas ! <br>Pour plus d'informations sur la façon de l'activer, cliquez <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>ici</a>.`, // #toBeUpdated
-				ru: `Интеграция с игровым состоянием является неотъемлемой частью Dota Coach. Он предоставляется Valve для доступа ко всем событиям в игре Dota 2. <br>Вы должны добавить «-gamestateintegration» в качестве параметра запуска Dota 2. <br>Без него Dota Coach не будет работать! <br>Для получения дополнительной информации о том, как включить его, нажмите <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>здесь</a>.`, // #toBeUpdated
+				ru: `Game State Integration является неотъемлемой частью Dota Coach. Он предоставляется Valve для доступа ко всем событиям в игре Dota 2. <br>Вы должны добавить «-gamestateintegration» в качестве параметра запуска Dota 2. <br>Без него Dota Coach не будет работать! <br>Для получения дополнительной информации о том, как включить его, нажмите <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>здесь</a>.`, 
 				id: `The gamestateintegration merupakan bagian integral dari Dota Coach. Ini disediakan oleh Valve untuk mengakses semua acara dalam permainan Dota 2. <br>Anda harus menambahkan '-gamestateintegration' sebagai parameter peluncuran Dota 2. <br>Tanpa itu, Dota Coach tidak akan bekerja! <br>Untuk informasi lebih lanjut tentang cara mengaktifkannya klik <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>di sini</a>.`, // #toBeUpdated
 				fil: `Ang gamestateintegration ay isang mahalagang bahagi ng Dota Coach. Ito ay ibinibigay ng Valve upang ma-access ang lahat ng mga kaganapan sa isang laro ng Dota 2. <br>Dapat kang magdagdag ng '-gamestateintegration' bilang parameter ng paglunsad ng Dota 2. <br>Kung wala ito, ang Dota Coach ay hindi gagana! <br>Para sa karagdagang impormasyon kung paano paganahin ito mag-click <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>dito</a>.`, // #toBeUpdated
 				zh: `游戏状态集成是 Dota Coach 不可或缺的一部分。它由Valve提供，用于访问Dota 2游戏中的所有事件。<br>你必须添加 “-gamestateintegration” 作为 Dota 2 启动参数。<br>没有它，Dota教练将无法工作！<br>有关如何启用它的更多信息，请单击<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>此处</a>。`, // #toBeUpdated
@@ -691,7 +692,7 @@
 				en: "How can I change the language?",
 				de: "Wie kann ich die Sprache ändern?", // #toBeUpdated
 				fr: "Comment est-ce que je peux changer la langue ?", // #toBeUpdated
-				ru: "Как изменить язык?", // #toBeUpdated
+				ru: "Как изменить язык?", 
 				id: "Bagaimana saya bisa mengubah bahasa?", // #toBeUpdated
 				fil: "Paano ko mababago ang wika?", // #toBeUpdated
 				zh: "我怎样才能更改语言？", // #toBeUpdated
@@ -707,7 +708,7 @@
 					<img src="./images/faqs/language.png" class="img-fluid rounded shadow">`,
 				de: `Öffne das Einstellungsfenster. Sie finden es im Menü in der oberen rechten Ecke des Desktop-Fensters. <br>Die Spracheinstellung befindet sich in der unteren rechten Ecke. <br>Bitte beachten Sie, dass wir nur bestimmte Sprachen unterstützen. <br>Wenn Ihre Muttersprache fehlt, lassen Sie es uns wissen oder helfen Sie bei der Übersetzung! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fr: `Ouvrez la fenêtre des paramètres. Vous pouvez le trouver dans le menu en haut à droite de la fenêtre du bureau. <br>Le paramètre de langue se trouve dans le coin inférieur droit. <br>Sachez que nous ne prenons en charge qu'un certain nombre de langues. <br>Si votre langue maternelle est absente, faites-le nous savoir ou aidez-nous à la traduction ! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-				ru: `Откройте окно настроек. Вы можете найти его в меню в правом верхнем углу окна рабочего стола. <br>Настройка языка расположена в правом нижнем углу. <br>Обратите внимание, что мы поддерживаем только определенный набор языков. <br>Если ваш родной язык отсутствует, сообщите нам об этом или помогите с переводом!<br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+				ru: `Откройте окно настроек. Вы можете найти его в меню в правом верхнем углу окна Dota Coach. <br>Настройка языка расположена в правом нижнем углу. <br>Обратите внимание, что мы поддерживаем только определенный набор языков. <br>Если ваш родной язык отсутствует, сообщите нам об этом или помогите с переводом!<br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				id: `Buka jendela pengaturan. Anda dapat menemukannya di menu di sudut kanan atas jendela desktop. <br>Pengaturan languge terletak di sudut kanan bawah. <br>Perlu diketahui, bahwa kami hanya mendukung satu set bahasa tertentu. <br>Jika bahasa ibu Anda hilang, beri tahu kami atau bantu terjemahannya! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fil: `Buksan ang window ng mga setting. Makikita mo ito sa menu sa kanang sulok sa itaas ng window ng desktop. <br>Ang setting ng wika ay matatagpuan sa kanang sulok sa ibaba. <br>Mangyaring magkaroon ng kamalayan, na sinusuportahan lamang namin ang isang tiyak na hanay ng mga wika. <br>Kung nawawala ang iyong katutubong wika, ipaalam sa amin o tumulong sa pagsasalin! <br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				zh: `打开设置窗口。您可以在桌面窗口右上角的菜单中找到它。<br>语言设置位于右下角。<br>请注意，我们只支持一组特定的语言。<br>如果缺少您的母语，请告知我们或帮助翻译！<br><div class='mt-2'></div><img src='./images/faqs/language.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
@@ -724,7 +725,7 @@
 				en: "Can I help with the translation?",
 				de: "Kann ich bei der Übersetzung helfen?", // #toBeUpdated
 				fr: "Puis-je vous aider pour la traduction ?", // #toBeUpdated
-				ru: "Могу ли я помочь с переводом?", // #toBeUpdated
+				ru: "Могу ли я помочь с переводом?", 
 				id: "Dapatkah saya membantu dengan terjemahan?", // #toBeUpdated
 				fil: "Maaari ba akong tumulong sa pagsasalin?", // #toBeUpdated
 				zh: "我能帮忙翻译吗？", // #toBeUpdated
@@ -739,7 +740,7 @@
 						<li>info(at)dota-coach.com</li>`,
 				de: `Ja natürlich! Kontaktiere uns hier: <br><ul><li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a></li> <li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li> <li>info (at) dota-coach.com</li>`, // #toBeUpdated
 				fr: `Oui, bien sûr ! Contactez-nous ici : <br><ul><li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a></li> <li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li> <li>info (at) dota-coach.com</li>`, // #toBeUpdated
-				ru: `Да, конечно! Свяжитесь с нами здесь: <br><ul><li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a></li> <li>информация <li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li> (at) dota-coach.com</li>`, // #toBeUpdated
+				ru: `Да, конечно! Свяжитесь с нами здесь: <br><ul><li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a></li> <li>информация <li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li> (at) dota-coach.com</li>`, 
 				id: `Ya tentu saja! Hubungi kami di sini:<br><ul><li>Info<li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Perselisihan</a></li><li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li>(at) dota-coach.com</li>`, // #toBeUpdated
 				fil: `Oo siyempre! Makipag-ugnay sa amin dito:<br><ul><li>Impormasyon ng<li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a></li><li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li>(at) dota-coach.com</li>`, // #toBeUpdated
 				zh: `当然可以！在这里联系我们：<br><ul><li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a></li> <li><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://github.com/roserens/dotaCoach-i18n'>Github</a></li> <li>信息 (at) dota-coach.com</li>`, // #toBeUpdated
@@ -756,7 +757,7 @@
 				en: "How does Dota Coach make money?",
 				de: "Wie verdient Dota Coach Geld?", // #toBeUpdated
 				fr: "Comment Dota Coach gagne-t-il de l'argent ?", // #toBeUpdated
-				ru: "Как Dota Coach зарабатывает деньги?", // #toBeUpdated
+				ru: "Как Dota Coach зарабатывает деньги?",
 				id: "Bagaimana Dota Coach menghasilkan uang?", // #toBeUpdated
 				fil: "Paano gumagana ang Dota Coach gumawa ng pera?", // #toBeUpdated
 				zh: "Dota Coach 是如何赚钱的？", // #toBeUpdated
@@ -770,7 +771,7 @@
 					The pro subscription also turns off the ads.<br>`,
 				de: `Die meisten Funktionen der App stehen allen Spielern kostenlos zur Verfügung. <br>Die Dota Coach-App verdient Geld mit der Schaltung von Anzeigen in einigen Teilen der App. <br>Spieler können auch eine monatliche Abonnementgebühr zahlen, um Zugriff auf einige exklusive Funktionen zu erhalten. <br>Das Pro-Abonnement schaltet auch die Anzeigen aus. <br>`, // #toBeUpdated
 				fr: `La plupart des fonctionnalités de l'application sont disponibles gratuitement pour tous les joueurs. <br>L'application Dota Coach gagne de l'argent en affichant des publicités dans certaines parties de l'application. <br>Les joueurs peuvent également payer un abonnement mensuel pour accéder à certaines fonctionnalités exclusives. <br>L'abonnement pro désactive également les publicités. <br>`, // #toBeUpdated
-				ru: `Большинство функций приложения доступны всем игрокам бесплатно. <br>Приложение Dota Coach зарабатывает деньги, показывая рекламу в некоторых частях приложения. <br>Также игроки могут платить ежемесячную абонентскую плату, чтобы получить доступ к некоторым эксклюзивным функциям. <br>Профессиональная подписка также отключает рекламу. <br>`, // #toBeUpdated
+				ru: `Большинство функций приложения доступны всем игрокам бесплатно. <br>Приложение Dota Coach зарабатывает деньги, показывая рекламу в некоторых частях приложения. <br>Также игроки могут платить ежемесячную абонентскую плату, чтобы получить доступ к некоторым эксклюзивным функциям. <br>Профессиональная подписка также отключает рекламу. <br>`, 
 				id: `Sebagian besar fitur aplikasi tersedia untuk semua pemain secara gratis. <br>Aplikasi Dota Coach menghasilkan uang melalui menampilkan iklan di beberapa bagian aplikasi. <br>Juga pemain dapat membayar biaya berlangganan bulanan untuk mendapatkan akses ke beberapa fitur eksklusif. <br>Langganan pro juga mematikan iklan. <br>`, // #toBeUpdated
 				fil: `Karamihan sa mga tampok ng app ay magagamit sa lahat ng mga manlalaro nang libre. <br>Ang Dota Coach app ay gumagawa ng pera sa pamamagitan ng pagpapakita ng mga ad sa ilang bahagi ng app. <br>Gayundin ang mga manlalaro ay maaaring magbayad ng isang buwanang bayad sa subscription upang makakuha ng access sa ilang mga eksklusibong tampok. <br>Ang pro subscription ay lumiliko rin sa mga ad. <br>`, // #toBeUpdated
 				zh: `该应用程序的大多数功能均可免费提供给所有玩家。<br>Dota Coach应用程序通过在应用程序的某些部分展示广告来赚钱。<br>此外，玩家可以按月支付订阅费以使用某些独家功能。<br>专业版订阅还会关闭广告。<br>`, // #toBeUpdated
@@ -787,7 +788,7 @@
 				en: "Why does the application not work?",
 				de: "Warum funktioniert die Anwendung nicht?", // #toBeUpdated
 				fr: "Pourquoi l'application ne fonctionne-t-elle pas ?", // #toBeUpdated
-				ru: "Почему приложение не работает?", // #toBeUpdated
+				ru: "Почему приложение не работает?", 
 				id: "Mengapa aplikasi tidak bekerja?", // #toBeUpdated
 				fil: "Bakit hindi gumagana ang application?", // #toBeUpdated
 				zh: "为什么应用程序不起作用？", // #toBeUpdated
@@ -801,7 +802,7 @@
 					</p>`,
 				de: `<p>Sie müssen „-gamestateintegration“ zu Ihren Dota 2-Startoptionen hinzufügen, damit die App funktioniert. <br>Weitere Informationen zum Hinzufügen des Startparameters finden Sie <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>hier</a>. </p>`, // #toBeUpdated
 				fr: `<p>Vous devez ajouter « -gamestateintegration » à vos options de lancement Dota 2 pour que l'application fonctionne. Vous <br>trouverez des informations supplémentaires sur la façon d'ajouter le paramètre de lancement <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>ici</a>. </p>`, // #toBeUpdated
-				ru: `Для <p>работы приложения необходимо добавить «-gamestateintegration» в параметры запуска Dota 2. <br>Дополнительную информацию о том, как добавить параметр запуска, можно найти <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>здесь</a>. </p>`, // #toBeUpdated
+				ru: `Для <p>работы приложения необходимо добавить «-gamestateintegration» в параметры запуска Dota 2. <br>Дополнительную информацию о том, как добавить параметр запуска, можно найти <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>здесь</a>. </p>`,
 				id: `<p>Anda harus menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2 agar aplikasi berfungsi. <br>Informasi tambahan cara menambahkan parameter peluncuran dapat ditemukan <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>di sini</a>. </p>`, // #toBeUpdated
 				fil: `<p>Dapat kang magdagdag ng '-gamestateintegration' sa iyong mga opsyon sa paglulunsad ng Dota 2 para magtrabaho ang app. <br>Ang karagdagang impormasyon kung paano idagdag ang parameter ng paglunsad ay matatagpuan <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>dito</a>. </p>`, // #toBeUpdated
 				zh: `<p>你必须在你的 Dota 2 启动选项中添加 “-gamestateintegration” 才能使应用程序正常运行。<br>有关如何添加 launch 参数的更多信息，请参见<a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://support.overwolf.com/en/support/solutions/articles/9000212745-how-to-enable-game-state-integration-for-dota-2'>此处</a>。</p>`, // #toBeUpdated
@@ -816,7 +817,7 @@
 				en: "How can I report an issue or bug?",
 				de: "Wie kann ich ein Problem oder einen Bug melden?", // #toBeUpdated
 				fr: "Comment signaler un problème ou un bogue ?", // #toBeUpdated
-				ru: "Как мне сообщить о проблеме или баге?", // #toBeUpdated
+				ru: "Как мне сообщить о проблеме или баге?", 
 				id: "Bagaimana cara melaporkan masalah atau bug?", // #toBeUpdated
 				fil: "Paano ako mag-ulat ng isyu o bug?", // #toBeUpdated
 				zh: "如何报告问题或错误？", // #toBeUpdated
@@ -830,7 +831,7 @@
 					<img src="images/faqs/bugreport.png" class="img-fluid rounded shadow">`,
 				de: `Sie finden die Schaltfläche „Problem melden“ im oberen Menü des Desktop-Anwendungsfensters. <br>Wenn du weitere Hilfe benötigst, trete bitte unserem <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a> Server bei! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fr: `Vous trouverez le bouton « Signaler un problème » dans le menu supérieur de la fenêtre de l'application de bureau. <br>Si vous avez besoin d'aide supplémentaire, rejoignez notre serveur <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a> ! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-				ru: `Кнопка «сообщить о проблеме» находится в верхнем меню окна настольного приложения. <br>Если вам нужна дополнительная помощь, присоединяйтесь к нашему серверу <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a>! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+				ru: `Кнопка «Отчёт о проблеме» находится в верхнем меню окна приложения. <br>Если вам нужна дополнительная помощь, присоединяйтесь к нашему серверу <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a>! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, 
 				id: `Anda dapat menemukan tombol 'laporan masalah' di menu atas jendela aplikasi desktop. <br>Jika Anda memerlukan bantuan lebih lanjut, silakan bergabung dengan server <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a> kami! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fil: `Makikita mo ang pindutang 'isyu ng ulat' sa tuktok na menu ng window ng application ng desktop. <br>Kung kailangan mo ng karagdagang tulong, mangyaring sumali sa aming <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a> server! <br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				zh: `您可以在桌面应用程序窗口的顶部菜单中找到 “报告问题” 按钮。<br>如果您需要进一步的帮助，请加入我们的 <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://discord.gg/uabGsGazRe'>Discord</a> 服务器！<br><div class='mt-2'></div><img src='images/faqs/bugreport.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
@@ -846,7 +847,7 @@
 				en: "How can I improve my frames per second (FPS)?",
 				de: "Wie kann ich meine Frames pro Sekunde (FPS) verbessern?", // #toBeUpdated
 				fr: "Comment puis-je améliorer mes images par seconde (FPS) ?", // #toBeUpdated
-				ru: "Как улучшить количество кадров в секунду (FPS)?", // #toBeUpdated
+				ru: "Как улучшить количество кадров в секунду (FPS)?", 
 				id: "Bagaimana cara meningkatkan frame saya per detik (FPS)?", // #toBeUpdated
 				fil: "Paano ko mapapabuti ang aking mga frame sa bawat segundo (FPS)?", // #toBeUpdated
 				zh: "如何提高每秒帧数 (FPS)？", // #toBeUpdated
@@ -868,7 +869,7 @@
 					<img src="images/faqs/steamnotification.png" class="img-fluid rounded shadow">`,
 				de: `Wenn Sie während des Spiels auf niedrige Frames pro Sekunde stoßen, starten Sie Dota 2 neu. In den meisten Fällen werden dadurch Probleme mit der Bildrate ohne weitere Maßnahmen behoben. Das <br>Tabbing (Alt+Tab) zwischen Ihrem Desktop und Dota 2 führt im Laufe der Zeit ebenfalls zu Problemen mit der Bildrate. Wenn dies passiert, starten Sie Dota 2 neu. <br><br>Die Anzeige der Steam-Benachrichtigung verursacht auch Probleme mit der Bildrate. <br>Du kannst es hier deaktivieren: <br><ul><li>Öffne deine Freundesliste (Rechtsklick auf Steam in der Taskleiste -> Freunde). </li><li>Klicke auf das Einstellungsrad in der oberen rechten Ecke. </li><li>Deaktivieren Sie alle Benachrichtigungen wie in der Abbildung unten gezeigt. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fr: `Si vous rencontrez un faible nombre d'images par seconde pendant les parties, veuillez redémarrer Dota 2, dans la plupart des cas, cela résoudra les problèmes de fréquence d'images sans autre action. La <br>tabulation (Alt+Tab) entre votre bureau et Dota 2 provoquera également des problèmes de fréquence d'images au fil du temps. Dans ce cas, redémarrez Dota 2. <br><br>L'affichage du message de notification Steam provoque également des problèmes de fréquence d'images. <br>Vous pouvez le désactiver ici : <br><ul><li>Ouvrez votre liste d'amis (faites un clic droit sur Steam dans la barre des tâches -> amis). </li><li>Cliquez sur la molette de réglage dans le coin supérieur droit. </li><li>Désactivez toutes les notifications comme indiqué dans l'image ci-dessous. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
-				ru: `Если во время игры вы сталкиваетесь с низкой частотой кадров в секунду, перезапустите Dota 2, в большинстве случаев это решит проблемы с частотой кадров без каких-либо дальнейших действий. <br>Вкладка (Alt+Tab) между рабочим столом и Dota 2 также вызовет проблемы с частотой кадров со временем. Если это произойдет, перезапустите Dota 2. <br><br>Отображение уведомлений steam также вызывает проблемы с частотой кадров. <br>Вы можете отключить его здесь: <br><ul><li>Откройте список друзей (щелкните правой кнопкой мыши steam на панели задач -> друзья). </li><li>Нажмите на колесико настроек в правом верхнем углу. </li><li>Отключите все уведомления, как показано на рисунке ниже. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
+				ru: `Если во время игры вы сталкиваетесь с низкой частотой кадров в секунду, перезапустите Dota 2, в большинстве случаев это решит проблемы с частотой кадров без каких-либо дальнейших действий. <br>Вкладка (Alt+Tab) между рабочим столом и Dota 2 также вызовет проблемы с частотой кадров со временем. Если это произойдет, перезапустите Dota 2. <br><br>Отображение уведомлений steam также вызывает проблемы с частотой кадров. <br>Вы можете отключить его здесь: <br><ul><li>Откройте список друзей (щелкните правой кнопкой мыши steam на панели задач -> друзья). </li><li>Нажмите на колесико настроек в правом верхнем углу. </li><li>Отключите все уведомления, как показано на рисунке ниже. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, 
 				id: `Jika Anda menemukan frame rendah per detik selama pertandingan, silakan restart Dota 2, dalam banyak kasus ini akan memperbaiki masalah frame rate tanpa tindakan lebih lanjut. <br>Tabbing (Alt+Tab) di antara desktop Anda dan Dota 2 juga akan menyebabkan masalah frame rate lembur. Jika ini terjadi, restart Dota 2. <br><br>Tampilan pesan notifaction uap juga menyebabkan masalah frame rate. <br>Anda dapat menonaktifkannya di sini:<br><ul><li>Buka daftar frind Anda (Klik kanan uap di taskbar -> teman). </li><li>Llick pada roda pengaturan di sudut kanan atas. </li><li>Nonaktifkan semua notifactions seperti yang ditunjukkan pada gambar di bawah ini.</li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				fil: `Kung nakatagpo ka ng mga mababang frame sa bawat segundo sa panahon ng mga laro, mangyaring i-restart ang Dota 2, sa karamihan ng mga kaso ayusin nito ang mga problema sa frame rate nang walang anumang karagdagang mga pagkilos. Ang<br>pag-tab (Alt+Tab) sa pagitan ng iyong desktop at Dota 2 ay magdudulot din ng mga problema sa overtime ng frame rate. Kung mangyari ito, i-restart ang Dota 2. <br><br>Ang display ng mensahe ng notification ng singaw ay nagdudulot din ng mga problema sa frame rate. <br>Maaari mo itong i-disable dito:<br><ul><li>Buksan ang iyong listahan ng kaibigan (I-right click ang steam sa taskbar -> mga kaibigan). </li><li>Mag-click sa mga setting ng gulong sa kanang sulok sa itaas. </li><li>Huwag paganahin ang lahat ng mga notification tulad ng ipinapakita sa larawan sa ibaba. </li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
 				zh: `如果您在游戏中遇到每秒帧数较低的情况，请重启Dota 2，在大多数情况下，这将解决帧速率问题，而无需采取任何进一步措施。<br>在桌面和 Dota 2 之间切换 Tab 键（Alt+Tab）也会导致帧速率问题超时。如果发生这种情况，请重新启动 Dota 2。<br><br>Steam 通知消息显示也会导致帧速率问题。<br>你可以在这里禁用它：<br><ul><li>打开你的朋 友列表（右键单击任务栏中的 steam-> 朋友）。</li><li>单击右上角的设置轮。</li><li>禁用所有通知，如下图所示。</li></ul><div class='mt-2'></div><img src='images/faqs/steamnotification.png' class='img-fluid rounded shadow'>`, // #toBeUpdated
@@ -892,7 +893,7 @@
 				en: "Why is a window not showing?",
 				de: "Warum wird ein Fenster nicht angezeigt?", // #toBeUpdated
 				fr: "Pourquoi une fenêtre ne s'affiche-t-elle pas ?", // #toBeUpdated
-				ru: "Почему окно не отображается?", // #toBeUpdated
+				ru: "Почему окно не отображается?", 
 				id: "Mengapa jendela tidak ditampilkan?", // #toBeUpdated
 				fil: "Bakit hindi nagpapakita ang isang window?", // #toBeUpdated
 				zh: "为什么窗户没有显示？", // #toBeUpdated
@@ -906,7 +907,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/reset_position.png">`,
 				de: `Dies kann passieren, wenn Sie die Position der Timer anpassen und dann die Bildschirmauflösung ändern. <br>Wir empfehlen Ihnen, die Position der Timer im Einstellungsmenü zurückzusetzen. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
 				fr: `Cela peut se produire lorsque vous personnalisez l'emplacement des minuteries, puis modifiez la résolution de l'écran. <br>Nous vous suggérons de réinitialiser la position des minuteries dans le menu des paramètres. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
-				ru: `Это может произойти, когда вы настраиваете расположение таймеров, а затем меняете разрешение экрана. <br>Мы предлагаем вам сбросить положение таймеров в меню настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
+				ru: `Это может произойти, когда вы настраиваете расположение таймеров, а затем меняете разрешение экрана. <br>Мы предлагаем вам сбросить положение таймеров в меню настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, 
 				id: `Hal ini dapat terjadi ketika Anda menyesuaikan lokasi timer dan kemudian mengubah resolusi layar. <br>Kami menyarankan agar Anda mengatur ulang posisi timer di menu pengaturan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
 				fil: `Maaaring mangyari ito kapag na-customize mo ang lokasyon ng mga timers at pagkatapos ay baguhin ang resolution ng screen. <br>Iminumungkahi namin na i-reset mo ang posisyon ng mga timers sa menu ng mga setting. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
 				zh: `当您自定义计时器的位置然后更改屏幕分辨率时，可能会发生这种情况。<br>我们建议您在设置菜单中重置计时器的位置。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
@@ -923,7 +924,7 @@
 				en: "How do I start a timer?",
 				de: "Wie starte ich einen Timer?", // #toBeUpdated
 				fr: "Comment démarrer une minuterie ?", // #toBeUpdated
-				ru: "Как запустить таймер?", // #toBeUpdated
+				ru: "Как запустить таймер?", 
 				id: "Bagaimana cara memulai timer?", // #toBeUpdated
 				fil: "Paano ako magsisimula ng timer?", // #toBeUpdated
 				zh: "如何启动计时器？", // #toBeUpdated
@@ -946,7 +947,7 @@
 					</div>`,
 				de: `<p>Klicke mit der linken Maustaste auf Timer, um sie zu aktivieren. Das funktioniert für Roshan, Glyphe of Fortification, Buybacks und Ultimates. <br><div style='display:flex'><div style='width: 40%'>Roshan-Timer vor der Aktivierung:<div class='mt-2'></div></div> <br><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_inactive.png' style='width:80%'><div style='width: 40%'>Roshan-Timer nach der Aktivierung: <br><div class='mt-2'></div> </div></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:80%'>`, // #toBeUpdated
 				fr: `<p>Cliquez avec le bouton gauche sur les minuteries pour les activer. Cela fonctionne pour Roshan, Glyph of Fortification, Rachats et Ultimates. <br><div style='display:flex'><div style='width: 40%'>Minuterie Roshan avant activation :</div> <br><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_inactive.png' style='width:80%'><div style='width: 40%'>minuterie<div class='mt-2'></div> Roshan après activation : <br><div class='mt-2'></div> </div></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:80%'>`, // #toBeUpdated
-				ru: `<p>Нажмите на таймеры левой кнопкой мыши, чтобы активировать их. Это работает для Рошана, символа укрепления, выкупа и ультиматов. <br><div style='display:flex'><div style='width: 40%'>Таймер Рошана перед активацией:</div> <br><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_inactive.png' style='width:80%'><div style='width: 40%'>Таймер<div class='mt-2'></div> Рошана после активации: <br><div class='mt-2'></div> </div></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:80%'>`, // #toBeUpdated
+				ru: `<p>Нажмите на таймеры левой кнопкой мыши, чтобы активировать их. Это работает для Рошана, Глифа, выкупа и ультимейтов. <br><div style='display:flex'><div style='width: 40%'>Таймер Рошана перед активацией:</div> <br><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_inactive.png' style='width:80%'><div style='width: 40%'>Таймер<div class='mt-2'></div> Рошана после активации: <br><div class='mt-2'></div> </div></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:80%'>`, 
 				id: `<p>Klik kiri pada timer untuk mengaktifkannya. Ini bekerja untuk Roshan, Glyph of Fortification, Buybacks dan Ultimates. <br><div style='display:flex'><div style='width: 40%'>Timer Roshan sebelum aktivasi:</div><br><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_inactive.png' style='width:80%'><div style='width: 40%'>Timer<div class='mt-2'></div>Roshan setelah aktivasi:<br><div class='mt-2'></div> </div></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:80%'>`, // #toBeUpdated
 				fil: `<p>Kaliwa-click sa timers upang maisaaktibo ang mga ito. Gumagana ito para sa Roshan, Glyph ng Fortification, Buybacks at Ultimates. <br><div style='display:flex'><div style='width: 40%'>Roshan timer bago i-activate:<div class='mt-2'></div></div><br><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_inactive.png' style='width:80%'><div style='width: 40%'>Roshan timer pagkatapos ng pag-activate:<br><div class='mt-2'></div> </div></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:80%'>`, // #toBeUpdated
 				zh: `<p>左键单击计时器以激活它们。这适用于 Roshan、设防符文、回购和终极版。<br><div style='display:flex'><div style='width: 40%'>激活前的 Roshan 计时器：激活</div><br><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_inactive.png' style='width:80%'><div style='width: 40%'>后的<div class='mt-2'></div> Roshan 计时器：<br><div class='mt-2'></div></div></div><img class='img-fluid rounded shadow' src='./images/faqs/roshan_timer_active.png' style='width:80%'>`, // #toBeUpdated
@@ -963,7 +964,7 @@
 				en: "How do I stop a timer?",
 				de: "Wie stoppe ich einen Timer?", // #toBeUpdated
 				fr: "Comment arrêter un chronomètre ?", // #toBeUpdated
-				ru: "Как остановить таймер?", // #toBeUpdated
+				ru: "Как остановить таймер?", 
 				id: "Bagaimana cara menghentikan timer?", // #toBeUpdated
 				fil: "Paano ko ititigil ang isang timer?", // #toBeUpdated
 				zh: "如何停止计时器？", // #toBeUpdated
@@ -974,7 +975,7 @@
 				en: `Click on the red-cross to stop the timer.<br>`,
 				de: `Klicken Sie auf das rote Kreuz, um den Timer anzuhalten. <br>`, // #toBeUpdated
 				fr: `Cliquez sur la croix rouge pour arrêter le chronomètre. <br>`, // #toBeUpdated
-				ru: `Нажмите на красный крестик, чтобы остановить таймер. <br>`, // #toBeUpdated
+				ru: `Нажмите на красный крестик, чтобы остановить таймер. <br>`, 
 				id: `Klik pada salib merah untuk menghentikan timer. <br>`, // #toBeUpdated
 				fil: `Mag-click sa red-cross upang itigil ang timer. <br>`, // #toBeUpdated
 				zh: `点击红十字停止计时器。<br>`, // #toBeUpdated
@@ -987,7 +988,7 @@
 				en: "How do I announce a timer?",
 				de: "Wie kündige ich einen Timer an?", // #toBeUpdated
 				fr: "Comment annoncer un minuteur ?", // #toBeUpdated
-				ru: "Как объявить таймер?", // #toBeUpdated
+				ru: "Как сообщить о таймере?", 
 				id: "Bagaimana cara mengumumkan timer?", // #toBeUpdated
 				fil: "Paano ko ipahayag ang isang timer?", // #toBeUpdated
 				zh: "我该如何宣布计时器？", // #toBeUpdated
@@ -1009,7 +1010,7 @@
 				de: `Sie können aktive Timer teilen, indem Sie mit der linken Maustaste darauf klicken. <br>Die App veröffentlicht dann automatisch den Timer-Status im Teamchat. <br><br>Beispiel für Rückkaufzeitgeber während eines Spiels: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Ergebnisbeitrag im Teamchat: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers_chat.png' style='width: 57%'><br><br>Das funktioniert für Roshan, Aegis, Glyphe of Fortification, Buybacks und Ultimates.`, // #toBeUpdated
 				fr: `Vous pouvez partager des minuteries actives en cliquant dessus avec le bouton gauche de la souris. <br>L'application publie ensuite automatiquement l'état du minuteur sur le chat d'équipe. <br><br>Exemple de minuteries de rachat pendant un match : <br><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Publication<div class='mt-2'></div> résultante sur le chat d'équipe : <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers_chat.png' style='width: 57%'><br><br>Cela fonctionne pour Roshan, Égide, Glyphe de fortification, Rachats et Ultimates.`,
 				// #toBeUpdated
-				ru: `Вы можете поделиться активными таймерами, щелкнув по ним левой кнопкой мыши. <br>Затем приложение автоматически публикует статус таймера в командном чате. <br><br>Пример таймера выкупа во время матча: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>итоговое сообщение в командном чате: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers_chat.png' style='width: 57%'><br><br>Это работает для Рошана, Эгиды, Символа укрепления, выкупа и ультиматов.`, // #toBeUpdated
+				ru: `Вы можете поделиться активными таймерами, щелкнув по ним левой кнопкой мыши. <br>Затем приложение автоматически публикует статус таймера в командном чате. <br><br>Пример таймера выкупа во время матча: <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>итоговое сообщение в командном чате: <br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers_chat.png' style='width: 57%'><br><br>Это работает для Рошана, Аегиса, Глифа, выкупа и ультимейтов.`, 
 				id: `Anda dapat berbagi timer aktif dengan mengklik kiri pada mereka. <br>Aplikasi kemudian secara otomatis memposting status timer ke obrolan tim. <br><br>Contoh penghitung waktu buyback selama pertandingan:<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Menghasilkan postingan pada obrolan tim:<br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers_chat.png' style='width: 57%'><br><br>Ini bekerja untuk Roshan, Aegis, Glyph of Fortification, Buybacks dan Ultimates.`, // #toBeUpdated
 				fil: `Maaari kang magbahagi ng mga aktibong timers sa pamamagitan ng pag-click sa kaliwa sa mga ito. <br>Ang app pagkatapos ay awtomatikong mag-post ng katayuan ng timer papunta sa koponan ng chat. <br><br>Halimbawa ng buyback timers sa panahon ng isang tugma:<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>Ang resultang post sa team chat:<br><div class='mt-2'></div> <img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers_chat.png' style='width: 57%'><br><br>Gumagana ito para sa Roshan, Aegis, Glyph of Fortification, Buybacks at Ultimates.`, // #toBeUpdated
 				zh: `您可以通过左键单击活动计时器来共享它们。<br>然后，该应用程序会自动将计时器状态发布到团队聊天中。<br><br>比赛期间的回购计时器示例:<br><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers.png' style='width: 38%'><br><br>团队聊天中<div class='mt-2'></div>产生的帖子:<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buyback_timers_chat.png' style='width: 57%'><br><br>这适用于 Roshan、Aegis、设防符文、回购和 Ultimates。`, // #toBeUpdated
@@ -1031,7 +1032,7 @@
 				en: "How do I disable a timer?",
 				de: "Wie deaktiviere ich einen Timer?", // #toBeUpdated
 				fr: "Comment désactiver un minuteur ?", // #toBeUpdated
-				ru: "Как отключить таймер?", // #toBeUpdated
+				ru: "Как убрать таймер?", 
 				id: "Bagaimana cara menonaktifkan timer?", // #toBeUpdated
 				fil: "Paano ko i-disable ang isang timer?", // #toBeUpdated
 				zh: "如何禁用计时器？", // #toBeUpdated
@@ -1046,7 +1047,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/timers.png">`,
 				de: `Öffne das Einstellungsfenster. <br>Sie finden es in der oberen rechten Ecke unter „Einstellungen ändern“. <br>Sie können die Timer-Komponenten, die Sie nicht sehen möchten. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, // #toBeUpdated
 				fr: `Ouvrez la fenêtre des paramètres. <br>Vous pouvez le trouver dans le coin supérieur droit sous « Modifier les paramètres ». <br>Vous pouvez utiliser les composants des minuteries que vous ne souhaitez pas voir. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, // #toBeUpdated
-				ru: `Откройте окно настроек. <br>Вы можете найти его в правом верхнем углу в разделе «Изменить настройки». <br>Вы можете выбрать компоненты таймеров, которые вы не хотите видеть. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, // #toBeUpdated
+				ru: `Откройте окно настроек. <br>Вы можете найти его в правом верхнем углу в разделе «Настройки». <br>Вы можете выбрать таймеры, которые вы не хотите видеть. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, 
 				id: `Buka jendela pengaturan. <br>Anda dapat menemukannya di sudut kanan atas di bawah 'perubahan pengaturan'. <br>Anda dapat timer komponen yang Anda tidak ingin melihat. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, // #toBeUpdated
 				fil: `Buksan ang window ng mga setting. <br>Makikita mo ito sa kanang sulok sa itaas sa ilalim ng 'mga setting ng pagbabago. ' <br>Maaari mong ang mga bahagi ng timers na hindi mo nais na makita. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, // #toBeUpdated
 				zh: `打开设置窗口。<br>您可以在右上角的 “更改设置” 下找到它。<br>你可以使用你不想看到的计时器组件。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/timers.png'>`, // #toBeUpdated
@@ -1062,7 +1063,7 @@
 				en: "Why do I not see timers?",
 				de: "Warum sehe ich keine Timer?", // #toBeUpdated
 				fr: "Pourquoi est-ce que je ne vois pas les minuteries ?", // #toBeUpdated
-				ru: "Почему я не вижу таймеры?", // #toBeUpdated
+				ru: "Почему я не вижу таймеры?", 
 				id: "Mengapa saya tidak melihat timer?", // #toBeUpdated
 				fil: "Bakit hindi ko nakikita ang mga timers?", // #toBeUpdated
 				zh: "为什么我看不到计时器？", // #toBeUpdated
@@ -1079,7 +1080,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/reset_position.png">`,
 				de: "Es gibt mehrere Gründe, warum Ihre Timer nicht angezeigt werden. <br>Wenn der Dota 2-Spielkoordinator nicht gefunden wird, erhält Dota Coach keine Daten zum Spiel, was zu keinen Timern führt. <br>Ein weiterer Grund ist der fehlende Startparameter „-gamestate-Integration“. Stellen Sie sicher, dass es hinzugefügt wurde. In unseren FAQ erfahren Sie, wie Sie es hinzufügen können. <br>Manchmal können die Timer während der Ablage verloren gehen. <br>Drücke einfach den 'Reset'-Knopf im Einstellungsfenster. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
 				fr: "Il existe plusieurs raisons pour lesquelles vos minuteries ne s'affichent pas. <br>Si le coordinateur de jeu Dota 2 n'est pas trouvé, Dota Coach n'obtient aucune donnée sur le match qui n'entraînera aucun chronométrage. <br>Une autre raison est le paramètre de lancement manquant « -gamestateintegration ». Assurez-vous qu'il est ajouté. Consultez notre FAQ pour savoir comment l'ajouter. <br>Parfois, les minuteries peuvent disparaître pendant le dépôt. <br>Appuyez simplement sur le bouton « Réinitialiser » dans la fenêtre des paramètres. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
-				ru: "Таймеры не отображаются по нескольким причинам. <br>Если координатор игры в Dota 2 не найден, тренер по Dota не получает никаких данных о матче, что приведет к отсутствию таймеров. <br>Другой причиной является отсутствие параметра запуска «-gamestate integration». Убедитесь, что он добавлен. Ознакомьтесь с часто задаваемыми вопросами о том, как его добавить. <br>Иногда таймеры могут пропадать во время repositon. <br>Просто нажмите кнопку «reset» в окне настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
+				ru: "Таймеры не отображаются по нескольким причинам. <br>Если координатор игры в Dota 2 не найден, тренер по Dota не получает никаких данных о матче, что приведет к отсутствию таймеров. <br>Другой причиной является отсутствие параметра запуска «-gamestateintegration». Убедитесь, что он добавлен. Ознакомьтесь с часто задаваемыми вопросами о том, как его добавить. <br>Иногда таймеры могут пропадать во время перемещения. <br>Просто нажмите кнопку «сброс» в окне настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", 
 				id: "Ada beberapa alasan mengapa timer Anda tidak ditampilkan. <br>Jika koordinator permainan Dota 2 tidak ditemukan, Dota Coach tidak mendapatkan Data apa pun pada pertandingan yang akan menghasilkan tanpa timer. <br>Alasan lain adalah hilangparameter launchparameter '-gamestateintegration'. Pastikan bahwa itu ditambahkan. Periksa FAQ kami tentang cara menambahkannya. <br>Kadang-kadang, timer bisa hilang selama repositon. <br>Cukup tekan tombol 'reset' di jendela pengaturan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
 				fil: "Mayroong maraming mga kadahilanan kung bakit ang iyong mga timers ay hindi ipinapakita. <br>Kung ang Dota 2 game coordinator ay hindi natagpuan, ang Dota Coach ay hindi makakakuha ng anumang Data sa tugma na magreresulta sa walang timers. <br>Ang isa pang dahilan ay ang nawawalang parameter ng paglunsad '-gamestateintegration'. Siguraduhin na ito ay idinagdag. Suriin ang aming FAQ kung paano idagdag ito. <br>Minsan, ang mga timers ay maaaring pumunta nawawala sa panahon ng repositon. <br>Pindutin lamang ang pindutan ng 'reset' sa window ng mga setting. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
 				zh: "计时器未显示的原因有很多。<br>如果找不到Dota 2游戏协调员，Dota Coach不会获得比赛的任何数据，这将导致没有计时器。<br>另一个原因是缺少启动参数 “-gamestateintegration”。确保它已添加。查看我们的常见问题解答以了解如何添加它。<br>有时，在重新定位期间，计时器可能会丢失。<br>只需在设置窗口中点击 “重置” 按钮即可。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
@@ -1097,7 +1098,7 @@
 				en: "Why do I not see Ultimate timers?",
 				de: "Warum sehe ich keine Ultimate-Timer?", // #toBeUpdated
 				fr: "Pourquoi les minuteurs Ultimate ne s'affichent-ils pas ?", // #toBeUpdated
-				ru: "Почему я не вижу таймеры Ultimate?", // #toBeUpdated
+				ru: "Почему я не вижу таймеры Ультимейтов?", 
 				id: "Mengapa saya tidak melihat timer Ultimate?", // #toBeUpdated
 				fil: "Bakit hindi ko nakikita ang Ultimate timers?", // #toBeUpdated
 				zh: "为什么我看不到终极计时器？", // #toBeUpdated
@@ -1114,7 +1115,7 @@
 				// #toBeUpdated
 				fr: `Les minuteries Ultimate sont une fonctionnalité premium qui n'est disponible que pour nos abonnés. <br>Un abonnement coûte 1,99 $/mois. <br>Ouvrez le menu de l'application et cliquez sur Gérer l'abonnement. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`,
 				// #toBeUpdated
-				ru: `Таймеры Ultimate — это премиум-функция, доступная только нашим подписчикам. <br>Подписка составляет 1,99$ в месяц. <br>Откройте меню приложения и нажмите «Управление подпиской». <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
+				ru: `Таймеры Ultimate — это премиум-функция, доступная только нашим подписчикам. <br>Подписка составляет 1,99$ в месяц. <br>Откройте меню приложения и нажмите «Управление подпиской». <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, 
 				id: `Ultimate timer adalah fitur premium yang hanya tersedia untuk pelanggan kami. <br>Langganan adalah 1.99$ /bulan. <br>Buka menu aplikasi dan klik kelola langganan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
 				fil: `Ang mga ultimate timers ay isang premium na tampok na magagamit lamang sa aming mga tagasuskribi. <br>Ang isang subscription ay 1.99$/buwan. <br>Buksan ang menu ng application at mag-click sa pamahalaan ang subscription. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
 				zh: `终极计时器是一项高级功能，仅对我们的订阅者可用。<br>订阅费用为每月1.99美元。<br>打开应用程序菜单，然后单击管理订阅。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/subscribe.png'>`, // #toBeUpdated
@@ -1131,7 +1132,7 @@
 				en: "What Game Modes do you support?",
 				de: "Welche Spielmodi unterstützt du?", // #toBeUpdated
 				fr: "Quels modes de jeu prenez-vous en charge ?", // #toBeUpdated
-				ru: "Какие игровые режимы вы поддерживаете?", // #toBeUpdated
+				ru: "Какие игровые режимы вы поддерживаете?",
 				id: "Mode Game apa yang Anda dukung?", // #toBeUpdated
 				fil: "Anong mga Mode ng Game ang sinusuportahan mo?", // #toBeUpdated
 				zh: "你们支持什么游戏模式？", // #toBeUpdated
@@ -1144,7 +1145,7 @@
 					Ability Draft is also not fully supported.<br>`,
 				de: `Dota Coach funktioniert in allen Spielmodi. <br>Beachten Sie jedoch, dass einige Timer und Timings in Turbo-Spielen möglicherweise nicht vollständig funktionsfähig sind. <br>Ability Draft wird ebenfalls nicht vollständig unterstützt. <br>`, // #toBeUpdated
 				fr: `Dota Coach fonctionne dans tous les modes de jeu. <br>Mais sachez que certains chronomètres et minuteries peuvent ne pas être pleinement opérationnels dans les matchs Turbo. <br>Ability Draft n'est également pas entièrement pris en charge. <br>`, // #toBeUpdated
-				ru: `Dota Coach работает во всех игровых режимах. <br>Но имейте в виду, что некоторые таймеры и тайминги могут работать не в полной мере в Турбо-матчах. <br>Драфт способностей также не полностью поддерживается. <br>`, // #toBeUpdated
+				ru: `Dota Coach работает во всех игровых режимах. <br>Но имейте в виду, что некоторые таймеры и тайминги могут работать не в полной мере в Турбо-матчах. <br>Abilitu Draft также не полностью поддерживается. <br>`, 
 				id: `Dota Coach bekerja di semua Mode Game. <br>Namun perlu diketahui bahwa beberapa timer dan timing mungkin tidak beroperasi penuh dalam pertandingan Turbo. <br>Kemampuan Draft juga tidak sepenuhnya didukung. <br>`, // #toBeUpdated
 				fil: `Gumagana ang Dota Coach sa lahat ng mga Mode ng Game. <br>Ngunit magkaroon ng kamalayan na ang ilang mga timers at timing ay maaaring hindi ganap na gumagana sa Turbo tugma. Ang<br>Kakayahang Draft ay hindi rin ganap na suportado. <br>`, // #toBeUpdated
 				zh: `Dota Coach 适用于所有游戏模式。<br>但请注意，在Turbo比赛中，某些计时器和计时器可能无法完全运行。<br>能力草稿也不完全受支持。<br>`, // #toBeUpdated
@@ -1159,7 +1160,7 @@
 				en: "Can I spectate games?",
 				de: "Kann ich mir Spiele ansehen?", // #toBeUpdated
 				fr: "Est-ce que je peux assister à des matchs ?", // #toBeUpdated
-				ru: "Могу ли я наблюдать за играми?", // #toBeUpdated
+				ru: "Могу ли я наблюдать за играми?", 
 				id: "Dapatkah saya melihat permainan?", // #toBeUpdated
 				fil: "Maaari ba akong tumitingin sa mga laro?", // #toBeUpdated
 				zh: "我能看比赛吗？", // #toBeUpdated
@@ -1172,7 +1173,7 @@
 					Try it out!<br>`,
 				de: `Ja, das kannst du! Dota Coach arbeitet im Zuschauermodus. <br>Es wird Ihr gesamtes Zuschauererlebnis verbessern, da zusätzliche Informationen bereitgestellt werden. <br>Probiere es aus! <br>`, // #toBeUpdated
 				fr: `Oui, tu peux ! Dota Coach fonctionne en mode spectateur. <br>Cela améliorera votre expérience globale en tant que spectateur en fournissant des informations supplémentaires. <br>Essayez-le ! <br>`, // #toBeUpdated
-				ru: `Да, можете! Dota Coach работает в режиме зрителя. <br>Это улучшит общее впечатление от зрителей за счет предоставления дополнительной информации. <br>Попробуй! <br>`, // #toBeUpdated
+				ru: `Да, можете! Dota Coach работает в режиме зрителя. <br>Это улучшит общее впечатление от зрителей за счет предоставления дополнительной информации. <br>Попробуй! <br>`,
 				id: `Ya, Anda bisa! Dota Coach bekerja dalam mode penonton. <br>Ini akan meningkatkan pengalaman penonton Anda secara keseluruhan karena memberikan informasi tambahan. <br>Mencobanya! <br>`, // #toBeUpdated
 				fil: `Oo, maaari mo! Gumagana ang Dota Coach sa mode ng tagapanood. <br>Mapapahusay nito ang iyong pangkalahatang karanasan sa tagapanood dahil sa pagbibigay ng karagdagang impormasyon. <br>Subukan ito! <br>`, // #toBeUpdated
 				zh: `是的，你可以！刀塔教练在旁观者模式下工作。<br>由于提供了额外的信息，它将增强你的整体观众体验。<br>试试吧！<br>`, // #toBeUpdated
@@ -1187,7 +1188,7 @@
 				en: "Can I use the app in offical tournaments / ticketed games?",
 				de: "Kann ich die App in offiziellen Turnieren oder Spielen mit Tickets verwenden?", // #toBeUpdated
 				fr: "Puis-je utiliser l'application dans les tournois officiels/les parties payantes ?", // #toBeUpdated
-				ru: "Могу ли я использовать приложение в официальных турнирах/играх с билетами?", // #toBeUpdated
+				ru: "Могу ли я использовать приложение в официальных турнирах/играх с билетами?", 
 				id: "Dapatkah saya menggunakan aplikasi di turnamen offical/game tiket?", // #toBeUpdated
 				fil: "Maaari ko bang gamitin ang app sa opisyal na paligsahan/ticketed games?", // #toBeUpdated
 				zh: "我可以在官方锦标赛/门票游戏中使用该应用程序吗？", // #toBeUpdated
@@ -1200,7 +1201,7 @@
 					You can not use Dota Coach during offical tournament games (ticketed games).<br>`,
 				de: "Die kurze Antwort lautet nein. <br>Offizielle Spiele senden die Integrationsdaten des Spielstaates verzögert, was zu verzögerten Timern und schlechter App-Funktionalität führt. <br>Du kannst Dota Coach nicht bei offiziellen Turnierspielen (Ticketspiele) verwenden. <br>", // #toBeUpdated
 				fr: "La réponse courte est non. Les <br>jeux officiels envoient les données d'intégration de l'état du jeu en différé, ce qui entraîne des retards et une mauvaise fonctionnalité de l'application. <br>Vous ne pouvez pas utiliser Dota Coach pendant les matchs officiels du tournoi (matchs avec billets). <br>", // #toBeUpdated
-				ru: "Короткий ответ — нет. <br>Официальные игры отправляют данные интеграции состояния игры с задержкой, что приводит к задержке таймеров и плохой функциональности приложения. <br>Вы не можете использовать Dota Coach во время официальных турнирных игр (игры с билетами). <br>", // #toBeUpdated
+				ru: "Короткий ответ — нет. <br>Официальные игры отправляют данные интеграции состояния игры с задержкой, что приводит к задержке таймеров и плохой функциональности приложения. <br>Вы не можете использовать Dota Coach во время официальных турнирных игр (игры с билетами). <br>", 
 				id: "Jawaban singkatnya adalah tidak. <br>Game resmi mengirim data gamestateintegrasi tertunda, yang menghasilkan timer tertunda dan fungsionalitas aplikasi yang buruk. <br>Anda tidak dapat menggunakan Dota Coach selama pertandingan turnamen resmi (game tiket). <br>", // #toBeUpdated
 				fil: "Ang maikling sagot ay hindi. Ang mga<br>opisyal na laro ay nagpapadala ng data ng pagsasama ng gamestateintegration na naantala, na nagreresulta sa mga naantalang timers at masamang pag-andar ng app. <br>Hindi mo maaaring gamitin ang Dota Coach sa mga opisyal na laro ng torneo (ticketed games). <br>", // #toBeUpdated
 				zh: "简短的答案是否定的。<br>官方游戏会延迟发送 gamestateintegration 数据，这会导致计时器延迟和应用程序功能不佳。<br>你不能在官方锦标赛游戏（门票游戏）中使用Dota Coach。<br>", // #toBeUpdated
@@ -1216,7 +1217,7 @@
 				en: "How can I get your Hero Guides?",
 				de: "Wie kann ich deine Hero Guides bekommen?", // #toBeUpdated
 				fr: "Comment puis-je obtenir vos guides de héros ?", // #toBeUpdated
-				ru: "Как получить путеводители по героям?", // #toBeUpdated
+				ru: "Как получить гайды по героям?", 
 				id: "Bagaimana saya bisa mendapatkan Panduan Pahlawan Anda?", // #toBeUpdated
 				fil: "Paano ko makukuha ang iyong mga Gabay sa Hero?", // #toBeUpdated
 				zh: "我怎样才能得到你的英雄指南？", // #toBeUpdated
@@ -1241,7 +1242,7 @@
 					<script>_buildCarousell()</script>`,
 				de: `Wir haben für jeden Helden im Spiel Anleitungen im Spiel erstellt. <br>Sie enthalten alle Tipps und Item-Builds, die in der „Dota Coach App“ bereitgestellt werden. </a><br>Abonniere sie <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.github.io/dota_guides.html'>hier</a>. <br>Wähle einen Helden aus und klicke auf „Steam Guide holen“: <br><ul><li>Scrolle nach unten, bis du den grünen Button „Abonnieren“ siehst. </li><li>Klicke auf der Steam-Seite auf „Abonnieren“. </li><li>Wenn du noch nicht angemeldet bist, melde dich bitte bei Steam an. </li><li>Das Login ist nur beim ersten Mal erforderlich. </li><li>Klicke auf der Steam-Seite auf „Favorit“ - dadurch wird der Guide im Spiel ganz oben auf deiner Guide-Liste angezeigt</li>. <li>Klicke auf „Daumen hoch“, um den Guide für andere Benutzer besser sichtbar zu machen - optional, aber geschätzt! </li><li>Wiederhole den Vorgang für alle Helden, die du gerne spielst. </li><li>Du musst Dota neu starten, um deine ausgewählten Guides im Spiel zu sehen! </li></ul><script>_Karussell bauen ()</script>`, // #toBeUpdated
 				fr: `Nous avons créé des guides en jeu pour chaque héros du jeu. <br>Ils contiennent tous les conseils et les éléments fournis dans « l'application Dota Coach ». </a><br>Abonnez-vous au thème <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.github.io/dota_guides.html'>ici</a>. <br>Sélectionnez un héros et cliquez sur « Obtenir le guide Steam » : <br><ul><li>faites défiler vers le bas jusqu'à ce que vous voyiez un bouton vert « S'abonner ». </li><li>Cliquez sur « S'abonner » sur la page Steam. </li><li>Si vous n'êtes pas encore connecté, connectez-vous à Steam. </li><li>La connexion n'est nécessaire que la première fois. </li><li>Cliquez sur « Favoris » sur la page Steam - cela fera apparaître le guide en haut de votre liste de guides dans le jeu</li>. <li>Cliquez sur « Pouce levé » pour rendre le guide plus visible pour les autres utilisateurs - facultatif, mais apprécié ! </li><li>Répétez le processus pour tous les héros auxquels vous aimez jouer. </li><li>Vous devez redémarrer Dota pour voir les guides que vous avez sélectionnés dans le jeu ! </li></ul><script>_BuildCarousell ()</script>`, // #toBeUpdated
-				ru: `Мы создали внутриигровые руководства для каждого героя игры. <br>Они содержат все советы и сборки предметов, которые есть в «приложении Dota Coach». </a><br>Подпишитесь на них <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.github.io/dota_guides.html'>здесь</a>. <br>Выберите героя и нажмите «Получить руководство Steam»: <br><ul><li>прокрутите вниз, пока не увидите зеленую кнопку «Подписаться». </li><li>Нажмите «Подписаться» на странице Steam. </li><li>Если вы еще не вошли в систему, войдите в Steam. </li><li>Вход в систему необходим только в первый раз. </li><li>Нажмите «Избранное» на странице Steam - руководство появится в верхней части списка гидов в игре</li>. <li>Нажмите «Thumbs Up», чтобы сделать руководство более заметным для других пользователей - необязательно, но приветствуется! </li><li>Повторите процесс для всех героев, которых вы любите играть. </li><li>Вам нужно перезапустить Dota, чтобы увидеть выбранные гайды в игре! </li></ul><script>_Построить карусель ()</script>`, // #toBeUpdated
+				ru: `Мы создали внутриигровые руководства для каждого героя игры. <br>Они содержат все советы и сборки предметов, которые есть в «Dota Coach App». </a><br>Подпишитесь на них <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.github.io/dota_guides.html'>здесь</a>. <br>Выберите героя и нажмите «Получить руководство Steam»: <br><ul><li>прокрутите вниз, пока не увидите зеленую кнопку «Подписаться». </li><li>Нажмите «Подписаться» на странице Steam. </li><li>Если вы еще не вошли в систему, войдите в Steam. </li><li>Вход в систему необходим только в первый раз. </li><li>Нажмите «Избранное» на странице Steam - руководство появится в верхней части списка гайдов в игре</li>. <li>Нажмите «Палец вверх», чтобы сделать руководство более заметным для других пользователей - необязательно, но приветствуется! </li><li>Повторите процесс для всех героев, за которых вы любите играть. </li><li>Вам нужно перезапустить Dota, чтобы увидеть выбранные гайды в игре! </li></ul><script>_Построить карусель ()</script>`, 
 				id: `Kami telah membuat panduan dalam game untuk setiap pahlawan dalam permainan. <br>Mereka berisi semua tips dan item membangun yang disediakan di 'Dota Coach App'. </a><br>Berlangganan mereka <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.github.io/dota_guides.html'>di sini</a>. <br>Pilih pahlawan dan klik 'Get Steam Guide':<br><ul><li>Gulir ke bawah sampai Anda melihat tombol hijau 'Berlangganan'. </li><li>Klik 'Berlangganan' pada halaman Uap. </li><li>Jika Anda belum login, silakan masuk ke Steam. </li><li>Login hanya diperlukan untuk pertama kalinya. </li><li>Klik 'Favorit' di halaman Uap - ini akan membuat panduan muncul di atas daftar panduan Anda dalam permainan</li><li>Klik 'Thumbs Up' untuk membuat panduan lebih terlihat oleh pengguna lain - opsional, tapi dihargai! </li><li>Ulangi proses untuk semua pahlawan yang ingin Anda mainkan. </li><li>Anda harus me-restart Dota untuk melihat panduan yang Anda pilih dalam permainan! </li></ul><script>_BuildCarousell ()</script>`, // #toBeUpdated
 				fil: `Gumawa kami ng mga in-game na gabay para sa bawat bayani sa laro. <br>Naglalaman ito ng lahat ng mga tip at item build na ibinigay sa 'Dota Coach App'. </a><br>Mag-subscribe sa kanila <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.github.io/dota_guides.html'>dito</a>. <br>Pumili ng isang bayani at mag-click sa 'Kumuha ng Steam Guide ':<br><ul><li>Mag-scroll pababa hanggang makita mo ang berdeng button na 'Mag-subscribe'. </li><li>I-click ang 'Mag-subscribe' sa pahina ng Steam. </li><li>Kung hindi ka pa naka-log in, mangyaring mag-log in sa Steam. </li><li>Ang pag-login ay kinakailangan lamang sa unang pagkakataon. </li><li>I-click ang 'Paboritong' sa pahina ng Steam - gagawin nito ang gabay na lumitaw sa ibabaw ng iyong listahan ng mga gabay sa laro I-click ang</li><li>'Thumbs Up 'upang gawing mas nakikita ang gabay sa iba pang mga gumagamit - opsyonal, ngunit pinahahalagahan! </li><li>Ulitin ang proseso para sa lahat ng mga bayani na gusto mong i-play. </li><li>Kailangan mong i-restart ang Dota upang makita ang iyong mga napiling gabay sa laro! </li></ul><script>_Build Carousell ()</script>`, // #toBeUpdated
 				zh: `我们已经为游戏中的每位英雄创建了游戏内指南。<br>它们包含 “Dota Coach App” 中提供的所有技巧和物品构建。</a><br><a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://dota-coach.github.io/dota_guides.html'>在这里订阅他们。</a><br>选择一个英雄，然后点击 “获取Steam指南”：<br><ul><li>向下滚动，直到看到绿色按钮 “订阅”。</li><li>点击 Steam 页面上的 “订阅”。</li><li>如果你还没有登录，请登录 Steam。</li><li>只有在第一次时才需要登录。</li><li>点击 Steam 页面上的 “收藏”-这将使该指南出现在游戏中指南列表的顶部</li><li>单击 “竖起大拇指” 以使其他用户更容易看到该指南-可选，但不胜感激！</li><li>对所有你喜欢玩的英雄重复这个过程。</li><li>你必须重启Dota才能在游戏中看到你选择的向导！</li></ul><script>_buildCarousell ()</script>`, // #toBeUpdated
@@ -1268,7 +1269,7 @@
 				en: "Why are the Hero Guides not shown?",
 				de: "Warum werden die Hero Guides nicht angezeigt?", // #toBeUpdated
 				fr: "Pourquoi les guides des héros ne s'affichent-ils pas ?", // #toBeUpdated
-				ru: "Почему не отображаются руководства для героев?", // #toBeUpdated
+				ru: "Почему не отображаются руководства для героев?", 
 				id: "Mengapa Hero Guides tidak ditampilkan?", // #toBeUpdated
 				fil: "Bakit hindi ipinapakita ang mga Gabay sa Hero?", // #toBeUpdated
 				zh: "为什么英雄指南没有显示？", // #toBeUpdated
@@ -1284,7 +1285,7 @@
 					<img class="img-fluid rounded shadow w-50" src="./images/faqs/heroguides.png">`,
 				de: `Wenn du unsere Heldenführer bereits abonniert hast und sie nicht im Spiel angezeigt werden, <br>starte Dota 2 unbedingt neu! <br>Sie können einer „Demo Hero“ -Lobby beitreten und überprüfen, ob die Guides ordnungsgemäß geladen wurden. <br>Es ist wichtig, dass du sie im Spiel im Shop-Interface auswählst, nachdem du sie abonniert hast. <br><div class='mt-2'></div><img class='img-fluid rounded shadow w-50' src='./images/faqs/heroguides.png'>`, // #toBeUpdated
 				fr: `Si vous êtes déjà abonné à nos guides de héros et qu'ils ne s'affichent pas dans le jeu, <br>assurez-vous de redémarrer Dota 2 ! <br>Vous pouvez rejoindre un lobby « Demo Hero » et vérifier si les guides ont été correctement chargés. <br>Il est important que vous les sélectionniez en jeu dans l'interface de la boutique après vous y être abonné. <br><div class='mt-2'></div><img class='img-fluid rounded shadow w-50' src='./images/faqs/heroguides.png'>`, // #toBeUpdated
-				ru: `Если вы уже подписались на наши руководства по героям, но они не отображаются в игре, <br>обязательно перезапустите Dota 2! <br>Вы можете присоединиться к лобби «Demo Hero» и проверить, правильно ли загружены руководства. <br>Важно, чтобы вы выбрали их в игре в интерфейсе магазина после подписки на них. <br><div class='mt-2'></div><img class='img-fluid rounded shadow w-50' src='./images/faqs/heroguides.png'>`, // #toBeUpdated
+				ru: `Если вы уже подписались на наши руководства по героям, но они не отображаются в игре, <br>обязательно перезапустите Dota 2! <br>Вы можете присоединиться к лобби «Demo Hero» и проверить, правильно ли загружены руководства. <br>Важно, чтобы вы выбрали их в игре в интерфейсе магазина после подписки на них. <br><div class='mt-2'></div><img class='img-fluid rounded shadow w-50' src='./images/faqs/heroguides.png'>`, 
 				id: `Jika Anda sudah berlangganan Hero Guides kami dan mereka tidak menunjukkan dalam game,<br>pastikan untuk me-restart Dota 2! <br>Anda dapat bergabung dengan lobi 'Demo Hero' dan memeriksa apakah panduan telah dimuat dengan benar. <br>Adalah penting bahwa Anda memilih mereka dalam game di antarmuka toko setelah Anda berlangganan mereka. <br><div class='mt-2'></div><img class='img-fluid rounded shadow w-50' src='./images/faqs/heroguides.png'>`, // #toBeUpdated
 				fil: `Kung naka-subscribe ka na sa aming Mga Gabay sa Bayani at hindi sila nagpapakita ng in-game,<br>siguraduhing i-restart ang Dota 2! <br>Maaari kang sumali sa lobby ng 'Demo Hero' at tingnan kung maayos ang mga gabay. <br>Mahalaga na piliin mo ang mga ito sa laro sa interface ng tindahan pagkatapos mong mag-subscribe sa kanila. <br><div class='mt-2'></div><img class='img-fluid rounded shadow w-50' src='./images/faqs/heroguides.png'>`, // #toBeUpdated
 				zh: `如果你已经订阅了我们的英雄指南，但它们没有在游戏中显示，<br>请务必重启 Dota 2！<br>你可以加入 “Demo Hero” 大厅，检查指南是否已正确加载。<br>订阅它们后，请务必在商店界面中在游戏中选择它们。<br><div class='mt-2'></div><img class='img-fluid rounded shadow w-50' src='./images/faqs/heroguides.png'>`, // #toBeUpdated
@@ -1301,7 +1302,7 @@
 				en: "Are your Hero Guides good?",
 				de: "Sind deine Hero Guides gut?", // #toBeUpdated
 				fr: "Vos guides de héros sont-ils bons ?", // #toBeUpdated
-				ru: "Хороши ли ваши гиды для героев?", // #toBeUpdated
+				ru: "Хороши ли ваши гайды для героев?", 
 				id: "Apakah Panduan Pahlawan Anda bagus?", // #toBeUpdated
 				fil: "Maganda ba ang iyong mga Gabay sa Hero?", // #toBeUpdated
 				zh: "你的英雄向导好吗？", // #toBeUpdated
@@ -1314,7 +1315,7 @@
 					You can look up their ranks on the offical Dota 2 <a class="link-danger" target="_blank" rel="noopener noreferrer" href="https://www.dota2.com/leaderboards/#europe-0">Leaderboards</a>.`,
 				de: `Alle Heldenführer, die wir zur Verfügung stellen, werden von professionellen Dota 2-Trainern und -Spielern erstellt und gewartet. <br>Ihre Ränge im Spiel liegen zwischen Immortal Rang 1000 und Immortal Rang 100 (8000 - 10000 MMR). <br>Sie können ihre Ränge auf den offiziellen <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://www.dota2.com/leaderboards/#europe-0'>Dota 2-Bestenlisten nachschlagen</a>.`, // #toBeUpdated
 				fr: `Tous les guides des héros que nous fournissons sont créés et maintenus par des entraîneurs et des joueurs professionnels de Dota 2. <br>Leurs rangs dans le jeu se situent entre le rang immortel 1000 et le rang immortel 100 (8000 - 10000 MMR). <br>Vous pouvez consulter leurs rangs dans les <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://www.dota2.com/leaderboards/#europe-0'>classements</a> officiels de Dota 2.`, // #toBeUpdated
-				ru: `Все предоставляемые нами руководства по героям созданы и поддерживаются профессиональными тренерами и игроками Dota 2. <br>Их внутриигровые ранги находятся в диапазоне от 1000 до 100 ранга бессмертия (8000 - 10000 MMR). <br>Их рейтинги можно посмотреть в официальных <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://www.dota2.com/leaderboards/#europe-0'>списках лидеров</a> Dota 2.`, // #toBeUpdated
+				ru: `Все предоставляемые нами руководства по героям созданы и поддерживаются профессиональными тренерами и игроками Dota 2. <br>Их внутриигровые ранги находятся в диапазоне от 1000 до 100 ранга Immortal (8000 - 10000 MMR). <br>Их рейтинги можно посмотреть в официальных <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://www.dota2.com/leaderboards/#europe-0'>списках лидеров</a> Dota 2.`, 
 				id: `Semua Panduan Pahlawan yang kami sediakan dibuat dan dikelola oleh pelatih dan pemain Dota 2 profesional. <br>Peringkat dalam game mereka adalah bewteen Immortal Rank 1000 dan Immortal Rank 100 (8000 - 10000 MMR). <br>Anda dapat mencari peringkat mereka di resmi Dota 2 <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://www.dota2.com/leaderboards/#europe-0'>Leaderboards</a>.`, // #toBeUpdated
 				fil: `Ang lahat ng mga Gabay sa Hero na aming ibinibigay ay nilikha at pinananatili ng mga propesyonal na Dota 2 coaches at mga manlalaro. Ang<br>kanilang mga in-game ranggo ay sa pagitan ng Immortal na Ranggo 1000 at Immortal na Ranggo 100 (8000 - 10000 MMR). <br>Maaari mong tingnan ang kanilang mga ranggo sa opisyal na Dota 2 <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://www.dota2.com/leaderboards/#europe-0'>Leaderboards</a>.`, // #toBeUpdated
 				zh: `我们提供的所有英雄指南都是由专业的Dota 2教练和玩家创建和维护的。<br>他们在游戏中的排名介于不朽等级 1000 和不朽等级 100（8000-10000 MMR）之间。<br>你可以在官方的Dota 2 <a class="link-danger" target="_blank" rel="noopener noreferrer" href='https://www.dota2.com/leaderboards/#europe-0'>排行榜</a>上查看他们的排名。`, // #toBeUpdated
@@ -1330,7 +1331,7 @@
 				en: "Why are some windows missing?",
 				de: "Warum fehlen einige Fenster? ", // #toBeUpdated
 				fr: "Pourquoi certaines fenêtres manquent-elles ? ", // #toBeUpdated
-				ru: "Почему некоторые окна отсутствуют? ", // #toBeUpdated
+				ru: "Почему некоторые окна отсутствуют? ", 
 				id: "Mengapa beberapa jendela hilang? ", // #toBeUpdated
 				fil: "Bakit nawawala ang ilang mga bintana? ", // #toBeUpdated
 				zh: "为什么有些窗户不见了？ ", // #toBeUpdated
@@ -1347,7 +1348,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/reset_position.png">`,
 				de: "Es gibt mehrere Gründe, warum Ihre Timer nicht angezeigt werden. <br>Wenn der Dota 2-Spielkoordinator nicht gefunden wird, erhält Dota Coach keine Daten zum Spiel, was zu keinen Timern führt. <br>Ein weiterer Grund ist der fehlende Startparameter „-gamestate-Integration“. Stellen Sie sicher, dass es hinzugefügt wurde. In unseren FAQ erfahren Sie, wie Sie es hinzufügen können. <br>Manchmal können die Timer während der Ablage verloren gehen. <br>Drücke einfach den 'Reset'-Knopf im Einstellungsfenster. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
 				fr: "Il existe plusieurs raisons pour lesquelles vos minuteries ne s'affichent pas. <br>Si le coordinateur de jeu Dota 2 n'est pas trouvé, Dota Coach n'obtient aucune donnée sur le match qui n'entraînera aucun chronométrage. <br>Une autre raison est le paramètre de lancement manquant « -gamestateintegration ». Assurez-vous qu'il est ajouté. Consultez notre FAQ pour savoir comment l'ajouter. <br>Parfois, les minuteries peuvent disparaître pendant le dépôt. <br>Appuyez simplement sur le bouton « Réinitialiser » dans la fenêtre des paramètres. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
-				ru: "Таймеры не отображаются по нескольким причинам. <br>Если координатор игры в Dota 2 не найден, тренер по Dota не получает никаких данных о матче, что приведет к отсутствию таймеров. <br>Другой причиной является отсутствие параметра запуска «-gamestate integration». Убедитесь, что он добавлен. Ознакомьтесь с часто задаваемыми вопросами о том, как его добавить. <br>Иногда таймеры могут пропадать во время repositon. <br>Просто нажмите кнопку «reset» в окне настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
+				ru: "Таймеры не отображаются по нескольким причинам. <br>Если координатор игры в Dota 2 не найден, тренер по Dota не получает никаких данных о матче, что приведет к отсутствию таймеров. <br>Другой причиной является отсутствие параметра запуска «-gamestateintegration». Убедитесь, что он добавлен. Ознакомьтесь с часто задаваемыми вопросами о том, как его добавить. <br>Иногда таймеры могут пропадать во время перемещения. <br>Просто нажмите кнопку «сброс» в окне настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", 
 				id: "Ada beberapa alasan mengapa timer Anda tidak ditampilkan. <br>Jika koordinator permainan Dota 2 tidak ditemukan, Dota Coach tidak mendapatkan Data apa pun pada pertandingan yang akan menghasilkan tanpa timer. <br>Alasan lain adalah hilangparameter launchparameter '-gamestateintegration'. Pastikan bahwa itu ditambahkan. Periksa FAQ kami tentang cara menambahkannya. <br>Kadang-kadang, timer bisa hilang selama repositon. <br>Cukup tekan tombol 'reset' di jendela pengaturan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
 				fil: "Mayroong maraming mga kadahilanan kung bakit ang iyong mga timers ay hindi ipinapakita. <br>Kung ang Dota 2 game coordinator ay hindi natagpuan, ang Dota Coach ay hindi makakakuha ng anumang Data sa tugma na magreresulta sa walang timers. <br>Ang isa pang dahilan ay ang nawawalang parameter ng paglunsad '-gamestateintegration'. Siguraduhin na ito ay idinagdag. Suriin ang aming FAQ kung paano idagdag ito. <br>Minsan, ang mga timers ay maaaring pumunta nawawala sa panahon ng repositon. <br>Pindutin lamang ang pindutan ng 'reset' sa window ng mga setting. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
 				zh: "计时器未显示的原因有很多。<br>如果找不到Dota 2游戏协调员，Dota Coach不会获得比赛的任何数据，这将导致没有计时器。<br>另一个原因是缺少启动参数 “-gamestateintegration”。确保它已添加。查看我们的常见问题解答以了解如何添加它。<br>有时，在重新定位期间，计时器可能会丢失。<br>只需在设置窗口中点击 “重置” 按钮即可。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>", // #toBeUpdated
@@ -1365,7 +1366,7 @@
 				en: "How can I hide/show windows while playing?",
 				de: "Wie kann ich beim Spielen Fenster ein-/ausblenden?", // #toBeUpdated
 				fr: "Comment puis-je masquer/afficher les fenêtres pendant que je joue ?", // #toBeUpdated
-				ru: "Как скрыть/показать окна во время игры?", // #toBeUpdated
+				ru: "Как скрыть/показать окна во время игры?", 
 				id: "Bagaimana saya bisa menyembunyikan/menampilkan jendela saat bermain?", // #toBeUpdated
 				fil: "Paano ko itatago/ipakita ang mga bintana habang nagpe-play?", // #toBeUpdated
 				zh: "如何在玩游戏时隐藏/显示窗口？", // #toBeUpdated
@@ -1379,7 +1380,7 @@
 					Check our FAQ under 'Hotkeys' if you are not sure where to find it.<br>`,
 				de: `Um Spielfenster während des Spielens auszublenden/anzuzeigen, drücken Sie den zugewiesenen Hotkey. <br>Der Standardhotkey ist „STRG + b“. <br>Wenn Sie den Hotkey ändern möchten, rufen Sie die Einstellungen der Overwolf-App auf. <br>Schauen Sie in unseren FAQ unter „Hotkeys“ nach, wenn Sie nicht sicher sind, wo Sie sie finden können. <br>`, // #toBeUpdated
 				fr: `Pour masquer/afficher les fenêtres du jeu pendant le jeu, appuyez sur la touche de raccourci assignée. <br>Le raccourci standard est « CTRL + b ». <br>Si vous souhaitez modifier le raccourci clavier, accédez aux paramètres de l'application Overwolf. <br>Consultez notre FAQ sous « Raccourcis clavier » si vous ne savez pas où la trouver. <br>`, // #toBeUpdated
-				ru: `Чтобы скрыть/показать внутриигровые окна во время игры, нажмите назначенную горячую клавишу. <br>Стандартная горячая клавиша — «CTRL + b». <br>Если вы хотите изменить горячую клавишу, перейдите в настройки приложения overwolf. <br>Если вы не знаете, где их найти, ознакомьтесь с нашими часто задаваемыми вопросами в разделе «Горячие клавиши». <br>`, // #toBeUpdated
+				ru: `Чтобы скрыть/показать внутриигровые окна во время игры, нажмите назначенную горячую клавишу. <br>Стандартная горячая клавиша — «CTRL + b». <br>Если вы хотите изменить горячую клавишу, перейдите в настройки приложения Overwolf. <br>Если вы не знаете, где их найти, ознакомьтесь с нашими часто задаваемыми вопросами в разделе «Горячие клавиши». <br>`, 
 				id: `Untuk Sembunyikan/Tampilkan jendela dalam game saat bermain, tekan hotkey asigned. <br>Hotkey standar adalah 'CTRL + b'. <br>Jika Anda ingin mengubah hotkey, pergilah ke pengaturan aplikasi overwolf. <br>Periksa FAQ kami di bawah 'Hotkeys' jika Anda tidak yakin di mana menemukannya. <br>`, // #toBeUpdated
 				fil: `Upang itago/Ipakita ang mga in-game window habang nagpe-play, pindutin ang itinalagang hotkey. <br>Ang karaniwang hotkey ay 'CTRL + b'. <br>Kung nais mong baguhin ang hotkey, magtungo sa mga setting ng overwolf app. <br>Tingnan ang aming FAQ sa ilalim ng 'Mga Hotkey' kung hindi ka sigurado kung saan makikita ito. <br>`, // #toBeUpdated
 				zh: `要在玩游戏时隐藏/显示游戏内窗口，请按指定的热键。<br>标准的热键是'CTRL+b'。<br>如果你想更改热键，请前往overwolf应用程序设置。<br>如果您不确定在哪里可以找到它，请查看 “Hotkeys” 下的常见问题解答。<br>`, // #toBeUpdated
@@ -1395,7 +1396,7 @@
 				en: "How can I reposition windows?",
 				de: "Wie kann ich Fenster neu positionieren?", // #toBeUpdated
 				fr: "Comment repositionner les fenêtres ?", // #toBeUpdated
-				ru: "Как переместить окна?", // #toBeUpdated
+				ru: "Как переместить окна?", 
 				id: "Bagaimana saya bisa memposisikan ulang jendela?", // #toBeUpdated
 				fil: "Paano ko muling iposisyon ang mga bintana?", // #toBeUpdated
 				zh: "我怎样才能重新定位窗口？", // #toBeUpdated
@@ -1410,7 +1411,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/reposition.png">`,
 				de: `Öffnen Sie das Einstellungsmenü in der oberen rechten Ecke des Desktop-Fensters. <br>Aktivieren Sie den Schieberegler für die Neupositionierung in der unteren rechten Ecke des Einstellungsfensters. <br>Deaktivieren Sie den Schieberegler Neupositionierung, sobald Sie fertig sind, um Ihre neuen Positionen zu sichern. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
 				fr: `Ouvrez le menu des paramètres dans le coin supérieur droit de la fenêtre du bureau. <br>Activez le curseur Repositionnement dans le coin inférieur droit de la fenêtre des paramètres. <br>Désactivez le curseur de repositionnement une fois que vous avez terminé pour sécuriser vos nouvelles positions. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
-				ru: `Откройте меню настроек в правом верхнем углу окна рабочего стола. <br>Активируйте ползунок Перемещение в правом нижнем углу окна настроек. <br>Когда закончите, деактивируйте ползунок «Перемещение», чтобы сохранить новые позиции. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
+				ru: `Откройте меню настроек в правом верхнем углу окна. <br>Активируйте ползунок Перемещение в правом нижнем углу окна настроек. <br>Когда закончите, деактивируйте ползунок «Перемещение», чтобы сохранить новые позиции. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, 
 				id: `Buka menu pengaturan di sudut kanan atas jendela desktop. <br>Aktifkan slider Reposisi di sudut kanan bawah jendela pengaturan. <br>De-aktifkan slider Reposisi setelah Anda selesai untuk mengamankan posisi baru Anda. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
 				fil: `Buksan ang menu ng mga setting sa kanang sulok sa itaas ng window ng desktop. <br>Isaaktibo ang slider ng Reposition sa kanang sulok sa ibaba ng window ng mga setting. <br>I-de-activate ang slider ng Reposition kapag tapos ka na upang ligtas ang iyong mga bagong posisyon. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
 				zh: `打开桌面窗口右上角的设置菜单。<br>激活设置窗口右下角的 “重新定位” 滑块。<br>完成新仓位安全操作后，请停用重新定位滑块。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
@@ -1426,7 +1427,7 @@
 				en: "Why are all windows green?",
 				de: "Warum sind alle Fenster grün?", // #toBeUpdated
 				fr: "Pourquoi toutes les fenêtres sont-elles vertes ?", // #toBeUpdated
-				ru: "Почему все окна зеленые?", // #toBeUpdated
+				ru: "Почему все окна зеленые?", 
 				id: "Mengapa semua jendela hijau?", // #toBeUpdated
 				fil: "Bakit ang lahat ng mga bintana ay berde?", // #toBeUpdated
 				zh: "为什么所有的窗户都是绿色的？", // #toBeUpdated
@@ -1441,7 +1442,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/reposition.png">`,
 				de: `Ihre Fenster werden grün, wenn der Schieberegler für die Neupositionierung im Einstellungsmenü auf aktiv gesetzt ist. <br>Öffnen Sie das Einstellungsmenü in der oberen rechten Ecke des Desktop-Fensters. <br>Deaktivieren Sie den Schieberegler für die Neupositionierung in der unteren rechten Ecke des Einstellungsfensters. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
 				fr: `Vos fenêtres deviennent vertes si le curseur de repositionnement du menu des paramètres est activé. <br>Ouvrez le menu des paramètres dans le coin supérieur droit de la fenêtre du bureau. <br>Désactivez le curseur de repositionnement dans le coin inférieur droit de la fenêtre des paramètres. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
-				ru: `Окна станут зелеными, если ползунок изменения положения в меню настроек установлен в активное положение. <br>Откройте меню настроек в правом верхнем углу окна рабочего стола. <br>Отключите ползунок «Перемещение» в правом нижнем углу окна настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
+				ru: `Окна станут зелеными, если ползунок изменения положения в меню настроек установлен в активное положение. <br>Откройте меню настроек в правом верхнем углу окна. <br>Отключите ползунок «Перемещение» в правом нижнем углу окна настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, 
 				id: `Jendela Anda berubah menjadi hijau jika slider reposisi di menu pengaturan diatur ke aktif. <br>Buka menu pengaturan di sudut kanan atas jendela desktop. <br>De-aktifkan slider Reposisi di sudut kanan bawah jendela pengaturan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
 				fil: `Ang iyong mga bintana ay nagiging berde kung ang slider ng muling posisyon sa menu ng mga setting ay naka-set sa aktibo. <br>Buksan ang menu ng mga setting sa kanang sulok sa itaas ng window ng desktop. <br>I-de-activate ang slider ng Reposition sa kanang sulok sa ibaba ng window ng mga setting. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
 				zh: `如果设置菜单中的重新定位滑块设置为活动状态，则窗口将变为绿色。<br>打开桌面窗口右上角的设置菜单。<br>取消激活设置窗口右下角的 “重新定位” 滑块。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reposition.png'>`, // #toBeUpdated
@@ -1457,7 +1458,7 @@
 				en: "How can I see pick/ban suggestions?",
 				de: "Wie kann ich Auswahl-/Ban-Vorschläge sehen?", // #toBeUpdated
 				fr: "Comment puis-je consulter les suggestions de prélèvement et de bannissement ?", // #toBeUpdated
-				ru: "Как посмотреть предложения по выбору или бану?", // #toBeUpdated
+				ru: "Как посмотреть предложения по выбору или бану?", 
 				id: "Bagaimana saya bisa melihat saran pick/ban?", // #toBeUpdated
 				fil: "Paano ako makakakita ng mga suhestiyon sa pick/ban?", // #toBeUpdated
 				zh: "我怎样才能看到选择/禁止建议？", // #toBeUpdated
@@ -1471,7 +1472,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/buttondraft.png">`,
 				de: `Sobald Sie ein Spiel betreten und der Entwurf beginnt, wird in der oberen linken Ecke ein Dota Coach-Logo angezeigt. <br>Klicken Sie darauf, um die Entwurfsinformationen ein- oder auszublenden. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buttondraft.png'>`, // #toBeUpdated
 				fr: `Une fois que vous entrez dans une partie et que le draft commence, un logo Dota Coach apparaîtra dans le coin supérieur gauche. <br>Cliquez dessus pour afficher ou masquer les informations du brouillon. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buttondraft.png'>`, // #toBeUpdated
-				ru: `Как только вы войдете в игру и начнёте драфт, в левом верхнем углу появится логотип Dota Coach. <br>Нажмите на нее, чтобы показать или скрыть информацию о черновике. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buttondraft.png'>`, // #toBeUpdated
+				ru: `Как только вы войдете в игру и начнёте драфт, в левом верхнем углу появится логотип Dota Coach. <br>Нажмите на нее, чтобы показать или скрыть информацию о драфте. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buttondraft.png'>`, 
 				id: `Setelah Anda memasukkan permainan dan draft dimulai, logo Dota Coach akan muncul di pojok kiri atas. <br>Klik untuk menampilkan atau menyembunyikan draf informasi. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buttondraft.png'>`, // #toBeUpdated
 				fil: `Sa sandaling magpasok ka ng isang laro at nagsisimula ang draft, isang logo ng Dota Coach ang lalabas sa itaas na kaliwang sulok. <br>I-click ito upang ipakita o itago ang impormasyon ng draft. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buttondraft.png'>`, // #toBeUpdated
 				zh: `进入游戏并开始选秀后，左上角将出现Dota Coach徽标。<br>单击它可显示或隐藏草稿信息。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/buttondraft.png'>`, // #toBeUpdated
@@ -1486,7 +1487,7 @@
 				en: "How can I open the Role selection?",
 				de: "Wie kann ich die Rollenauswahl öffnen?", // #toBeUpdated
 				fr: "Comment puis-je ouvrir la sélection des rôles ?", // #toBeUpdated
-				ru: "Как открыть подбор ролей?", // #toBeUpdated
+				ru: "Как открыть выбор ролей?", 
 				id: "Bagaimana cara membuka pemilihan Peran?", // #toBeUpdated
 				fil: "Paano ko mabubuksan ang pagpili ng Tungkulin?", // #toBeUpdated
 				zh: "如何打开角色选择？", // #toBeUpdated
@@ -1498,7 +1499,7 @@
 					Click it to show or hide the role selection and laning information. <br>`,
 				de: `Sobald Sie ein Spiel betreten, wird ein Dota Coach-Logo über der Minikarte angezeigt. <br>Klicken Sie darauf, um die Rollenauswahl und die Spurinformationen ein- oder auszublenden. <br>`, // #toBeUpdated
 				fr: `Une fois que vous entrez dans une partie, un logo Dota Coach apparaîtra au-dessus de la minicarte. <br>Cliquez dessus pour afficher ou masquer la sélection du rôle et les informations de destination. <br>`, // #toBeUpdated
-				ru: `Как только вы войдете в игру, над мини-картой появится логотип Dota Coach. <br>Нажмите на нее, чтобы показать или скрыть информацию о выборе роли и лендинге. <br>`, // #toBeUpdated
+				ru: `Как только вы войдете в игру, над мини-картой появится логотип Dota Coach. <br>Нажмите на нее, чтобы показать или скрыть информацию о выборе роли и лайнинге. <br>`, 
 				id: `Setelah Anda memasukkan game, logo Dota Coach akan muncul di atas minimap. <br>Klik untuk menampilkan atau menyembunyikan pemilihan peran dan informasi laning. <br>`, // #toBeUpdated
 				fil: `Sa sandaling magpasok ka ng isang laro, isang logo ng Dota Coach ay lilitaw sa itaas ng minimap. <br>I-click ito upang ipakita o itago ang pagpili ng tungkulin at impormasyon sa pag-laning. <br>`, // #toBeUpdated
 				zh: `进入游戏后，小地图上方会出现一个Dota Coach徽标。<br>单击它可显示或隐藏角色选择和对线信息。<br>`, // #toBeUpdated
@@ -1512,7 +1513,7 @@
 				en: "How can I disable windows I do not like?",
 				de: "Wie kann ich Windows deaktivieren, die ich nicht mag?", // #toBeUpdated
 				fr: "Comment désactiver les fenêtres que je n'aime pas ?", // #toBeUpdated
-				ru: "Как отключить окна, которые мне не нравятся?", // #toBeUpdated
+				ru: "Как отключить окна, которые мне не нравятся?",
 				id: "Bagaimana saya bisa menonaktifkan jendela yang tidak saya sukai?", // #toBeUpdated
 				fil: "Paano ko i-disable ang mga bintana na hindi ko gusto?", // #toBeUpdated
 				zh: "我怎样才能禁用我不喜欢的窗口？", // #toBeUpdated
@@ -1531,7 +1532,7 @@
 					</ul>`,
 				de: `Öffnen Sie die Einstellungen in der oberen rechten Ecke des Desktop-Fensters und wählen Sie „Einstellungen ändern“. <br>Du kannst die folgenden Fensterkomponenten deaktivieren: <ul><li>Infoboxen</li> <li>Alle einzelnen Timer (eigenes und gegnerisches Team) <li>Runen-Countdowns</li></li> <li><li>Performance-Tracker-Untertitelfenster</li></li></ul>`, // #toBeUpdated
 				fr: `Ouvrez les paramètres dans le coin supérieur droit de la fenêtre du bureau et sélectionnez « Modifier les paramètres ». <br>Vous pouvez désactiver les composants suivants de la fenêtre : <ul><li>Boîtes d'informations</li> <li>Tous les minuteurs individuels (équipe propre et équipe ennemie)</li> <li>Compte à rebours des runes</li> <li>Fenêtre de sous-titres</li> <li>Suivi des performances</li></ul>`, // #toBeUpdated
-				ru: `Откройте настройки в правом верхнем углу окна рабочего стола и выберите «изменить настройки». <br>Вы можете отключить следующие компоненты окна: <ul><li>Инфобоксы</li> <li>Все индивидуальные таймеры (собственные и вражеская команда)</li> <li>Обратный отсчет рун</li> <li>Окно <li>отслеживания производительности Отслеживание</li> субтитров</li></ul>`, // #toBeUpdated
+				ru: `Откройте настройки в правом верхнем углу окна и выберите «настройки». <br>Вы можете отключить следующие компоненты окна: <ul><li>Инфобоксы</li> <li>Все индивидуальные таймеры (ваша и вражеская команда)</li> <li>Обратный отсчет рун</li> <li>Окно <li>отслеживания производительности Отслеживание</li> субтитров</li></ul>`, 
 				id: `Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'. <br>Anda dapat menonaktifkan komponen jendela berikut:<ul><li>Infoboxes</li><li>Semua timer individu (Sendiri dan tim musuh)</li><li>Rune Countdown</li><li>Kinerja Tracker</li><li>Subtitle Window</li></ul>`, // #toBeUpdated
 				fil: `Buksan ang mga setting sa kanang itaas na sulok ng window ng desktop at piliin ang 'baguhin ang mga setting. ' <br>Maaari mong hindi paganahin ang mga sumusunod na bahagi ng window:<ul><li>Infoboxes Lahat ng mga</li><li>indibidwal na timers (Sariling at kaaway koponan)</li><li>Rune Countdowns</li><li>Pagganap Tagasubaybay</li><li>Subtitle Window</li></ul>`, // #toBeUpdated
 				zh: `打开桌面窗口右上角的设置，然后选择 “更改设置”。<br>你可以禁用以下窗口组件：<ul><li>信息框</li><li>所有个人计时器（自己和敌方队伍）</li><li>符文倒计</li>时<li>性能追踪器</li><li>字幕窗口</li></ul>`, // #toBeUpdated
@@ -1552,7 +1553,7 @@
 				en: "How do I enable the second desktop window?",
 				de: "Wie kann ich Windows deaktivieren, die ich nicht mag?", // #toBeUpdated
 				fr: "Comment désactiver les fenêtres que je n'aime pas ?", // #toBeUpdated
-				ru: "Как отключить окна, которые мне не нравятся?", // #toBeUpdated
+				ru: "Как мне включить режим второго окна?", 
 				id: "Bagaimana saya bisa menonaktifkan jendela yang tidak saya sukai?", // #toBeUpdated
 				fil: "Paano ko i-disable ang mga bintana na hindi ko gusto?", // #toBeUpdated
 				zh: "我怎样才能禁用我不喜欢的窗口？", // #toBeUpdated
@@ -1566,7 +1567,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/secondscreen.png">`,
 				de: `Öffnen Sie die Einstellungen in der oberen rechten Ecke des Desktop-Fensters und wählen Sie „Einstellungen ändern“. <br>Wählen Sie Ihren zweiten oder Hauptmonitor aus, um das Fenster zu aktivieren. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/secondscreen.png'>`, // #toBeUpdated
 				fr: `Ouvrez les paramètres dans le coin supérieur droit de la fenêtre du bureau et sélectionnez « Modifier les paramètres ». <br>Sélectionnez votre deuxième moniteur ou moniteur principal pour activer la fenêtre. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/secondscreen.png'>`, // #toBeUpdated
-				ru: `Откройте настройки в правом верхнем углу окна рабочего стола и выберите «изменить настройки». <br>Выберите второй или главный монитор, чтобы включить окно. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/secondscreen.png'>`, // #toBeUpdated
+				ru: `Откройте настройки в правом верхнем углу окна и выберите «настройки». <br>Выберите второй или главный монитор, чтобы включить окно. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/secondscreen.png'>`, 
 				id: `Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'. <br>Pilih monitor kedua atau utama Anda untuk mengaktifkan jendela. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/secondscreen.png'>`, // #toBeUpdated
 				fil: `Buksan ang mga setting sa kanang itaas na sulok ng window ng desktop at piliin ang 'baguhin ang mga setting. ' <br>Piliin ang iyong pangalawang o pangunahing monitor upang paganahin ang window. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/secondscreen.png'>`, // #toBeUpdated
 				zh: `打开桌面窗口右上角的设置，然后选择 “更改设置”。<br>选择第二台或主显示器以启用该窗口。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/secondscreen.png'>`, // #toBeUpdated
@@ -1582,7 +1583,7 @@
 				en: "How do I disable audio messages?",
 				de: "Wie deaktiviere ich Audionachrichten?", // #toBeUpdated
 				fr: "Comment désactiver les messages audio ?", // #toBeUpdated
-				ru: "Как отключить звуковые сообщения?", // #toBeUpdated
+				ru: "Как отключить звуковые сообщения?", 
 				id: "Bagaimana cara menonaktifkan pesan audio?", // #toBeUpdated
 				fil: "Paano ko i-disable ang mga audio message?", // #toBeUpdated
 				zh: "如何禁用语音留言？", // #toBeUpdated
@@ -1599,7 +1600,7 @@
 					</ul>`,
 				de: `Öffnen Sie die Einstellungen in der oberen rechten Ecke des Desktop-Fensters und wählen Sie „Einstellungen ändern“. <br>Du kannst die folgenden Sprachkomponenten einzeln deaktivieren: <ul><li>Benachrichtigungen</li> <li>Sprachcoaching eigener Held</li> <li>Sprachcoaching gegnerische Helden</li></ul>`, // #toBeUpdated
 				fr: `Ouvrez les paramètres dans le coin supérieur droit de la fenêtre du bureau et sélectionnez « Modifier les paramètres ». <br>Vous pouvez désactiver les composants vocaux suivants individuellement : <ul><li>Notifications</li> <li>Coaching vocal propre héros</li> <li>Coaching vocal héros héros ennemis</li></ul>`, // #toBeUpdated
-				ru: `Откройте настройки в правом верхнем углу окна рабочего стола и выберите «изменить настройки». <br>Вы можете отключить следующие голосовые компоненты по отдельности: <ul><li>Уведомления</li> <li>Голосовой коучинг собственного героя</li> <li>Тренировка голоса вражеских героев</li></ul>`, // #toBeUpdated
+				ru: `Откройте настройки в правом верхнем углу окна и выберите «настройки». <br>Вы можете отключить следующие голосовые компоненты по отдельности: <ul><li>Уведомления</li> <li>Голосовой коучинг собственного героя</li> <li>Голосовой коучинг вражеских героев</li></ul>`, 
 				id: `Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'. <br>Anda dapat menonaktifkan komponen suara berikut secara individual:<ul><li>Pemberitahuan</li><li>Pelatih suara pahlawan sendiri Pahlawan</li><li>musuh pelatih suara</li></ul>`, // #toBeUpdated
 				fil: `Buksan ang mga setting sa kanang itaas na sulok ng window ng desktop at piliin ang 'baguhin ang mga setting. ' <br>Maaari mong hindi paganahin ang mga sumusunod na bahagi ng boses nang paisa-isa:<ul><li>Mga</li>Abiso<li>Voice coaching sariling bayani</li><li>Voice coaching kaaway bayani</li></ul>`, // #toBeUpdated
 				zh: `打开桌面窗口右上角的设置，然后选择 “更改设置”。<br>你可以单独禁用以下语音组件：<ul><li>Notifcations 语</li><li>音教练自己的英雄</li><li>语音教练敌方英雄</li></ul>`, // #toBeUpdated
@@ -1618,7 +1619,7 @@
 				en: "How can I adjust the sound volume?",
 				de: "Wie kann ich die Lautstärke einstellen?", // #toBeUpdated
 				fr: "Comment régler le volume sonore ?", // #toBeUpdated
-				ru: "Как настроить громкость звука?", // #toBeUpdated
+				ru: "Как настроить громкость звука?", 
 				id: "Bagaimana saya bisa menyesuaikan volume suara?", // #toBeUpdated
 				fil: "Paano ko maayos ang dami ng tunog?", // #toBeUpdated
 				zh: "如何调整音量？", // #toBeUpdated
@@ -1632,7 +1633,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/audio.png">`,
 				de: `Öffnen Sie die Einstellungen in der oberen rechten Ecke des Desktop-Fensters und wählen Sie „Einstellungen ändern“. <br>Sie finden den Lautstärkeregler in der oberen rechten Ecke des Einstellungsfensters. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
 				fr: `Ouvrez les paramètres dans le coin supérieur droit de la fenêtre du bureau et sélectionnez « Modifier les paramètres ». La <br>commande de réglage du volume se trouve dans le coin supérieur droit de la fenêtre des paramètres. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
-				ru: `Откройте настройки в правом верхнем углу окна рабочего стола и выберите «изменить настройки». <br>Регулятор громкости находится в правом верхнем углу окна настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
+				ru: `Откройте настройки в правом верхнем углу окна и выберите «настройки». <br>Регулятор громкости находится в правом верхнем углу окна настроек. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, 
 				id: `Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'. <br>Anda dapat menemukan kontrol penyesuaian volume di sudut kanan atas jendela pengaturan. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
 				fil: `Buksan ang mga setting sa kanang itaas na sulok ng window ng desktop at piliin ang 'baguhin ang mga setting. ' <br>Maaari mong mahanap ang kontrol ng pagsasaayos ng lakas ng tunog sa kanang sulok sa itaas ng window ng mga setting. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
 				zh: `打开桌面窗口右上角的设置，然后选择 “更改设置”。<br>您可以在设置窗口的右上角找到音量调节控件。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
@@ -1647,7 +1648,7 @@
 				en: "The audio is not playing, how can I enable it?",
 				de: "Das Audio wird nicht abgespielt, wie kann ich es aktivieren?", // #toBeUpdated
 				fr: "L'audio n'est pas en cours de lecture, comment puis-je l'activer ?", // #toBeUpdated
-				ru: "Звук не воспроизводится, как его включить?", // #toBeUpdated
+				ru: "Звук не воспроизводится, как его включить?", 
 				id: "Audio tidak diputar, bagaimana saya bisa mengaktifkannya?", // #toBeUpdated
 				fil: "Ang audio ay hindi nagpe-play, paano ko ito paganahin?", // #toBeUpdated
 				zh: "音频没有播放，我该如何启用它？", // #toBeUpdated
@@ -1662,7 +1663,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/audio.png">`,
 				de: `Öffnen Sie die Einstellungen in der oberen rechten Ecke des Desktop-Fensters und wählen Sie „Einstellungen ändern“. <br>Sie finden die Soundausgabesteuerung in der oberen rechten Ecke des Einstellungsfensters. <br>Stellen Sie sicher, dass Sie den richtigen Lautsprecher (Audio-Ausgang) wählen und dass die Lautstärke nicht Null Prozent beträgt. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
 				fr: `Ouvrez les paramètres dans le coin supérieur droit de la fenêtre du bureau et sélectionnez « Modifier les paramètres ». <br>Vous pouvez trouver le contrôle de sortie audio dans le coin supérieur droit de la fenêtre des paramètres. <br>Assurez-vous de sélectionner le bon haut-parleur (sortie audio) et que le volume n'est pas égal à zéro pour cent. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
-				ru: `Откройте настройки в правом верхнем углу окна рабочего стола и выберите «изменить настройки». <br>Вы можете найти регулятор вывода звука в правом верхнем углу окна настроек. <br>Убедитесь, что выбран правильный динамик (аудиовыход) и громкость не равна нулю процентов. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
+				ru: `Откройте настройки в правом верхнем углу окна и выберите «настройки». <br>Вы можете найти контроль вывода звука в правом верхнем углу окна настроек. <br>Убедитесь, что выбран правильный динамик (аудиовыход) и громкость не равна нулю. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, 
 				id: `Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'. <br>Anda dapat menemukan kontrol output suara di sudut kanan atas jendela pengaturan. <br>Pastikan untuk memilih speaker yang tepat (audio-output) dan bahwa volume tidak nol persen. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
 				fil: `Buksan ang mga setting sa kanang itaas na sulok ng window ng desktop at piliin ang 'baguhin ang mga setting. ' <br>Maaari mong mahanap ang kontrol ng tunog output sa kanang sulok sa itaas ng window ng mga setting. <br>Tiyaking piliin ang tamang speaker (audio-output) at ang lakas ng tunog ay hindi zero porsiyento. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
 				zh: `打开桌面窗口右上角的设置，然后选择 “更改设置”。<br>您可以在设置窗口的右上角找到声音输出控件。<br>确保选择正确的扬声器（音频输出），并且音量不为零。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/audio.png'>`, // #toBeUpdated
@@ -1679,7 +1680,7 @@
 				en: "How can I enable the miss-click protection?",
 				de: "Wie kann ich den Fehlklickschutz aktivieren?", // #toBeUpdated
 				fr: "Comment puis-je activer la protection contre les clics manquées ?", // #toBeUpdated
-				ru: "Как включить защиту от промахов?", // #toBeUpdated
+				ru: "Как включить защиту от промахов?", 
 				id: "Bagaimana cara mengaktifkan perlindungan miss-click?", // #toBeUpdated
 				fil: "Paano ko paganahin ang proteksyon sa miss-click?", // #toBeUpdated
 				zh: "如何启用未命中点击保护？", // #toBeUpdated
@@ -1697,7 +1698,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/mouseclickmod.png">`,
 				de: `Um Fehlklicks in Spielfenstern zu vermeiden, können Sie einen Modifikator für den Schutz vor Fehlklicks aktivieren. <br>Dadurch werden Fenster nur dann interaktiv, wenn der Modifikator beim Klicken mit der Maus gedrückt wird. <br>Wir unterstützen „Alt“, „Strg“ und „Umschalt“. <br>Öffnen Sie die Einstellungen in der oberen rechten Ecke des Desktop-Fensters und wählen Sie „Einstellungen ändern“. <br>Sie finden die Taste „Mausklick-Modifikator“ in der oberen rechten Ecke des Einstellungsfensters. <br>Bitte beachten Sie, dass die Ankündigung von Timern im Chat nicht mehr funktioniert, wenn Sie „Umschalt“ oder „Strg“ als Modifikator auswählen. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/mouseclickmod.png'>`, // #toBeUpdated
 				fr: `Pour éviter les clics manquants dans les fenêtres du jeu, vous pouvez activer un modificateur de protection contre les clics manqués. <br>Cela rendra les fenêtres interactives uniquement si le modificateur est enfoncé en cliquant sur la souris. <br>Nous prenons en charge « alt », « ctrl » et « shift ». <br>Ouvrez les paramètres dans le coin supérieur droit de la fenêtre du bureau et sélectionnez « Modifier les paramètres ». <br>Vous pouvez trouver la touche « Modificateur de clic de souris » dans le coin supérieur droit de la fenêtre des paramètres. <br>Veuillez noter que si vous sélectionnez « shift » ou « ctrl » comme modificateur, les minuteries annoncées dans le chat ne fonctionneront plus. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/mouseclickmod.png'>`, // #toBeUpdated
-				ru: `Чтобы избежать промахов во внутриигровых окнах, вы можете включить модификатор защиты от промахов. <br>Окна станут интерактивными только в том случае, если модификатор нажат во время щелчка мышью. <br>Мы поддерживаем «alt», «ctrl» и «shift». <br>Откройте настройки в правом верхнем углу окна рабочего стола и выберите «изменить настройки». <br>Клавиша «Модификатор щелчка мышью» находится в правом верхнем углу окна настроек. <br>Обратите внимание, что если вы выберете «shift» или «ctrl» в качестве модификатора, таймеры объявления в чате больше не будут работать. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/mouseclickmod.png'>`, // #toBeUpdated
+				ru: `Чтобы избежать случайных нажатий по внутриигровым окнам, вы можете включить модификатор защиты от промахов. <br>Окна станут интерактивными только в том случае, если модификатор нажат во время щелчка мышью. <br>Мы поддерживаем «alt», «ctrl» и «shift». <br>Откройте настройки в правом верхнем углу окна и выберите «настройки». <br>Клавиша «Модификатор щелчка мышью» находится в правом верхнем углу окна настроек. <br>Обратите внимание, что если вы выберете «shift» или «ctrl» в качестве модификатора, объявления таймера в чате больше не будут работать. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/mouseclickmod.png'>`, 
 				id: `Untuk menghindari miss-klik pada jendela dalam game, Anda dapat mengaktifkan pengubah perlindungan miss-click. <br>Ini akan membuat jendela hanya interaktif jika pengubah ditekan saat mengklik mouse. <br>Kami mendukung 'alt', 'ctrl' dan 'shift'. <br>Buka pengaturan di sudut kanan atas jendela desktop dan pilih 'perubahan pengaturan'. <br>Anda dapat menemukan 'Mouse Click Modifier' Key di sudut kanan atas jendela pengaturan. <br>Harap dicatat bahwa jika Anda memilih 'shift' atau 'ctrl' sebagai pengubah, mengumumkan timer dalam obrolan tidak akan berfungsi lagi. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/mouseclickmod.png'>`, // #toBeUpdated
 				fil: `Upang maiwasan ang mga miss-click sa mga in-game window, maaari mong paganahin ang isang modier ng proteksyon sa miss-click. <br>Gagawing interactive lamang ang mga bintana kung pinindot ng modifier habang pinindot ang mouse. <br>Sinusuportahan namin ang 'alt', 'ctrl' at 'shift'. <br>Buksan ang mga setting sa kanang itaas na sulok ng window ng desktop at piliin ang 'baguhin ang mga setting. ' <br>Makikita mo ang “Mouse Click Mouse Modifier' na Key sa kanang sulok sa itaas ng window ng mga setting. <br>Mangyaring tandaan na kung pipiliin mo ang 'shift' o 'ctrl' bilang modifier, ang pagpapahayag ng mga timers sa chat ay hindi na gagana. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/mouseclickmod.png'>`, // #toBeUpdated
 				zh: `为避免在游戏窗口中错过点击，您可以启用未命中点击保护修改器。<br>这将使窗口只有在鼠标单击时按下修改器时才具有交互性。<br>我们支持 “alt”、“ctrl” 和 “shift”。<br>打开桌面窗口右上角的设置，然后选择 “更改设置”。<br>您可以在设置窗口的右上角找到 “鼠标单击修改器” 键。<br>请注意，如果您选择 “shift” 或 “ctrl” 作为修饰 符，则在聊天中宣布计时器将不再起作用。<br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/mouseclickmod.png'>`, // #toBeUpdated
@@ -1714,7 +1715,7 @@
 				en: "What is the modifier key?",
 				de: "Was ist der Zusatztaste?", // #toBeUpdated
 				fr: "Qu'est-ce que la touche de modification ?", // #toBeUpdated
-				ru: "Что такое клавиша-модификатор?", // #toBeUpdated
+				ru: "Что такое клавиша-модификатор?", 
 				id: "Apa kunci pengubah?", // #toBeUpdated
 				fil: "Ano ang key ng modifier?", // #toBeUpdated
 				zh: "什么是修饰键？", // #toBeUpdated
@@ -1726,7 +1727,7 @@
 					If you have encounter problems with miss-clicks on windows, make sure to enable the modifier key.`,
 				de: `Der Modifikatorschlüssel wurde eingeführt, um Fehlklicks auf Fensterelemente zu vermeiden. <br>Wenn Sie Probleme mit Fehlklicks in Windows haben, achten Sie darauf, die Modifikatortaste zu aktivieren.`, // #toBeUpdated
 				fr: `La touche de modification a été introduite pour éviter les clics manquants sur les éléments de la fenêtre. <br>Si vous rencontrez des problèmes de clics sur Windows, assurez-vous d'activer la touche de modification.`, // #toBeUpdated
-				ru: `Клавиша-модификатор была введена, чтобы избежать промахов по элементам окна. <br>Если у вас возникли проблемы с пропусками кликов в окнах, обязательно включите клавишу-модификатор.`, // #toBeUpdated
+				ru: `Клавиша-модификатор была введена, чтобы избежать промахов по элементам окна. <br>Если у вас возникли проблемы с пропусками кликов в окнах, обязательно включите клавишу-модификатор.`, 
 				id: `Kunci pengubah diperkenalkan untuk menghindari miss-click pada elemen jendela. <br>Jika Anda mengalami masalah dengan miss-click pada windows, pastikan untuk mengaktifkan tombol modifier.`, // #toBeUpdated
 				fil: `Ang key ng modifier ay ipinakilala upang maiwasan ang mga miss-click sa mga elemento ng window. <br>Kung mayroon kang mga problema sa mga miss-click sa mga bintana, siguraduhing paganahin ang key ng modifier.`, // #toBeUpdated
 				zh: `引入修饰键是为了避免错误点击窗口元素。<br>如果你在窗口上遇到误击的问题，请务必启用修饰键。`, // #toBeUpdated
@@ -1740,7 +1741,7 @@
 				en: "Where can I change the hotkeys? ",
 				de: "Wo kann ich die Hotkeys ändern? ", // #toBeUpdated
 				fr: "Où puis-je modifier les raccourcis clavier ? ", // #toBeUpdated
-				ru: "Где можно поменять горячие клавиши? ", // #toBeUpdated
+				ru: "Где можно поменять горячие клавиши? ", 
 				id: "Dimana saya bisa mengganti hotkeys? ", // #toBeUpdated
 				fil: "Saan ko mababago ang mga hotkey? ", // #toBeUpdated
 				zh: "我在哪里可以更改热键？ ", // #toBeUpdated
@@ -1761,7 +1762,7 @@
 					<img class="img-fluid rounded shadow" src="./images/faqs/overwolfhotkeys.png">`,
 				de: `Der App-Hotkey wird in den Einstellungen der Overwolf-Anwendung geändert. <br><ul><li>Klicke mit der rechten Maustaste auf das Overwolf-Symbol in deiner Taskleiste. </li><li>Wählen Sie die Einstellungen. </li><li>Wählen Sie in der oberen linken Ecke Overlay & Hotkeys aus. </li><li>Wähle Dota 2 als Spiel aus. </li><li>Gehen Sie zum Dota Coach Section. </li><li>Ändern Sie die Hotkeys an Ihre Bedürfnisse. </li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, // #toBeUpdated
 				fr: `Le raccourci clavier de l'application est modifié dans les paramètres de l'application overwolf. <br><ul><li>Cliquez avec le bouton droit sur le symbole Overwolf dans votre barre des tâches. </li><li>Sélectionnez les paramètres. </li><li>Sélectionnez Superposition et raccourcis clavier dans le coin supérieur gauche. </li><li>Sélectionnez Dota 2 comme jeu. </li><li>Accédez à la section des entraîneurs Dota. </li><li>Modifiez les touches de raccourci selon vos besoins. </li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, // #toBeUpdated
-				ru: `Горячие клавиши приложения изменены в настройках приложения overwolf. <br><ul><li>Щелкните правой кнопкой мыши символ overwolf на панели задач. </li><li>Выберите настройки. </li><li>Выберите Overlay & Hotkeys в левом верхнем углу. </li><li>Выберите Dota 2 в качестве игры. </li><li>Зайдите в раздел тренера по Dota. </li><li>Измените горячие клавиши в соответствии с вашими потребностями. </li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, // #toBeUpdated
+				ru: `Горячие клавиши приложения изменяются в настройках приложения Overwolf. <br><ul><li>Щелкните правой кнопкой мыши на символ Overwolf на панели задач. </li><li>Выберите настройки. </li><li>Выберите Overlay & Hotkeys в левом верхнем углу. </li><li>Выберите Dota 2 в качестве игры. </li><li>Зайдите в раздел Dota Coach. </li><li>Измените горячие клавиши в соответствии с вашими потребностями. </li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, 
 				id: `Hotkey aplikasi diubah dalam pengaturan aplikasi overwolf. <br><ul><li>Klik kanan simbol overwolf di taskbar Anda. </li><li>Pilih pengaturan. </li><li>Pilih Overlay & Hotkeys di pojok kiri atas. </li><li>Pilih Dota 2 sebagai permainan. </li><li>Pergi ke Bagian Pelatih Dota. </li><li>Ubah hotkeys sesuai kebutuhan Anda. </li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, // #toBeUpdated
 				fil: `Ang hotkey ng app ay binago sa mga setting ng overwolf application. <br><ul><li>I-right-click ang simbolo ng overwolf sa iyong taskbar. </li><li>Piliin ang mga setting. </li><li>Piliin ang Overlay & Hotkeys sa kaliwang sulok sa itaas. </li><li>Piliin ang Dota 2 bilang laro. </li><li>Pumunta sa Seksyon ng Dota Coach. </li><li>Baguhin ang mga hotkey sa iyong mga pangangailangan. </li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, // #toBeUpdated
 				zh: `在overwolf应用程序设置中更改了应用程序热键。<br><ul><li>右键单击任务栏中的 overwolf 符号。</li><li>选择设置。</li><li>选择左上角的叠加和热键。</li><li>选择 Dota 2 作为游戏。</li><li>前往 Dota 教练专区。</li><li>根据需要更改热键。</li></ul><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/overwolfhotkeys.png'>`, // #toBeUpdated
@@ -1781,17 +1782,26 @@
 		// Streaming
 		streamAllowed: {
 			question: {
+				ru: "Могу ли я стримить вместе с приложением?",
 				en: "Am I allowed to stream with the App?",
 			},
 			content: {
+				ru: "Вы можете стримить с нашим приложением в любое время!",
 				en: `You are allowed to stream with our app at any given time!<br>`,
 			},
 		},
 		streamMissingWindows: {
 			question: {
+				ru: "Почему некоторые окна пропадали во время трансляции?",
 				en: "Why are some windows missing on stream?",
 			},
 			content: {
+				ru: `OBS предлагает множество возможностей для захвата игровых оверлеев.<br>
+				Если на вашей трансляции отсутствуют некоторые окна приложений, вам следует попробовать следующее:
+				<ул>
+				<<li>Откройте окно Dota 2 с захватом игры (щелкните правой кнопкой мыши Источник -> Добавить -> Захват игры)</li>
+				<<li>Откройте окно Dota2 с захватом монитора (щелкните правой кнопкой мыши Источник -> Добавить -> Захват монитора)</li>
+				</ul>`,
 				en: `OBS offers a variety of possibilites to capture in-game overlays.<br>
 				If some of the app windows are missing on your stream, you should try the following:
 				<ul>
@@ -1802,9 +1812,16 @@
 		},
 		streamPartner: {
 			question: {
+				ru: "Могу ли я сторудничать с вами?",
 				en: "Can I get a partnership?",
 			},
 			content: {
+				ru: `Конечно, мы предлагаем сотрудничества стримерам, тренерам и создателям контента!<br> 
+				Пожалуйста, свяжитесь с нами:
+				<ul>
+				<li>E-Mail: info (at) dota-coach.com</li>
+				<li>Discord: Dota Coach#4076</li>
+				</ul>`,
 				en: `Yes, we offer partnerships to streamers, coaches and content creators!<br> 
 				Please contact us with your proposal:
 				<ul>

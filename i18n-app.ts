@@ -472,7 +472,7 @@ export const AppTranslations: Translations = {
     en: "Length",
     de: "Dauer",
     fr: "Durée",
-    ru: "Длина",
+    ru: "Длительность",
     id: "Panjangnya", // #toBeUpdated
     fil: "Haba", // #toBeUpdated
     zh: "长度", // #toBeUpdated

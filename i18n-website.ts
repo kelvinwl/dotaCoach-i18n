@@ -12,7 +12,7 @@ export const WebsiteTranslations: Translations = {
     en: "We're sorry to see you go...",
     de: "Es tut uns leid dich gehen zu sehen...",
     fr: "Nous sommes désolés de te voir partir...",
-    ru: "Нам жаль, что вы ушли...", // #toBeUpdated
+    ru: "Нам жаль, что вы ушли...", 
     id: "Kami minta maaf melihatmu pergi...", // #toBeUpdated
     fil: "Ikinalulungkot naming makita kang pumunta...", // #toBeUpdated
     zh: "我们很抱歉看到你走了...", // #toBeUpdated
@@ -23,7 +23,7 @@ export const WebsiteTranslations: Translations = {
     en: "Why are you leaving us?",
     de: "Warum verlässt du uns?",
     fr: "Pourquoi est-ce que tu nous quittes ?",
-    ru: "Почему вы нас покидаете?", // #toBeUpdated
+    ru: "Почему вы нас покидаете?", 
     id: "Kenapa kau meninggalkan kami?", // #toBeUpdated
     fil: "Bakit mo kami iniiwan?", // #toBeUpdated
     zh: "你为什么要离开我们？", // #toBeUpdated
@@ -34,7 +34,7 @@ export const WebsiteTranslations: Translations = {
     en: "My language is not supported",
     de: "Meine Sprache wird nicht unterstützt",
     fr: "Ma langue n'est pas prise en charge", // #toBeUpdated
-    ru: "Мой язык не поддерживается", // #toBeUpdated
+    ru: "Мой язык не поддерживается", 
     id: "Bahasa saya tidak didukung", // #toBeUpdated
     fil: "Ang aking wika ay hindi suportado", // #toBeUpdated
     zh: "我的语言不受支持", // #toBeUpdated
@@ -45,7 +45,7 @@ export const WebsiteTranslations: Translations = {
     en: "Too many ads",
     de: "Zu viel Werbung",
     fr: "Trop de publicité",
-    ru: "Слишком много рекламы", // #toBeUpdated
+    ru: "Слишком много рекламы", 
     id: "Terlalu banyak iklan", // #toBeUpdated
     fil: "Masyadong maraming mga ad", // #toBeUpdated
     zh: "广告太多", // #toBeUpdated
@@ -56,7 +56,7 @@ export const WebsiteTranslations: Translations = {
     en: "Performance issues (low FPS)",
     de: "Leistungsprobleme (niedrige FPS)",
     fr: "Problèmes de performance (faible FPS)",
-    ru: "Проблемы с производительностью (низкий FPS)", // #toBeUpdated
+    ru: "Проблемы с производительностью (низкий FPS)", 
     id: "Masalah kinerja (FPS rendah)", // #toBeUpdated
     fil: "Mga isyu sa pagganap (mababang FPS)", // #toBeUpdated
     zh: "性能问题（低FPS）", // #toBeUpdated
@@ -67,7 +67,7 @@ export const WebsiteTranslations: Translations = {
     en: "App didn't work",
     de: "App hat nicht funktioniert",
     fr: "L'application n'a pas fonctionné",
-    ru: "Приложение не работает", // #toBeUpdated
+    ru: "Приложение не работает", 
     id: "Aplikasi tidak bekerja", // #toBeUpdated
     fil: "Hindi gumagana ang app", // #toBeUpdated
     zh: "应用程序无法正常工作", // #toBeUpdated
@@ -78,7 +78,7 @@ export const WebsiteTranslations: Translations = {
     en: "Too many bugs",
     de: "Zu viele Bugs",
     fr: "Trop de bugs",
-    ru: "Слишком много ошибок", // #toBeUpdated
+    ru: "Слишком много багов", 
     id: "Terlalu banyak bug", // #toBeUpdated
     fil: "Masyadong maraming mga bug", // #toBeUpdated
     zh: "错误太多", // #toBeUpdated
@@ -89,7 +89,7 @@ export const WebsiteTranslations: Translations = {
     en: "UX/UI was bad",
     de: "UX/UI war schlecht",
     fr: "L'UX/UI était mauvais",
-    ru: "UX/пользовательский интерфейс был плохим", // #toBeUpdated
+    ru: "Плохой UX/UI интерфейс", 
     id: "UX/UI buruk", // #toBeUpdated
     fil: "UX/UI ay masama", // #toBeUpdated
     zh: "UX/UI 太糟糕了", // #toBeUpdated
@@ -100,7 +100,7 @@ export const WebsiteTranslations: Translations = {
     en: "Other apps are better",
     de: "Andere Apps sind besser",
     fr: "Des autres applications sont meilleures",
-    ru: "Другие приложения лучше", // #toBeUpdated
+    ru: "Другие приложения лучше",
     id: "Aplikasi lain lebih baik", // #toBeUpdated
     fil: "Ang iba pang mga app ay mas mahusay", // #toBeUpdated
     zh: "其他应用程序更好", // #toBeUpdated
@@ -111,7 +111,7 @@ export const WebsiteTranslations: Translations = {
     en: "I don't play Dota 2 anymore",
     de: "Ich spiele nicht mehr Dota 2",
     fr: "Je ne joue plus à Dota 2",
-    ru: "Я больше не играю в Dota 2", // #toBeUpdated
+    ru: "Я больше не играю в Dota 2", 
     id: "Saya tidak bermain Dota 2 lagi", // #toBeUpdated
     fil: "Hindi na ako naglalaro ng Dota 2", // #toBeUpdated
     zh: "我不再玩 Dota 2 了", // #toBeUpdated
@@ -123,7 +123,7 @@ export const WebsiteTranslations: Translations = {
     en: "Other",
     de: "Andere",
     fr: "Autres",
-    ru: "Другой", // #toBeUpdated
+    ru: "Другое", 
     id: "Lainnya", // #toBeUpdated
     fil: "Iba", // #toBeUpdated
     zh: "其他", // #toBeUpdated
@@ -134,7 +134,7 @@ export const WebsiteTranslations: Translations = {
     en: "What could we have done better?",
     de: "Was hätten wir besser machen können?",
     fr: "Qu'aurions-nous pu faire de mieux ?",
-    ru: "Что мы могли сделать лучше?", // #toBeUpdated
+    ru: "Что мы могли сделать лучше?", 
     id: "Apa yang bisa kita lakukan lebih baik?", // #toBeUpdated
     fil: "Ano ang maaari nating gawin nang mas mahusay?", // #toBeUpdated
     zh: "我们能做得更好些什么？", // #toBeUpdated
@@ -145,7 +145,7 @@ export const WebsiteTranslations: Translations = {
     en: "We hope you can try us out again in the future.<br>Thank you for making Dota Coach better.",
     de: "Wir hoffen, dass du uns in Zukunft nochmals ausprobieren wirst.<br>Danke, dass du Dota Coach besser gemacht hast.",
     fr: "Nous espérons que tu nous essayera à nouveau à l'avenir.<br>Merci d'avoir amélioré Dota Coach.",
-    ru: "Надеемся, вы сможете попробовать нас снова в будущем. <br>Спасибо, что сделали Dota Coach лучше.", // #toBeUpdated
+    ru: "Надеемся, вы сможете опробовать нас снова в будущем. <br>Спасибо, что сделали Dota Coach лучше.", 
     id: "Kami harap Anda dapat mencoba kami lagi di masa depan. <br>Terima kasih telah membuat Dota Coach lebih baik.", // #toBeUpdated
     fil: "Umaasa kami na maaari mong subukan kami muli sa hinaharap. <br>Salamat sa paggawa ng Dota Coach mas mahusay.", // #toBeUpdated
     zh: "我们希望你将来能再试一次。<br>感谢你让 Dota Coach 变得更好。", // #toBeUpdated
@@ -156,7 +156,7 @@ export const WebsiteTranslations: Translations = {
     en: "Thank you for your feedback!",
     de: "Danke für dein Feedback!",
     fr: "Merci pour tes commentaires !",
-    ru: "Спасибо за отзыв!", // #toBeUpdated
+    ru: "Спасибо за ваш отзыв!",
     id: "Terima kasih atas tanggapan Anda!", // #toBeUpdated
     fil: "Salamat sa iyong feedback!", // #toBeUpdated
     zh: "谢谢你的反馈！", // #toBeUpdated
@@ -167,7 +167,7 @@ export const WebsiteTranslations: Translations = {
     en: "E.g. bugs, not enough features, etc.",
     de: "Z.B. Bugs, fehlende Funktionalitäten, usw.",
     fr: "Par exemple, des bugs, des fonctionnalités manquantes, etc.",
-    ru: "Например, ошибки, недостаточно функций и т. Д.", // #toBeUpdated
+    ru: "Например, баги, малое количество функций и т.д.", 
     id: "Misalnya bug, tidak cukup fitur, dll.", // #toBeUpdated
     fil: "Halimbawa, mga bug, hindi sapat na mga tampok, atbp.", // #toBeUpdated
     zh: "例如 bug、功能不足等。", // #toBeUpdated
