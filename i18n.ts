@@ -298,12 +298,18 @@ function configureWebLinks(element: Element) {
 
   // Add listeners for webLinks
   for (let i = 0; i < linkId; i++) {
-    console.log(`*** webLink-${i18nToken}-${i}`);
+    //console.log(`*** webLink-${i18nToken}-${i}`);
     const e = document.getElementById(`webLink-${i18nToken}-${i}`);
     e.addEventListener("click", () => {
-      /*overwolf.utils.openUrlInOverwolfBrowser(
-        activeTranslations[i18nToken].webLinks[i]
-      );*/
+      let webLink = activeTranslations[i18nToken].webLinks[i];
+      if (webLink == "https://dota-coach.com/video/DotaCoachTutorial.mp4") {
+        if (getLanguage() == "ru") {
+          webLink = "https://dota-coach.com/video/DotaCoachTutorial-ru.mp4";
+        } else {
+          webLink = "https://dota-coach.com/video/DotaCoachTutorial-en.mp4";
+        }
+      }
+      overwolf.utils.openUrlInOverwolfBrowser(webLink);
     });
   }
 }
