@@ -118,7 +118,7 @@ export const AppTranslations: Translations = {
     en: "All pick, turbo, single draft, random draft, all random.",
     de: "Alle Auswahl, Turbo, Einzelentwurf, zufälliger Entwurf, alles zufällig.", // #toBeUpdated
     fr: "Tout pick, turbo, simple draft, draft aléatoire, tout aléatoire.", // #toBeUpdated
-    ru: "Все пики, турбо, одиночные драфты, случайные драфты, все случайные.", // #toBeUpdated
+    ru: "All pick, turbo, single draft, random draft, all random.", 
     id: "Semua pick, turbo, draft tunggal, draft acak, semua acak.", // #toBeUpdated
     fil: "Lahat ng pick, turbo, solong draft, random draft, lahat ng random.", // #toBeUpdated
     zh: "所有选择、turbo、单草稿、随机草稿，都是随机的。", // #toBeUpdated
@@ -262,7 +262,7 @@ export const AppTranslations: Translations = {
     en: "GPM",
     de: "GPM", // #toBeUpdated
     fr: "GAL/MIN", // #toBeUpdated
-    ru: "ГАЛЛОНОВ В МИНУТУ", // #toBeUpdated
+    ru: "GPM", 
     id: "GPM", // #toBeUpdated
     fil: "GPM", // #toBeUpdated
     zh: "GPM", // #toBeUpdated
@@ -273,7 +273,7 @@ export const AppTranslations: Translations = {
     en: "XPM",
     de: "XPM", // #toBeUpdated
     fr: "XPM", // #toBeUpdated
-    ru: "XPM", // #toBeUpdated
+    ru: "XPM", 
     id: "XPM", // #toBeUpdated
     fil: "XPM", // #toBeUpdated
     zh: "XPM", // #toBeUpdated
@@ -428,7 +428,7 @@ export const AppTranslations: Translations = {
     en: "Match",
     de: "Spiel",
     fr: "Match",
-    ru: "Матч", // #toBeUpdated
+    ru: "Матч",
     id: "Pertandingan", // #toBeUpdated
     fil: "Pareha", // #toBeUpdated
     zh: "匹配", // #toBeUpdated
@@ -507,7 +507,7 @@ export const AppTranslations: Translations = {
     en: "OpenDota",
     de: "OpenDota", // #toBeUpdated
     fr: "OpenDota", // #toBeUpdated
-    ru: "OpenDota", // #toBeUpdated
+    ru: "OpenDota", 
     id: "OpenDota", // #toBeUpdated
     fil: "OpenDota", // #toBeUpdated
     zh: "OpenDota", // #toBeUpdated
@@ -529,7 +529,7 @@ export const AppTranslations: Translations = {
     en: "Steam",
     de: "Steam", // #toBeUpdated
     fr: "Steam", // #toBeUpdated
-    ru: "Steam", // #toBeUpdated
+    ru: "Steam", 
     id: "Steam", // #toBeUpdated
     fil: "Steam", // #toBeUpdated
     zh: "Steam", // #toBeUpdated
@@ -586,7 +586,7 @@ export const AppTranslations: Translations = {
     en: "Matches",
     de: "Spiele",
     fr: "Matchs", // #toBeUpdated
-    ru: "Матчи", // #toBeUpdated
+    ru: "Матчи", 
     id: "Pertandingan", // #toBeUpdated
     fil: "Mga Tugma", // #toBeUpdated
     zh: "比赛",
@@ -597,7 +597,7 @@ export const AppTranslations: Translations = {
     en: "Rolle",
     de: "Rolle",
     fr: "Rolle", // #toBeUpdated
-    ru: "Ролле", // #toBeUpdated
+    ru: "Роль", 
     id: "Rolle", // #toBeUpdated
     fil: "Rolle", // #toBeUpdated
     zh: "分路",
@@ -609,7 +609,7 @@ export const AppTranslations: Translations = {
     en: "Players using Dota Coach",
     de: "Spieler die Dota Coach verwenden",
     fr: "Joueurs utilisant Dota Coach", // #toBeUpdated
-    ru: "Игроки, использующие Dota Coach", // #toBeUpdated
+    ru: "Игроки, использующие Dota Coach",
     id: "Pemain menggunakan Dota Coach", // #toBeUpdated
     fil: "Ang mga manlalaro gamit ang Dota Coach", // #toBeUpdated
     zh: "此玩家正在使用DotaCoach",
@@ -621,7 +621,7 @@ export const AppTranslations: Translations = {
     en: "In your team: ####",
     de: "In deinem Team: ####",
     fr: "Dans votre équipe : ####", // #toBeUpdated
-    ru: "В вашей команде: ####", // #toBeUpdated
+    ru: "В вашей команде: ####", 
     id: "Dalam tim Anda: ####", // #toBeUpdated
     fil: "Sa iyong koponan: ####", // #toBeUpdated
     zh: "在你的团队中：####", // #toBeUpdated
@@ -633,7 +633,7 @@ export const AppTranslations: Translations = {
     en: "In enemy team: ####",
     de: "Im gegnerischen Team: ####",
     fr: "Dans l'équipe ennemie : ####", // #toBeUpdated
-    ru: "Во вражеской команде: ####", // #toBeUpdated
+    ru: "Во вражеской команде: ####", 
     id: "Dalam tim musuh: ####", // #toBeUpdated
     fil: "Sa koponan ng kaaway: ####", // #toBeUpdated
     zh: "在敌方队伍中：####", // #toBeUpdated
@@ -645,7 +645,7 @@ export const AppTranslations: Translations = {
     en: `<span class="txt-green">Won</span> as #### with #### as #### #### days ago.`,
     de: `<span class="txt-green">Won</span> als #### mit #### als #### vor #### Tagen.`,
     fr: `<span class="txt-green">A gagné</span> #### avec #### comme #### #### il y a quelques jours.`, // #toBeUpdated
-    ru: `<span class="txt-green">Выиграл</span> как #### с #### как #### ### дней назад.`, // #toBeUpdated
+    ru: `<span class="txt-green">Выиграл</span> как #### с #### как #### #### дней назад.`, 
     id: `<span class="txt-green">Menang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
     zh: `几天前以 #### 的身份@@ <span class="txt-green">赢得</span> ##### ### ##。`, // #toBeUpdated
@@ -657,7 +657,7 @@ export const AppTranslations: Translations = {
     en: `<span class="txt-red">Lost</span> as #### with #### as #### #### days ago.`,
     de: `<span class="txt-red">Verloren</span> als #### mit #### als #### vor #### Tagen.`,
     fr: `<span class="txt-red">Perdu</span> comme #### avec #### comme #### #### il y a quelques jours.`, // #toBeUpdated
-    ru: `<span class="txt-red">Потерян</span> как #### с #### как #### ### дней назад.`, // #toBeUpdated
+    ru: `<span class="txt-red">Проиграл</span> как #### с #### как #### #### дней назад.`, 
     id: `<span class="txt-red">Hilang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
     zh: `几天前以 ##### 的形式@@<span class="txt-red"> 丢失</span>为 ##### ####。`, // #toBeUpdated
@@ -669,7 +669,7 @@ export const AppTranslations: Translations = {
     en: `<span class="txt-green">Won</span> as #### vs #### as #### #### days ago.`,
     de: `<span class="txt-green">Gewonnen</span> als #### gegen #### als #### vor #### Tagen.`,
     fr: `<span class="txt-green">A gagné</span> #### contre #### comme #### #### il y a quelques jours.`, // #toBeUpdated
-    ru: `<span class="txt-green">Выиграл</span> как #### против #### как #### ### дней назад.`, // #toBeUpdated
+    ru: `<span class="txt-green">Выиграл</span> как #### против #### как #### #### дней назад.`, 
     id: `<span class="txt-green">Menang</span> sebagai ##### vs ######### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> bilang #### vs #### bilang ### # # # mga araw na nakalipas.`, // #toBeUpdated
     zh: `几天前以 #### vs ##### 作为 #######<span class="txt-green"> 赢</span>了。`, // #toBeUpdated
@@ -680,7 +680,7 @@ export const AppTranslations: Translations = {
     en: `<span class="txt-red">Lost</span> as #### vs #### as #### #### days ago.`,
     de: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`,
     fr: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`, // #toBeUpdated
-    ru: `<span class="txt-red">Верлорен</span> аль #### геген #### аль ### для #### таген.`, // #toBeUpdated
+    ru: `<span class="txt-red">Проиграл</span> как #### против #### как ### ##### дней назад.`, 
     id: `<span class="txt-red">Verloren</span> als ##### # # als #### vor #### Tagen.`, // #toBeUpdated
     fil: `<span class="txt-red">Verloren</span> als #### berde ### als #### para sa #### Tagen.`, // #toBeUpdated
     zh: `<span class="txt-red">Verloren</span> als #### gegen #### 也是 #### vor #### Tagen。`, // #toBeUpdated
@@ -692,7 +692,7 @@ export const AppTranslations: Translations = {
     en: "Enemy hero",
     de: "Gegner Held",
     fr: "Héros ennemi", // #toBeUpdated
-    ru: "Вражеский герой", // #toBeUpdated
+    ru: "Герой противника", 
     id: "Musuh pahlawan", // #toBeUpdated
     fil: "Kaaway bayani", // #toBeUpdated
     zh: "敌方英雄",
@@ -704,7 +704,7 @@ export const AppTranslations: Translations = {
     en: "My lane",
     de: "Meine Linie",
     fr: "Ma voie", // #toBeUpdated
-    ru: "Мой переулок", // #toBeUpdated
+    ru: "Моя линия", 
     id: "Jalur saya", // #toBeUpdated
     fil: "Aking lane", // #toBeUpdated
     zh: "和我对线",
@@ -716,7 +716,7 @@ export const AppTranslations: Translations = {
     en: "Counter items to consider (laning)",
     de: "Berücksichtige Konter Gegenstände (Linie)",
     fr: "Points de comptoir à considérer (atterrissage)", // #toBeUpdated
-    ru: "Предметы счетчика для рассмотрения (laning)", // #toBeUpdated
+    ru: "Контр предметы на рассмотрение (лайнинг)", 
     id: "Counter item untuk dipertimbangkan (laning)", // #toBeUpdated
     fil: "Counter item upang isaalang-alang (laning)", // #toBeUpdated
     zh: "可以考虑针对使用的物品（对线期）",
@@ -728,7 +728,7 @@ export const AppTranslations: Translations = {
     en: "Enjoy watching!",
     de: "Viel Spaß beim Zusehen!",
     fr: "Profitez de regarder !", // #toBeUpdated
-    ru: "Приятного просмотра!", // #toBeUpdated
+    ru: "Приятного просмотра!", 
     id: "Nikmati menonton!", // #toBeUpdated
     fil: "Tangkilikin ang panonood!", // #toBeUpdated
     zh: "享受观看比赛的乐趣吧！",
@@ -740,7 +740,7 @@ export const AppTranslations: Translations = {
     en: "Waiting for information on players...",
     de: "Warte auf Spielerinformationen...",
     fr: "En attente d'informations sur les joueurs...", // #toBeUpdated
-    ru: "Жду информации об игроках...", // #toBeUpdated
+    ru: "Ожидание информации об игроках...", 
     id: "Menunggu informasi tentang pemain...", // #toBeUpdated
     fil: "Naghihintay para sa impormasyon sa mga manlalaro...", // #toBeUpdated
     zh: "正在等待玩家信息",
@@ -752,7 +752,7 @@ export const AppTranslations: Translations = {
     en: "Ban suggestions",
     de: "Ban Vorschläge",
     fr: "Suggestions", // #toBeUpdated
-    ru: "Предложения по запрету", // #toBeUpdated
+    ru: "Предложения по банам", 
     id: "Saran larangan", // #toBeUpdated
     fil: "Mga mungkahi Ban", // #toBeUpdated
     zh: "禁用英雄建议",
@@ -764,7 +764,7 @@ export const AppTranslations: Translations = {
     en: "No win/lose streak in the last three matches.",
     de: "Keine Sieges/Niederlagen Serie in den letzten 3 Spielen.",
     fr: "Aucune série de victoires/défaites lors des trois derniers matchs.", // #toBeUpdated
-    ru: "В последних трех матчах нет серии побед и поражений.", // #toBeUpdated
+    ru: "В последних трех матчах отсутствуют серии побед и поражений.", 
     id: "Tidak ada kemenangan beruntun dalam tiga pertandingan terakhir.", // #toBeUpdated
     fil: "Walang manalo/mawalan ng streak sa huling tatlong tugma.", // #toBeUpdated
     zh: "没有三连胜或者三连败",
@@ -776,7 +776,7 @@ export const AppTranslations: Translations = {
     en: "Winning / losing streaks",
     de: "Sieges / Niederlagen Serien",
     fr: "Conséquences gagnantes/perdantes", // #toBeUpdated
-    ru: "Победные/проигрышные серии", // #toBeUpdated
+    ru: "Серии побед/поражений", 
     id: "Memenang/kehilangan garis-garis", // #toBeUpdated
     fil: "Panalong/pagkawala ng streaks", // #toBeUpdated
     zh: "正在连胜或者连败",
@@ -788,7 +788,7 @@ export const AppTranslations: Translations = {
     en: "People you played with",
     de: "Spieler mit denen du gespielt hast",
     fr: "Les personnes avec qui vous avez joué", // #toBeUpdated
-    ru: "Люди, с которыми вы играли", // #toBeUpdated
+    ru: "Люди, с которыми вы играли", 
     id: "Orang yang Anda bermain dengan", // #toBeUpdated
     fil: "Mga taong nilalaro mo", // #toBeUpdated
     zh: "一起玩的队友",
@@ -800,7 +800,7 @@ export const AppTranslations: Translations = {
     en: "No spezific hero needs to be banned.",
     de: "Kein spezifischer Held muss gebannt werden.",
     fr: "Aucun héros spécifique n'a besoin d'être banni.", // #toBeUpdated
-    ru: "Никакого конкретного героя не нужно забанить.", // #toBeUpdated
+    ru: "Нет героев, которых нужно забанить", 
     id: "Tidak ada pahlawan spezific perlu dilarang.", // #toBeUpdated
     fil: "Walang partikular na bayani ang kailangang pinagbawalan.", // #toBeUpdated
     zh: "没有需要去Ban掉的英雄",
@@ -812,7 +812,7 @@ export const AppTranslations: Translations = {
     en: "All heroes can be banned.",
     de: "Alle Helden können gebannt werden.",
     fr: "Tous les héros peuvent être bannis.",
-    ru: "Всех героев можно забанить.", // #toBeUpdated
+    ru: "Всех героев можно забанить.", 
     id: "Semua pahlawan bisa dilarang.", // #toBeUpdated
     fil: "Ang lahat ng mga bayani ay maaaring pinagbawalan.", // #toBeUpdated
     zh: "所有英雄都可以被封禁。", // #toBeUpdated
@@ -824,7 +824,7 @@ export const AppTranslations: Translations = {
     en: "You won 4 games in a row",
     de: "Du hast 4 Spiele in Folge gewonnen",
     fr: "Vous avez gagné 4 parties d'affilée", // #toBeUpdated
-    ru: "Вы выиграли 4 игры подряд", // #toBeUpdated
+    ru: "Вы выиграли 4 игры подряд", 
     id: "Anda memenangkan 4 pertandingan berturut-turut", // #toBeUpdated
     fil: "Nanalo ka ng 4 na laro sa isang hilera", // #toBeUpdated
     zh: "你连续赢了 4 场比赛", // #toBeUpdated
@@ -835,7 +835,7 @@ export const AppTranslations: Translations = {
     en: "#### in your team won 4 games in a row",
     de: "#### in deiner Mannschaft hat 4 Spiele in Folge gewonnen", // #toBeUpdated
     fr: "#### de ton équipe a gagné 4 matchs d'affilée", // #toBeUpdated
-    ru: "#### ваша команда выиграла 4 игры подряд", // #toBeUpdated
+    ru: "#### в вашей команде выиграл 4 игры подряд", 
     id: "#### di tim Anda memenangkan 4 pertandingan berturut-turut", // #toBeUpdated
     fil: "#### sa iyong koponan ay nanalo ng 4 na laro sa isang hilera", // #toBeUpdated
     zh: "#### 在你的队伍中连续赢了 4 场比赛", // #toBeUpdated
@@ -846,7 +846,7 @@ export const AppTranslations: Translations = {
     en: "#### in the enemy team won 4 games in a row",
     de: "#### im gegnerischen Team hat 4 Spiele in Folge gewonnen",
     fr: "#### dans l'équipe adverse a gagné 4 matchs d'affilée", // #toBeUpdated
-    ru: "#### во вражеской команде победили в 4 играх подряд", // #toBeUpdated
+    ru: "#### во вражеской команде выиграл в 4 играх подряд", 
     id: "#### di tim musuh memenangkan 4 pertandingan berturut-turut", // #toBeUpdated
     fil: "#### sa koponan ng kaaway ay nanalo ng 4 na laro sa isang hilera", // #toBeUpdated
     zh: "#### 在敌方队伍中连续赢了 4 场比赛", // #toBeUpdated
@@ -857,7 +857,7 @@ export const AppTranslations: Translations = {
     en: "You have a high win rate of ####% in the last #### matches",
     de: "Du hast eine hohe Gewinnrate von ####% in den letzten #### Spielen", // #toBeUpdated
     fr: "Vous avez un taux de victoire élevé de ####% lors des #### derniers matchs", // #toBeUpdated
-    ru: "У вас высокий винрейт #####% в последних матчах ####", // #toBeUpdated
+    ru: "У вас высокий #####% процент побед в последних #### матчах", 
     id: "Anda memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "Mayroon kang mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "在最后一场 #### 场比赛中，你的胜率高达 ####%", // #toBeUpdated
@@ -868,7 +868,7 @@ export const AppTranslations: Translations = {
     en: "#### in your team has a high win rate of ####% in the last #### matches",
     de: "#### in deinem Team hat eine hohe Gewinnrate von ####% in den letzten #### Spielen", // #toBeUpdated
     fr: "#### dans ton équipe a un taux de victoire élevé de ####% lors des #### derniers matchs", // #toBeUpdated
-    ru: "#### в вашей команде высокий винрейт #####% в последних матчах ####", // #toBeUpdated
+    ru: "#### в вашей команде имеет высокий #####% процент побед в последних #### матчах", 
     id: "#### di tim Anda memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "#### sa iyong koponan ay may mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "你队伍中的 #### 在过去 #### 场比赛中有 ####% 的高胜率", // #toBeUpdated
@@ -879,7 +879,7 @@ export const AppTranslations: Translations = {
     en: "#### in the enemy team has a high win rate of ####% in the last #### matches",
     de: "#### im gegnerischen Team hat eine hohe Siegrate von ####% in den letzten #### Spielen", // #toBeUpdated
     fr: "#### dans l'équipe adverse a un taux de victoire élevé de ####% lors des #### derniers matchs", // #toBeUpdated
-    ru: "#### во вражеской команде высокий винрейт #####% в последних матчах ####", // #toBeUpdated
+    ru: "#### во вражеской команде высокий #####% процент побед в последних #### матчах", 
     id: "#### di tim musuh memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "#### sa koponan ng kaaway ay may mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "敌方队伍中的 #### 在最后 #### 场比赛中获得 ####% 的高胜率", // #toBeUpdated
@@ -890,7 +890,7 @@ export const AppTranslations: Translations = {
     en: "#### in the enemy team has a low win rate and picks hero frequently",
     de: "#### im gegnerischen Team hat eine niedrige Gewinnrate und wählt häufig Helden", // #toBeUpdated
     fr: "#### dans l'équipe adverse a un faible taux de victoire et choisit fréquemment son héros", // #toBeUpdated
-    ru: "#### во вражеской команде низкий винрейт и часто выбирает героя", // #toBeUpdated
+    ru: "#### во вражеской команде имеет низкий процент побед и часто выбирает героя", 
     id: "#### di tim musuh memiliki tingkat kemenangan rendah dan sering memilih pahlawan", // #toBeUpdated
     fil: "#### sa koponan ng kaaway ay may mababang rate ng panalo at madalas na pumili ng bayani", // #toBeUpdated
     zh: "敌方队伍中的 #### 获胜率较低且经常挑选英雄", // #toBeUpdated
@@ -902,7 +902,7 @@ export const AppTranslations: Translations = {
     en: "#### is likely to be a smurf. He has a win rate of ####% over the last #### matches.",
     de: "#### ist wahrscheinlich ein Smurf. Er hat eine Gewinnrate von ####% in den letzten #### Spielen.",
     fr: "#### est probablement un schtroumpf. Il a un taux de victoire de ####% sur les derniers #### matchs.", // #toBeUpdated
-    ru: "#### скорее всего, смурф. У него винрейт ####% в последних матчах ####.", // #toBeUpdated
+    ru: "#### скорее всего, смурф. У него ####% процент побед в последних #### матчах.", 
     id: "#### kemungkinan akan menjadi smurf. Dia memiliki tingkat kemenangan #####% selama pertandingan #### terakhir.", // #toBeUpdated
     fil: "#### ay malamang na maging isang smurf. Siya ay may panalo rate ng ####% sa huling #### na mga tugma.", // #toBeUpdated
     zh: "#### 很可能是蓝精灵。在过去的 #### 场比赛中，他的胜率为 ####%。", // #toBeUpdated
@@ -1217,7 +1217,7 @@ export const AppTranslations: Translations = {
     en: "Infoboxes", // OK
     de: "Infoboxen",
     fr: "Infobox",
-    ru: "Инфобоксы", // OK
+    ru: "Инфобоксы", 
     id: "Infobox",
     zh: "信息框",
     br: "Caixas de informação",
@@ -1228,7 +1228,7 @@ export const AppTranslations: Translations = {
     en: "public",
     de: "Öffentlich", // #toBeUpdated
     fr: "public", // #toBeUpdated
-    ru: "общественный", // #toBeUpdated
+    ru: "Открытый", 
     id: "umum", // #toBeUpdated
     fil: "pampubliko", // #toBeUpdated
     zh: "公众", // #toBeUpdated
@@ -1240,7 +1240,7 @@ export const AppTranslations: Translations = {
     en: "private",
     de: "Privat", // #toBeUpdated
     fr: "privé", // #toBeUpdated
-    ru: "частного", // #toBeUpdated
+    ru: "Закрытый", 
     id: "privat", // #toBeUpdated
     fil: "pribado", // #toBeUpdated
     zh: "私人的", // #toBeUpdated
@@ -1249,6 +1249,7 @@ export const AppTranslations: Translations = {
   },
   profilePrivacy_smurf: {
     en: "smurf",
+    ru: "Смурф",
   },
 
   InfoboxesTooltip: {
@@ -1277,7 +1278,7 @@ export const AppTranslations: Translations = {
     en: "Timers",
     de: "Timer",
     fr: "Minuteries",
-    ru: "Таймеры", // OK
+    ru: "Таймеры", 
     id: "Timer",
     fil: "Timers",
     zh: "计时器",
@@ -1310,7 +1311,7 @@ export const AppTranslations: Translations = {
     en: "Roshan & glyph", // OK
     de: "Roshan & Glyphe", // OK
     fr: "Roshan & Glyphe",
-    ru: "Рошан и Глиф", // Dota 2 uses "укрепление строений" for Glyph of Fortification. Translation recommends to keep "глиф" as it is shorter and most of gamers (according to her Internet research) already use this term, and just in case there are a few articles in Russian explaining what "глиф" is.
+    ru: "Рошан и Глиф", 
     id: "Roshan & mesin terbang",
     fil: "Roshan at glyph",
     zh: "肉山和防御符文",
@@ -1321,7 +1322,7 @@ export const AppTranslations: Translations = {
     en: "Team buybacks", // OK
     de: "Team Rückkäufe", // OK
     fr: "Rachats d'équipe",
-    ru: "Выкуп союзников", // OK
+    ru: "Выкуп союзников", 
     id: "Buyback tim",
     fil: "Team buybacks",
     zh: "团队买活情况",
@@ -1332,7 +1333,7 @@ export const AppTranslations: Translations = {
     en: "Team ultimates", // OK
     de: "Team Ultimates", // OK
     fr: "Ultimes d'équipe",
-    ru: "Ультимейты союзников", // OK, long form: "Особые командные способности"
+    ru: "Ультимейты союзников", 
     id: "Ultimates tim",
     fil: "Team ultimates",
     zh: "团队终极技能使用情况",
@@ -1343,7 +1344,7 @@ export const AppTranslations: Translations = {
     en: "Enemy buybacks", // OK
     de: "Feindliche Rückkäufe", // OK
     fr: "Rachats d'ennemis",
-    ru: "Вражеский выкуп", // OK
+    ru: "Вражеский выкуп", 
     id: "Buyback musuh",
     fil: "Enemy buybacks",
     zh: "敌人买活情况",
@@ -1354,7 +1355,7 @@ export const AppTranslations: Translations = {
     en: "Enemy ultimates", // OK
     de: "Feindliche Ultimates", // OK
     fr: "Ultimes ennemis",
-    ru: "Ультимейты врага", // OK, long form: "Особые вражеские способности"
+    ru: "Ультимейты врага", 
     id: "Ultimates musuh",
     fil: "Enemy ultimates",
     zh: "敌人终极技能使用情况",
@@ -1365,7 +1366,7 @@ export const AppTranslations: Translations = {
     en: "subs only",
     de: "nur U-Boote",
     fr: "sous-marins uniquement",
-    ru: "Только подписчики",
+    ru: "Только для подписчикок",
     fil: "subs only",
     zh: "仅限订阅者使用",
     id: "kapal selam saja",
@@ -1376,7 +1377,7 @@ export const AppTranslations: Translations = {
     en: "Voice coaching",
     de: "Sprach-Coaching",
     fr: "Coaching vocal",
-    ru: "Голосовой коучинг", // #toBeUpdated
+    ru: "Голосовые советы", 
     id: "Pelatihan suara", // #toBeUpdated
     fil: "Pagtuturo ng boses", // #toBeUpdated
     zh: "语音教练", // #toBeUpdated
@@ -1388,7 +1389,7 @@ export const AppTranslations: Translations = {
     // All to be updated (de is done)
     de: "Coaching (Stimme) für eigener Held und feindliche Helden kann hier eingestellt werden.",
     fr: "L'entraînement pour les choix de héros, les constructions d'objets et les héros ennemis peut être défini ici.",
-    ru: "Коучинг для выбранных героев, сборки предметов, вашего героя (голос) и вражеских героев (голос) можно настроить здесь.",
+    ru: "Помощь для выбранных героев, сборки предметов, вашего героя (голос) и вражеских героев (голос) можно настроить здесь.",
     id: "Pelatihan untuk memilih pahlawan, item membangun dan pahlawan musuh dapat diatur di sini.",
     fil: "Coaching para sa hero picks, item builds, own hero (voice) at enemy heroes (voice) ay pwede ma i-set dito.",
     zh: "这里可以设置双方英雄相关的语音指导。",
@@ -1399,7 +1400,7 @@ export const AppTranslations: Translations = {
     en: "Hero picks & item builds", // OK
     de: "Heldenauswahl & Items", // OK
     fr: "Choix de héros et constructions d'objets",
-    ru: "Герои и предметы", // OK, long form: "Характеристики героев и предметов"
+    ru: "Герои и предметы", 
     id: "Pahlawan picks & item membangun",
     fil: "Hero picks at item builds",
     zh: "英雄选择和物品推荐",
@@ -1410,7 +1411,7 @@ export const AppTranslations: Translations = {
     en: "Own hero", // OK
     de: "Eigener Held", // OK
     fr: "Propre héros",
-    ru: "Ваш герой", // OK, short form: "Собственный герой (голос)"
+    ru: "Ваш герой", 
     id: "Pahlawan sendiri",
     fil: "Saliring hero",
     zh: "自己的英雄",
@@ -1421,7 +1422,7 @@ export const AppTranslations: Translations = {
     en: "Enemy heroes", // OK
     de: "Feindliche Helden", // OK
     fr: "Héros ennemis",
-    ru: "Вражеские герои", // OK
+    ru: "Вражеские герои", 
     id: "Pahlawan musuh",
     fil: "Enemy heroes",
     zh: "敌方英雄",
@@ -1432,7 +1433,7 @@ export const AppTranslations: Translations = {
     en: "Notifications", // OK
     de: "Meldungen", // OK (Benachrichtigungen war auf dem Desktop zu lang)
     fr: "Notifications",
-    ru: "Уведомления", // OK
+    ru: "Уведомления", 
     id: "Notifikasi",
     fil: "Notifikasyon",
     zh: "通知",
@@ -1454,7 +1455,7 @@ export const AppTranslations: Translations = {
     en: "Bounty runes", // OK
     de: "Bounty Runes", // OK
     fr: "Bounty runes",
-    ru: "Руны Богатства", // OK "Руны богатства"
+    ru: "Руны Богатства", 
     id: "Rune Bounty",
     fil: "Bounty runes",
     zh: "赏金符",
@@ -1465,7 +1466,7 @@ export const AppTranslations: Translations = {
     en: "Water & power runes", // OK
     de: "Water & Power Runes", // OK
     fr: "Runes pour l'eau et l'énergie",
-    ru: "Руны воды и усилений", // OK (Руны воды и силы)
+    ru: "Руны воды и усилений", 
     id: "Rune air & daya",
     fil: "Water at power runes",
     zh: "圣水符和属性符",
@@ -1476,7 +1477,7 @@ export const AppTranslations: Translations = {
     en: "Neutral items",
     de: "Neutrale Gegenstände",
     fr: "Articles neutres",
-    ru: "Нейтральные предметы", // OK
+    ru: "Нейтральные предметы", 
     id: "Item netral",
     fil: "Neutral items",
     zh: "中立物品",
@@ -1487,7 +1488,7 @@ export const AppTranslations: Translations = {
     en: "Observer wards", // OK
     de: "Observer Wards", // OK
     fr: "Les quartiers des observateurs",
-    ru: "Observer Wards", // OK
+    ru: "Observer Wards", 
     id: "Pengamat bangsal",
     fil: "Observer wards",
     zh: "侦查守卫/假眼",
@@ -1498,7 +1499,7 @@ export const AppTranslations: Translations = {
     en: "Smoke of deceit", // OK
     de: "Smoke of Deceit", // OK
     fr: "La fumée de la tromperie",
-    ru: "Smoke of Deceit", // OK
+    ru: "Smoke of Deceit", 
     id: "Asap tipu daya",
     fil: "Smoke of deceit",
     zh: "诡计之雾",
@@ -1509,7 +1510,7 @@ export const AppTranslations: Translations = {
     en: "Tome of knowledge", // OK
     de: "Tome of Knowledge", // OK
     fr: "Tome de connaissances",
-    ru: "Книга Знаний", // OK
+    ru: "Книга Знаний", 
     id: "Tome pengetahuan",
     fil: "Tome of knowledge",
     zh: "知识之书",
@@ -1520,7 +1521,7 @@ export const AppTranslations: Translations = {
     en: "Aghanim's shard", // OK
     de: "Aghanims Splitter", // OK
     fr: "Fragment d'Aghanim",
-    ru: "Осколок Аганима", // OK
+    ru: "Осколок Аганима", 
     id: "Shard Aghanim",
     fil: "Aghanim's shard",
     zh: "阿哈利姆的碎片",
@@ -1531,7 +1532,7 @@ export const AppTranslations: Translations = {
     en: "Siege creeps", // OK
     de: "Belagerungsdiener", // OK
     fr: "Creeps de siège",
-    ru: "Катапульта", // OK
+    ru: "Катапульта", 
     zh: "攻城小兵",
     fil: "Siege creeps",
     id: "Pengepungan merayap",
@@ -1542,7 +1543,7 @@ export const AppTranslations: Translations = {
     en: "Daytime", // OK
     de: "Tageszeit", // OK
     fr: "diurne",
-    ru: "День", // OK
+    ru: "День", 
     id: "Siang",
     fil: "Daytime",
     zh: "昼夜交替",
@@ -1553,7 +1554,7 @@ export const AppTranslations: Translations = {
     en: "Subtitles", // OK
     de: "Untertitel", // OK
     fr: "Sous-titres",
-    ru: "Субтитры", // OK
+    ru: "Субтитры", 
     id: "subtitel",
     fil: "Subtitles",
     zh: "字幕",
@@ -1575,7 +1576,7 @@ export const AppTranslations: Translations = {
     en: "Show subtitles", // OK
     de: "Untertitel anzeigen", // OK
     fr: "Afficher les sous-titres",
-    ru: "Показывать субтитры", // OK
+    ru: "Показывать субтитры", 
     id: "Tampilkan sub judul",
     fil: "Show subtitles",
     zh: "显示字幕",
@@ -1586,7 +1587,7 @@ export const AppTranslations: Translations = {
     en: "Manual sharing", // OK
     de: "Manuelles Teilen", // OK
     fr: "Partage manuel",
-    ru: "Делиться вручную", // OK
+    ru: "Делиться вручную", 
     id: "Berbagi manual",
     fil: "Manual sharing",
     zh: "手动共享",
@@ -1597,7 +1598,7 @@ export const AppTranslations: Translations = {
     en: "Automated sharing", // OK
     de: "Automatisches Teilen", // OK
     fr: "Partage automatique",
-    ru: "Делиться автоматически", // OK
+    ru: "Делиться автоматически", 
     id: "Berbagi otomatis",
     fil: "Automated sharing",
     zh: "自动共享",
@@ -1608,7 +1609,7 @@ export const AppTranslations: Translations = {
     en: "Roshan & aegis", // OK
     de: "Roshan & aegis", // OK
     fr: "Roshan & aegis",
-    ru: "Рошан и aегис", // OK (Рошан и Эгида)
+    ru: "Рошан и aегис", 
     id: "Roshan & aegis",
     fil: "Roshan at aegis",
     zh: "肉山和防御符文",
@@ -1619,7 +1620,7 @@ export const AppTranslations: Translations = {
     en: "Performance tracker", // OK
     de: "Leistungs-Tracker", // OK
     fr: "Traqueur de performance",
-    ru: "Показатель КПД", // OK, long form: "Трекер производительности"
+    ru: "Показатель КПД", 
     id: "Pelacak kinerja",
     fil: "Performance tracker",
     zh: "个人表现追踪",
@@ -1652,7 +1653,7 @@ export const AppTranslations: Translations = {
     en: "Dota Plus subscriber", // OK
     de: "Dota Plus-Abonnent", // OK
     fr: "Abonné Dota Plus",
-    ru: "Подписчик Dota Plus", // OK
+    ru: "Подписчик Dota Plus", 
     id: "Pelanggan Dota Plus",
     fil: "Dota Plus subscriber",
     zh: "刀塔 Plus 订阅者",
@@ -1663,7 +1664,7 @@ export const AppTranslations: Translations = {
     en: "Goal left:", // OK
     de: "Ziel links:", // OK
     fr: "But à gauche :",
-    ru: "Цель слева:", // OK
+    ru: "Цель слева:", 
     id: "Tujuan kiri:",
     fil: "Goal left:",
     zh: "左侧显示:",
@@ -1674,7 +1675,7 @@ export const AppTranslations: Translations = {
     en: "Goal right:", // OK
     de: "Ziel rechts:", // OK
     fr: "But droit :",
-    ru: "Цель справа:", // OK
+    ru: "Цель справа:", 
     id: "Tujuan yang tepat:",
     fil: "Goal right:",
     zh: "右侧显示:",
@@ -1685,7 +1686,7 @@ export const AppTranslations: Translations = {
     en: "Your median", // OK
     de: "Dein Median", // OK
     fr: "Votre médiane",
-    ru: "Ваше среднее", // OK
+    ru: "Ваше среднее", 
     id: "Median Anda",
     fil: "Your median",
     zh: "你的平均表现",
@@ -1707,7 +1708,7 @@ export const AppTranslations: Translations = {
     en: "Peer median", // OK
     de: "Peer Median", // OK
     fr: "Médiane des pairs",
-    ru: "Среднее на рейтинге", // OK
+    ru: "Среднее на рейтинге", 
     id: "Median sebaya",
     fil: "Peer median",
     zh: "同水平的平均表现",
@@ -1740,7 +1741,7 @@ export const AppTranslations: Translations = {
     en: "Your name (for leaderboard)",
     de: "Dein Name (für Bestenliste)",
     fr: "Votre nom (pour le classement)",
-    ru: "Имя (для рейтинга)", // OK, version too long: "Ваше имя (для таблицы лидеров)"
+    ru: "Имя (для рейтинга)", 
     id: "Nama Anda (untuk leaderboard)",
     fil: "Pangalan mo (para sa leaderboard)",
     zh: "你的名字（用于排行榜）",
@@ -1753,7 +1754,7 @@ export const AppTranslations: Translations = {
     en: "Mouse click modifier",
     de: "Mausklickmodifizierung",
     fr: "Modificateur de clic souris", // #toBeUpdated
-    ru: "Модификатор щелчка мыши", // #toBeUpdated
+    ru: "Модификатор щелчка мыши", 
     id: "Pengubah klik mouse", // #toBeUpdated
     fil: "Mouse click modifier", // #toBeUpdated
     zh: "鼠标点击组合键",
@@ -1764,7 +1765,7 @@ export const AppTranslations: Translations = {
     en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
     de: "Die Mausklickmodifizierung wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist die Modifizierung aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Modifizierungsknopf gedrückt werden.",
     fr: "L'intégration du modificateur de clic de souris nécessite que l'utilisateur appuie sur une touche de modification lorsqu'il clique sur la superposition. Cela fournit une protection contre les interférences avec le jeu.", // #toBeUpdated
-    ru: "Интеграция модификатора щелчка мышью требует, чтобы пользователь нажимал клавишу-модификатор при нажатии на наложение. Это обеспечивает защиту от вмешательства в игру.", // #toBeUpdated
+    ru: "Интеграция модификатора щелчка мышью требует, чтобы пользователь нажимал клавишу-модификатор при нажатии на наложение. Это обеспечивает защиту от вмешательства в игру.", 
     id: "Integrasi pengubah klik mouse mengharuskan pengguna untuk menekan tombol pengubah saat mengklik overlay. Ini memberikan perlindungan terhadap gangguan dengan permainan.", // #toBeUpdated
     fil: "Ang mouse-click modifier intergration ay nangangailangan ng user para pindutin ang modifier key kapag nagki-click sa overlay. Ito ay proteksyon laban sa interference sa laro.",
     zh: "鼠标点击组合键功能要求用户在点击DotaCoach悬浮窗时，需要按下特定的组合键，以避免游戏操作导致的干扰。",
@@ -1775,7 +1776,7 @@ export const AppTranslations: Translations = {
     en: "Modifier",
     de: "Modifizierer", // #toBeUpdated
     fr: "Modificateur", // #toBeUpdated
-    ru: "модификатор", // #toBeUpdated
+    ru: "Модификатор", 
     id: "Pengubah", // #toBeUpdated
     fil: "Modifier", // #toBeUpdated
     zh: "组合键选择",
@@ -1786,7 +1787,7 @@ export const AppTranslations: Translations = {
     en: "None",
     de: "Keiner",
     fr: "Aucun",
-    ru: "Нет",
+    ru: "Отсутствует",
     id: "Tidak ada",
     fil: "None",
     zh: "无",
@@ -1797,7 +1798,7 @@ export const AppTranslations: Translations = {
     en: "Alt",
     de: "Alt", // #toBeUpdated
     fr: "Alt", // #toBeUpdated
-    ru: "Alt", // #toBeUpdated
+    ru: "Alt", 
     id: "Alt", // #toBeUpdated
     fil: "Alt", // #toBeUpdated
     zh: "Alt", // #toBeUpdated
@@ -1808,7 +1809,7 @@ export const AppTranslations: Translations = {
     en: "Ctrl",
     de: "Strg", // #toBeUpdated
     fr: "Ctrl", // #toBeUpdated
-    ru: "Ctrl", // #toBeUpdated
+    ru: "Ctrl", 
     id: "Ctrl", // #toBeUpdated
     fil: "Ctrl", // #toBeUpdated
     zh: "Ctrl", // #toBeUpdated
@@ -1819,7 +1820,7 @@ export const AppTranslations: Translations = {
     en: "Shift",
     de: "Umschalttaste", // #toBeUpdated
     fr: "Shift", // #toBeUpdated
-    ru: "Shift", // #toBeUpdated
+    ru: "Shift", 
     id: "Pergeseran", // #toBeUpdated
     fil: "Shift", // #toBeUpdated
     zh: "Shift", // #toBeUpdated
@@ -1932,7 +1933,7 @@ export const AppTranslations: Translations = {
     en: "Audio", // OK
     de: "Audio", // OK
     fr: "Audio",
-    ru: "Аудио", // OK
+    ru: "Аудио", 
     id: "Audio",
     fil: "Audio",
     zh: "音频",
@@ -1965,7 +1966,7 @@ export const AppTranslations: Translations = {
     en: "Speaker", // OK
     de: "Lautsprecher", // OK
     fr: "haut-parleur",
-    ru: "Ус-во вывода", // OK
+    ru: "Ус-во вывода", 
     id: "pengeras suara",
     fil: "Speaker",
     zh: "扬声器",
@@ -1976,7 +1977,7 @@ export const AppTranslations: Translations = {
     en: "Volume", // OK
     de: "Volumen", // OK
     fr: "Volume",
-    ru: "Громкость", // OK
+    ru: "Громкость", 
     id: "Volume",
     fil: "Volume",
     zh: "音量",
@@ -1987,7 +1988,7 @@ export const AppTranslations: Translations = {
     en: "Test", // OK
     de: "Testen", // OK
     fr: "Test",
-    ru: "Тест", // OK
+    ru: "Тест", 
     id: "Tes",
     fil: "Test",
     zh: "测试",
@@ -1998,7 +1999,7 @@ export const AppTranslations: Translations = {
     en: "Second screen", // OK
     de: "Zweiter Bildschirm", // OK
     fr: "Deuxième écran",
-    ru: "Второй экран", // OK
+    ru: "Второй экран", 
     id: "Layar kedua",
     fil: "Second screen",
     zh: "第二个屏幕",
@@ -2031,7 +2032,7 @@ export const AppTranslations: Translations = {
     en: "Reposition", // OK
     de: "Umpositionieren", // OK
     fr: "Repositionnement",
-    ru: "Перемещение", //OP, long form: Изменение позиции"
+    ru: "Перемещение", 
     id: "Reposisi",
     fil: "Reposition",
     zh: "重新定位",
@@ -2053,7 +2054,7 @@ export const AppTranslations: Translations = {
     en: "Reset position", // OK
     de: "Position", // OK
     fr: "Position de réinitialisation",
-    ru: "Возврат положения", // OK
+    ru: "Возврат положения", 
     id: "Atur ulang posisi",
     fil: "Reset position",
     zh: "重置位置",
@@ -2064,7 +2065,7 @@ export const AppTranslations: Translations = {
     en: "RESET", // OK
     de: "ZURÜCKSETZEN", // OK
     fr: "RÉINITIALISER",
-    ru: "СБРОС", // OK
+    ru: "СБРОС", 
     id: "ATUR ULANG",
     fil: "RESET",
     zh: "重置",
@@ -2075,7 +2076,7 @@ export const AppTranslations: Translations = {
     en: "Language", // OK
     de: "Sprache", // OK
     fr: "Langue",
-    ru: "Язык", // OK
+    ru: "Язык", 
     id: "Bahasa",
     fil: "Wika",
     zh: "语言",
@@ -2086,7 +2087,7 @@ export const AppTranslations: Translations = {
     en: "Hotkeys", // OK
     de: "Hotkeys", // OK
     fr: "Raccourcis clavier",
-    ru: "Клавиши", // OK, version too long: "Горячие клавиши"
+    ru: "Клавиши",
     id: "Hotkeys",
     fil: "Hotkeys",
     zh: "热键",
