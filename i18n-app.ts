@@ -1212,6 +1212,7 @@ export const AppTranslations: Translations = {
     br: "beta",
     es: "beta",
   },
+  // Infoboxes
   Infoboxes: {
     en: "Infoboxes", // OK
     de: "Infoboxen",
@@ -1222,6 +1223,34 @@ export const AppTranslations: Translations = {
     br: "Caixas de informação",
     es: "Caja de información",
   },
+
+  profilePrivacy_public: {
+    en: "public",
+    de: "Öffentlich", // #toBeUpdated
+    fr: "public", // #toBeUpdated
+    ru: "общественный", // #toBeUpdated
+    id: "umum", // #toBeUpdated
+    fil: "pampubliko", // #toBeUpdated
+    zh: "公众", // #toBeUpdated
+    br: "público", // #toBeUpdated
+    es: "público", // #toBeUpdated
+  },
+
+  profilePrivacy_private: {
+    en: "private",
+    de: "Privat", // #toBeUpdated
+    fr: "privé", // #toBeUpdated
+    ru: "частного", // #toBeUpdated
+    id: "privat", // #toBeUpdated
+    fil: "pribado", // #toBeUpdated
+    zh: "私人的", // #toBeUpdated
+    br: "privado", // #toBeUpdated
+    es: "privado", // #toBeUpdated
+  },
+  profilePrivacy_smurf: {
+    en: "smurf",
+  },
+
   InfoboxesTooltip: {
     en: "Infoboxes are positioned on top of players in matches and provide insights on items and abilities.",
     de: "Infoboxen sind während Spielen über den Spielern positioniert und bieten Einblicke in Gegenstände und Fähigkeiten.",
