@@ -1226,37 +1226,37 @@ export const AppTranslations: Translations = {
 
   // Infoboxes windows
   profilePrivacy_public: {
-    en: "public",
+    en: "Public",
     de: "Publik", // öffentlich ist in-game zu lang
-    fr: "public", // #toBeUpdated
+    fr: "Public", // #toBeUpdated
     ru: "общественный", // #toBeUpdated
-    id: "umum", // #toBeUpdated
-    fil: "pampubliko", // #toBeUpdated
+    id: "Umum", // #toBeUpdated
+    fil: "Pampubliko", // #toBeUpdated
     zh: "公众", // #toBeUpdated
-    br: "público", // #toBeUpdated
-    es: "público", // #toBeUpdated
+    br: "Público", // #toBeUpdated
+    es: "Público", // #toBeUpdated
   },
   profilePrivacy_private: {
-    en: "private",
+    en: "Private",
     de: "Privat", // #toBeUpdated
-    fr: "privé", // #toBeUpdated
+    fr: "Privé", // #toBeUpdated
     ru: "частного", // #toBeUpdated
-    id: "privat", // #toBeUpdated
-    fil: "pribado", // #toBeUpdated
+    id: "Privat", // #toBeUpdated
+    fil: "Pribado", // #toBeUpdated
     zh: "私人的", // #toBeUpdated
-    br: "privado", // #toBeUpdated
-    es: "privado", // #toBeUpdated
+    br: "Privado", // #toBeUpdated
+    es: "Privado", // #toBeUpdated
   },
   profilePrivacy_smurf: {
-    en: "smurf",
+    en: "Smurf",
     de: "Smurf",
-    fr: "smurf",
-    ru: "смурф", // #toBeUpdated
-    id: "smurf", // #toBeUpdated
-    fil: "smurf", // #toBeUpdated
+    fr: "Smurf",
+    ru: "Cмурф", // #toBeUpdated
+    id: "Smurf", // #toBeUpdated
+    fil: "Smurf", // #toBeUpdated
     zh: "蓝精灵", // #toBeUpdated
-    br: "smurf", // #toBeUpdated
-    es: "pitufo", // #toBeUpdated
+    br: "Smurf", // #toBeUpdated
+    es: "Pitufo", // #toBeUpdated
   },
   statsTooltip: {
     en: "Matches played during the last 30 days |<br>wins - losses |<br> win rate",
@@ -1292,6 +1292,19 @@ export const AppTranslations: Translations = {
     br: "Mostrar caixas de informações",
     es: "Mostrar cuadros de información",
   },
+
+  Team: {
+    en: "Team",
+    de: "Team", // #toBeUpdated
+    fr: "L'équipe", // #toBeUpdated
+    ru: "Команда", // #toBeUpdated
+    id: "Tim", // #toBeUpdated
+    fil: "Koponan", // #toBeUpdated
+    zh: "球队", // #toBeUpdated
+    br: "Equipe", // #toBeUpdated
+    es: "Equipo", // #toBeUpdated
+  },
+
   Timers: {
     en: "Timers",
     de: "Timer",
