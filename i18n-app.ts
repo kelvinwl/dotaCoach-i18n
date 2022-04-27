@@ -594,15 +594,15 @@ export const AppTranslations: Translations = {
     es: "Partidos", // #toBeUpdated
   },
   myRole: {
-    en: "Rolle",
-    de: "Rolle",
-    fr: "Rolle", // #toBeUpdated
-    ru: "Ролле", // #toBeUpdated
-    id: "Rolle", // #toBeUpdated
-    fil: "Rolle", // #toBeUpdated
+    en: "My role",
+    de: "Meine Rolle",
+    fr: "Mon rôle",
+    ru: "Моя роль", // #toBeUpdated
+    id: "Peran saya", // #toBeUpdated
+    fil: "Aking tungkulin", // #toBeUpdated
     zh: "分路",
     br: "Função",
-    es: "Rolle", // #toBeUpdated
+    es: "Mi función", // #toBeUpdated
   },
 
   dotaCoachUsers: {
@@ -1227,7 +1227,7 @@ export const AppTranslations: Translations = {
   // Infoboxes windows
   profilePrivacy_public: {
     en: "public",
-    de: "Öffentlich", // #toBeUpdated
+    de: "Publik", // öffentlich ist in-game zu lang
     fr: "public", // #toBeUpdated
     ru: "общественный", // #toBeUpdated
     id: "umum", // #toBeUpdated
@@ -1249,9 +1249,25 @@ export const AppTranslations: Translations = {
   },
   profilePrivacy_smurf: {
     en: "smurf",
+    de: "Smurf",
+    fr: "smurf",
+    ru: "смурф", // #toBeUpdated
+    id: "smurf", // #toBeUpdated
+    fil: "smurf", // #toBeUpdated
+    zh: "蓝精灵", // #toBeUpdated
+    br: "smurf", // #toBeUpdated
+    es: "pitufo", // #toBeUpdated
   },
   statsTooltip: {
     en: "Matches played during the last 30 days |<br>wins - losses |<br> win rate",
+    de: "In den letzten 30 Tagen gespielte Spiele |<br>Siege - Niederlagen |<br>Gewinnrate", // #toBeUpdated
+    fr: "Matches joués au cours des 30 derniers jours |<br>victoires - défaites |<br>taux de victoire", // #toBeUpdated
+    ru: "Матчи, сыгранные за последние 30 дней |<br>победы - поражения |<br>процент побед", // #toBeUpdated
+    id: "Pertandingan yang dimainkan selama 30 hari terakhir |<br>menang - kalah |<br>tingkat kemenangan", // #toBeUpdated
+    fil: "Mga tugma na nilalaro sa loob ng huling 30 araw |<br>panalo - pagkalugi |<br>manalo rate", // #toBeUpdated
+    zh: "过去 30 天内的比赛 |<br>胜负 |<br>赢率", // #toBeUpdated
+    br: "Jogos disputados durante os últimos 30 dias |<br>vitórias - derrotas |<br>taxa de vitórias", // #toBeUpdated
+    es: "Partidos jugados durante los últimos 30 días |<br>victorias y derrotas |<br>índice de victorias", // #toBeUpdated
   },
 
   InfoboxesTooltip: {
