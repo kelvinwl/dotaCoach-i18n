@@ -1224,6 +1224,7 @@ export const AppTranslations: Translations = {
     es: "Caja de información",
   },
 
+  // Infoboxes windows
   profilePrivacy_public: {
     en: "public",
     de: "Öffentlich", // #toBeUpdated
@@ -1235,7 +1236,6 @@ export const AppTranslations: Translations = {
     br: "público", // #toBeUpdated
     es: "público", // #toBeUpdated
   },
-
   profilePrivacy_private: {
     en: "private",
     de: "Privat", // #toBeUpdated
@@ -1249,6 +1249,9 @@ export const AppTranslations: Translations = {
   },
   profilePrivacy_smurf: {
     en: "smurf",
+  },
+  statsTooltip: {
+    en: "Matches played during the last 30 days |<br>wins - losses |<br> win rate",
   },
 
   InfoboxesTooltip: {
