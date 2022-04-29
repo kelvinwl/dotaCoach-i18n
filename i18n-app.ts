@@ -1372,8 +1372,8 @@ export const AppTranslations: Translations = {
     es: "Ultis de aliados",
   },
   EnemyBuybacks: {
-    en: "Enemy buybacks", // OK
-    de: "Feindliche Rückkäufe", // OK
+    en: "Enemy buybacks",
+    de: "Gegner Rückkäufe",
     fr: "Rachats d'ennemis",
     ru: "Вражеский выкуп", // OK
     id: "Buyback musuh",
@@ -1383,8 +1383,8 @@ export const AppTranslations: Translations = {
     es: "Buyback de los enemigos",
   },
   EnemyUltimates: {
-    en: "Enemy ultimates", // OK
-    de: "Feindliche Ultimates", // OK
+    en: "Enemy ultimates",
+    de: "Gegner Ultimates",
     fr: "Ultimes ennemis",
     ru: "Ультимейты врага", // OK, long form: "Особые вражеские способности"
     id: "Ultimates musuh",
@@ -1395,8 +1395,8 @@ export const AppTranslations: Translations = {
   },
   subsOnly: {
     en: "subs only",
-    de: "nur U-Boote",
-    fr: "sous-marins uniquement",
+    de: "Abonnenten",
+    fr: "abonnés",
     ru: "Только подписчики",
     fil: "subs only",
     zh: "仅限订阅者使用",
@@ -1406,7 +1406,7 @@ export const AppTranslations: Translations = {
   },
   VoiceCoaching: {
     en: "Voice coaching",
-    de: "Sprach-Coaching",
+    de: "Sprachcoaching",
     fr: "Coaching vocal",
     ru: "Голосовой коучинг", // #toBeUpdated
     id: "Pelatihan suara", // #toBeUpdated
@@ -1649,7 +1649,7 @@ export const AppTranslations: Translations = {
   },
   PerformanceTracker: {
     en: "Performance tracker", // OK
-    de: "Leistungs-Tracker", // OK
+    de: "Leistungstracker", // OK
     fr: "Traqueur de performance",
     ru: "Показатель КПД", // OK, long form: "Трекер производительности"
     id: "Pelacak kinerja",
@@ -1783,7 +1783,7 @@ export const AppTranslations: Translations = {
   // Mouse click modifiers
   MouseClickModifier: {
     en: "Mouse click modifier",
-    de: "Mausklickmodifizierung",
+    de: "Mausklickschutz",
     fr: "Modificateur de clic souris", // #toBeUpdated
     ru: "Модификатор щелчка мыши", // #toBeUpdated
     id: "Pengubah klik mouse", // #toBeUpdated
@@ -1794,7 +1794,7 @@ export const AppTranslations: Translations = {
   },
   MouseClickModifierTooltip: {
     en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
-    de: "Die Mausklickmodifizierung wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist die Modifizierung aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Modifizierungsknopf gedrückt werden.",
+    de: "Die Mausklickschutz wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist der Schutz aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Schutzknopf gedrückt werden.",
     fr: "L'intégration du modificateur de clic de souris nécessite que l'utilisateur appuie sur une touche de modification lorsqu'il clique sur la superposition. Cela fournit une protection contre les interférences avec le jeu.", // #toBeUpdated
     ru: "Интеграция модификатора щелчка мышью требует, чтобы пользователь нажимал клавишу-модификатор при нажатии на наложение. Это обеспечивает защиту от вмешательства в игру.", // #toBeUpdated
     id: "Integrasi pengubah klik mouse mengharuskan pengguna untuk menekan tombol pengubah saat mengklik overlay. Ini memberikan perlindungan terhadap gangguan dengan permainan.", // #toBeUpdated
@@ -1805,8 +1805,8 @@ export const AppTranslations: Translations = {
   },
   Modifier: {
     en: "Modifier",
-    de: "Modifizierer", // #toBeUpdated
-    fr: "Modificateur", // #toBeUpdated
+    de: "Schutz",
+    fr: "Modificateur",
     ru: "модификатор", // #toBeUpdated
     id: "Pengubah", // #toBeUpdated
     fil: "Modifier", // #toBeUpdated
@@ -2138,7 +2138,7 @@ export const AppTranslations: Translations = {
   },
   ShowhideOverlay: {
     en: "Show/hide in-game overlay",
-    de: "Spiel-Overlay ein-/ausblenden",
+    de: "Spieloverlay ein-/ausblenden",
     fr: "Afficher/masquer l'app dans le jeu",
     ru: "Показать/скрыть внутриигровой оверлей",
     id: "Tampilkan/sembunyikan overlay dalam game",
@@ -2322,7 +2322,7 @@ export const AppTranslations: Translations = {
   GameStateIntegration: {
     en: "Dota Coach needs access to Game State Integration API provided by Dota 2.<br>Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
     id: "Dota Coach membutuhkan akses ke API Integrasi Negara Game yang disediakan oleh Dota 2. <br>Pastikan untuk menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2.",
-    de: "Dota Coach benötigt Zugriff auf die von Dota 2 bereitgestellte Game State Integration API. <br>Bitte stellen Sie sicher, dass Sie „-gamestateintegration“ zu den Startoptionen von Dota 2 hinzufügen.",
+    de: "Dota Coach benötigt Zugriff auf die von Dota 2 bereitgestellte Game State Integration API. <br>Bitte stell sicher, dass du „-gamestateintegration“ zu den Startoptionen von Dota 2 hinzugefügt hast.",
     fr: "Dota Coach doit avoir accès à l'API Game State Integration fournie par Dota 2. <br>Assurez-vous d'ajouter « -gamestateintegration » aux options de lancement de Dota 2.",
     ru: "Dota Coach необходим доступ к Игровой интеграции API, предоставляемому Dota 2. <br>Пожалуйста, убедитесь, что вы добавили «-gamestateintegration» в параметры запуска Dota 2.",
     br: "Dota Coach precisa acessar a API de integração do estado do jogo fornecida pelo Dota 2. <br>Certifique-se de adicionar '-gamestateintegration' às opções de lançamento do Dota 2.",
@@ -2366,7 +2366,7 @@ export const AppTranslations: Translations = {
       "https://dota-coach.com/heropedia",
       "https://dota-coach.com/video/DotaCoachTutorial.mp4",
     ],
-    de: "Füge '-gamestateintegration' zu deinen Dota-Startoptionen hinzu (<span id='webLink'>Klicke hier für weitere Informationen</span>).<br><br>Passe Dota Coach an deine Bedürfnisse an. Gehe dafür zum Einstellungsmenü in der oberen rechten Ecke! <br><hr>Interagiere während des Spiels mit Timern und Infoboxen, um dir einen Vorteil zu verschaffen:<br>- Drücke <b>LINKSKLICK</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu starten.<br>- Drücke <b>das rote X</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu stoppen.<br>- Drücke <b>LINKSKLICK</b> drücken um Infoboxen am oberen Bildschirmrand zu öffnen.<br><hr>Du bist jetzt ein wichtiges Mitglied der Dota Coach-Community und wir möchten von dir hören:<br>- Tritt unserem <span id='webLink'>Discord Server</span> bei, um direkt mit uns zu sprechen, gleichgesinnte Spieler zu finden und Ideen einzubringen!<br>- Tritt unserem <span id='webLink'>Subreddit</span> bei oder folge uns in den <span id='webLink'>sozialen Medien</span>, um Live-Updates zu erhalten! <hr>Hast du noch Fragen? Keine Sorge, wir haben alles für dich bereit:<br>- <span id='webLink'>FAQ</span><br>- <span id='webLink'>Heropedia</span><br><hr>Möchtest du alle Funktionalitäten von Dota Coach in 3 Minuten kennenlernen? Dann schaue dir unser Tutorial-Video an:<br><br><button id='webLink'>Video</button><br>",
+    de: "Füge '-gamestateintegration' zu deinen Dota-Startoptionen hinzu (<span id='webLink'>Klicke hier für weitere Informationen</span>).<br><br>Passe Dota Coach an deine Bedürfnisse an. Gehe dafür zum Einstellungsmenü in der oberen rechten Ecke! <br><hr>Interagiere während des Spiels mit Timern und Infoboxen, um dir einen Vorteil zu verschaffen:<br>- Drücke <b>LINKSKLICK</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu starten.<br>- Drücke <b>das rote X</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu stoppen.<br>- Drücke <b>LINKSKLICK</b> drücken um Infoboxen am oberen Bildschirmrand zu öffnen.<br><hr>Du bist jetzt ein wichtiges Mitglied der Dota Coach-Community und wir möchten von dir hören:<br>- Tritt unserem <span id='webLink'>Discord Server</span> bei, um direkt mit uns zu sprechen, gleichgesinnte Spieler zu finden und Ideen einzubringen!<br>- Tritt unserem <span id='webLink'>Subreddit</span> bei oder folge uns in den <span id='webLink'>sozialen Medien</span>!<hr>Hast du noch Fragen? Keine Sorge, wir haben alles für dich bereit:<br>- <span id='webLink'>FAQ</span><br>- <span id='webLink'>Heropedia</span><br><hr>Möchtest du alle Funktionalitäten von Dota Coach in 3 Minuten kennenlernen?<br>Dann schaue dir unser Tutorial-Video an:<br><br><button id='webLink'>Video</button><br>",
     fr: "Assurez-vous d'ajouter « -gamestateintegration » à vos options de lancement Dota (<span id='webLink'>Cliquez ici pour afficher le guide</span>). <br><br>Personnalisez Dota Coach selon vos besoins. Rendez-vous dans le menu des paramètres en haut à droite ! <br><hr>Interagissez avec les minuteurs et les boîtes d'information pendant le jeu pour obtenir un avantage concurrentiel : <br><br>- Appuyez <b>sur LEFT-CLIC</b> pour démarrer Roshan, Glyh-, Buyback-, Ultimate-Timers. <br>- Appuyez sur <b>le X rouge</b> pour arrêter Roshan-, Glyh-, Buyback-, Ultimate-Timers. <br><br>- Appuyez sur le <b>bouton GAUCHE</b> pour ouvrir les boîtes d'information en haut et sur la minicarte. <br><hr>Vous êtes maintenant un membre important de la communauté des entraîneurs Dota <br>et nous voulons avoir de vos nouvelles : <br><br>- Rejoignez notre <span id='webLink'>serveur Discord</span> pour parler directement avec nos entraîneurs professionnels, <br>trouver des joueurs partageant les mêmes idées et suggérer des changements d'entraîneur Dota ! <br><br>- Rejoignez notre <span id='webLink'>Subreddit</span> ou suivez Dota Coach sur les <span id='webLink'>réseaux sociaux</span> <br>pour recevoir des mises à jour en direct sur les changements et améliorations à venir ! <hr>Vous avez encore des questions ? Pas de soucis, nous avons ce qu'il vous faut : <br><br><br><br>- <span id='webLink'>FAQ</span> - <span id='webLink'>Heropedia</span> <br><hr>Vous voulez libérer toute la puissance de Dota Coach en 3 minutes ? <br>Regardez la vidéo complète du guide : <br><br><button id='webLink'>Vidéo du guide</button> <br>",
     ru: "Убедитесь, что вы добавили «-gamestateintegration» в параметры запуска Dota (<span id='webLink'>Нажмите здесь, чтобы посмотреть руководство</span>). <br><br>Настройте Dota Coach под свои нужды. Загляните в меню настроек в правом верхнем углу! <br><hr>Пользуйтесь таймерами и инфобоксами во время игры, чтобы получить преимущество: <br><br>- Нажмите<b> ЛЕВУЮ КНОПКУ МЫШИ</b>, чтобы запустить Рошан-, Глиф-, Байбек-, Ултимейт-Таймеры. <br>- Нажмите на <b>красный крест</b>, чтобы остановить Рошан-, Глиф-, Байбек-, Ультимейт-таймеры. <br><br>- <b>Нажмите ЛЕВУЮ КНОПКУ МЫШИ</b>, чтобы открыть инфобоксы вверху и на мини-карте. <br><hr>Теперь вы - часть сообщества Dota Coach, <br>и мы хотим вас услышать: <br><br>- Присоединяйтесь к нашему <span id='webLink'>серверу Discord</span>, чтобы напрямую общаться с нашими профессиональными тренерами, <br>находить единомышленников и предлагать свои изменения в Dota Coach! <br><br>- Присоединяйтесь к нашему <span id='webLink'>Subreddit</span> или подписывайтесь на Dota Coach в <span id='webLink'>социальных сетях</span>, <br>чтобы получать новости о предстоящих изменениях и улучшениях в реальном времени! <hr>Остались вопросы? Мы вам поможем: <br><br>- <span id='webLink'>FAQ</span> <br><br>- <span id='webLink'>Heropedia</span> <br><hr>Хотите увидеть всю мощь Dota Coach за 3 минуты? <br>Посмотрите полное видео руководство: <br><br><button id='webLink'>видеоруководство</button> <br>",
     id: "Pastikan untuk menambahkan '-gamestateintegration' ke opsi peluncuran Dota Anda (<span id='webLink'>Klik untuk di sini menunjukkan Panduan</span>). <br><br>Costumize Dota Coach sesuai kebutuhan Anda. Pergi ke menu pengaturan di pojok kanan atas! <br><hr>Berinteraksi dengan timer dan infobox selama pertandingan untuk mendapatkan tepi kompetetif:<br><br>- Tekan<b> KIR-KLIK </b>untuk memulai Roshan-, Glyph-, Buyback-, Ultimate-Timers. <br>- Tekan<b> X merah </b>untuk menghentikan Roshan-, Glyph-, Buyback-, Ultimate-Timers. <br><br>- Tekan<b> KIFT KLIK </b>untuk membuka infobox di bagian atas dan di minimap. <br><hr>Anda sekarang menjadi anggota penting dari komunitas Dota Coach<br>dan kami ingin mendengar dari Anda:<br><br>- Bergabunglah dengan <span id='webLink'>Server Discord</span> kami untuk berbicara langsung dengan Pelatih Pro-kami,<br>temukan pemain yang berpikiran sama dan menyarankan perubahan Dota Coach! <br><br>- Bergabunglah dengan <span id='webLink'>Subreddit</span> kami atau ikuti Dota Coach di <span id='webLink'>media sosial</span> <br>untuk mendapatkan pembaruan langsung tentang perubahan dan peningkatan yang akan datang! <hr>Masih punya pertanyaan? Jangan khawatir, kami punya Anda tertutup:<br><br>- <span id='webLink'>FAQ</span><br><br>- <span id='webLink'>Heropedia</span><br><hr>Ingin melepaskan kekuatan penuh Dota Coach dalam 3 menit? <br>Tonton video panduan lengkap:<br><br><button id='webLink'>Panduan Video</button><br>",
