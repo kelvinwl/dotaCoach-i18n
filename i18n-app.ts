@@ -2345,7 +2345,15 @@ export const AppTranslations: Translations = {
     fil: "Dota Coach ay nangangailangan ng access sa Game State Integration API na binigay ng Dota 2. <br>Siguraduhing ilagay ang '-gamestateintegreation' sa Dota 2 launch options.",
   },
   GameStateIntegrationTypo: {
-    en: "There is a typo in your Dota 2 launch options for Game State Integration<br>You wrote #### instead of '-gamestateintegration'.",
+    en: "There is a typo in your Dota 2 launch options for Game State Integration.<br>Please replace '####' with '-gamestateintegration'.",
+    de: "Es gibt einen Tippfehler in deinen Dota 2-Startoptionen für Game State Integration.<br>Bitte ersetze '####' durch '-gamestateintegration'.",
+    fr: "Il y a une faute de frappe dans tes options de lancement Dota 2 pour Game State Integration.<br>Remplace « #### » par « -gamestateintegration ».",
+    ru: "В вариантах запуска Dota 2 для интеграции состояния игры допущена опечатка. <br>Замените «####» на «-gamestateintegration».", // #toBeUpdated
+    id: "Ada kesalahan ketik di opsi peluncuran Dota 2 Anda untuk Integrasi Status Game. <br>Harapganti '####' dengan '-gamestateintegration'.", // #toBeUpdated
+    fil: "Mayroong typo sa iyong mga pagpipilian sa paglunsad ng Dota 2 para sa Pagsasama ng Estado ng Game. <br>Mangyaringpalitan ang '####' ng 'gamestateintegration'.", // #toBeUpdated
+    zh: "你的 Dota 2 游戏状态集成的启动选项中有一个错字。<br>请将 “####” 替换为 '-gamestateIntegrategrate'。", // #toBeUpdated
+    br: "Há um erro de digitação nas opções de lançamento do Dota 2 para a Integração do Estado do Jogo. <br>Substitua '####' por '-gamestateintegration'.", // #toBeUpdated
+    es: "Hay un error tipográfico en las opciones de lanzamiento de Dota 2 para la integración del estado del juego. <br>Reemplaza '####' por '-gamestateintegration'.", // #toBeUpdated
   },
   GameStateIntegrationMore: {
     en: "MORE",
