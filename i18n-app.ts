@@ -2334,7 +2334,7 @@ export const AppTranslations: Translations = {
 
   // Notifications
   GameStateIntegration: {
-    en: "Dota Coach needs access to Game State Integration API provided by Dota 2.<br>Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
+    en: "Dota Coach needs access to the Game State Integration API provided by Dota 2.<br>Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
     id: "Dota Coach membutuhkan akses ke API Integrasi Negara Game yang disediakan oleh Dota 2. <br>Pastikan untuk menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2.",
     de: "Dota Coach benötigt Zugriff auf die von Dota 2 bereitgestellte Game State Integration API. <br>Bitte stell sicher, dass du „-gamestateintegration“ zu den Startoptionen von Dota 2 hinzugefügt hast.",
     fr: "Dota Coach doit avoir accès à l'API Game State Integration fournie par Dota 2. <br>Assurez-vous d'ajouter « -gamestateintegration » aux options de lancement de Dota 2.",
@@ -2344,7 +2344,9 @@ export const AppTranslations: Translations = {
     es: "Dota Coach necesita acceso a la API de integración de Game State proporcionada por Dota 2. <br>Asegúrate de añadir '-gamestateintegration' a las opciones de lanzamiento de Dota 2.",
     fil: "Dota Coach ay nangangailangan ng access sa Game State Integration API na binigay ng Dota 2. <br>Siguraduhing ilagay ang '-gamestateintegreation' sa Dota 2 launch options.",
   },
-
+  GameStateIntegrationTypo: {
+    en: "There is a typo in your Dota 2 launch options for Game State Integration<br>You wrote #### instead of '-gamestateintegration'.",
+  },
   GameStateIntegrationMore: {
     en: "MORE",
     de: "MEHR",
