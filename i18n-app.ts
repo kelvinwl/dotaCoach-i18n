@@ -595,7 +595,7 @@ export const AppTranslations: Translations = {
   },
   myRole: {
     en: "My role",
-    de: "Meine Rolle",
+    de: "Meine<br>Rolle",
     fr: "Mon rôle",
     ru: "Моя роль", // #toBeUpdated
     id: "Peran saya", // #toBeUpdated
@@ -641,10 +641,15 @@ export const AppTranslations: Translations = {
     es: "En el equipo enemigo: ####", // #toBeUpdated
   },
 
+  // 8 cases to show with whom you won and lost
+  // Arguments: Player's hero, other user's name, other user's hero, nuber of days [last is not applicable for games played today]
+  playedWithWonWithToday: {
+    en: `You <span class="txt-green">won</span> as #### with #### as #### today.`,
+  },
   playedWithWonWith: {
-    en: `<span class="txt-green">Won</span> as #### with #### as #### #### days ago.`,
-    de: `<span class="txt-green">Won</span> als #### mit #### als #### vor #### Tagen.`,
-    fr: `<span class="txt-green">A gagné</span> #### avec #### comme #### #### il y a quelques jours.`, // #toBeUpdated
+    en: `You <span class="txt-green">won</span> as #### with #### as #### #### days ago.`,
+    de: `Du hast als #### mit #### als #### vor #### Tagen <span class="txt-green">gewonnen</span> .`,
+    fr: `Tu as <span class="txt-green">gagné</span> #### avec #### comme #### il y a #### jours.`,
     ru: `<span class="txt-green">Выиграл</span> как #### с #### как #### ### дней назад.`, // #toBeUpdated
     id: `<span class="txt-green">Menang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
@@ -652,11 +657,13 @@ export const AppTranslations: Translations = {
     br: `<span class="txt-green">Ganhou</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-green">Ganó</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
-
+  playedWithLostWithToday: {
+    en: `<span class="txt-red">Lost</span> as #### with #### as #### today.`,
+  },
   playedWithLostWith: {
-    en: `<span class="txt-red">Lost</span> as #### with #### as #### #### days ago.`,
-    de: `<span class="txt-red">Verloren</span> als #### mit #### als #### vor #### Tagen.`,
-    fr: `<span class="txt-red">Perdu</span> comme #### avec #### comme #### #### il y a quelques jours.`, // #toBeUpdated
+    en: `You <span class="txt-red">lost</span> as #### with #### as #### #### days ago.`,
+    de: `Du hast als #### mit #### als #### vor #### Tagen <span class="txt-red">verloren</span>.`,
+    fr: `Tu as <span class="txt-red">perdu</span> comme #### avec #### comme #### il y a #### jours.`,
     ru: `<span class="txt-red">Потерян</span> как #### с #### как #### ### дней назад.`, // #toBeUpdated
     id: `<span class="txt-red">Hilang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
@@ -664,11 +671,13 @@ export const AppTranslations: Translations = {
     br: `<span class="txt-red">Perdido</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-red">Perdido</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
-
+  playedWithWonVsToday: {
+    en: `You <span class="txt-green">won</span> as #### vs #### as #### today.`,
+  },
   playedWithWonVs: {
-    en: `<span class="txt-green">Won</span> as #### vs #### as #### #### days ago.`,
-    de: `<span class="txt-green">Gewonnen</span> als #### gegen #### als #### vor #### Tagen.`,
-    fr: `<span class="txt-green">A gagné</span> #### contre #### comme #### #### il y a quelques jours.`, // #toBeUpdated
+    en: `You <span class="txt-green">won</span> as #### vs #### as #### #### days ago.`,
+    de: `Du hast als #### gegen #### als #### vor #### Tagen <span class="txt-green">gewonnen</span>.`,
+    fr: `Tu as <span class="txt-green">gagné</span> comme #### contre #### comme #### il y a #### jours.`,
     ru: `<span class="txt-green">Выиграл</span> как #### против #### как #### ### дней назад.`, // #toBeUpdated
     id: `<span class="txt-green">Menang</span> sebagai ##### vs ######### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> bilang #### vs #### bilang ### # # # mga araw na nakalipas.`, // #toBeUpdated
@@ -676,9 +685,14 @@ export const AppTranslations: Translations = {
     br: `<span class="txt-green">Ganhou</span> como #### vs #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-green">Ganó</span> #### contra #### como #### #### hace días.`, // #toBeUpdated
   },
+  playedWithLostVsToday: {
+    en: `You <span class="txt-red">lost</span> as #### vs #### as #### today.`,
+  },
   playedWithLostVs: {
-    en: `<span class="txt-red">Lost</span> as #### vs #### as #### #### days ago.`,
-    de: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`,
+    en: `You <span class="txt-red">lost</span> as #### vs #### as #### #### days ago.`,
+    de: `Du hast als #### gegen #### als #### vor #### Tagen <span class="txt-red">verloren</span>.`,
+    // Translate all others!!!!
+
     fr: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`, // #toBeUpdated
     ru: `<span class="txt-red">Верлорен</span> аль #### геген #### аль ### для #### таген.`, // #toBeUpdated
     id: `<span class="txt-red">Verloren</span> als ##### # # als #### vor #### Tagen.`, // #toBeUpdated
