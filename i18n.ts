@@ -117,6 +117,17 @@ export function replaceVarTokens(
 }
 
 /**
+ * Function to change variable tokens.
+ * After updating a variable token, the HTML element needs to be updated with the function updateHTMLElement
+ *
+ * @param token
+ * @param tokens
+ */
+export function setVarTokens(i18nT: string, ...tokens: string[]) {
+  i18nVarTokenValues[i18nT] = tokens;
+}
+
+/**
  * Function returns the text for a token in the currently set language
  *
  * Question:? Should we add a span?! with class i18n and id i18n_token, such that it could be updated autmatically on language change?! Probably not needed
