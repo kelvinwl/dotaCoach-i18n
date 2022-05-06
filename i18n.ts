@@ -85,7 +85,7 @@ export function replaceVarTokens(
   // Builds Regex for .replace function
   const re = new RegExp(i18nVarToken, "");
 
-  // Safes all incoming parameters in the global object so updateHTML
+  // Saves all incoming parameters in the global object so updateHTML
   // can access the data if langauge is swapped
   i18nVarTokenValues[i18nT] = tokens;
 
@@ -283,17 +283,17 @@ function updatei18nElement(element: Element) {
     .replace("i18x_", "")
     .replace("i18y_", "");*/
   const i18nToken = element.getAttribute("i18n");
-  console.log(
+  /*console.log(
     `*** i18nVarTokenValues=${JSON.stringify(i18nVarTokenValues, null, 2)}`
-  );
+  );*/
   if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
-    console.log(`*** here we go`);
+    /*console.log(`*** here we go`);*/
     element.innerHTML = replaceVarTokens(
       false,
       i18nToken,
       ...i18nVarTokenValues[i18nToken]
     );
-    console.log(`*** element.innerHTML = ${element.innerHTML}`);
+    /*  console.log(`*** element.innerHTML = ${element.innerHTML}`);*/
   } else {
     const innerHTML = t(i18nToken);
     element.innerHTML = innerHTML;

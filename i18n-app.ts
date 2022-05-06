@@ -2367,6 +2367,29 @@ export const AppTranslations: Translations = {
     es: "MÁS",
   },
 
+  // Desktop window: Dota Launch message
+  LaunchDota: {
+    en: "Launch Dota 2 to benefit from in-game features such as<br>player stats, timers, performance tracking and coaching.",
+  },
+
+  DotaConnectivityStart: {
+    en: "Connecting to Dota 2...",
+  },
+  DotaConnectivityStatus: {
+    en: "Connecting to Dota 2...<br>Current status: '####' (####/#### attempts)",
+  },
+  DotaConnectivityError: {
+    en: "Connection to Dota 2 could not be established.<br>Please try again later.<br>Error: '####'.",
+  },
+  DotaConnectivityFailed: {
+    // {"plugin_error": "failed_initializing_monitor"}
+    en: "Connection to Dota 2 is disrupted. We are working on a fix, please try again later.",
+  },
+  DotaConnectivityCrashed: {
+    // {""plugin_error"":""crashed_on_present""}
+    en: "Connection to Dota crashed. Please try to relaunch app.", // May be we should try to reconnect...
+  },
+
   // Welcome message for new users
   titleQuickStart: {
     en: "Quick Start",
