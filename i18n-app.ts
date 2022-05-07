@@ -1241,8 +1241,8 @@ export const AppTranslations: Translations = {
   // Infoboxes windows
   profilePrivacy_public: {
     en: "Public",
-    de: "Publik", // öffentlich ist in-game zu lang
-    fr: "Public", // #toBeUpdated
+    de: "Publik", // 'öffentlich' ist in-game zu lang
+    fr: "Public",
     ru: "общественный", // #toBeUpdated
     id: "Umum", // #toBeUpdated
     fil: "Pampubliko", // #toBeUpdated
@@ -1252,8 +1252,8 @@ export const AppTranslations: Translations = {
   },
   profilePrivacy_private: {
     en: "Private",
-    de: "Privat", // #toBeUpdated
-    fr: "Privé", // #toBeUpdated
+    de: "Privat",
+    fr: "Privé",
     ru: "частного", // #toBeUpdated
     id: "Privat", // #toBeUpdated
     fil: "Pribado", // #toBeUpdated

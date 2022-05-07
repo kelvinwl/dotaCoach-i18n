@@ -5,7 +5,7 @@
  * Format to be used: <div id="i18n_#ENGLISH TEXT#" class="i18n">${i18n.t(#ENGLISH TEXT)}</div>`
  */
 import { Languages } from "./i18n-languages";
-import * as DL from "../../src/utility/log";
+import * as DL from "../../submodules/utilities/log";
 
 export type Translations = {
   [key: string]: Translation;
