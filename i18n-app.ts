@@ -602,7 +602,7 @@ export const AppTranslations: Translations = {
     fil: "Rolle", // #toBeUpdated
     zh: "分路",
     br: "Função",
-    es: "Rolle", // #toBeUpdated
+    es: "Mi función", // #toBeUpdated
   },
 
   dotaCoachUsers: {
@@ -641,6 +641,12 @@ export const AppTranslations: Translations = {
     es: "En el equipo enemigo: ####", // #toBeUpdated
   },
 
+  // 8 cases to show with whom you won and lost
+  // Arguments: Player's hero, other user's name, other user's hero, nuber of days [last is not applicable for games played today]
+  playedWithWonWithToday: {
+    en: `You <span class="txt-green">won</span> as #### with #### as #### today.`,
+    ru: `Вы <span class="txt-green"> выиграли </span> как #### с #### как #### сегодня.`,
+  },
   playedWithWonWith: {
     en: `<span class="txt-green">Won</span> as #### with #### as #### #### days ago.`,
     de: `<span class="txt-green">Won</span> als #### mit #### als #### vor #### Tagen.`,
@@ -652,7 +658,10 @@ export const AppTranslations: Translations = {
     br: `<span class="txt-green">Ganhou</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-green">Ganó</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
-
+  playedWithLostWithToday: {
+    en: `<span class="txt-red">Lost</span> as #### with #### as #### today.`,
+    ru: `<span class="txt-red">Проиграл </span> как #### с #### как #### сегодня.`,
+  },
   playedWithLostWith: {
     en: `<span class="txt-red">Lost</span> as #### with #### as #### #### days ago.`,
     de: `<span class="txt-red">Verloren</span> als #### mit #### als #### vor #### Tagen.`,
@@ -664,7 +673,9 @@ export const AppTranslations: Translations = {
     br: `<span class="txt-red">Perdido</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-red">Perdido</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
-
+  playedWithWonVsToday: {
+    en: `You <span class="txt-green">won</span> as #### vs #### as #### today.`,
+  },
   playedWithWonVs: {
     en: `<span class="txt-green">Won</span> as #### vs #### as #### #### days ago.`,
     de: `<span class="txt-green">Gewonnen</span> als #### gegen #### als #### vor #### Tagen.`,
@@ -676,11 +687,16 @@ export const AppTranslations: Translations = {
     br: `<span class="txt-green">Ganhou</span> como #### vs #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-green">Ganó</span> #### contra #### como #### #### hace días.`, // #toBeUpdated
   },
+  playedWithLostVsToday: {
+    en: `You <span class="txt-red">lost</span> as #### vs #### as #### today.`,
+  },
   playedWithLostVs: {
-    en: `<span class="txt-red">Lost</span> as #### vs #### as #### #### days ago.`,
-    de: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`,
+    en: `You <span class="txt-red">lost</span> as #### vs #### as #### #### days ago.`,
+    de: `Du hast als #### gegen #### als #### vor #### Tagen <span class="txt-red">verloren</span>.`,
+    ru: `Вы <span class="txt-red"> проиграли </span> как #### против #### как #### #### дней назад.`,
+    // Translate all others!!!!
+
     fr: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`, // #toBeUpdated
-    ru: `<span class="txt-red">Проиграл</span> как #### против #### как ### ##### дней назад.`, 
     id: `<span class="txt-red">Verloren</span> als ##### # # als #### vor #### Tagen.`, // #toBeUpdated
     fil: `<span class="txt-red">Verloren</span> als #### berde ### als #### para sa #### Tagen.`, // #toBeUpdated
     zh: `<span class="txt-red">Verloren</span> als #### gegen #### 也是 #### vor #### Tagen。`, // #toBeUpdated
@@ -902,7 +918,7 @@ export const AppTranslations: Translations = {
     en: "#### is likely to be a smurf. He has a win rate of ####% over the last #### matches.",
     de: "#### ist wahrscheinlich ein Smurf. Er hat eine Gewinnrate von ####% in den letzten #### Spielen.",
     fr: "#### est probablement un schtroumpf. Il a un taux de victoire de ####% sur les derniers #### matchs.", // #toBeUpdated
-    ru: "#### скорее всего, смурф. У него ####% процент побед в последних #### матчах.", 
+    ru: "#### скорее всего смурф. У него ####% процент побед в последних #### матчах.", 
     id: "#### kemungkinan akan menjadi smurf. Dia memiliki tingkat kemenangan #####% selama pertandingan #### terakhir.", // #toBeUpdated
     fil: "#### ay malamang na maging isang smurf. Siya ay may panalo rate ng ####% sa huling #### na mga tugma.", // #toBeUpdated
     zh: "#### 很可能是蓝精灵。在过去的 #### 场比赛中，他的胜率为 ####%。", // #toBeUpdated
@@ -1224,6 +1240,7 @@ export const AppTranslations: Translations = {
     es: "Caja de información",
   },
 
+  // Infoboxes windows
   profilePrivacy_public: {
     en: "public",
     de: "Öffentlich", // #toBeUpdated
@@ -1232,24 +1249,41 @@ export const AppTranslations: Translations = {
     id: "umum", // #toBeUpdated
     fil: "pampubliko", // #toBeUpdated
     zh: "公众", // #toBeUpdated
-    br: "público", // #toBeUpdated
-    es: "público", // #toBeUpdated
+    br: "Público", // #toBeUpdated
+    es: "Público", // #toBeUpdated
   },
-
   profilePrivacy_private: {
-    en: "private",
-    de: "Privat", // #toBeUpdated
-    fr: "privé", // #toBeUpdated
-    ru: "Закрытый", 
-    id: "privat", // #toBeUpdated
-    fil: "pribado", // #toBeUpdated
+    en: "Private",
+    de: "Privat",
+    fr: "Privé",
+    ru: "Закрытый",
+    id: "Privat", // #toBeUpdated
+    fil: "Pribado", // #toBeUpdated
     zh: "私人的", // #toBeUpdated
-    br: "privado", // #toBeUpdated
-    es: "privado", // #toBeUpdated
+    br: "Privado", // #toBeUpdated
+    es: "Privado", // #toBeUpdated
   },
   profilePrivacy_smurf: {
-    en: "smurf",
-    ru: "Смурф",
+    en: "Smurf",
+    de: "Smurf",
+    fr: "Smurf",
+    ru: "Cмурф", 
+    id: "Smurf", // #toBeUpdated
+    fil: "Smurf", // #toBeUpdated
+    zh: "蓝精灵", // #toBeUpdated
+    br: "Smurf", // #toBeUpdated
+    es: "Pitufo", // #toBeUpdated
+  },
+  statsTooltip: {
+    en: "Matches played during the last 30 days |<br>wins - losses |<br> win rate",
+    de: "In den letzten 30 Tagen gespielte Spiele |<br>Siege - Niederlagen |<br>Gewinnrate", // #toBeUpdated
+    fr: "Matches joués au cours des 30 derniers jours |<br>victoires - défaites |<br>taux de victoire", // #toBeUpdated
+    ru: "Матчи, сыгранные за последние 30 дней |<br>победы - поражения |<br>процент побед", 
+    id: "Pertandingan yang dimainkan selama 30 hari terakhir |<br>menang - kalah |<br>tingkat kemenangan", // #toBeUpdated
+    fil: "Mga tugma na nilalaro sa loob ng huling 30 araw |<br>panalo - pagkalugi |<br>manalo rate", // #toBeUpdated
+    zh: "过去 30 天内的比赛 |<br>胜负 |<br>赢率", // #toBeUpdated
+    br: "Jogos disputados durante os últimos 30 dias |<br>vitórias - derrotas |<br>taxa de vitórias", // #toBeUpdated
+    es: "Partidos jugados durante los últimos 30 días |<br>victorias y derrotas |<br>índice de victorias", // #toBeUpdated
   },
 
   InfoboxesTooltip: {
@@ -1274,6 +1308,19 @@ export const AppTranslations: Translations = {
     br: "Mostrar caixas de informações",
     es: "Mostrar cuadros de información",
   },
+
+  Team: {
+    en: "Team",
+    de: "Team", // #toBeUpdated
+    fr: "L'équipe", // #toBeUpdated
+    ru: "Команда", 
+    id: "Tim", // #toBeUpdated
+    fil: "Koponan", // #toBeUpdated
+    zh: "球队", // #toBeUpdated
+    br: "Equipe", // #toBeUpdated
+    es: "Equipo", // #toBeUpdated
+  },
+
   Timers: {
     en: "Timers",
     de: "Timer",
@@ -1341,8 +1388,8 @@ export const AppTranslations: Translations = {
     es: "Ultis de aliados",
   },
   EnemyBuybacks: {
-    en: "Enemy buybacks", // OK
-    de: "Feindliche Rückkäufe", // OK
+    en: "Enemy buybacks",
+    de: "Gegner Rückkäufe",
     fr: "Rachats d'ennemis",
     ru: "Вражеский выкуп", 
     id: "Buyback musuh",
@@ -1352,8 +1399,8 @@ export const AppTranslations: Translations = {
     es: "Buyback de los enemigos",
   },
   EnemyUltimates: {
-    en: "Enemy ultimates", // OK
-    de: "Feindliche Ultimates", // OK
+    en: "Enemy ultimates",
+    de: "Gegner Ultimates",
     fr: "Ultimes ennemis",
     ru: "Ультимейты врага", 
     id: "Ultimates musuh",
@@ -1364,9 +1411,9 @@ export const AppTranslations: Translations = {
   },
   subsOnly: {
     en: "subs only",
-    de: "nur U-Boote",
-    fr: "sous-marins uniquement",
-    ru: "Только для подписчикок",
+    de: "Abonnenten",
+    fr: "abonnés",
+    ru: "Только подписчики",
     fil: "subs only",
     zh: "仅限订阅者使用",
     id: "kapal selam saja",
@@ -1375,7 +1422,7 @@ export const AppTranslations: Translations = {
   },
   VoiceCoaching: {
     en: "Voice coaching",
-    de: "Sprach-Coaching",
+    de: "Sprachcoaching",
     fr: "Coaching vocal",
     ru: "Голосовые советы", 
     id: "Pelatihan suara", // #toBeUpdated
@@ -1618,9 +1665,9 @@ export const AppTranslations: Translations = {
   },
   PerformanceTracker: {
     en: "Performance tracker", // OK
-    de: "Leistungs-Tracker", // OK
+    de: "Leistungstracker", // OK
     fr: "Traqueur de performance",
-    ru: "Показатель КПД", 
+    ru: "Показатель эффективности", 
     id: "Pelacak kinerja",
     fil: "Performance tracker",
     zh: "个人表现追踪",
@@ -1752,7 +1799,7 @@ export const AppTranslations: Translations = {
   // Mouse click modifiers
   MouseClickModifier: {
     en: "Mouse click modifier",
-    de: "Mausklickmodifizierung",
+    de: "Mausklickschutz",
     fr: "Modificateur de clic souris", // #toBeUpdated
     ru: "Модификатор щелчка мыши", 
     id: "Pengubah klik mouse", // #toBeUpdated
@@ -1763,7 +1810,7 @@ export const AppTranslations: Translations = {
   },
   MouseClickModifierTooltip: {
     en: "The mouse-click modifier integration requires a user to press a modifier key when clicking on the overlay. This provides protection against interference with the game.",
-    de: "Die Mausklickmodifizierung wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist die Modifizierung aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Modifizierungsknopf gedrückt werden.",
+    de: "Die Mausklickschutz wird dazu verwendet falschen Klicks auf Fenstern vorzubeugen. Ist der Schutz aktiviert, muss zusätzlich zum Mausklick noch der entsprechende Schutzknopf gedrückt werden.",
     fr: "L'intégration du modificateur de clic de souris nécessite que l'utilisateur appuie sur une touche de modification lorsqu'il clique sur la superposition. Cela fournit une protection contre les interférences avec le jeu.", // #toBeUpdated
     ru: "Интеграция модификатора щелчка мышью требует, чтобы пользователь нажимал клавишу-модификатор при нажатии на наложение. Это обеспечивает защиту от вмешательства в игру.", 
     id: "Integrasi pengubah klik mouse mengharuskan pengguna untuk menekan tombol pengubah saat mengklik overlay. Ini memberikan perlindungan terhadap gangguan dengan permainan.", // #toBeUpdated
@@ -1774,8 +1821,8 @@ export const AppTranslations: Translations = {
   },
   Modifier: {
     en: "Modifier",
-    de: "Modifizierer", // #toBeUpdated
-    fr: "Modificateur", // #toBeUpdated
+    de: "Schutz",
+    fr: "Modificateur",
     ru: "Модификатор", 
     id: "Pengubah", // #toBeUpdated
     fil: "Modifier", // #toBeUpdated
@@ -2098,7 +2145,7 @@ export const AppTranslations: Translations = {
     en: "Hotkey to show & hide app. We recommend setting the hotkey for the Performance Tracker to the same as you use to show Dota's Scoreboard.",
     de: "Hotkey zum Ein- und Ausblenden der App. Wir empfehlen, den Hotkey für den Performance Tracker auf den gleichen Wert einzustellen, den Sie zum Anzeigen von Dota's Scoreboard verwenden.",
     fr: "Raccourci clavier pour afficher et masquer l'application. Nous vous recommandons de définir le raccourci clavier du traqueur de performances sur le même que celui que vous utilisez pour afficher le tableau des scores de Dota.",
-    ru: "Горячая клавиша для отображения и скрытия приложения. Мы рекомендуем установить горячую клавишу для отслеживания КПД на клавишу отображения табло Dota.",
+    ru: "Горячая клавиша для отображения и скрытия приложения. Мы рекомендуем установить горячую клавишу для отслеживания эффективности на клавишу отображения табло Dota.",
     id: "Hotkey untuk menampilkan & menyembunyikan aplikasi. Sebaiknya atur hotkey untuk Performance Tracker sama seperti yang Anda gunakan untuk menunjukkan Scoreboard Dota.",
     fil: "Hotkey para makita o maitago ang app. Inirerekomenda namin na mag set ng hotkey para sa Performance Tracker sa katulad ng pag pakita ng Dota's Scoreboard.",
     zh: "显示和隐藏应用程序的热键。我们建议将个人表现跟踪器的热键设置为与显示Dota记分牌时使用的快捷键相同。",
@@ -2107,7 +2154,7 @@ export const AppTranslations: Translations = {
   },
   ShowhideOverlay: {
     en: "Show/hide in-game overlay",
-    de: "Spiel-Overlay ein-/ausblenden",
+    de: "Spieloverlay ein-/ausblenden",
     fr: "Afficher/masquer l'app dans le jeu",
     ru: "Показать/скрыть внутриигровой оверлей",
     id: "Tampilkan/sembunyikan overlay dalam game",
@@ -2289,9 +2336,9 @@ export const AppTranslations: Translations = {
 
   // Notifications
   GameStateIntegration: {
-    en: "Dota Coach needs access to Game State Integration API provided by Dota 2.<br>Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
+    en: "Dota Coach needs access to the Game State Integration API provided by Dota 2.<br>Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
     id: "Dota Coach membutuhkan akses ke API Integrasi Negara Game yang disediakan oleh Dota 2. <br>Pastikan untuk menambahkan '-gamestateintegration' ke opsi peluncuran Dota 2.",
-    de: "Dota Coach benötigt Zugriff auf die von Dota 2 bereitgestellte Game State Integration API. <br>Bitte stellen Sie sicher, dass Sie „-gamestateintegration“ zu den Startoptionen von Dota 2 hinzufügen.",
+    de: "Dota Coach benötigt Zugriff auf die von Dota 2 bereitgestellte Game State Integration API. <br>Bitte stell sicher, dass du „-gamestateintegration“ zu den Startoptionen von Dota 2 hinzugefügt hast.",
     fr: "Dota Coach doit avoir accès à l'API Game State Integration fournie par Dota 2. <br>Assurez-vous d'ajouter « -gamestateintegration » aux options de lancement de Dota 2.",
     ru: "Dota Coach необходим доступ к Игровой интеграции API, предоставляемому Dota 2. <br>Пожалуйста, убедитесь, что вы добавили «-gamestateintegration» в параметры запуска Dota 2.",
     br: "Dota Coach precisa acessar a API de integração do estado do jogo fornecida pelo Dota 2. <br>Certifique-se de adicionar '-gamestateintegration' às opções de lançamento do Dota 2.",
@@ -2299,7 +2346,17 @@ export const AppTranslations: Translations = {
     es: "Dota Coach necesita acceso a la API de integración de Game State proporcionada por Dota 2. <br>Asegúrate de añadir '-gamestateintegration' a las opciones de lanzamiento de Dota 2.",
     fil: "Dota Coach ay nangangailangan ng access sa Game State Integration API na binigay ng Dota 2. <br>Siguraduhing ilagay ang '-gamestateintegreation' sa Dota 2 launch options.",
   },
-
+  GameStateIntegrationTypo: {
+    en: "There is a typo in your Dota 2 launch options for Game State Integration.<br>Please replace '####' with '-gamestateintegration'.",
+    de: "Es gibt einen Tippfehler in deinen Dota 2-Startoptionen für Game State Integration.<br>Bitte ersetze '####' durch '-gamestateintegration'.",
+    fr: "Il y a une faute de frappe dans tes options de lancement Dota 2 pour Game State Integration.<br>Remplace « #### » par « -gamestateintegration ».",
+    ru: "В параметрах запуска Dota 2 для интеграции состояния игры допущена опечатка. <br>Замените «####» на «-gamestateintegration».", 
+    id: "Ada kesalahan ketik di opsi peluncuran Dota 2 Anda untuk Integrasi Status Game. <br>Harapganti '####' dengan '-gamestateintegration'.", // #toBeUpdated
+    fil: "Mayroong typo sa iyong mga pagpipilian sa paglunsad ng Dota 2 para sa Pagsasama ng Estado ng Game. <br>Mangyaringpalitan ang '####' ng 'gamestateintegration'.", // #toBeUpdated
+    zh: "你的 Dota 2 游戏状态集成的启动选项中有一个错字。<br>请将 “####” 替换为 '-gamestateIntegrategrate'。", // #toBeUpdated
+    br: "Há um erro de digitação nas opções de lançamento do Dota 2 para a Integração do Estado do Jogo. <br>Substitua '####' por '-gamestateintegration'.", // #toBeUpdated
+    es: "Hay un error tipográfico en las opciones de lanzamiento de Dota 2 para la integración del estado del juego. <br>Reemplaza '####' por '-gamestateintegration'.", // #toBeUpdated
+  },
   GameStateIntegrationMore: {
     en: "MORE",
     de: "MEHR",
@@ -2310,6 +2367,35 @@ export const AppTranslations: Translations = {
     br: "MAIS",
     ru: "БОЛЬШЕ",
     es: "MÁS",
+  },
+
+  // Desktop window: Dota Launch message
+  LaunchDota: {
+    en: "Launch Dota 2 to benefit from in-game features such as<br>player stats, timers, performance tracking and coaching.",
+    ru: "Запустите Dota 2, чтобы воспользоваться внутриигровыми функциями, такими как<br>статистика игрока, таймеры, отслеживание эффективности и обучение",
+  },
+
+  DotaConnectivityStart: {
+    en: "Connecting to Dota 2...",
+    ru: "Подключение к Dota 2...",
+  },
+  DotaConnectivityStatus: {
+    en: "Connecting to Dota 2...<br>Current status: '####' (####/#### attempts)",
+    ru: "Подключение к Dota 2...<br>Текущий статус: '####' (####/#### попытки)",
+  },
+  DotaConnectivityError: {
+    en: "Connection to Dota 2 could not be established.<br>Please try again later.<br>Error: '####'.",
+    ru: "Подключение к Dota 2 не установлено.<br>Пожалуйста, повторите попытку позже.<br>Ошибка: '####'.",
+  },
+  DotaConnectivityFailed: {
+    // {"plugin_error": "failed_initializing_monitor"}
+    en: "Connection to Dota 2 is disrupted. We are working on a fix, please try again later.",
+    ru: "Соединение с Dota 2 прервано. Мы работаем над исправлением, повторите попытку позже.",
+  },
+  DotaConnectivityCrashed: {
+    // {""plugin_error"":""crashed_on_present""}
+    en: "Connection to Dota crashed. Please try to relaunch app.", // May be we should try to reconnect...
+    ru: "Сбой подключения к Dota. Попробуйте перезапустить приложение.", 
   },
 
   // Welcome message for new users
@@ -2335,7 +2421,7 @@ export const AppTranslations: Translations = {
       "https://dota-coach.com/heropedia",
       "https://dota-coach.com/video/DotaCoachTutorial.mp4",
     ],
-    de: "Füge '-gamestateintegration' zu deinen Dota-Startoptionen hinzu (<span id='webLink'>Klicke hier für weitere Informationen</span>).<br><br>Passe Dota Coach an deine Bedürfnisse an. Gehe dafür zum Einstellungsmenü in der oberen rechten Ecke! <br><hr>Interagiere während des Spiels mit Timern und Infoboxen, um dir einen Vorteil zu verschaffen:<br>- Drücke <b>LINKSKLICK</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu starten.<br>- Drücke <b>das rote X</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu stoppen.<br>- Drücke <b>LINKSKLICK</b> drücken um Infoboxen am oberen Bildschirmrand zu öffnen.<br><hr>Du bist jetzt ein wichtiges Mitglied der Dota Coach-Community und wir möchten von dir hören:<br>- Tritt unserem <span id='webLink'>Discord Server</span> bei, um direkt mit uns zu sprechen, gleichgesinnte Spieler zu finden und Ideen einzubringen!<br>- Tritt unserem <span id='webLink'>Subreddit</span> bei oder folge uns in den <span id='webLink'>sozialen Medien</span>, um Live-Updates zu erhalten! <hr>Hast du noch Fragen? Keine Sorge, wir haben alles für dich bereit:<br>- <span id='webLink'>FAQ</span><br>- <span id='webLink'>Heropedia</span><br><hr>Möchtest du alle Funktionalitäten von Dota Coach in 3 Minuten kennenlernen? Dann schaue dir unser Tutorial-Video an:<br><br><button id='webLink'>Video</button><br>",
+    de: "Füge '-gamestateintegration' zu deinen Dota-Startoptionen hinzu (<span id='webLink'>Klicke hier für weitere Informationen</span>).<br><br>Passe Dota Coach an deine Bedürfnisse an. Gehe dafür zum Einstellungsmenü in der oberen rechten Ecke! <br><hr>Interagiere während des Spiels mit Timern und Infoboxen, um dir einen Vorteil zu verschaffen:<br>- Drücke <b>LINKSKLICK</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu starten.<br>- Drücke <b>das rote X</b> um Roshan-, Glyph-, Buyback- und Ultimate-Timer zu stoppen.<br>- Drücke <b>LINKSKLICK</b> drücken um Infoboxen am oberen Bildschirmrand zu öffnen.<br><hr>Du bist jetzt ein wichtiges Mitglied der Dota Coach-Community und wir möchten von dir hören:<br>- Tritt unserem <span id='webLink'>Discord Server</span> bei, um direkt mit uns zu sprechen, gleichgesinnte Spieler zu finden und Ideen einzubringen!<br>- Tritt unserem <span id='webLink'>Subreddit</span> bei oder folge uns in den <span id='webLink'>sozialen Medien</span>!<hr>Hast du noch Fragen? Keine Sorge, wir haben alles für dich bereit:<br>- <span id='webLink'>FAQ</span><br>- <span id='webLink'>Heropedia</span><br><hr>Möchtest du alle Funktionalitäten von Dota Coach in 3 Minuten kennenlernen?<br>Dann schaue dir unser Tutorial-Video an:<br><br><button id='webLink'>Video</button><br>",
     fr: "Assurez-vous d'ajouter « -gamestateintegration » à vos options de lancement Dota (<span id='webLink'>Cliquez ici pour afficher le guide</span>). <br><br>Personnalisez Dota Coach selon vos besoins. Rendez-vous dans le menu des paramètres en haut à droite ! <br><hr>Interagissez avec les minuteurs et les boîtes d'information pendant le jeu pour obtenir un avantage concurrentiel : <br><br>- Appuyez <b>sur LEFT-CLIC</b> pour démarrer Roshan, Glyh-, Buyback-, Ultimate-Timers. <br>- Appuyez sur <b>le X rouge</b> pour arrêter Roshan-, Glyh-, Buyback-, Ultimate-Timers. <br><br>- Appuyez sur le <b>bouton GAUCHE</b> pour ouvrir les boîtes d'information en haut et sur la minicarte. <br><hr>Vous êtes maintenant un membre important de la communauté des entraîneurs Dota <br>et nous voulons avoir de vos nouvelles : <br><br>- Rejoignez notre <span id='webLink'>serveur Discord</span> pour parler directement avec nos entraîneurs professionnels, <br>trouver des joueurs partageant les mêmes idées et suggérer des changements d'entraîneur Dota ! <br><br>- Rejoignez notre <span id='webLink'>Subreddit</span> ou suivez Dota Coach sur les <span id='webLink'>réseaux sociaux</span> <br>pour recevoir des mises à jour en direct sur les changements et améliorations à venir ! <hr>Vous avez encore des questions ? Pas de soucis, nous avons ce qu'il vous faut : <br><br><br><br>- <span id='webLink'>FAQ</span> - <span id='webLink'>Heropedia</span> <br><hr>Vous voulez libérer toute la puissance de Dota Coach en 3 minutes ? <br>Regardez la vidéo complète du guide : <br><br><button id='webLink'>Vidéo du guide</button> <br>",
     ru: "Убедитесь, что вы добавили «-gamestateintegration» в параметры запуска Dota (<span id='webLink'>Нажмите здесь, чтобы посмотреть руководство</span>). <br><br>Настройте Dota Coach под свои нужды. Загляните в меню настроек в правом верхнем углу! <br><hr>Пользуйтесь таймерами и инфобоксами во время игры, чтобы получить преимущество: <br><br>- Нажмите<b> ЛЕВУЮ КНОПКУ МЫШИ</b>, чтобы запустить Рошан-, Глиф-, Байбек-, Ултимейт-Таймеры. <br>- Нажмите на <b>красный крест</b>, чтобы остановить Рошан-, Глиф-, Байбек-, Ультимейт-таймеры. <br><br>- <b>Нажмите ЛЕВУЮ КНОПКУ МЫШИ</b>, чтобы открыть инфобоксы вверху и на мини-карте. <br><hr>Теперь вы - часть сообщества Dota Coach, <br>и мы хотим вас услышать: <br><br>- Присоединяйтесь к нашему <span id='webLink'>серверу Discord</span>, чтобы напрямую общаться с нашими профессиональными тренерами, <br>находить единомышленников и предлагать свои изменения в Dota Coach! <br><br>- Присоединяйтесь к нашему <span id='webLink'>Subreddit</span> или подписывайтесь на Dota Coach в <span id='webLink'>социальных сетях</span>, <br>чтобы получать новости о предстоящих изменениях и улучшениях в реальном времени! <hr>Остались вопросы? Мы вам поможем: <br><br>- <span id='webLink'>FAQ</span> <br><br>- <span id='webLink'>Heropedia</span> <br><hr>Хотите увидеть всю мощь Dota Coach за 3 минуты? <br>Посмотрите полное видео руководство: <br><br><button id='webLink'>видеоруководство</button> <br>",
     id: "Pastikan untuk menambahkan '-gamestateintegration' ke opsi peluncuran Dota Anda (<span id='webLink'>Klik untuk di sini menunjukkan Panduan</span>). <br><br>Costumize Dota Coach sesuai kebutuhan Anda. Pergi ke menu pengaturan di pojok kanan atas! <br><hr>Berinteraksi dengan timer dan infobox selama pertandingan untuk mendapatkan tepi kompetetif:<br><br>- Tekan<b> KIR-KLIK </b>untuk memulai Roshan-, Glyph-, Buyback-, Ultimate-Timers. <br>- Tekan<b> X merah </b>untuk menghentikan Roshan-, Glyph-, Buyback-, Ultimate-Timers. <br><br>- Tekan<b> KIFT KLIK </b>untuk membuka infobox di bagian atas dan di minimap. <br><hr>Anda sekarang menjadi anggota penting dari komunitas Dota Coach<br>dan kami ingin mendengar dari Anda:<br><br>- Bergabunglah dengan <span id='webLink'>Server Discord</span> kami untuk berbicara langsung dengan Pelatih Pro-kami,<br>temukan pemain yang berpikiran sama dan menyarankan perubahan Dota Coach! <br><br>- Bergabunglah dengan <span id='webLink'>Subreddit</span> kami atau ikuti Dota Coach di <span id='webLink'>media sosial</span> <br>untuk mendapatkan pembaruan langsung tentang perubahan dan peningkatan yang akan datang! <hr>Masih punya pertanyaan? Jangan khawatir, kami punya Anda tertutup:<br><br>- <span id='webLink'>FAQ</span><br><br>- <span id='webLink'>Heropedia</span><br><hr>Ingin melepaskan kekuatan penuh Dota Coach dalam 3 menit? <br>Tonton video panduan lengkap:<br><br><button id='webLink'>Panduan Video</button><br>",
@@ -2350,7 +2436,7 @@ export const AppTranslations: Translations = {
     en: "Remove ads",
     de: "Werbung entfernen", // #toBeUpdated
     fr: "Supprimer les publicités", // #toBeUpdated
-    ru: "Удалить рекламу", // #toBeUpdated
+    ru: "Убрать рекламу",
     id: "Menghapus iklan", // #toBeUpdated
     fil: "Mag-alis ng mga ad", // #toBeUpdated
     zh: "移除广告", // #toBeUpdated

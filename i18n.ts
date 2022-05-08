@@ -1,11 +1,11 @@
-// i18n.ts
 /**
  * i18n library for Dota Coach
  *
+ * Format to be used: <div i18n="<token>">${i18n.t(<token>}</div>`
  * Format to be used: <div id="i18n_#ENGLISH TEXT#" class="i18n">${i18n.t(#ENGLISH TEXT)}</div>`
  */
 import { Languages } from "./i18n-languages";
-import * as DL from "../../src/utility/log";
+import * as DL from "../../submodules/utilities/log";
 
 export type Translations = {
   [key: string]: Translation;
@@ -85,7 +85,7 @@ export function replaceVarTokens(
   // Builds Regex for .replace function
   const re = new RegExp(i18nVarToken, "");
 
-  // Safes all incoming parameters in the global object so updateHTML
+  // Saves all incoming parameters in the global object so updateHTML
   // can access the data if langauge is swapped
   i18nVarTokenValues[i18nT] = tokens;
 
@@ -114,6 +114,17 @@ export function replaceVarTokens(
   } else {
     return strReplaced;
   }
+}
+
+/**
+ * Function to change variable tokens.
+ * After updating a variable token, the HTML element needs to be updated with the function updateHTMLElement
+ *
+ * @param token
+ * @param tokens
+ */
+export function setVarTokens(i18nT: string, ...tokens: string[]) {
+  i18nVarTokenValues[i18nT] = tokens;
 }
 
 /**
@@ -253,11 +264,13 @@ export function updateHTML() {
  * @param htmlElement element to be update
  */
 export function updateHTMLElement(htmlElement: HTMLElement) {
-  if (htmlElement.classList.contains("i18n")) {
+  //if (htmlElement.classList.contains("i18n")) {
+  if (htmlElement.hasAttribute("i18n")) {
     // Update this  element
     updatei18nElement(htmlElement);
   } else {
-    const elements = htmlElement.getElementsByClassName("i18n");
+    //const elements = htmlElement.getElementsByClassName("i18n");
+    const elements = htmlElement.querySelectorAll("[i18n]");
     for (const element of Array.from(elements)) {
       updatei18nElement(element);
     }
@@ -265,16 +278,22 @@ export function updateHTMLElement(htmlElement: HTMLElement) {
 }
 
 function updatei18nElement(element: Element) {
-  const i18nToken = element.id
+  /*const i18nToken = element.id
     .replace("i18n_", "")
     .replace("i18x_", "")
-    .replace("i18y_", "");
+    .replace("i18y_", "");*/
+  const i18nToken = element.getAttribute("i18n");
+  /*console.log(
+    `*** i18nVarTokenValues=${JSON.stringify(i18nVarTokenValues, null, 2)}`
+  );*/
   if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
+    /*console.log(`*** here we go`);*/
     element.innerHTML = replaceVarTokens(
       false,
       i18nToken,
       ...i18nVarTokenValues[i18nToken]
     );
+    /*  console.log(`*** element.innerHTML = ${element.innerHTML}`);*/
   } else {
     const innerHTML = t(i18nToken);
     element.innerHTML = innerHTML;
@@ -283,10 +302,11 @@ function updatei18nElement(element: Element) {
 }
 
 function configureWebLinks(element: Element) {
-  const i18nToken = element.id
+  /*  const i18nToken = element.id
     .replace("i18n_", "")
     .replace("i18x_", "")
-    .replace("i18y_", "");
+    .replace("i18y_", "");*/
+  const i18nToken = element.getAttribute("i18n");
   let linkId = 0;
 
   // Create unique IDs for webLinks
@@ -321,7 +341,8 @@ function configureWebLinks(element: Element) {
  * @returns Builds HTML span string
  */
 export function span(code: string): string {
-  return `<span id="i18n_${code}" class="i18n">${t(code)}</span>`;
+  //return `<span id="i18n_${code}" class="i18n">${t(code)}</span>`;
+  return `<span i18n="${code}">${t(code)}</span>`;
 }
 
 /**
@@ -332,7 +353,8 @@ export function span(code: string): string {
  */
 export function div(code: string): string {
   /*DL.log(`*** i18n.div(${code})`);*/
-  return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
+  //return `<div id="i18n_${code}" class="i18n">${t(code)}</div>`;
+  return `<div i18n="${code}">${t(code)}</div>`;
 }
 
 // Display of error message

@@ -2,9 +2,11 @@
 
 This repository contains all translation files for the Dota Coach App and Websites (https://dota-coach.com and https://dota-coach.github.io).
 
-# Contributing
+# How to contribute
 
-Create a pull-request to contribute. You will get a Translator role on our Discord server upon approval. Have fun translating!
+We appreciate all support for translating the app!
+
+To contribute create a pull-request. You will get a Translator role on our Discord server upon approval. Have fun translating!
 
 ## Instructions for translators
 
