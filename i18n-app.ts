@@ -2336,10 +2336,13 @@ export const AppTranslations: Translations = {
 
   // Notifications
   OverlayEnabeld: {
-    en: "Dota Coach needs overlay for Dota 2 enabled in Overwolf. Please update Overwolf settings.",
+    en: "Dota Coach needs overlay for Dota 2 to be enabled in Overwolf. Please update Overwolf settings.",
   },
   OverlayEnabeldSettings: {
     en: "OPEN SETTINGS",
+  },
+  OverlayEnabeldRestart: {
+    en: "You successfully enabled the Dota 2 overlay. Please close and reopen Dota Coach, Overwolf and Dota 2 for the change to be effective.",
   },
   GameStateIntegration: {
     en: "Dota Coach needs access to the Game State Integration API provided by Dota 2. Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
