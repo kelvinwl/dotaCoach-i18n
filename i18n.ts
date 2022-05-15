@@ -329,7 +329,7 @@ function configureWebLinks(element: Element) {
           webLink = "https://dota-coach.com/video/DotaCoachTutorial-en.mp4";
         }
       }
-      overwolf.utils.openUrlInOverwolfBrowser(webLink);
+      //overwolf.utils.openUrlInOverwolfBrowser(webLink);
     });
   }
 }
