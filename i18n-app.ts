@@ -2378,10 +2378,57 @@ export const AppTranslations: Translations = {
     es: "MÁS",
   },
 
+  // Desktop status display
+  InfoboxesOperational: {
+    en: "Infoboxes are fully operational.",
+  },
+  InfoboxesIssueDota: {
+    en: "Infoboxes are down as connectivity to Dota 2 is not working properly.",
+  },
+
   // Desktop window: Dota Launch message
   LaunchDota: {
-    en: "Launch Dota 2 to benefit from in-game features such as<br>player stats, timers, performance tracking and coaching.",
-    ru: "Запустите Dota 2, чтобы воспользоваться внутриигровыми функциями, такими как<br>статистика игрока, таймеры, отслеживание эффективности и обучение",
+    en: "Launch Dota 2 to benefit from in-game features such as player stats, timers, performance tracking and coaching.",
+    ru: "Запустите Dota 2, чтобы воспользоваться внутриигровыми функциями, такими как статистика игрока, таймеры, отслеживание эффективности и обучение",
+  },
+  FullyOperational: {
+    en: "Dota 2 is running and connection is fully operational.",
+  },
+
+  MatchAnalyticsOperational: {
+    en: "Match analytics is fully operational.",
+  },
+  MatchAnalyticsLoading: {
+    en: "Match analytics is loading benchmark data.",
+  },
+  MatchAnalyticsError: {
+    en: "Match analytics can't benchmark your matches as it failed loading benchmark data (#####).", // Add button for try again?
+  },
+
+  TimersOperational: {
+    en: "Timers are fully operational.",
+  },
+  TimersIssueDota: {
+    en: "Timers are down as connectivity to Dota 2 is not working properly.",
+  },
+  CoachingOperational: {
+    en: "Coaching and notifications are fully operational.",
+  },
+  CoachingIssueDota: {
+    en: "Coaching and notifications are down as connectivity to Dota 2 is not working properly.",
+  },
+
+  PerformanceTrackerOperational: {
+    en: "Performance tracker is fully operational and waiting for you to select a hero in a game.",
+  },
+  PerformanceTrackerOperationalInGame: {
+    en: "Performance tracker is fully operational.",
+  },
+  PerformanceTrackerIssueDota: {
+    en: "Performance tracker is down as connectivity to Dota 2 is not working properly.",
+  },
+  PerformanceTrackerIssueAWS: {
+    en: "Performance tracker can't compare your performance as benchmark data could not be retrieved from server (####).",
   },
 
   DotaConnectivityStart: {
