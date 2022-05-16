@@ -2499,4 +2499,9 @@ export const AppTranslations: Translations = {
     br: "Remover anúncios",
     es: "Eliminar anuncios", // #toBeUpdated
   },
+
+  // Setup Wizard
+  welcome: {
+    en: "Welcome to Dota Coach",
+  },
 };
