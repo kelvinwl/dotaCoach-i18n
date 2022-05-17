@@ -2500,8 +2500,400 @@ export const AppTranslations: Translations = {
     es: "Eliminar anuncios", // #toBeUpdated
   },
 
-  // Setup Wizard
+  /**
+   * Setup Wizard
+   */
+
+  // Setup Wizard Stepper Items
+  stepperHeader: {
+    en: "Dota Coach Setup",
+    de: "Dota Coach einrichten", // #toBeUpdated
+    fr: "Configuration du coach Dota", // #toBeUpdated
+    ru: "Настройка тренера по Dota", // #toBeUpdated
+    id: "Pengaturan Pelatih Dota", // #toBeUpdated
+    fil: "Pag-setup ng Dota Coach", // #toBeUpdated
+    zh: "刀塔教练设置", // #toBeUpdated
+    br: "Configuração do treinador Dota", // #toBeUpdated
+    es: "Configuración de Dota Coach", // #toBeUpdated
+  },
+
+  stepperLanguage: {
+    en: "Language",
+    de: "Sprache", // #toBeUpdated
+    fr: "Langage", // #toBeUpdated
+    ru: "Язык", // #toBeUpdated
+    id: "Bahasa", // #toBeUpdated
+    fil: "Wika", // #toBeUpdated
+    zh: "语言", // #toBeUpdated
+    br: "Idioma", // #toBeUpdated
+    es: "Idioma", // #toBeUpdated
+  },
+
+  stepperProfile: {
+    en: "Profile",
+    de: "Profil", // #toBeUpdated
+    fr: "Profil", // #toBeUpdated
+    ru: "Профиль", // #toBeUpdated
+    id: "Profil", // #toBeUpdated
+    fil: "Profile", // #toBeUpdated
+    zh: "配置文件", // #toBeUpdated
+    br: "Perfil", // #toBeUpdated
+    es: "Perfil", // #toBeUpdated
+  },
+
+  stepperDotaplusSub: {
+    en: "Dota+ Subscription",
+    de: "Dota+ Abo", // #toBeUpdated
+    fr: "Abonnement Dota+", // #toBeUpdated
+    ru: "Подписка на Dota+", // #toBeUpdated
+    id: "Langganan Dota+", // #toBeUpdated
+    fil: "Subscription ng Dota+", // #toBeUpdated
+    zh: "Dota+ 订阅", // #toBeUpdated
+    br: "Assinatura Dota+", // #toBeUpdated
+    es: "Suscripción a Dota+", // #toBeUpdated
+  },
+
+  stepperAudio: {
+    en: "Audio",
+    de: "Audio", // #toBeUpdated
+    fr: "Audio", // #toBeUpdated
+    ru: "Аудио", // #toBeUpdated
+    id: "Audio", // #toBeUpdated
+    fil: "Audio", // #toBeUpdated
+    zh: "音频", // #toBeUpdated
+    br: "Áudio", // #toBeUpdated
+    es: "Audio", // #toBeUpdated
+  },
+
+  stepperFinalize: {
+    en: "Finalize",
+    de: "Finalisieren", // #toBeUpdated
+    fr: "Finaliser", // #toBeUpdated
+    ru: "Завершить", // #toBeUpdated
+    id: "Menyelesaikan", // #toBeUpdated
+    fil: "I-finalize", // #toBeUpdated
+    zh: "敲定", // #toBeUpdated
+    br: "Finalizar", // #toBeUpdated
+    es: "Finalizar", // #toBeUpdated
+  },
+
+  // Setup Wizard global buttons
+
+  buttonPrevious: {
+    en: "Previous",
+    de: "Vorherige", // #toBeUpdated
+    fr: "précédent", // #toBeUpdated
+    ru: "предыдущий", // #toBeUpdated
+    id: "Sebelumnya", // #toBeUpdated
+    fil: "Nakaraang", // #toBeUpdated
+    zh: "以前", // #toBeUpdated
+    br: "Anterior", // #toBeUpdated
+    es: "Anterior", // #toBeUpdated
+  },
+
+  buttonNext: {
+    en: "Next",
+    de: "Weiter", // #toBeUpdated
+    fr: "Suivant", // #toBeUpdated
+    ru: "Следующий", // #toBeUpdated
+    id: "Berikutnya", // #toBeUpdated
+    fil: "Susunod", // #toBeUpdated
+    zh: "下一步", // #toBeUpdated
+    br: "Próximo", // #toBeUpdated
+    es: "Próximo", // #toBeUpdated
+  },
+
+  buttonSkip: {
+    en: "Skip",
+    de: "Skip", // #toBeUpdated
+    fr: "Sauter", // #toBeUpdated
+    ru: "Пропустить", // #toBeUpdated
+    id: "Lewati", // #toBeUpdated
+    fil: "Laktawan", // #toBeUpdated
+    zh: "跳过", // #toBeUpdated
+    br: "Pular", // #toBeUpdated
+    es: "Omitir", // #toBeUpdated
+  },
+
+  buttonDone: {
+    en: "Done",
+    de: "Fertig", // #toBeUpdated
+    fr: "Terminé", // #toBeUpdated
+    ru: "Готово", // #toBeUpdated
+    id: "Selesai", // #toBeUpdated
+    fil: "Tapos na", // #toBeUpdated
+    zh: "完成了", // #toBeUpdated
+    br: "Feito", // #toBeUpdated
+    es: "Terminado", // #toBeUpdated
+  },
+
+  buttonEnable: {
+    en: "Enable",
+    de: "Ermöglichen", // #toBeUpdated
+    fr: "Activer", // #toBeUpdated
+    ru: "Включить", // #toBeUpdated
+    id: "Aktifkan", // #toBeUpdated
+    fil: "Paganahin", // #toBeUpdated
+    zh: "启用", // #toBeUpdated
+    br: "Ativar", // #toBeUpdated
+    es: "Habilitar", // #toBeUpdated
+  },
+
+  buttonDisable: {
+    en: "Disable",
+    de: "Deaktiviert", // #toBeUpdated
+    fr: "Désactiver", // #toBeUpdated
+    ru: "Отключить", // #toBeUpdated
+    id: "Nonaktifkan", // #toBeUpdated
+    fil: "Huwag paganahin", // #toBeUpdated
+    zh: "禁用", // #toBeUpdated
+    br: "Desativar", // #toBeUpdated
+    es: "Deshabilitar", // #toBeUpdated
+  },
+
+  // Setup Wizard Language
+
   welcome: {
-    en: "Welcome to Dota Coach",
+    en: "Welcome to Dota Coach!",
+    de: "Willkommen bei Dota Coach!", // #toBeUpdated
+    fr: "Bienvenue chez Dota Coach !", // #toBeUpdated
+    ru: "Добро пожаловать в Dota Coach!", // #toBeUpdated
+    id: "Selamat datang di Dota Coach!", // #toBeUpdated
+    fil: "Maligayang pagdating sa Dota Coach!", // #toBeUpdated
+    zh: "欢迎来到刀塔教练！", // #toBeUpdated
+    br: "Bem-vindo ao Dota Coach!", // #toBeUpdated
+    es: "¡Bienvenido a Dota Coach!", // #toBeUpdated
+  },
+
+  setupSteps: {
+    en: "We will now guide you through our setup steps which take around two minutes to complete.",
+    de: "Wir führen Sie jetzt durch unsere Einrichtungsschritte, die etwa zwei Minuten dauern.", // #toBeUpdated
+    fr: "Nous allons maintenant vous guider tout au long de nos étapes de configuration quideux minutes pour terminer.", // #toBeUpdated
+    ru: "Теперь мы проведем вас через шаги по настройке, которыедве минуты до завершения.", // #toBeUpdated
+    id: "Kami sekarang akan memandu Anda melalui langkah-langkah pengaturan kami yang mengambil sekitardua menit untuk menyelesaikannya.", // #toBeUpdated
+    fil: "Gagabayan ka namin ngayon sa pamamagitan ng aming mga hakbang sa pag-setup na tumatagal sa paligiddalawang minuto upang makumpleto.", // #toBeUpdated
+    zh: "现在，我们将引导您完成设置步骤还有两分钟才能完成。", // #toBeUpdated
+    br: "Agora vamos guiá-lo através de nossas etapas de configuração que levam em tornodois minutos para concluir.", // #toBeUpdated
+    es: "Ahora lo guiaremos a través de nuestros pasos de configuración, que requierendos minutos para completarla.", // #toBeUpdated
+  },
+
+  selectLanguage: {
+    en: "Select your language:",
+    de: "Wählen Sie Ihre Sprache aus:", // #toBeUpdated
+    fr: "Sélectionnez votre langue :", // #toBeUpdated
+    ru: "Выберите свой язык:", // #toBeUpdated
+    id: "Pilih bahasa Anda:", // #toBeUpdated
+    fil: "Piliin ang iyong wika:", // #toBeUpdated
+    zh: "选择你的语言：", // #toBeUpdated
+    br: "Selecione seu idioma:", // #toBeUpdated
+    es: "Selecciona tu idioma:", // #toBeUpdated
+  },
+
+  // Profiles
+  dotaProfiles: {
+    en: "Choose your Dota2 Profile:",
+    de: "Wählen Sie Ihr Dota2-Profil:", // #toBeUpdated
+    fr: "Choisissez votre profil Dota2 :", // #toBeUpdated
+    ru: "Выберите свой профиль Dota2:", // #toBeUpdated
+    id: "Pilih Profil Dota2 Anda:", // #toBeUpdated
+    fil: "Piliin ang iyong Dota2 Profile:", // #toBeUpdated
+    zh: "选择你的 Dota2 个人资料：", // #toBeUpdated
+    br: "Escolha seu perfil Dota2:", // #toBeUpdated
+    es: "Elige tu perfil de Dota2:", // #toBeUpdated
+  },
+
+  beginner: {
+    en: "Beginner",
+    de: "Einsteiger", // #toBeUpdated
+    fr: "débutant", // #toBeUpdated
+    ru: "Начинающий", // #toBeUpdated
+    id: "Pemula", // #toBeUpdated
+    fil: "Baguhan", // #toBeUpdated
+    zh: "初学者", // #toBeUpdated
+    br: "Iniciante", // #toBeUpdated
+    es: "Principiante", // #toBeUpdated
+  },
+
+  veteran: {
+    en: "Veteran",
+    de: "Veteran", // #toBeUpdated
+    fr: "vétéran", // #toBeUpdated
+    ru: "Ветеран", // #toBeUpdated
+    id: "Veteran", // #toBeUpdated
+    fil: "Beterano", // #toBeUpdated
+    zh: "老兵", // #toBeUpdated
+    br: "Veterano", // #toBeUpdated
+    es: "Veterano", // #toBeUpdated
+  },
+
+  heroCoaching: {
+    en: "Hero Voice Coaching",
+    de: "Helden-Stimme", // #toBeUpdated
+    fr: "Coaching vocal de héros", // #toBeUpdated
+    ru: "Голосовой коучинг героев", // #toBeUpdated
+    id: "Pelatihan Suara Pahlawan", // #toBeUpdated
+    fil: "bayani boses Pagtuturo", // #toBeUpdated
+    zh: "英雄语音教练", // #toBeUpdated
+    br: "Treinamento de voz de herói", // #toBeUpdated
+    es: "Entrenamiento por voz de", // #toBeUpdated
+  },
+
+  eventNotifications: {
+    en: "Event Notifications",
+    de: "Event-Benachrichtigungen", // #toBeUpdated
+    fr: "Notifications relatives", // #toBeUpdated
+    ru: "Уведомления о событиях", // #toBeUpdated
+    id: "Pemberitahuan Acara", // #toBeUpdated
+    fil: "Mga Abiso ng Kag", // #toBeUpdated
+    zh: "事件通知", // #toBeUpdated
+    br: "Notificações de", // #toBeUpdated
+    es: "Avisos de eventos", // #toBeUpdated
+  },
+
+  timersBeginner: {
+    en: "All timers",
+    de: "Alle Timer", // #toBeUpdated
+    fr: "Tous les minuteurs", // #toBeUpdated
+    ru: "Все таймеры", // #toBeUpdated
+    id: "Semua timer", // #toBeUpdated
+    fil: "Lahat ng timers", // #toBeUpdated
+    zh: "所有计时器", // #toBeUpdated
+    br: "Todos os temporizadores", // #toBeUpdated
+    es: "Todos los temporizadores", // #toBeUpdated
+  },
+
+  profileInfoboxes: {
+    en: "Player and Team Infoboxes",
+    de: "Spieler- und Team-Infoboxen", // #toBeUpdated
+    fr: "Infoboxes joueurs et équipes", // #toBeUpdated
+    ru: "Информационные ящики об игроках и командах", // #toBeUpdated
+    id: "Pemain dan Tim Infoboxes", // #toBeUpdated
+    fil: "Mga Infobox ng Manlalaro at Koponan", // #toBeUpdated
+    zh: "球员和队伍信息框", // #toBeUpdated
+    br: "Infoboxes de jogadores e equipes", // #toBeUpdated
+    es: "Infoboxes de jugadores y equipos", // #toBeUpdated
+  },
+
+  profileSubtitles: {
+    en: "Subtitle Window",
+    de: "Fenster mit Untertiteln", // #toBeUpdated
+    fr: "Fenêtre de sous-titres", // #toBeUpdated
+    ru: "Окно субтитров", // #toBeUpdated
+    id: "Jendela Subtitle", // #toBeUpdated
+    fil: "Window ng Subtitle", // #toBeUpdated
+    zh: "字幕窗口", // #toBeUpdated
+    br: "Janela de legenda", // #toBeUpdated
+    es: "Ventana de subtítulos", // #toBeUpdated
+  },
+
+  timersVeteran: {
+    en: "Timers (Team Buyback and Ultimates disabled)",
+    de: "Timer (Teamrückkauf und Ultimates deaktiviert)", // #toBeUpdated
+    fr: "Minuteurs (Team Buyback et Ultimates désactivés)", // #toBeUpdated
+    ru: "Таймеры (выкуп команд и Ultimates отключены)", // #toBeUpdated
+    id: "Timer (Team Buyback dan Ultimates dinonaktifkan)", // #toBeUpdated
+    fil: "Timers (Hindi pinagana ang Pagbili ng Koponan at Ultimates)", // #toBeUpdated
+    zh: "计时器（已禁用团队回购和终极版）", // #toBeUpdated
+    br: "Temporizadores (Team Buyback e Ultimates desativados)", // #toBeUpdated
+    es: "Temporizadores (recompra de equipo y Ultimates desactivados)", // #toBeUpdated
+  },
+
+  profileFooter: {
+    en: "You can enable or disable invidual components later in the Settings menu!",
+    de: "Einzelne Komponenten können Sie später im Menü Einstellungen aktivieren oder deaktivieren!", // #toBeUpdated
+    fr: "Vous pouvez activer ou désactiver certains composants ultérieurement dans le menu Paramètres !", // #toBeUpdated
+    ru: "Вы можете включить или отключить отдельные компоненты позже в меню «Настройки»!", // #toBeUpdated
+    id: "Anda dapat mengaktifkan atau menonaktifkan komponen invidual nanti di menu Pengaturan!", // #toBeUpdated
+    fil: "Maaari mong paganahin o huwag paganahin ang mga indibidwal na bahagi mamaya sa menu ng Mga Setting!", // #toBeUpdated
+    zh: "您可以稍后在 “设置” 菜单中启用或禁用单个组件！", // #toBeUpdated
+    br: "Você pode ativar ou desativar componentes individuais posteriormente no menu Configurações!", // #toBeUpdated
+    es: "Puede activar o desactivar componentes individuales más adelante en el menú Configuración.", // #toBeUpdated
+  },
+
+  // Dotaplus
+  dotaplusHeader: {
+    en: "Are you subscribed to Dota Plus?",
+    de: "Haben Sie Dota Plus abonniert?", // #toBeUpdated
+    fr: "Êtes-vous abonné à Dota Plus ?", // #toBeUpdated
+    ru: "Вы подписаны на Dota Plus?", // #toBeUpdated
+    id: "Apakah Anda berlangganan Dota Plus?", // #toBeUpdated
+    fil: "Nag-subscribe ka ba sa Dota Plus?", // #toBeUpdated
+    zh: "你订阅了 Dota Plus 吗？", // #toBeUpdated
+    br: "Você está inscrito no Dota Plus?", // #toBeUpdated
+    es: "¿Estás suscrito a Dota Plus?", // #toBeUpdated
+  },
+
+  yes: {
+    en: "yes",
+    de: "Ja", // #toBeUpdated
+    fr: "oui", // #toBeUpdated
+    ru: "да", // #toBeUpdated
+    id: "ya", // #toBeUpdated
+    fil: "oo", // #toBeUpdated
+    zh: "是的", // #toBeUpdated
+    br: "sim", // #toBeUpdated
+    es: "sí", // #toBeUpdated
+  },
+
+  no: {
+    en: "no",
+    de: "nein", // #toBeUpdated
+    fr: "non", // #toBeUpdated
+    ru: "нет", // #toBeUpdated
+    id: "tidak", // #toBeUpdated
+    fil: "hindi", // #toBeUpdated
+    zh: "不", // #toBeUpdated
+    br: "não", // #toBeUpdated
+    es: "no", // #toBeUpdated
+  },
+
+  dotaplusText: {
+    en: "We use this information to position our Performance Tracker!",
+    de: "Wir verwenden diese Informationen, um unseren Performance Tracker zu positionieren!", // #toBeUpdated
+    fr: "Nous utilisons ces informations pour positionner notre outil de suivi des performances !", // #toBeUpdated
+    ru: "Мы используем эту информацию для позиционирования нашего трекера производительности!", // #toBeUpdated
+    id: "Kami menggunakan informasi ini untuk memposisikan Pelacak Kinerja kami!", // #toBeUpdated
+    fil: "Ginagamit namin ang impormasyong ito upang iposisyon ang aming Performance Tracker!", // #toBeUpdated
+    zh: "我们使用这些信息来定位我们的绩效追踪器！", // #toBeUpdated
+    br: "Usamos essas informações para posicionar nosso Rastreador de Desempenho!", // #toBeUpdated
+    es: "¡Utilizamos esta información para posicionar nuestro Performance Tracker!", // #toBeUpdated
+  },
+
+  // Mouse click modifier
+  modifierText: {
+    en: "The mouse click modifier is used to prevent miss clicks on UI components while playing.<br />If you select one from the list, you have to press the modifier key while clicking on UI elements.<br />You can change the modifier later in the Settings-Menu",
+    de: "Der Mausklick-Modifikator wird verwendet, um Fehlklicks auf UI-Komponenten während der Wiedergabe zu verhindern. <br />Wenn Sie eine aus der Liste auswählen, müssen Sie die Zusatztaste drücken, während Sie auf UI-Elemente klicken. <br />Sie können den Modifikator später im Einstellungsmenü ändern", // #toBeUpdated
+    fr: "Le modificateur de clic de souris est utilisé pour empêcher les clics manqués sur les composants de l'interface utilisateur pendant la lecture <br />Si vous en sélectionnez un dans la liste, vous devez appuyer sur la touche de modification tout en cliquant sur les éléments de l'interface utilisateur. <br />Vous pouvez modifier le modificateur ultérieurement dans le menu Paramètres", // #toBeUpdated
+    ru: "Модификатор щелчка мыши используется для предотвращения пропусков кликов по компонентам пользовательского интерфейса во время игры. <br />Если вы выберете один из них из списка, вы должны нажать клавишу-модификатор, нажимая на элементы пользовательского интерфейса. <br />Модификатор можно изменить позже в меню «Настройки»", // #toBeUpdated
+    id: "Pengubah klik mouse digunakan untuk mencegah klik miss pada komponen UI saat bermain. <br />Jika Anda memilih salah satu dari daftar, Anda harus menekan tombol pengubah sambil mengklik elemen UI. <br />Anda dapat mengubah pengubah nanti di Settings-Menu", // #toBeUpdated
+    fil: "Ang modifier ng pag-click ng mouse ay ginagamit upang maiwasan ang mga pag-click ng miss sa mga bahagi ng UI habang nagpe-play. <br />Kung pumili ka ng isa mula sa listahan, kailangan mong pindutin ang key ng modifier habang nag-click sa mga elemento ng UI. <br />Maaari mong baguhin ang modifier mamaya sa Mga Setting-Menu", // #toBeUpdated
+    zh: "鼠标点击修改器用于防止在播放时未点击界面组件。<br />如果从列表中选择一个，则必须在单击 UI 元素的同时按下修饰键。<br />你可以稍后在 “设置” 菜单中更改修改器", // #toBeUpdated
+    br: "O modificador de clique do mouse é usado para evitar cliques errados nos componentes da interface do usuário durante a reprodução. <br />Se você selecionar um na lista, terá que pressionar a tecla modificadora enquanto clica nos elementos da interface do usuário. <br />Você pode alterar o modificador posteriormente no menu Configurações", // #toBeUpdated
+    es: "El modificador de clic del ratón se utiliza para evitar clics fallidos en los componentes de la interfaz de usuario mientras se juega <br />Si selecciona uno de la lista, debe presionar la tecla modificadora mientras hace clic en los elementos de la interfaz de usuario. <br />Puedes cambiar el modificador más adelante en el menú de configuración", // #toBeUpdated
+  },
+
+  audioText: {
+    en: "Adjust the volume and make sure the right speaker is selected.<br />Click the on Test aftewards and some audio should play.<br />You can adjust these later on in the settings menu as well.<br />",
+    de: "Stellen Sie die Lautstärke ein und vergewissern Sie sich, dass der richtige Lautsprecher ausgewählt ist. <br />Klicken Sie auf Nachher testen und ein Teil des Audios sollte abgespielt werden. <br />Sie können diese auch später im Einstellungsmenü anpassen. <br />", // #toBeUpdated
+    fr: "Réglez le volume et assurez-vous que le bon haut-parleur est sélectionné. <br />Cliquez ensuite sur Test et certains fichiers audio devraient être lus. <br />Vous pourrez également les ajuster ultérieurement dans le menu des paramètres. <br />", // #toBeUpdated
+    ru: "Отрегулируйте громкость и убедитесь, что выбран правильный динамик. <br />После этого нажмите «Тест», и звук должен воспроизводиться. <br />Вы также можете настроить их позже в меню настроек. <br />", // #toBeUpdated
+    id: "Sesuaikan volume dan pastikan speaker yang tepat dipilih. <br />Klik pada Test aftewards dan beberapa audio harus bermain. <br />Anda dapat menyesuaikannya nanti di menu pengaturan juga. <br />", // #toBeUpdated
+    fil: "Ayusin ang lakas ng tunog at siguraduhin na napili ang tamang speaker. <br />I-click ang sa Pagsubok pagkatapos at dapat i-play ang ilang audio. <br />Maaari mo ring ayusin ang mga ito sa ibang pagkakataon sa menu ng mga setting pati na rin. <br />", // #toBeUpdated
+    zh: "调整音量并确保选择了正确的扬声器。<br />之后单击 “测试”，即可播放一些音频。<br />您稍后也可以在设置菜单中调整这些设置。<br />", // #toBeUpdated
+    br: "Ajuste o volume e verifique se o alto-falante correto está selecionado. <br />Clique em Testar depois e um pouco de áudio deve ser reproduzido. <br />Você também pode ajustá-los posteriormente no menu de configurações. <br />", // #toBeUpdatedes: "Ajuste el volumen y asegúrese de que está seleccionado el altavoz correcto. <br />Haga clic en Probar después y se reproducirá algo de audio. <br />También puedes ajustarlos más adelante en el menú de configuración. <br />", // #toBeUpdated
+  },
+
+  // Finalize
+
+  finalizeText: {
+    en: "If you want to change selections you made later on, head to thesettings menu!<br />Thank you for trying Dota Coach and good luck in your games!<br />",
+    de: "Wenn Sie die später getroffene Auswahl ändern möchten, gehen Sie zuEinstellungen-Menü! <br />Danke, dass du Dota Coach ausprobiert hast und viel Glück bei deinen Spielen! <br />", // #toBeUpdated
+    fr: "Si vous souhaitez modifier les sélections que vous avez effectuées ultérieurement, rendez-vous sur la pagemenu des paramètres ! <br />Merci d'avoir essayé Dota Coach et bonne chance dans tes jeux ! <br />", // #toBeUpdated
+    ru: "Если вы хотите изменить выбор, сделанный позже, перейдите кменю настроек! <br />Спасибо, что попробовали Dota Coach и удачи в ваших играх! <br />", // #toBeUpdated
+    id: "Jika Anda ingin mengubah pilihan yang Anda buat nanti, bukamenu pengaturan! <br />Terima kasih telah mencoba Dota Coach dan semoga sukses dalam permainan Anda! <br />", // #toBeUpdated
+    fil: "Kung gusto mong baguhin ang mga seleksyon na ginawa mo sa ibang pagkakataon, magtungo samenu ng mga setting! <br />Salamat sa iyo para sa pagsubok Dota Coach at good luck sa iyong mga laro! <br />", // #toBeUpdated
+    zh: "如果你想更改稍后所做的选择，请前往设置菜单！<br />感谢你试用 Dota Coach，祝你在游戏中好运！<br />", // #toBeUpdated
+    br: "Se você quiser alterar as seleções feitas mais tarde, vá para omenu de configurações! <br />Obrigado por experimentar o Dota Coach e boa sorte em seus jogos! <br />", // #toBeUpdated
+    es: "Si quieres cambiar las selecciones que hiciste más adelante, dirígete a la¡menú de configuración! <br />¡Gracias por probar Dota Coach y buena suerte en tus juegos! <br />", // #toBeUpdated
   },
 };
