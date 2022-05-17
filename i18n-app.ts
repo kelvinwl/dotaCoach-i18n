@@ -961,15 +961,15 @@ export const AppTranslations: Translations = {
     es: "Sesión iniciada",
   },
   LoggedInAs: {
-    en: "Logged in as",
-    de: "Angemeldet als",
-    fr: "Connecté en tant que",
-    ru: "Вы вошли как",
-    id: "Masuk sebagai",
-    fil: "Naka-logged in bilang",
-    zh: "已通过第三方账号登陆",
-    br: "Logado como",
-    es: "Conectado como",
+    en: "Logged in as ####",
+    de: "Angemeldet als ####",
+    fr: "Connecté en tant que ####",
+    ru: "Вы вошли как ####", // toBeReviewed (position of ####)
+    id: "Masuk sebagai ####", // toBeReviewed (position of ####)
+    fil: "Naka-logged in bilang ####", // toBeReviewed (position of ####)
+    zh: "已通过第三方账号登陆 ####", // toBeReviewed (position of ####)
+    br: "Logado como ####", // toBeReviewed (position of ####)
+    es: "Conectado como ####", // toBeReviewed (position of ####)
   },
   CreateBallot: {
     en: "Create ballot",
