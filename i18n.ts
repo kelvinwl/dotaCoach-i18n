@@ -169,6 +169,7 @@ export function t(token: string): string {
  * @param language Supported languages: 'en', 'ru', 'zh', 'id'
  */
 export function setLanguage(language: string) {
+  DL.log(`i18n.setLanguage(${language}): Called`);
   const lang = findLanguage(language);
   currentLanguage = lang;
 }
