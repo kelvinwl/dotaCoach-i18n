@@ -527,6 +527,14 @@ export const AppTranslations: Translations = {
   },
   Heroes: {
     en: "Heroes",
+    de: "Heleden",
+    fr: "Héros",
+    ru: "Герои", // #toBeUpdated
+    id: "Pahlawan", // #toBeUpdated
+    fil: "Bayani", // #toBeUpdated
+    zh: "英雄", // #toBeUpdated
+    br: "Heróis", // #toBeUpdated
+    es: "Héroes", // #toBeUpdated
   },
   Steam: {
     en: "Steam",
@@ -648,7 +656,14 @@ export const AppTranslations: Translations = {
   // Arguments: Player's hero, other user's name, other user's hero, nuber of days [last is not applicable for games played today]
   playedWithWonWithToday: {
     en: `You <span class="txt-green">won</span> as #### with #### as #### today.`,
+    de: `Du hast heute als #### mit #### als #### <span class="txt-green">gewonnen</span>.`,
+    fr: `Tu as <span class="txt-green">gagné</span> en tant que #### avec #### en tant que #### aujourd'hui.`,
     ru: `Вы <span class="txt-green"> выиграли </span> как #### с #### как #### сегодня.`,
+    id: `Anda <span class="txt-green">menang</span> sebagai ##### dengan #### sebagai #### hari ini.`, // #toBeUpdated
+    fil: `<span class="txt-green">Nanalo</span> ka bilang #### na may #### bilang #### ngayon.`, // #toBeUpdated
+    zh: `你今天以 ##### 的比分<span class="txt-green">赢了</span> #####。`, // #toBeUpdated
+    br: `Você <span class="txt-green">ganhou</span> como #### com #### como #### hoje.`, // #toBeUpdated
+    es: `<span class="txt-green">Ganaste</span> como #### con #### como #### hoy.`, // #toBeUpdated
   },
   playedWithWonWith: {
     en: `You <span class="txt-green">won</span> as #### with #### as #### #### days ago.`,
@@ -663,7 +678,14 @@ export const AppTranslations: Translations = {
   },
   playedWithLostWithToday: {
     en: `<span class="txt-red">Lost</span> as #### with #### as #### today.`,
+    de: `Du hast als #### mit #### als #### heute <span class="txt-red">verloren</span>.`,
+    fr: `Tu as <span class="txt-red">perdu</span> en tant que #### avec #### en tant que #### aujourd'hui.`,
     ru: `<span class="txt-red">Проиграл </span> как #### с #### как #### сегодня.`,
+    id: `<span class="txt-red">Hilang</span> sebagai ##### dengan ##### sebagai #### hari ini.`, // #toBeUpdated
+    fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang #### ngayon.`, // #toBeUpdated
+    zh: `今天@@ <span class="txt-red">迷失</span>为 ####，### 作为 ####。`, // #toBeUpdated
+    br: `<span class="txt-red">Perdido</span> como #### com #### como #### hoje.`, // #toBeUpdated
+    es: `<span class="txt-red">Perdido</span> como #### con #### como #### hoy.`, // #toBeUpdated
   },
   playedWithLostWith: {
     en: `You <span class="txt-red">lost</span> as #### with #### as #### #### days ago.`,
@@ -678,6 +700,14 @@ export const AppTranslations: Translations = {
   },
   playedWithWonVsToday: {
     en: `You <span class="txt-green">won</span> as #### vs #### as #### today.`,
+    de: `Du hast heute als #### gegen #### als #### <span class="txt-green">gewonnen</span>.`,
+    fr: `Tu as <span class="txt-green">gagné</span> en tant que #### contre #### en tant que #### aujourd'hui.`,
+    ru: `Сегодня вы <span class="txt-green">выиграли</span> как #### против #### как ####.`, // #toBeUpdated
+    id: `Anda <span class="txt-green">menang</span> sebagai ##### vs ##### sebagai #### hari ini.`, // #toBeUpdated
+    fil: `<span class="txt-green">Nanalo</span> ka bilang #### vs #### bilang #### ngayon.`, // #toBeUpdated
+    zh: `你今天以 #### vs ##### 的比分<span class="txt-green">赢</span>了 ####。`, // #toBeUpdated
+    br: `Você <span class="txt-green">ganhou</span> como #### vs #### quanto #### hoje.`, // #toBeUpdated
+    es: `Hoy <span class="txt-green">ganaste</span> como #### contra #### como ###.`, // #toBeUpdated
   },
   playedWithWonVs: {
     en: `You <span class="txt-green">won</span> as #### vs #### as #### #### days ago.`,
@@ -692,19 +722,25 @@ export const AppTranslations: Translations = {
   },
   playedWithLostVsToday: {
     en: `You <span class="txt-red">lost</span> as #### vs #### as #### today.`,
+    de: `Du hast heute als #### gegen #### als #### <span class="txt-red">verloren</span>.`,
+    fr: `Tu as <span class="txt-red">perdu</span> en tant que #### contre #### en tant que #### aujourd'hui.`,
+    ru: `Вы <span class="txt-red">проиграли</span> как #### против #### как #### сегодня.`, // #toBeUpdated
+    id: `Anda <span class="txt-red">kalah</span> sebagai ##### vs ##### sebagai #### hari ini.`, // #toBeUpdated
+    fil: `<span class="txt-red">Nawala</span> ka bilang #### vs #### bilang #### ngayon.`, // #toBeUpdated
+    zh: `你今天<span class="txt-red">输了</span> #### vs ####`, // #toBeUpdated
+    br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### hoje.`, // #toBeUpdated
+    es: `Has <span class="txt-red">perdido</span> como #### contra #### como #### hoy.`, // #toBeUpdated
   },
   playedWithLostVs: {
     en: `You <span class="txt-red">lost</span> as #### vs #### as #### #### days ago.`,
     de: `Du hast als #### gegen #### als #### vor #### Tagen <span class="txt-red">verloren</span>.`,
+    fr: `Tu as <span class="txt-red">perdu</span> comme #### contre #### comme #### #### il y a quelques jours.`,
     ru: `Вы <span class="txt-red"> проиграли </span> как #### против #### как #### #### дней назад.`,
-    // Translate all others!!!!
-
-    fr: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`, // #toBeUpdated
-    id: `<span class="txt-red">Verloren</span> als ##### # # als #### vor #### Tagen.`, // #toBeUpdated
-    fil: `<span class="txt-red">Verloren</span> als #### berde ### als #### para sa #### Tagen.`, // #toBeUpdated
-    zh: `<span class="txt-red">Verloren</span> als #### gegen #### 也是 #### vor #### Tagen。`, // #toBeUpdated
-    br: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`, // #toBeUpdated
-    es: `<span class="txt-red">Verloren</span> als #### gegen #### als #### vor #### Tagen.`, // #toBeUpdated
+    id: `Anda <span class="txt-red">kalah</span> sebagai #### vs ##### sebagai ######## hari yang lalu.`, // #toBeUpdated
+    fil: `<span class="txt-red">Nawala</span> ka bilang #### vs ##### bilang #### ### araw na nakalipas.`, // #toBeUpdated
+    zh: `你<span class="txt-red">输了</span> #### vs ##### 和 ##### 几天前一样。`, // #toBeUpdated
+    br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### #### dias atrás.`, // #toBeUpdated
+    es: `<span class="txt-red">Perdiste</span> como #### vs ##### como ##### días atrás.`, // #toBeUpdated
   },
 
   enemyHero: {
@@ -1362,6 +1398,14 @@ export const AppTranslations: Translations = {
   },
   RuneCountdowns: {
     en: "Show rune countdowns",
+    de: `Runen-Countdowns anzeigen`,
+    fr: `Afficher les comptes à rebours des runes`,
+    ru: `Показать обратный отсчет рун`, // #toBeUpdated
+    id: `Tampilkan hitung mundur rune`, // #toBeUpdated
+    fil: `Ipakita ang mga countdown ng rune`, // #toBeUpdated
+    zh: `显示符文倒计时`, // #toBeUpdated
+    br: `Mostrar contagens regressivas de runas`, // #toBeUpdated
+    es: `Mostrar cuenta regresiva de runas`, // #toBeUpdated
   },
   RoshanAndGlyph: {
     en: "Roshan & glyph",
@@ -1465,9 +1509,25 @@ export const AppTranslations: Translations = {
   },
   CoachingOwnHero: {
     en: "Coaching own hero",
+    de: `Coaching des eigenen Helden`, // #toBeUpdated
+    fr: `Coaching pour son propre héro`, // #toBeUpdated
+    ru: `Тренировка собственного героя`, // #toBeUpdated
+    id: `Membimbing pahlawan sendiri`, // #toBeUpdated
+    fil: `Coaching sariling bayani`, // #toBeUpdated
+    zh: `训练自己的英雄`, // #toBeUpdated
+    br: `Treinando o próprio herói`, // #toBeUpdated
+    es: `Entrenando al propio héroe`, // #toBeUpdated
   },
   CoachingEnemyHeroes: {
     en: "Coaching enemy heroes",
+    de: `Coaching gegnerischer Helden`,
+    fr: `Coaching pour les héros ennemis`,
+    ru: `Обучение вражеских героев`, // #toBeUpdated
+    id: `Melatih pahlawan musuh`, // #toBeUpdated
+    fil: `Coaching kaaway bayani`, // #toBeUpdated
+    zh: `指导敌方英雄`, // #toBeUpdated
+    br: `Treinando heróis inimigos`, // #toBeUpdated
+    es: `Entrenar a héroes enemigos`, // #toBeUpdated
   },
   Notifications: {
     en: "Notifications",
@@ -1493,6 +1553,14 @@ export const AppTranslations: Translations = {
   },
   BountyRunesNotifications: {
     en: "Bounty runes notifications",
+    de: `Bounty Runes Benachrichtigungen`,
+    fr: `Notifications pour les runes`,
+    ru: `Уведомления о рунах Баунти`, // #toBeUpdated
+    id: `Pemberitahuan rune hadiah`, // #toBeUpdated
+    fil: `Mga abiso ng bounty runes`, // #toBeUpdated
+    zh: `赏金符文通知`, // #toBeUpdated
+    br: `Notificações de runas de recompensa`, // #toBeUpdated
+    es: `Notificaciones de runas de recompensa`, // #toBeUpdated
   },
   WaterAndPowerRunes: {
     en: "Water & power runes",
@@ -1507,6 +1575,14 @@ export const AppTranslations: Translations = {
   },
   WaterAndPowerRunesNotifications: {
     en: "Water & power runes notifications",
+    de: `Benachrichtigungen über Wasser- und Powerrunen`,
+    fr: `Notifications sur les runes d'eau et de power`,
+    ru: `Уведомления о водных и энергетических рунах`, // #toBeUpdated
+    id: `Pemberitahuan rune air & daya`, // #toBeUpdated
+    fil: `Mga abiso ng tubig at kapangyarihan runes`, // #toBeUpdated
+    zh: `水和电力符文通知`, // #toBeUpdated
+    br: `Notificações de runas de água e energia`, // #toBeUpdated
+    es: `Notificaciones de runas de agua y`, // #toBeUpdated"
   },
   NeutralItems: {
     en: "Neutral items",
@@ -2131,6 +2207,17 @@ export const AppTranslations: Translations = {
   },
   HotkeysTooltip: {
     en: "Hotkey to show & hide the app in the game.",
+
+    de: `Hotkey zum Ein- und Ausblenden der App im Spiel.`,
+    fr: `Hotkey pour afficher et masquer l'application dans le jeu.`,
+    ru: `Горячая клавиша для отображения и скрытия приложения в игре.`, // #toBeUpdated
+    id: `Hotkey untuk menampilkan & menyembunyikan aplikasi dalam game.`, // #toBeUpdated
+    fil: `Hotkey upang ipakita at itago ang app sa laro.`, // #toBeUpdated
+    zh: `用于在游戏中显示和隐藏应用程序的热键。`, // #toBeUpdated
+    br: `Tecla de atalho para mostrar e ocultar o aplicativo no jogo.`, // #toBeUpdated
+    es: `Tecla de acceso rápido para mostrar y ocultar la aplicación en el juego.`, // #toBeUpdated
+
+    /* OLD TEXT*/
     /*de: "Hotkey zum Ein- und Ausblenden der App. Wir empfehlen, den Hotkey für den Performance Tracker auf den gleichen Wert einzustellen, den Sie zum Anzeigen von Dota's Scoreboard verwenden.",
     fr: "Raccourci clavier pour afficher et masquer l'application. Nous vous recommandons de définir le raccourci clavier du traqueur de performances sur le même que celui que vous utilisez pour afficher le tableau des scores de Dota.",
     ru: "Горячая клавиша для отображения и скрытия приложения. Мы рекомендуем установить горячую клавишу для отслеживания эффективности на клавишу отображения табло Dota.",
@@ -2198,7 +2285,16 @@ export const AppTranslations: Translations = {
     es: "Items",
   },
   ItemsTooltip: {
-    en: "Item notifications during the game to remind you of events such as neutral items or the availability of observer wards. You can enable or disable the different messages individually.",
+    en: "Item notifications during the game to remind you of events such as neutral items or the availability of observer wards. You can enable or disable the different notifications individually.",
+    de: `Gegenstandsbenachrichtigungen während des Spiels, um dich an Ereignisse wie neutrale Gegenstände oder die Verfügbarkeit von Observer Wards zu erinnern. Du kannst die verschiedenen Benachrichtigungen einzeln aktivieren oder deaktivieren.`,
+    fr: `Notifications d'objets pendant le jeu pour vous rappeler des événements tels que des objets neutres ou la disponibilité des Oberver Wards. Tu peux activer ou désactiver les différentes notifications individuellement.`,
+    ru: `Уведомления о предметах во время игры, напоминающие о таких событиях, как нейтральные предметы или наличие подопечных наблюдателей. Различные уведомления можно включать или отключать по отдельности.`, // #toBeUpdated
+    id: `Pemberitahuan item selama pertandingan untuk mengingatkan Anda tentang peristiwa seperti item netral atau ketersediaan bangsal pengamat. Anda dapat mengaktifkan atau menonaktifkan notifikasi yang berbeda satu per satu.`, // #toBeUpdated
+    fil: `Mga abiso ng item sa panahon ng laro upang ipaalala sa iyo ang mga kaganapan tulad ng mga neutral na item o ang pagkakaroon ng mga tagamasid ward. Maaari mong paganahin o huwag paganahin ang iba't ibang mga notification nang paisa-isa.`, // #toBeUpdated
+    zh: `游戏期间的物品通知，提醒你注意中立物品或观察者守卫的可用性等事件。您可以单独启用或禁用不同的通知。`, // #toBeUpdated
+    br: `Notificações de itens durante o jogo para lembrá-lo de eventos como itens neutros ou a disponibilidade de alas de observadores. Você pode ativar ou desativar as diferentes notificações individualmente.`, // #toBeUpdated
+    es: `Notificaciones de objetos durante el juego para recordarte eventos como objetos neutrales o la disponibilidad de salas de observadores. Puede activar o desactivar las diferentes notificaciones de forma individual.`, // #toBeUpdated
+    /* OLD TEXT */
     /*de: "Während des Spiels erhältliche Benachrichtigungen, die dich an Ereignisse wie das Erscheinen von Kopfgeldrunen erinnern. Sie können die verschiedenen Nachrichten einzeln ein- oder ausschalten.",
     fr: "Notifications fournies pendant le jeu pour vous rappeler des événements tels que l'apparition de runes de prime. Vous pouvez activer ou désactiver les différents messages individuellement.",
     ru: "Уведомления появляются во время игры, чтобы напомнить вам о таких событиях, как появление Рун Богатства. Эти сообщения можно включать или выключать по отдельности.",
@@ -2337,12 +2433,36 @@ export const AppTranslations: Translations = {
   // Notifications
   OverlayEnabeld: {
     en: "Dota Coach needs overlay for Dota 2 to be enabled in Overwolf. Please update Overwolf settings.",
+    de: `Der Overlay für Dota 2 muss in Overwolf aktiviert werden. Bitte aktualisiere die Overwolf-Einstellungen.`,
+    fr: `Dota Coach a besoin que l'overlay pour Dota 2 soit activé dans Overwolf. Mets à jour le paramètre dans Overwolf.`,
+    ru: `Чтобы включить Dota 2 в Overwolf, тренер по Dota нуждается в оверлее. Пожалуйста, обновите настройки Overwolf.`, // #toBeUpdated
+    id: `Dota Coach membutuhkan overlay agar Dota 2 diaktifkan di Overwolf. Harap perbarui pengaturan Overwolf.`, // #toBeUpdated
+    fil: `Kailangan ng Dota Coach ang overlay para sa Dota 2 na ma-enable sa Overwolf. Mangyaring i-update ang mga setting ng Overwolf.`, // #toBeUpdated
+    zh: `刀塔教练需要在 Overwolf 中启用 Dota 2 的叠加层。请更新 Overwolf 设置。`, // #toBeUpdated
+    br: `O Dota Coach precisa de sobreposição para que o Dota 2 seja ativado no Overwolf. Atualize as configurações do Overwolf.`, // #toBeUpdated
+    es: `Dota Coach necesita una superposición para que Dota 2 esté habilitado en Overwolf. Actualiza la configuración de Overwolf.`, // #toBeUpdated
   },
   OverlayEnabeldSettings: {
     en: "OPEN SETTINGS",
+    de: `EINSTELLUNGEN ÖFFNEN`,
+    fr: `OUVRIR PARAMÈTRES`,
+    ru: `ОТКРЫТЫЕ НАСТРОЙКИ`, // #toBeUpdated
+    id: `PENGATURAN TERBUKA`, // #toBeUpdated
+    fil: `BUKAS NA MGA SETTING`, // #toBeUpdated
+    zh: `打开设置`, // #toBeUpdated
+    br: `CONFIGURAÇÕES ABERTAS`, // #toBeUpdated
+    es: `ABRIR CONFIGURACIÓN`, // #toBeUpdated
   },
   OverlayEnabeldRestart: {
     en: "You successfully enabled the Dota 2 overlay. Please close and reopen Dota Coach, Overwolf and Dota 2 for the change to be effective.",
+    de: `Du hast das Dota 2-Overlay erfolgreich aktiviert. Bitte schließe Dota Coach, Overwolf und Dota 2 und öffnen es dann erneut, damit die Änderung wirksam wird.`,
+    fr: `Vous avez activé la superposition Dota 2 avec succès. Veuillez fermer et rouvrir Dota Coach, Overwolf et Dota 2 pour que le changement soit effectif.`,
+    ru: `Вы успешно включили оверлей Dota 2. Пожалуйста, закройте и снова откройте Dota Coach, Overwolf и Dota 2, чтобы изменения вступили в силу.`, // #toBeUpdated
+    id: `Anda berhasil mengaktifkan overlay Dota 2. Silakan tutup dan buka kembali Dota Coach, Overwolf dan Dota 2 agar perubahannya efektif.`, // #toBeUpdated
+    fil: `Matagumpay mong pinagana ang overlay ng Dota 2. Mangyaring isara at muling buksan ang Dota Coach, Overwolf at Dota 2 para maging epektibo ang pagbabago.`, // #toBeUpdated
+    zh: `你成功启用了 Dota 2 叠加层。请关闭并重新打开 Dota Coach、Overwolf 和 Dota 2，以使更改生效。`, // #toBeUpdated
+    br: `Você ativou com sucesso a sobreposição do Dota 2. Feche e reabra o Dota Coach, Overwolf e Dota 2 para que a mudança seja efetiva.`, // #toBeUpdated
+    es: `Has habilitado correctamente la superposición de Dota 2. Cierra y vuelve a abrir Dota Coach, Overwolf y Dota 2 para que el cambio entre en vigor.`, // #toBeUpdated
   },
   GameStateIntegration: {
     en: "Dota Coach needs access to the Game State Integration API provided by Dota 2. Please make sure to add '-gamestateintegration' to Dota 2 launch options.",
@@ -2381,90 +2501,279 @@ export const AppTranslations: Translations = {
   // Desktop status display
   InfoboxesOperational: {
     en: "Infoboxes are fully operational.",
+    de: `Infoboxen sind voll funktionsfähig.`,
+    fr: `Les infoboxes sont pleinement opérationnelles.`,
+    ru: `Инфобоксы полностью работоспособны.`, // #toBeUpdated
+    id: `Infoboxes beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang mga infobox ay ganap na gumagana.`, // #toBeUpdated
+    zh: `信息框已完全运行。`, // #toBeUpdated
+    br: `As infoboxes estão totalmente operacionais.`, // #toBeUpdated
+    es: `Los infoboxes están en pleno funcionamiento.`, // #toBeUpdated
   },
   InfoboxesIssueDota: {
     en: "Infoboxes are down as connectivity to Dota 2 is not working properly.",
+    de: `Infoboxen funktionieren nicht, da die Verbindung zu Dota 2 nicht ordnungsgemäß funktioniert.`,
+    fr: `Les infoboxes sont en panne car la connectivité à Dota 2 ne fonctionne pas correctement.`,
+    ru: `Инфобоксы не работают, так как подключение к Dota 2 не работает должным образом.`, // #toBeUpdated
+    id: `Infoboxes turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
+    fil: `Ang mga infobox ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
+    zh: `由于与 Dota 2 的连接无法正常工作，信息框已关闭。`, // #toBeUpdated
+    br: `As infoboxes estão inativas porque a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    es: `Las infoboxes están inactivas porque la conectividad a Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   InfoboxesLaunchDota: {
     en: "Launch Dota 2 to use in-game infoboxes.",
+    de: `Starte Dota 2 um die Infoboxen im Spiel verwenden zu können.`,
+    fr: `Lance Dota 2 pour utiliser les infoboxes.`,
+    ru: `Запустите Dota 2, чтобы использовать внутриигровые инфобоксы.`, // #toBeUpdated
+    id: `Luncurkan Dota 2 untuk menggunakan kotak info dalam game.`, // #toBeUpdated
+    fil: `Ilunsad ang Dota 2 upang magamit ang in-game infoboxes.`, // #toBeUpdated
+    zh: `启动 Dota 2 以使用游戏中的信息框。`, // #toBeUpdated
+    br: `Inicie o Dota 2 para usar infoboxes no jogo.`, // #toBeUpdated
+    es: `Inicia Dota 2 para usar las infoboxes del juego.`, // #toBeUpdated
   },
 
   // Desktop window: Dota Launch message
   LaunchDota: {
     en: "Launch Dota 2 to benefit from in-game features such as player stats, timers, performance tracking and coaching.",
+
+    de: `Starte Dota 2 um die Appfunktionen wie Spielerstatistiken, Timern, Performance Tracking und Coaching zu nutzen.`,
+    fr: `Lance Dota 2 pour bénéficier des fonctionnalités de l'app telles que les statistiques des joueurs, les chronomètres, le suivi des performances et le coaching.`,
     ru: "Запустите Dota 2, чтобы воспользоваться внутриигровыми функциями, такими как статистика игрока, таймеры, отслеживание эффективности и обучение",
+    id: `Luncurkan Dota 2 untuk mendapatkan keuntungan dari fitur dalam game seperti statistik pemain, pengatur waktu, pelacakan kinerja, dan pembinaan.`, // #toBeUpdated
+    fil: `Ilunsad ang Dota 2 upang makinabang mula sa mga tampok na in-game tulad ng stats ng manlalaro, timers, pagsubaybay sa pagganap at Pagtuturo.`, // #toBeUpdated
+    zh: `启动 Dota 2 以受益于游戏内功能，例如玩家统计、计时器、表现跟踪和指导。`, // #toBeUpdated
+    br: `Inicie o Dota 2 para se beneficiar dos recursos do jogo, como estatísticas do jogador, cronômetros, rastreamento de desempenho e treinamento.`, // #toBeUpdated
+    es: `Inicia Dota 2 para beneficiarte de las funciones del juego, como estadísticas de los jugadores, temporizadores, seguimiento del rendimiento y entrenamiento.`, // #toBeUpdated
   },
   FullyOperational: {
     en: "Dota 2 is running and connection is fully operational.",
+    de: `Dota 2 läuft und die Verbindung ist voll funktionsfähig.`,
+    fr: `Dota 2 est en cours d'exécution et la connexion est pleinement opérationnelle.`,
+    ru: `Dota 2 запущена, а соединение полностью работоспособно.`, // #toBeUpdated
+    id: `Dota 2 sedang berjalan dan koneksi beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang Dota 2 ay tumatakbo at ang koneksyon ay ganap na pagpapatakbo.`, // #toBeUpdated
+    zh: `Dota 2 正在运行并且连接已完全正常运行。`, // #toBeUpdated
+    br: `O Dota 2 está funcionando e a conexão está totalmente operacional.`, // #toBeUpdated
+    es: `Dota 2 se está ejecutando y la conexión está completamente operativa.`, // #toBeUpdated
   },
 
   MatchAnalyticsOperational: {
     en: "Match analytics is fully operational.",
+    de: `Die Spielanalyse ist voll funktionsfähig.`,
+    fr: `L'analyse des matchs est pleinement opérationnelle.`,
+    ru: `Аналитика матчей полностью работоспособна.`, // #toBeUpdated
+    id: `Match analytics beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang pagtutugma ng analytics ay ganap na gumagana.`, // #toBeUpdated
+    zh: `比赛分析已全面运作。`, // #toBeUpdated
+    br: `A análise de correspondência está totalmente operacional.`, // #toBeUpdated
+    es: `El análisis de partidos está en pleno funcionamiento.`, // #toBeUpdated
   },
   MatchAnalyticsLoading: {
     en: "Match analytics is loading benchmark data.",
+    de: `Match Analytics lädt die Benchmark-Daten.`,
+    fr: `L'analyse des matches charge les données de référence.`,
+    ru: `Аналитика матчей загружает данные тестов.`, // #toBeUpdated
+    id: `Match analytics memuat data benchmark.`, // #toBeUpdated
+    fil: `Ang pagtutugma ng analytics ay naglo-load ng benchmark data.`, // #toBeUpdated
+    zh: `比赛分析正在加载基准数据。`, // #toBeUpdated
+    br: `A análise de correspondência está carregando dados de benchmark.`, // #toBeUpdated
+    es: `El análisis de partidos está cargando datos de referencia.`, // #toBeUpdated
   },
   MatchAnalyticsError: {
     en: "Match analytics can't benchmark your matches as it failed loading benchmark data (#####).", // Add button for try again?
+
+    de: `Die Spielanalyse kann deine Spiele nicht bewerten, da das Laden der Benchmark-Daten fehlgeschlagen ist (#####).`,
+    fr: `L'analyse des matchs ne peut pas comparer vos jeux car le chargement des données de référence a échoué (#####).`,
+    ru: `Аналитика матчей не может сравнивать ваши матчи, так как не удалось загрузить данные теста (#####).`, // #toBeUpdated
+    id: `Match analytics tidak dapat mengukur kecocokan Anda karena gagal memuat data benchmark (#####).`, // #toBeUpdated
+    fil: `Hindi maaaring benchmark ng match analytics ang iyong mga match dahil nabigo ito sa paglo-load ng benchmark data (#####).`, // #toBeUpdated
+    zh: `比赛分析无法对您的比赛进行基准测试，因为它无法加载基准数据 (#####)。`, // #toBeUpdated
+    br: `A análise de correspondência não pode comparar suas correspondências, pois falhou ao carregar os dados de benchmark (#####).`, // #toBeUpdated
+    es: `El análisis de partidos no puede comparar tus partidos porque no pudo cargar los datos de referencia (#####).`, // #toBeUpdated
   },
 
   TimersOperational: {
     en: "Timers are fully operational.",
+    de: `Die Timer sind voll funktionsfähig.`,
+    fr: `Les minuteries sont pleinement opérationnelles.`,
+    ru: `Таймеры полностью работоспособны.`, // #toBeUpdated
+    id: `Timer beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang mga timer ay ganap na pagpapatakbo.`, // #toBeUpdated
+    zh: `计时器已完全运行。`, // #toBeUpdated
+    br: `Os temporizadores estão totalmente operacionais.`, // #toBeUpdated
+    es: `Los temporizadores están en pleno funcionamiento.`, // #toBeUpdated
   },
   TimersIssueDota: {
     en: "Timers are down as connectivity to Dota 2 is not working properly.",
+    de: `Die Timer sind ausgefallen, da die Verbindung zu Dota 2 nicht ordnungsgemäß funktioniert.`,
+    fr: `Les minuteries sont en panne car la connectivité à Dota 2 ne fonctionne pas correctement.`,
+    ru: `Таймеры отключены, так как подключение к Dota 2 не работает должным образом.`, // #toBeUpdated
+    id: `Timer turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
+    fil: `Ang mga timer ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
+    zh: `由于与 Dota 2 的连接无法正常工作，计时器已关闭。`, // #toBeUpdated
+    br: `Os temporizadores estão inativos porque a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    es: `Los temporizadores están inactivos porque la conectividad a Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   TimersLaunchDota: {
     en: "Launch Dota 2 to use in-game timers.",
+    de: `Starte Dota 2, um die Timer im Spiel zu verwenden.`,
+    fr: `Lance Dota 2 pour utiliser les minuteurs dans le jeu.`,
+    ru: `Запустите Dota 2, чтобы использовать внутриигровые таймеры.`, // #toBeUpdated
+    id: `Luncurkan Dota 2 untuk menggunakan timer dalam game.`, // #toBeUpdated
+    fil: `Ilunsad ang Dota 2 upang magamit ang in-game timers.`, // #toBeUpdated
+    zh: `启动 Dota 2 以使用游戏中的计时器。`, // #toBeUpdated
+    br: `Inicie o Dota 2 para usar cronômetros no jogo.`, // #toBeUpdated
+    es: `Inicia Dota 2 para usar temporizadores en el juego.`, // #toBeUpdated
   },
 
   CoachingOperational: {
     en: "Coaching and notifications are fully operational.",
+    de: `Coaching und Benachrichtigungen sind voll funktionsfähig.`,
+    fr: `Le coaching et les notifications sont pleinement opérationnels.`,
+    ru: `Коучинг и уведомления полностью работоспособны.`, // #toBeUpdated
+    id: `Pelatihan dan pemberitahuan beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang Coaching at notification ay ganap na pagpapatakbo.`, // #toBeUpdated
+    zh: `辅导和通知功能已全面运作。`, // #toBeUpdated
+    br: `O treinamento e as notificações estão totalmente operacionais.`, // #toBeUpdated
+    es: `El entrenamiento y las notificaciones están en pleno funcionamiento.`, // #toBeUpdated
   },
   CoachingIssueDota: {
     en: "Coaching and notifications are down as connectivity to Dota 2 is not working properly.",
+    de: `Coaching und Benachrichtigungen sind ausgefallen, da die Verbindung zu Dota 2 nicht ordnungsgemäß funktioniert.`,
+    fr: `Le coaching et les notifications sont en panne car la connectivité à Dota 2 ne fonctionne pas correctement.`,
+    ru: `Коучинг и уведомления не работают, так как подключение к Dota 2 не работает должным образом.`, // #toBeUpdated
+    id: `Pelatihan dan pemberitahuan turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
+    fil: `Ang Coaching at notification ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
+    zh: `由于与 Dota 2 的连接不正常，辅导和通知中断。`, // #toBeUpdated
+    br: `O treinamento e as notificações estão inativos, pois a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    es: `El entrenamiento y las notificaciones están inactivos porque la conectividad a Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   CoachingLaunchDota: {
     en: "Launch Dota 2 to use in-game coaching and notifications.",
+    de: `Starte Dota 2, um Coaching und Benachrichtigungen im Spiel zu verwenden.`,
+    fr: `Lance Dota 2 pour utiliser le coaching et les notifications en jeu.`,
+    ru: `Запустите Dota 2, чтобы использовать внутриигровой коучинг и уведомления.`, // #toBeUpdated
+    id: `Luncurkan Dota 2 untuk menggunakan pelatihan dan notifikasi dalam game.`, // #toBeUpdated
+    fil: `Ilunsad ang Dota 2 upang magamit ang in-game coaching at notification.`, // #toBeUpdated
+    zh: `启动 Dota 2 以使用游戏中的指导和通知。`, // #toBeUpdated
+    br: `Inicie o Dota 2 para usar treinamento e notificações no jogo.`, // #toBeUpdated
+    es: `Inicia Dota 2 para usar el entrenamiento y las notificaciones en el juego.`, // #toBeUpdated
   },
 
   PerformanceTrackerOperational: {
     en: "Performance tracker is fully operational and waiting for you to select a hero in a game.",
+    de: `Der Performance Tracker ist voll funktionsfähig und wartet darauf, dass du in einem Spiel einen Helden auswählst.`,
+    fr: `Le traqueur de performance est entièrement opérationnel et attend que tu sélectionne un héros dans une partie.`,
+    ru: `Трекер производительности полностью работоспособен и ждет, когда вы выберете героя в игре.`, // #toBeUpdated
+    id: `Pelacak kinerja beroperasi penuh dan menunggu Anda untuk memilih pahlawan dalam permainan.`, // #toBeUpdated
+    fil: `Pagganap tracker ay ganap na pagpapatakbo at naghihintay para sa iyo upang pumili ng isang bayani sa isang laro.`, // #toBeUpdated
+    zh: `Performance Tracker 已完全运行，等待你在游戏中选择英雄。`, // #toBeUpdated
+    br: `O rastreador de desempenho está totalmente operacional e espera que você selecione um herói em um jogo.`, // #toBeUpdated
+    es: `El rastreador de rendimiento está completamente operativo y espera que selecciones un héroe en un juego.`, // #toBeUpdated
   },
   PerformanceTrackerOperationalInGame: {
     en: "Performance tracker is fully operational.",
+    de: `Der Performance Tracker ist voll funktionsfähig.`,
+    fr: `Le système de suivi des performances est pleinement opérationnel.`,
+    ru: `Отслеживание производительности полностью работоспособно.`, // #toBeUpdated
+    id: `Pelacak kinerja beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang tracker ng pagganap ay ganap na pagpapatakbo.`, // #toBeUpdated
+    zh: `性能跟踪器已全面运行。`, // #toBeUpdated
+    br: `O rastreador de desempenho está totalmente operacional.`, // #toBeUpdated
+    es: `El rastreador de rendimiento está totalmente operativo.`, // #toBeUpdated
   },
   PerformanceTrackerIssueDota: {
     en: "Performance tracker is down as connectivity to Dota 2 is not working properly.",
+    de: `Der Performance Tracker ist ausgefallen, da die Verbindung zu Dota 2 nicht ordnungsgemäß funktioniert.`,
+    fr: `Le suivi des performances est en panne car la connection à Dota 2 ne fonctionne pas correctement.`,
+    ru: `Трекер производительности не работает, так как подключение к Dota 2 не работает должным образом.`, // #toBeUpdated
+    id: `Pelacak kinerja turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
+    fil: `Ang tracker ng pagganap ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
+    zh: `由于与 Dota 2 的连接无法正常工作，性能跟踪器已关闭。`, // #toBeUpdated
+    br: `O rastreador de desempenho está inativo porque a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    es: `El rastreador de rendimiento no funciona porque la conectividad con Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   PerformanceTrackerIssueAWS: {
     en: "Performance tracker can't compare your performance as benchmark data could not be retrieved from server (####).",
+
+    de: `Performance Tracker kann Ihre Leistung nicht vergleichen, da die Benchmarkdaten nicht vom Server abgerufen werden konnten (####).`,
+    fr: `Le suivi des performances ne peut pas comparer tes performances car les données de référence n'ont pas pu être récupérées depuis le serveur (####).`,
+    ru: `Средство отслеживания производительности не может сравнивать производительность, так как данные тестов не удалось получить с сервера (####).`, // #toBeUpdated
+    id: `Pelacak kinerja tidak dapat membandingkan kinerja Anda karena data tolok ukur tidak dapat diambil dari server (####).`, // #toBeUpdated
+    fil: `Hindi maaaring ihambing ng tagasubaybay ng pagganap ang iyong pagganap dahil ang benchmark data ay hindi makuha mula sa server (####).`, // #toBeUpdated
+    zh: `性能跟踪器无法比较您的表现，因为无法从服务器 (####) 检索基准数据。`, // #toBeUpdated
+    br: `O rastreador de desempenho não pode comparar seu desempenho, pois os dados de benchmark não puderam ser recuperados do servidor (####).`, // #toBeUpdated
+    es: `El monitor de rendimiento no puede comparar tu rendimiento porque los datos de referencia no se pueden recuperar del servidor (####).`, // #toBeUpdated
   },
   PerformanceTrackerLaunchDota: {
     en: "Launch Dota 2 to use in-game performance tracker.",
+    de: `Starte Dota 2, um den Performance Tracker im Spiel zu verwenden.`,
+    fr: `Lance Dota 2 pour utiliser le suivi des performances en jeu.`,
+    ru: `Запустите Dota 2, чтобы использовать внутриигровой трекер производительности.`, // #toBeUpdated
+    id: `Luncurkan Dota 2 untuk menggunakan pelacak kinerja dalam game.`, // #toBeUpdated
+    fil: `Ilunsad ang Dota 2 upang magamit ang in-game tracker ng pagganap.`, // #toBeUpdated
+    zh: `启动 Dota 2 以使用游戏中的性能追踪器。`, // #toBeUpdated
+    br: `Abra o Dota 2 para usar o rastreador de desempenho no jogo`, // #toBeUpdated
+    es: `Inicia Dota 2 para usar el rastreador de rendimiento del juego.`, // #toBeUpdated
   },
 
   DotaConnectivityStart: {
     en: "Connecting to Dota 2...",
+    de: `Verbindung zu Dota 2 wird hergestellt...`,
+    fr: `Connexion à Dota 2 en cours...`,
     ru: "Подключение к Dota 2...",
+    id: `Menghubungkan ke Dota 2...`, // #toBeUpdated
+    fil: `Kumokonekta sa Dota 2...`, // #toBeUpdated
+    zh: `正在连接到 Dota 2...`, // #toBeUpdated
+    br: `Conectando-se ao Dota 2...`, // #toBeUpdated
+    es: `Conectándose a Dota 2...`, // #toBeUpdated
   },
   DotaConnectivityStatus: {
     en: "Connecting to Dota 2...<br>Current status: '####' (####/#### attempts)",
+    de: `Verbindung zu Dota 2 wird hergestellt... <br>Aktueller Stand: '####' (####/### Versuchen)`,
+    fr: `Connexion à Dota 2... <br>État actuel : '####' (####/#### tentatives)`,
     ru: "Подключение к Dota 2...<br>Текущий статус: '####' (####/#### попытки)",
+    id: `Menghubungkan ke Dota 2... <br>Statussaat ini: '#####' (####/#### upaya)`, // #toBeUpdated
+    fil: `Kumokonekta sa Dota 2... <br>Kasalukuyangkatayuan: '#####' (####/### pagtatangka)`, // #toBeUpdated
+    zh: `正在连接到 Dota 2...<br>当前状态：'####'（####/#### 次尝试）`, // #toBeUpdated
+    br: `Conectando-se ao Dota 2... <br>Status atual: '####' (####/#### tentativas)`, // #toBeUpdated
+    es: `Conectándose a Dota 2... <br>Estado actual: '####' (####/#### intentos)`, // #toBeUpdated
   },
   DotaConnectivityError: {
     en: "Connection to Dota 2 could not be established.<br>Please try again later.<br>Error: '####'.",
+    de: `Verbindung zu Dota 2 konnte nicht hergestellt werden. <br>Bitte versuche es später erneut. <br>Fehler: '####'.`,
+    fr: `La connexion à Dota 2 n'a pas pu être établie. <br>Réessaye plus tard. <br>Erreur : « #### ».`,
     ru: "Подключение к Dota 2 не установлено.<br>Пожалуйста, повторите попытку позже.<br>Ошибка: '####'.",
+    id: `Koneksi ke Dota 2 tidak dapat dibuat. <br>Silakancoba lagi nanti. <br>Galat: '#####'.`, // #toBeUpdated
+    fil: `Ang koneksyon sa Dota 2 ay hindi maitatag. <br>Mangyaringsubukang muli mamaya. <br>Error: '####'.`, // #toBeUpdated
+    zh: `无法建立与 Dota 2 的连接。<br>请稍后再试。<br>错误：'####'。`, // #toBeUpdated
+    br: `A conexão com o Dota 2 não pôde ser estabelecida. <br>Tente novamente mais tarde. <br>Erro: '####'.`, // #toBeUpdated
+    es: `No se pudo establecer la conexión con Dota 2. <br>Vuelva a intentarlo más tarde. <br>Error: '####'.`, // #toBeUpdated
   },
   DotaConnectivityFailed: {
     // {"plugin_error": "failed_initializing_monitor"}
     en: "Connection to Dota 2 is disrupted. We are working on a fix, please try again later.",
+    de: `Die Verbindung zu Dota 2 ist unterbrochen. Wir arbeiten an einer Lösung, bitte versuche es später erneut.`,
+    fr: `La connexion à Dota 2 est interrompue. Nous travaillons sur un correctif, nous the prions de réessayer plus tard.`,
     ru: "Соединение с Dota 2 прервано. Мы работаем над исправлением, повторите попытку позже.",
+    id: `Koneksi ke Dota 2 terganggu. Kami sedang mengerjakan perbaikan, silakan coba lagi nanti.`, // #toBeUpdated
+    fil: `Ang koneksyon sa Dota 2 ay nasisira. Nagtatrabaho kami sa isang pag-aayos, mangyaring subukang muli mamaya.`, // #toBeUpdated
+    zh: `与 Dota 2 的连接中断。我们正在修复问题，请稍后再试。`, // #toBeUpdated
+    br: `A conexão com o Dota 2 foi interrompida. Estamos trabalhando em uma correção, tente novamente mais tarde.`, // #toBeUpdated
+    es: `La conexión a Dota 2 está interrumpida. Estamos trabajando en una solución, inténtalo de nuevo más tarde.`, // #toBeUpdated
   },
   DotaConnectivityCrashed: {
     // {""plugin_error"":""crashed_on_present""}
-    en: "Connection to Dota crashed. Please try to relaunch app.", // May be we should try to reconnect...
+    en: "Connection to Dota crashed. Please try to relaunch app.", // May be we should try to reconnect in the app?!
+    de: `Die Verbindung zu Dota ist abgestürzt. Bitte versuche die App neu zu starten.`,
+    fr: `La connexion à Dota s'est écrasée. Essaye de relancer l'application.`,
     ru: "Сбой подключения к Dota. Попробуйте перезапустить приложение.",
+    id: `Koneksi ke Dota jatuh. Silakan coba untuk meluncurkan kembali aplikasi.`, // #toBeUpdated
+    fil: `Ang koneksyon sa Dota ay nag-crash. Mangyaring subukan na muling ilunsad ang app.`, // #toBeUpdated
+    zh: `与 Dota 的连接崩溃了。请尝试重新启动应用程序。`, // #toBeUpdated
+    br: `A conexão com o Dota travou. Tente reiniciar o aplicativo.`, // #toBeUpdated
+    es: `La conexión a Dota se bloqueó. Intente volver a iniciar la aplicación.`, // #toBeUpdated
   },
 
   // Welcome message for new users
