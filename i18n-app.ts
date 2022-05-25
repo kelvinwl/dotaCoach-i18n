@@ -527,7 +527,7 @@ export const AppTranslations: Translations = {
   },
   Heroes: {
     en: "Heroes",
-    de: "Heleden",
+    de: "Helden",
     fr: "Héros",
     ru: "Герои", // #toBeUpdated
     id: "Pahlawan", // #toBeUpdated
@@ -1267,6 +1267,31 @@ export const AppTranslations: Translations = {
     br: "beta",
     es: "beta",
   },
+
+  settingOther: {
+    en: "Others",
+    de: "Andere", // #toBeUpdated
+    fr: "Autres", // #toBeUpdated
+    ru: "Другие", // #toBeUpdated
+    id: "Lainnya", // #toBeUpdated
+    fil: "Iba", // #toBeUpdated
+    zh: "其他", // #toBeUpdated
+    br: "Outros", // #toBeUpdated
+    es: "Otros", // #toBeUpdated
+  },
+
+  quickSetup: {
+    en: "Quick Setup",
+    de: "Schnelle Einrichtung", // #toBeUpdated
+    fr: "Configuration rapide", // #toBeUpdated
+    ru: "Быстрая настройка", // #toBeUpdated
+    id: "Pengaturan Cepat", // #toBeUpdated
+    fil: "Mabilis na Pag-setup", // #toBeUpdated
+    zh: "快速设置", // #toBeUpdated
+    br: "Configuração rápida", // #toBeUpdated
+    es: "Configuración rápida", // #toBeUpdated
+  },
+
   // Infoboxes
   Infoboxes: {
     en: "Infoboxes",
@@ -2275,7 +2300,7 @@ export const AppTranslations: Translations = {
   },
   Items: {
     en: "Items",
-    de: "Artikel",
+    de: "Gegenstände",
     fr: "Objets",
     ru: "Предметы",
     id: "Item",
