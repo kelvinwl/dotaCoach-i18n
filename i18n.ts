@@ -5,7 +5,7 @@
  * Format to be used: <div id="i18n_#ENGLISH TEXT#" class="i18n">${i18n.t(#ENGLISH TEXT)}</div>`
  */
 import { Languages } from "./i18n-languages";
-import * as DL from "../../src/utility/log";
+import * as DL from "../../submodules/utilities/log";
 
 export type Translations = {
   [key: string]: Translation;
@@ -85,7 +85,7 @@ export function replaceVarTokens(
   // Builds Regex for .replace function
   const re = new RegExp(i18nVarToken, "");
 
-  // Safes all incoming parameters in the global object so updateHTML
+  // Saves all incoming parameters in the global object so updateHTML
   // can access the data if langauge is swapped
   i18nVarTokenValues[i18nT] = tokens;
 
@@ -114,6 +114,17 @@ export function replaceVarTokens(
   } else {
     return strReplaced;
   }
+}
+
+/**
+ * Function to change variable tokens.
+ * After updating a variable token, the HTML element needs to be updated with the function updateHTMLElement
+ *
+ * @param token
+ * @param tokens
+ */
+export function setVarTokens(i18nT: string, ...tokens: string[]) {
+  i18nVarTokenValues[i18nT] = tokens;
 }
 
 /**
@@ -158,6 +169,7 @@ export function t(token: string): string {
  * @param language Supported languages: 'en', 'ru', 'zh', 'id'
  */
 export function setLanguage(language: string) {
+  DL.log(`i18n.setLanguage(${language}): Called`);
   const lang = findLanguage(language);
   currentLanguage = lang;
 }
@@ -272,12 +284,17 @@ function updatei18nElement(element: Element) {
     .replace("i18x_", "")
     .replace("i18y_", "");*/
   const i18nToken = element.getAttribute("i18n");
+  /*console.log(
+    `*** i18nVarTokenValues=${JSON.stringify(i18nVarTokenValues, null, 2)}`
+  );*/
   if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
+    /*console.log(`*** here we go`);*/
     element.innerHTML = replaceVarTokens(
       false,
       i18nToken,
       ...i18nVarTokenValues[i18nToken]
     );
+    /*  console.log(`*** element.innerHTML = ${element.innerHTML}`);*/
   } else {
     const innerHTML = t(i18nToken);
     element.innerHTML = innerHTML;
@@ -313,7 +330,7 @@ function configureWebLinks(element: Element) {
           webLink = "https://dota-coach.com/video/DotaCoachTutorial-en.mp4";
         }
       }
-      overwolf.utils.openUrlInOverwolfBrowser(webLink);
+      //overwolf.utils.openUrlInOverwolfBrowser(webLink);
     });
   }
 }

@@ -1,0 +1,10 @@
+*
+!.gitignore
+!i18n-data.ts
+!i18n-app.ts
+!i18n-faq.ts
+!i18n-website.ts
+!i18n-video_guide.ts
+!i18n-languages.ts
+!i18n.ts
+!README.md
