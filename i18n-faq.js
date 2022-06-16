@@ -782,6 +782,49 @@
 				es: `La mayoría de las funciones de la aplicación están disponibles para todos los jugadores de forma gratuita. <br>La aplicación Dota Coach gana dinero al mostrar anuncios en algunas partes de la aplicación. <br>Además, los jugadores pueden pagar una tarifa de suscripción mensual para obtener acceso a algunas funciones exclusivas. <br>La suscripción profesional también desactiva los anuncios. <br>`, // #toBeUpdated
 			},
 		},
+		appUpdate: {
+			question: {
+				en: "How do I update to the newest Version?", 
+				de: "Wie aktualisiere ich auf die neueste Version?", // #toBeUpdated
+				fr: "Comment puis-je effectuer la mise à jour vers la dernière version ?", // #toBeUpdated
+				ru: "Как обновить до последней версии?", // #toBeUpdated
+				id: "Bagaimana cara memperbarui ke Versi terbaru?", // #toBeUpdated
+				fil: "Paano ako mag-a-update sa pinakabagong Bersyon?", // #toBeUpdated
+				zh: "如何更新到最新版本？", // #toBeUpdated
+				br: "Como faço para atualizar para a versão mais recente?", // #toBeUpdated
+				es: "¿Cómo actualizo a la versión más reciente?", // #toBeUpdated
+			},
+			content:  {
+				en: `When a new version gets released, simply shut down Dota Coach and Overwolf.<br>
+                    After that, restart Overwolf, as well as Dota Coach.<br>
+                    Once Dota Coach has fully loaded, it should be updated to the newest version! You can check the version in the settings menu!`,
+                de: `Wenn eine neue Version veröffentlicht wird, fahren Sie einfach Dota Coach und Overwolf herunter. <br>
+					Starten Sie danach Overwolf sowie Dota Coach neu. <br>
+					Sobald Dota Coach vollständig geladen ist, sollte es auf die neueste Version aktualisiert werden! Sie können die Version im Einstellungsmenü überprüfen!`, // #toBeUpdated
+                fr: `Lorsqu'une nouvelle version est publiée, arrêtez simplement Dota Coach et Overwolf. <br>
+					Après cela, redémarrez Overwolf, ainsi que Dota Coach. <br>
+					Une fois Dota Coach complètement chargé, il devrait être mis à jour vers la dernière version ! Vous pouvez vérifier la version dans le menu des paramètres !`, // #toBeUpdated
+                ru: `Когда выйдет новая версия, просто закройте Dota Coach и Overwolf. <br>
+					После этого перезапустите Overwolf, а также тренера по Dota. <br>
+					Как только Dota Coach полностью загрузится, его следует обновить до последней версии! Версию вы можете проверить в меню настроек!`, // #toBeUpdated
+                id: `Ketika versi baru dirilis, cukup matikan Dota Coach dan Overwolf. <br>
+					Setelah itu, restart Overwolf, serta Dota Coach. <br>
+					Setelah Dota Coach telah terisi penuh, itu harus diperbarui ke versi terbaru! Anda dapat memeriksa versi di menu pengaturan!`, // #toBeUpdated
+                fil: `Kapag ang isang bagong bersyon ay inilabas, i-shut down lang ang Dota Coach at Overwolf. <br>
+					Pagkatapos nito, i-restart ang Overwolf, pati na rin ang Dota Coach. <br>
+					Sa sandaling ganap na na-load ang Dota Coach, dapat itong ma-update sa pinakabagong bersyon! Maaari mong suriin ang bersyon sa menu ng mga setting!`, // #toBeUpdated
+                zh: `当新版本发布时，只需关闭 Dota Coach 和 Overwolf 即可。<br>
+					之后，重新启动 Overwolf 以及 Dota 教练。<br>
+					一旦Dota Coach完全加载，它应该更新到最新版本！你可以在 “设置” 菜单中查看版本！`, // #toBeUpdated
+                br: `Quando uma nova versão for lançada, basta desligar o Dota Coach e o Overwolf. <br>
+					Depois disso, reinicie o Overwolf, assim como o Dota Coach. <br>
+					Assim que o Dota Coach estiver totalmente carregado, ele deve ser atualizado para a versão mais recente! Você pode conferir a versão no menu de configurações!`, // #toBeUpdated
+                es: `Cuando se lance una nueva versión, simplemente cierra Dota Coach y Overwolf. <br>
+					Después de eso, reinicie Overwolf, así como Dota Coach. <br>
+ 					Una vez que Dota Coach se haya cargado por completo, ¡debería actualizarse a la versión más reciente! ¡Puedes comprobar la versión en el menú de configuración!,` // #toBeUpdated
+			},
+		},
+
 		// Issues
 		issueApp: {
 			question: {
@@ -918,6 +961,59 @@
 				es: `Esto puede suceder cuando personaliza la ubicación de los temporizadores y, a continuación, cambia la resolución de la pantalla. <br>Le sugerimos que restablezca la posición de los temporizadores en el menú de configuración. <br><div class='mt-2'></div><img class='img-fluid rounded shadow' src='./images/faqs/reset_position.png'>`, // #toBeUpdated
 			},
 		},
+
+		issueWindowSize: {
+			question: {
+				en: "Why does the window not fit my screen?", 
+				de: "Warum passt das Fenster nicht auf meinen Bildschirm?", // #toBeUpdated
+				fr: "Pourquoi la fenêtre ne s'adapte-t-elle pas à mon écran ?", // #toBeUpdated
+				ru: "Почему окно не подходит для моего экрана?", // #toBeUpdated
+				id: "Mengapa jendela tidak sesuai dengan layar saya?", // #toBeUpdated
+				fil: "Bakit hindi magkasya ang window sa aking screen?", // #toBeUpdated
+				zh: "为什么窗户不适合我的屏幕？", // #toBeUpdated
+				br: "Por que a janela não cabe na minha tela?", // #toBeUpdated
+				es: "¿Por qué la ventana no se ajusta a mi pantalla?", // #toBeUpdated
+			},
+			content: {
+				en: `Please make sure that the windows operating system scaling is set to 100%. <br>
+					Make sure to restart your operating system after you make these changes! <br>
+					If you have set it to 100%, and the windows are still no fit for your screen, <br>
+					please be aware that Dota Coach does not support screen resolutions below 1150px width.`,
+                de: `Bitte stellen Sie sicher, dass die Skalierung des Windows-Betriebssystems auf 100% eingestellt ist. <br>
+					Stellen Sie sicher, dass Sie Ihr Betriebssystem neu starten, nachdem Sie diese Änderungen vorgenommen haben! <br>
+					Wenn Sie es auf 100% eingestellt haben und die Fenster immer noch nicht für Ihren Bildschirm geeignet sind, <br>
+					Bitte beachten Sie, dass Dota Coach keine Bildschirmauflösungen unter 1150px Breite unterstützt.`, // #toBeUpdated
+                fr: `Assurez-vous que la mise à l'échelle du système d'exploitation Windows est définie sur 100 %. <br>
+					Assurez-vous de redémarrer votre système d'exploitation après avoir effectué ces modifications ! <br>
+					Si vous l'avez réglé sur 100 % et que les fenêtres ne sont toujours pas adaptées à votre écran, <br>
+					veuillez noter que Dota Coach ne prend pas en charge les résolutions d'écran inférieures à 1150px de largeur.`, // #toBeUpdated
+				ru: `Убедитесь, что масштабирование операционной системы Windows установлено на 100%. <br>
+					Обязательно перезагрузите операционную систему после внесения этих изменений! <br>
+					Если вы установили его на 100%, а окна все еще не подходят для вашего экрана, <br>
+					имейте в виду, что Dota Coach не поддерживает разрешение экрана ниже 1150 пикселей.`, // #toBeUpdated
+                id: `Pastikan bahwa penskalaan sistem operasi windows diatur ke 100%. <br>
+					Pastikan untuk me-restart sistem operasi Anda setelah Anda membuat perubahan ini! <br>
+					Jika Anda telah mengaturnya ke 100%, dan jendela masih tidak cocok untuk layar Anda, <br>
+					perlu diketahui bahwa Dota Coach tidak mendukung resolusi layar di bawah lebar 1150px.`, // #toBeUpdated
+                fil: `Mangyaring siguraduhin na ang mga bintana ng operating system scaling ay nakatakda sa 100%. <br>
+					Tiyaking i-restart ang iyong operating system pagkatapos mong gawin ang mga pagbabagong ito! <br>
+					Kung itinakda mo ito sa 100%, at ang mga bintana ay hindi pa rin magkasya para sa iyong screen, <br>
+					mangyaring magkaroon ng kamalayan na ang Dota Coach ay hindi sumusuporta sa mga resolution ng screen sa ibaba 1150px lapad.`, // #toBeUpdated
+                zh: `请确保将 Windows 操作系统缩放比例设置为 100%。<br>
+					请务必在进行这些更改后重新启动操作系统！<br>
+					如果您已将其设置为 100%，但窗口仍然不适合您的屏幕，<br>
+					请注意，Dota Coach 不支持宽度低于 1150 像素的屏幕分辨率。`, // #toBeUpdated
+                br: `Certifique-se de que a escala do sistema operacional Windows esteja definida como 100%. <br>
+					Certifique-se de reiniciar o sistema operacional depois de fazer essas alterações! <br>
+					Se você definiu para 100% e as janelas ainda não são adequadas para sua tela, <br>
+					esteja ciente de que o Dota Coach não suporta resoluções de tela abaixo de 1150px de largura.`, // #toBeUpdated
+                es: `Asegúrese de que la escala del sistema operativo Windows esté configurada al 100%. <br>
+					¡Asegúrese de reiniciar el sistema operativo después de realizar estos cambios! <br>
+					Si lo has establecido al 100% y las ventanas siguen sin caber para tu pantalla, <br>
+					tenga en cuenta que Dota Coach no admite resoluciones de pantalla por debajo de 1150px de ancho.`, // #toBeUpdated
+			}
+		},
+
 		// Timers
 		timerStart: {
 			question: {
