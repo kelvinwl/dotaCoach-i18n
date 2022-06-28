@@ -791,7 +791,7 @@
 				id: "Bagaimana cara memperbarui ke Versi terbaru?", // #toBeUpdated
 				fil: "Paano ako mag-a-update sa pinakabagong Bersyon?", // #toBeUpdated
 				zh: "如何更新到最新版本？", // #toBeUpdated
-				br: "Como faço para atualizar para a versão mais recente?", // #toBeUpdated
+				br: "Como atualizo para a versão mais recente?",
 				es: "¿Cómo actualizo a la versión más reciente?", // #toBeUpdated
 			},
 			content:  {
@@ -971,7 +971,7 @@
 				id: "Mengapa jendela tidak sesuai dengan layar saya?", // #toBeUpdated
 				fil: "Bakit hindi magkasya ang window sa aking screen?", // #toBeUpdated
 				zh: "为什么窗户不适合我的屏幕？", // #toBeUpdated
-				br: "Por que a janela não cabe na minha tela?", // #toBeUpdated
+				br: "Por que a janela não cabe na minha tela?",
 				es: "¿Por qué la ventana no se ajusta a mi pantalla?", // #toBeUpdated
 			},
 			content: {
