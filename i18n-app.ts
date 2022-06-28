@@ -87,7 +87,7 @@ export const AppTranslations: Translations = {
     id: "Mode peringkat yang didukung:", // #toBeUpdated
     fil: "Sinusuportahang mga mode ng ranggo:", // #toBeUpdated
     zh: "支持的排名模式：", // #toBeUpdated
-    br: "Modos competitivos suportados:", // #toBeUpdated
+    br: "Modos competitivos compatíveis:",
     es: "Modos clasificados compatibles:", // #toBeUpdated
   },
 
@@ -111,7 +111,7 @@ export const AppTranslations: Translations = {
     id: "Mode unranked yang didukung:", // #toBeUpdated
     fil: "Mga suportadong hindi naka-ranggo na mga mode:", // #toBeUpdated
     zh: "支持的未排序模式：", // #toBeUpdated
-    br: "Modos casuais suportados:",
+    br: "Modos casuais compatíveis:",
     es: "Modos no clasificados compatibles:", // #toBeUpdated
   },
   SupportedUnrankedModesList: {
@@ -167,7 +167,7 @@ export const AppTranslations: Translations = {
     id: "Dalam pertandingan", // #toBeUpdated
     fil: "Sa tugma", // #toBeUpdated
     zh: "在比赛中", // #toBeUpdated
-    br: "Em jogo",
+    br: "Em partida",
     es: "En partido", // #toBeUpdated
   },
   percentile: {
@@ -310,7 +310,7 @@ export const AppTranslations: Translations = {
     id: "Acuan<br>Median", // #toBeUpdated
     fil: "Benchmark<br>Median", // #toBeUpdated
     zh: "基准中位数", // #toBeUpdated
-    br: "Media de<br>referência",
+    br: "Mediana de<br>referência",
     es: "Mediana de<br>referencia", // #toBeUpdated
 
     /*en: "Median",
@@ -365,7 +365,7 @@ export const AppTranslations: Translations = {
     id: "Pilih Tolok Ukur", // #toBeUpdated
     fil: "Piliin ang Benchmark", // #toBeUpdated
     zh: "选择基准", // #toBeUpdated
-    br: "Selecione a referência",
+    br: "Selecionar referência",
     es: "Seleccione Benchmark", // #toBeUpdated
   },
   NoBenchmarkData: {
@@ -432,7 +432,7 @@ export const AppTranslations: Translations = {
     id: "Pertandingan", // #toBeUpdated
     fil: "Pareha", // #toBeUpdated
     zh: "匹配", // #toBeUpdated
-    br: "Corresponder", // #toBeUpdated
+    br: "Partida", 
     es: "Partido", // #toBeUpdated
   },
   Result: {
@@ -533,7 +533,7 @@ export const AppTranslations: Translations = {
     id: "Pahlawan", // #toBeUpdated
     fil: "Bayani", // #toBeUpdated
     zh: "英雄", // #toBeUpdated
-    br: "Heróis", // #toBeUpdated
+    br: "Heróis",
     es: "Héroes", // #toBeUpdated
   },
   Steam: {
@@ -612,7 +612,7 @@ export const AppTranslations: Translations = {
     id: "Peran saya", // #toBeUpdated
     fil: "Aking tungkulin", // #toBeUpdated
     zh: "分路",
-    br: "Função",
+    br: "Minha função",
     es: "Mi función", // #toBeUpdated
   },
 
@@ -636,7 +636,7 @@ export const AppTranslations: Translations = {
     id: "Dalam tim Anda: ####", // #toBeUpdated
     fil: "Sa iyong koponan: ####", // #toBeUpdated
     zh: "在你的团队中：####", // #toBeUpdated
-    br: "Em sua equipe: ####", // #toBeUpdated
+    br: "Em sua equipe: ####",
     es: "En tu equipo: ####", // #toBeUpdated
   },
 
@@ -648,7 +648,7 @@ export const AppTranslations: Translations = {
     id: "Dalam tim musuh: ####", // #toBeUpdated
     fil: "Sa koponan ng kaaway: ####", // #toBeUpdated
     zh: "在敌方队伍中：####", // #toBeUpdated
-    br: "Na equipe inimiga: ####", // #toBeUpdated
+    br: "Na equipe inimiga: ####",
     es: "En el equipo enemigo: ####", // #toBeUpdated
   },
 
@@ -662,7 +662,7 @@ export const AppTranslations: Translations = {
     id: `Anda <span class="txt-green">menang</span> sebagai ##### dengan #### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> ka bilang #### na may #### bilang #### ngayon.`, // #toBeUpdated
     zh: `你今天以 ##### 的比分<span class="txt-green">赢了</span> #####。`, // #toBeUpdated
-    br: `Você <span class="txt-green">ganhou</span> como #### com #### como #### hoje.`, // #toBeUpdated
+    br: `Você <span class="txt-green">ganhou</span> como #### com #### como #### hoje.`,
     es: `<span class="txt-green">Ganaste</span> como #### con #### como #### hoy.`, // #toBeUpdated
   },
   playedWithWonWith: {
@@ -673,7 +673,7 @@ export const AppTranslations: Translations = {
     id: `<span class="txt-green">Menang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
     zh: `几天前以 #### 的身份@@ <span class="txt-green">赢得</span> ##### ### ##。`, // #toBeUpdated
-    br: `<span class="txt-green">Ganhou</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
+    br: `<span class="txt-green">Ganhou</span> como #### com #### como #### #### dias atrás.`,
     es: `<span class="txt-green">Ganó</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
   playedWithLostWithToday: {
@@ -684,7 +684,7 @@ export const AppTranslations: Translations = {
     id: `<span class="txt-red">Hilang</span> sebagai ##### dengan ##### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang #### ngayon.`, // #toBeUpdated
     zh: `今天@@ <span class="txt-red">迷失</span>为 ####，### 作为 ####。`, // #toBeUpdated
-    br: `<span class="txt-red">Perdido</span> como #### com #### como #### hoje.`, // #toBeUpdated
+    br: `<span class="txt-red">Perdeu</span> como #### com #### como #### hoje.`,
     es: `<span class="txt-red">Perdido</span> como #### con #### como #### hoy.`, // #toBeUpdated
   },
   playedWithLostWith: {
@@ -695,7 +695,7 @@ export const AppTranslations: Translations = {
     id: `<span class="txt-red">Hilang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
     zh: `几天前以 ##### 的形式@@<span class="txt-red"> 丢失</span>为 ##### ####。`, // #toBeUpdated
-    br: `<span class="txt-red">Perdido</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
+    br: `<span class="txt-red">Perdeu</span> como #### com #### como #### #### dias atrás.`,
     es: `<span class="txt-red">Perdido</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
   playedWithWonVsToday: {
@@ -706,7 +706,7 @@ export const AppTranslations: Translations = {
     id: `Anda <span class="txt-green">menang</span> sebagai ##### vs ##### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> ka bilang #### vs #### bilang #### ngayon.`, // #toBeUpdated
     zh: `你今天以 #### vs ##### 的比分<span class="txt-green">赢</span>了 ####。`, // #toBeUpdated
-    br: `Você <span class="txt-green">ganhou</span> como #### vs #### quanto #### hoje.`, // #toBeUpdated
+    br: `Você <span class="txt-green">ganhou</span> como #### vs #### como #### hoje.`,
     es: `Hoy <span class="txt-green">ganaste</span> como #### contra #### como ###.`, // #toBeUpdated
   },
   playedWithWonVs: {
@@ -717,7 +717,7 @@ export const AppTranslations: Translations = {
     id: `<span class="txt-green">Menang</span> sebagai ##### vs ######### beberapa hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> bilang #### vs #### bilang ### # # # mga araw na nakalipas.`, // #toBeUpdated
     zh: `几天前以 #### vs ##### 作为 #######<span class="txt-green"> 赢</span>了。`, // #toBeUpdated
-    br: `<span class="txt-green">Ganhou</span> como #### vs #### como #### #### dias atrás.`, // #toBeUpdated
+    br: `<span class="txt-green">Ganhou</span> como #### vs #### como #### #### dias atrás.`,
     es: `<span class="txt-green">Ganó</span> #### contra #### como #### #### hace días.`, // #toBeUpdated
   },
   playedWithLostVsToday: {
@@ -728,7 +728,7 @@ export const AppTranslations: Translations = {
     id: `Anda <span class="txt-red">kalah</span> sebagai ##### vs ##### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> ka bilang #### vs #### bilang #### ngayon.`, // #toBeUpdated
     zh: `你今天<span class="txt-red">输了</span> #### vs ####`, // #toBeUpdated
-    br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### hoje.`, // #toBeUpdated
+    br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### hoje.`,
     es: `Has <span class="txt-red">perdido</span> como #### contra #### como #### hoy.`, // #toBeUpdated
   },
   playedWithLostVs: {
@@ -739,7 +739,7 @@ export const AppTranslations: Translations = {
     id: `Anda <span class="txt-red">kalah</span> sebagai #### vs ##### sebagai ######## hari yang lalu.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> ka bilang #### vs ##### bilang #### ### araw na nakalipas.`, // #toBeUpdated
     zh: `你<span class="txt-red">输了</span> #### vs ##### 和 ##### 几天前一样。`, // #toBeUpdated
-    br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### #### dias atrás.`, // #toBeUpdated
+    br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### #### dias atrás.`,
     es: `<span class="txt-red">Perdiste</span> como #### vs ##### como ##### días atrás.`, // #toBeUpdated
   },
 
@@ -775,7 +775,7 @@ export const AppTranslations: Translations = {
     id: "Counter item untuk dipertimbangkan (laning)", // #toBeUpdated
     fil: "Counter item upang isaalang-alang (laning)", // #toBeUpdated
     zh: "可以考虑针对使用的物品（对线期）",
-    br: "Itens counters a se considerar (fase de trilha)",
+    br: "Itens anuladores a se considerar (fase de trilha)",
     es: "Contraítems a considerar (carriles)", // #toBeUpdated
   },
 
@@ -871,7 +871,7 @@ export const AppTranslations: Translations = {
     id: "Semua pahlawan bisa dilarang.", // #toBeUpdated
     fil: "Ang lahat ng mga bayani ay maaaring pinagbawalan.", // #toBeUpdated
     zh: "所有英雄都可以被封禁。", // #toBeUpdated
-    br: "Todos os heróis podem ser banidos.", // #toBeUpdated
+    br: "Todos os heróis podem ser banidos.",
     es: "Se puede prohibir a todos los héroes.", // #toBeUpdated
   },
 
@@ -883,7 +883,7 @@ export const AppTranslations: Translations = {
     id: "Anda memenangkan 4 pertandingan berturut-turut", // #toBeUpdated
     fil: "Nanalo ka ng 4 na laro sa isang hilera", // #toBeUpdated
     zh: "你连续赢了 4 场比赛", // #toBeUpdated
-    br: "Você venceu 4 jogos seguidos", // #toBeUpdated
+    br: "Você venceu 4 jogos seguidos",
     es: "Has ganado 4 partidos seguidos", // #toBeUpdated
   },
   banMatchCount4YourTeam: {
@@ -894,7 +894,7 @@ export const AppTranslations: Translations = {
     id: "#### di tim Anda memenangkan 4 pertandingan berturut-turut", // #toBeUpdated
     fil: "#### sa iyong koponan ay nanalo ng 4 na laro sa isang hilera", // #toBeUpdated
     zh: "#### 在你的队伍中连续赢了 4 场比赛", // #toBeUpdated
-    br: "#### em sua equipe venceu 4 jogos consecutivos", // #toBeUpdated
+    br: "#### no seu time venceu 4 jogos consecutivos",
     es: "#### en tu equipo ganó 4 partidos seguidos", // #toBeUpdated
   },
   banMatchCount4EnemyTeam: {
@@ -905,7 +905,7 @@ export const AppTranslations: Translations = {
     id: "#### di tim musuh memenangkan 4 pertandingan berturut-turut", // #toBeUpdated
     fil: "#### sa koponan ng kaaway ay nanalo ng 4 na laro sa isang hilera", // #toBeUpdated
     zh: "#### 在敌方队伍中连续赢了 4 场比赛", // #toBeUpdated
-    br: "#### no time inimigo venceu 4 jogos consecutivos", // #toBeUpdated
+    br: "#### no time inimigo venceu 4 jogos consecutivos",
     es: "#### en el equipo enemigo ganó 4 partidos seguidos", // #toBeUpdated
   },
   banMatchCount5PlusYou: {
@@ -916,7 +916,7 @@ export const AppTranslations: Translations = {
     id: "Anda memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "Mayroon kang mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "在最后一场 #### 场比赛中，你的胜率高达 ####%", // #toBeUpdated
-    br: "Você tem uma alta taxa de vitórias de ####% nas últimas partidas ####", // #toBeUpdated
+    br: "Você tem uma alta taxa de vitórias de ####% nas últimas #### partidas",
     es: "Tienes una alta tasa de victorias de ####% en los últimos #### partidos", // #toBeUpdated
   },
   banMatchCount5PlusYourTeam: {
@@ -927,7 +927,7 @@ export const AppTranslations: Translations = {
     id: "#### di tim Anda memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "#### sa iyong koponan ay may mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "你队伍中的 #### 在过去 #### 场比赛中有 ####% 的高胜率", // #toBeUpdated
-    br: "#### em sua equipe tem uma alta taxa de vitórias de ####% nas últimas #### partidas", // #toBeUpdated
+    br: "#### em sua equipe tem uma alta taxa de vitórias de ####% nas últimas #### partidas",
     es: "#### en tu equipo tiene una alta tasa de victorias de ####% en los últimos #### partidos", // #toBeUpdated
   },
   banMatchCount5PlusEnemyTeam: {
@@ -938,7 +938,7 @@ export const AppTranslations: Translations = {
     id: "#### di tim musuh memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "#### sa koponan ng kaaway ay may mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "敌方队伍中的 #### 在最后 #### 场比赛中获得 ####% 的高胜率", // #toBeUpdated
-    br: "#### na equipe inimiga tem uma alta taxa de vitória de ####% nas últimas #### partidas", // #toBeUpdated
+    br: "#### na equipe inimiga tem uma alta taxa de vitória de ####% nas últimas #### partidas",
     es: "#### en el equipo enemigo tiene una alta tasa de victorias de ####% en los últimos #### partidos", // #toBeUpdated
   },
   noBanLowWinRate: {
@@ -949,7 +949,7 @@ export const AppTranslations: Translations = {
     id: "#### di tim musuh memiliki tingkat kemenangan rendah dan sering memilih pahlawan", // #toBeUpdated
     fil: "#### sa koponan ng kaaway ay may mababang rate ng panalo at madalas na pumili ng bayani", // #toBeUpdated
     zh: "敌方队伍中的 #### 获胜率较低且经常挑选英雄", // #toBeUpdated
-    br: "#### na equipe inimiga tem uma baixa taxa de vitória e escolhe o herói com frequência", // #toBeUpdated
+    br: "#### na equipe inimiga tem uma baixa taxa de vitória e escolhe o herói com frequência",
     es: "#### en el equipo enemigo tiene una baja tasa de victorias y elige héroe con frecuencia", // #toBeUpdated
   },
 
@@ -961,7 +961,7 @@ export const AppTranslations: Translations = {
     id: "#### kemungkinan akan menjadi smurf. Dia memiliki tingkat kemenangan #####% selama pertandingan #### terakhir.", // #toBeUpdated
     fil: "#### ay malamang na maging isang smurf. Siya ay may panalo rate ng ####% sa huling #### na mga tugma.", // #toBeUpdated
     zh: "#### 很可能是蓝精灵。在过去的 #### 场比赛中，他的胜率为 ####%。", // #toBeUpdated
-    br: "#### é provável que seja um smurf. Ele tem uma taxa de vitória de ####% nas últimas partidas ####.", // #toBeUpdated
+    br: "#### é provável que seja um smurf. Ele tem uma taxa de vitória de ####% nas últimas #### partidas.",
     es: "#### es probable que sea un pitufo. Tiene una tasa de victorias de ####% en los últimos #### partidos.", // #toBeUpdated
   },
 
@@ -1007,7 +1007,7 @@ export const AppTranslations: Translations = {
     id: "Masuk sebagai ####", // toBeReviewed (position of ####)
     fil: "Naka-logged in bilang ####", // toBeReviewed (position of ####)
     zh: "已通过第三方账号登陆 ####", // toBeReviewed (position of ####)
-    br: "Logado como ####", // toBeReviewed (position of ####)
+    br: "Logado como ####",
     es: "Conectado como ####", // toBeReviewed (position of ####)
   },
   CreateBallot: {
@@ -1276,7 +1276,7 @@ export const AppTranslations: Translations = {
     id: "Lainnya", // #toBeUpdated
     fil: "Iba", // #toBeUpdated
     zh: "其他", // #toBeUpdated
-    br: "Outros", // #toBeUpdated
+    br: "Outros",
     es: "Otros", // #toBeUpdated
   },
 
@@ -1288,7 +1288,7 @@ export const AppTranslations: Translations = {
     id: "Pengaturan Cepat", // #toBeUpdated
     fil: "Mabilis na Pag-setup", // #toBeUpdated
     zh: "快速设置", // #toBeUpdated
-    br: "Configuração rápida", // #toBeUpdated
+    br: "Configuração rápida",
     es: "Configuración rápida", // #toBeUpdated
   },
 
@@ -1313,7 +1313,7 @@ export const AppTranslations: Translations = {
     id: "Umum", // #toBeUpdated
     fil: "Pampubliko", // #toBeUpdated
     zh: "公众", // #toBeUpdated
-    br: "Público", // #toBeUpdated
+    br: "Público",
     es: "Público", // #toBeUpdated
   },
   profilePrivacy_private: {
@@ -1324,7 +1324,7 @@ export const AppTranslations: Translations = {
     id: "Privat", // #toBeUpdated
     fil: "Pribado", // #toBeUpdated
     zh: "私人的", // #toBeUpdated
-    br: "Privado", // #toBeUpdated
+    br: "Privado",
     es: "Privado", // #toBeUpdated
   },
   profilePrivacy_smurf: {
@@ -1335,7 +1335,7 @@ export const AppTranslations: Translations = {
     id: "Smurf", // #toBeUpdated
     fil: "Smurf", // #toBeUpdated
     zh: "蓝精灵", // #toBeUpdated
-    br: "Smurf", // #toBeUpdated
+    br: "Smurf",
     es: "Pitufo", // #toBeUpdated
   },
   statsTooltip: {
@@ -1346,7 +1346,7 @@ export const AppTranslations: Translations = {
     id: "Pertandingan yang dimainkan selama 30 hari terakhir |<br>menang - kalah |<br>tingkat kemenangan", // #toBeUpdated
     fil: "Mga tugma na nilalaro sa loob ng huling 30 araw |<br>panalo - pagkalugi |<br>manalo rate", // #toBeUpdated
     zh: "过去 30 天内的比赛 |<br>胜负 |<br>赢率", // #toBeUpdated
-    br: "Jogos disputados durante os últimos 30 dias |<br>vitórias - derrotas |<br>taxa de vitórias", // #toBeUpdated
+    br: "Jogos disputados durante os últimos 30 dias |<br>vitórias - derrotas |<br>taxa de vitórias",
     es: "Partidos jugados durante los últimos 30 días |<br>victorias y derrotas |<br>índice de victorias", // #toBeUpdated
   },
 
@@ -1381,7 +1381,7 @@ export const AppTranslations: Translations = {
     id: "Tim", // #toBeUpdated
     fil: "Koponan", // #toBeUpdated
     zh: "球队", // #toBeUpdated
-    br: "Equipe", // #toBeUpdated
+    br: "Time",
     es: "Equipo", // #toBeUpdated
   },
 
@@ -1429,7 +1429,7 @@ export const AppTranslations: Translations = {
     id: `Tampilkan hitung mundur rune`, // #toBeUpdated
     fil: `Ipakita ang mga countdown ng rune`, // #toBeUpdated
     zh: `显示符文倒计时`, // #toBeUpdated
-    br: `Mostrar contagens regressivas de runas`, // #toBeUpdated
+    br: `Mostrar contagens regressivas das runas`,
     es: `Mostrar cuenta regresiva de runas`, // #toBeUpdated
   },
   RoshanAndGlyph: {
@@ -1506,7 +1506,7 @@ export const AppTranslations: Translations = {
     id: "Pelatihan suara", // #toBeUpdated
     fil: "Pagtuturo ng boses", // #toBeUpdated
     zh: "语音教练", // #toBeUpdated
-    br: "Coaching de voz",
+    br: "Treinamento de voz",
     es: "Coaching de voz", // #toBeUpdated
   },*/
   CoachingTooltip: {
@@ -1540,7 +1540,7 @@ export const AppTranslations: Translations = {
     id: `Membimbing pahlawan sendiri`, // #toBeUpdated
     fil: `Coaching sariling bayani`, // #toBeUpdated
     zh: `训练自己的英雄`, // #toBeUpdated
-    br: `Treinando o próprio herói`, // #toBeUpdated
+    br: `Treinando o próprio herói`,
     es: `Entrenando al propio héroe`, // #toBeUpdated
   },
   CoachingEnemyHeroes: {
@@ -1551,7 +1551,7 @@ export const AppTranslations: Translations = {
     id: `Melatih pahlawan musuh`, // #toBeUpdated
     fil: `Coaching kaaway bayani`, // #toBeUpdated
     zh: `指导敌方英雄`, // #toBeUpdated
-    br: `Treinando heróis inimigos`, // #toBeUpdated
+    br: `Treinando heróis inimigos`,
     es: `Entrenar a héroes enemigos`, // #toBeUpdated
   },
   Notifications: {
@@ -1584,7 +1584,7 @@ export const AppTranslations: Translations = {
     id: `Pemberitahuan rune hadiah`, // #toBeUpdated
     fil: `Mga abiso ng bounty runes`, // #toBeUpdated
     zh: `赏金符文通知`, // #toBeUpdated
-    br: `Notificações de runas de recompensa`, // #toBeUpdated
+    br: `Notificações das runas de recompensa`,
     es: `Notificaciones de runas de recompensa`, // #toBeUpdated
   },
   WaterAndPowerRunes: {
@@ -1606,7 +1606,7 @@ export const AppTranslations: Translations = {
     id: `Pemberitahuan rune air & daya`, // #toBeUpdated
     fil: `Mga abiso ng tubig at kapangyarihan runes`, // #toBeUpdated
     zh: `水和电力符文通知`, // #toBeUpdated
-    br: `Notificações de runas de água e energia`, // #toBeUpdated
+    br: `Notificações de runas de água e poder`,
     es: `Notificaciones de runas de agua y`, // #toBeUpdated"
   },
   NeutralItems: {
@@ -2239,7 +2239,7 @@ export const AppTranslations: Translations = {
     id: `Hotkey untuk menampilkan & menyembunyikan aplikasi dalam game.`, // #toBeUpdated
     fil: `Hotkey upang ipakita at itago ang app sa laro.`, // #toBeUpdated
     zh: `用于在游戏中显示和隐藏应用程序的热键。`, // #toBeUpdated
-    br: `Tecla de atalho para mostrar e ocultar o aplicativo no jogo.`, // #toBeUpdated
+    br: `Tecla de atalho para mostrar e ocultar o aplicativo dentro do jogo.`,
     es: `Tecla de acceso rápido para mostrar y ocultar la aplicación en el juego.`, // #toBeUpdated
 
     /* OLD TEXT*/
@@ -2317,7 +2317,7 @@ export const AppTranslations: Translations = {
     id: `Pemberitahuan item selama pertandingan untuk mengingatkan Anda tentang peristiwa seperti item netral atau ketersediaan bangsal pengamat. Anda dapat mengaktifkan atau menonaktifkan notifikasi yang berbeda satu per satu.`, // #toBeUpdated
     fil: `Mga abiso ng item sa panahon ng laro upang ipaalala sa iyo ang mga kaganapan tulad ng mga neutral na item o ang pagkakaroon ng mga tagamasid ward. Maaari mong paganahin o huwag paganahin ang iba't ibang mga notification nang paisa-isa.`, // #toBeUpdated
     zh: `游戏期间的物品通知，提醒你注意中立物品或观察者守卫的可用性等事件。您可以单独启用或禁用不同的通知。`, // #toBeUpdated
-    br: `Notificações de itens durante o jogo para lembrá-lo de eventos como itens neutros ou a disponibilidade de alas de observadores. Você pode ativar ou desativar as diferentes notificações individualmente.`, // #toBeUpdated
+    br: `Notificações de itens durante o jogo para lembrá-lo de eventos como itens neutrais ou a disponibilidade de sentinelas observadoras. Você pode ativar ou desativar as diferentes notificações individualmente.`,
     es: `Notificaciones de objetos durante el juego para recordarte eventos como objetos neutrales o la disponibilidad de salas de observadores. Puede activar o desactivar las diferentes notificaciones de forma individual.`, // #toBeUpdated
     /* OLD TEXT */
     /*de: "Während des Spiels erhältliche Benachrichtigungen, die dich an Ereignisse wie das Erscheinen von Kopfgeldrunen erinnern. Sie können die verschiedenen Nachrichten einzeln ein- oder ausschalten.",
@@ -2464,7 +2464,7 @@ export const AppTranslations: Translations = {
     id: `Dota Coach membutuhkan overlay agar Dota 2 diaktifkan di Overwolf. Harap perbarui pengaturan Overwolf.`, // #toBeUpdated
     fil: `Kailangan ng Dota Coach ang overlay para sa Dota 2 na ma-enable sa Overwolf. Mangyaring i-update ang mga setting ng Overwolf.`, // #toBeUpdated
     zh: `刀塔教练需要在 Overwolf 中启用 Dota 2 的叠加层。请更新 Overwolf 设置。`, // #toBeUpdated
-    br: `O Dota Coach precisa de sobreposição para que o Dota 2 seja ativado no Overwolf. Atualize as configurações do Overwolf.`, // #toBeUpdated
+    br: `O Dota Coach precisa que sobreposição para o Dota 2 seja ativado no Overwolf. Atualize as configurações do Overwolf.`,
     es: `Dota Coach necesita una superposición para que Dota 2 esté habilitado en Overwolf. Actualiza la configuración de Overwolf.`, // #toBeUpdated
   },
   OverlayEnabeldSettings: {
@@ -2475,7 +2475,7 @@ export const AppTranslations: Translations = {
     id: `PENGATURAN TERBUKA`, // #toBeUpdated
     fil: `BUKAS NA MGA SETTING`, // #toBeUpdated
     zh: `打开设置`, // #toBeUpdated
-    br: `CONFIGURAÇÕES ABERTAS`, // #toBeUpdated
+    br: `ABRIR CONFIGURAÇÕES`,
     es: `ABRIR CONFIGURACIÓN`, // #toBeUpdated
   },
   OverlayEnabeldRestart: {
@@ -2486,7 +2486,7 @@ export const AppTranslations: Translations = {
     id: `Anda berhasil mengaktifkan overlay Dota 2. Silakan tutup dan buka kembali Dota Coach, Overwolf dan Dota 2 agar perubahannya efektif.`, // #toBeUpdated
     fil: `Matagumpay mong pinagana ang overlay ng Dota 2. Mangyaring isara at muling buksan ang Dota Coach, Overwolf at Dota 2 para maging epektibo ang pagbabago.`, // #toBeUpdated
     zh: `你成功启用了 Dota 2 叠加层。请关闭并重新打开 Dota Coach、Overwolf 和 Dota 2，以使更改生效。`, // #toBeUpdated
-    br: `Você ativou com sucesso a sobreposição do Dota 2. Feche e reabra o Dota Coach, Overwolf e Dota 2 para que a mudança seja efetiva.`, // #toBeUpdated
+    br: `Você ativou com sucesso a sobreposição do Dota 2. Feche e abra novamente o Dota Coach, Overwolf e Dota 2 para finalizar a mudança.`,
     es: `Has habilitado correctamente la superposición de Dota 2. Cierra y vuelve a abrir Dota Coach, Overwolf y Dota 2 para que el cambio entre en vigor.`, // #toBeUpdated
   },
   GameStateIntegration: {
@@ -2508,7 +2508,7 @@ export const AppTranslations: Translations = {
     id: "Ada kesalahan ketik di opsi peluncuran Dota 2 Anda untuk Integrasi Status Game. Harapganti '####' dengan '-gamestateintegration'.", // #toBeUpdated
     fil: "Mayroong typo sa iyong mga pagpipilian sa paglunsad ng Dota 2 para sa Pagsasama ng Estado ng Game. Mangyaringpalitan ang '####' ng 'gamestateintegration'.", // #toBeUpdated
     zh: "你的 Dota 2 游戏状态集成的启动选项中有一个错字。请将 “####” 替换为 '-gamestateIntegrategrate'。", // #toBeUpdated
-    br: "Há um erro de digitação nas opções de lançamento do Dota 2 para a Integração do Estado do Jogo. Substitua '####' por '-gamestateintegration'.", // #toBeUpdated
+    br: "Há um erro de digitação nas opções de lançamento do Dota 2 para a Integração do Estado do Jogo. Substitua '####' por '-gamestateintegration'.",
     es: "Hay un error tipográfico en las opciones de lanzamiento de Dota 2 para la integración del estado del juego. Reemplaza '####' por '-gamestateintegration'.", // #toBeUpdated
   },
   GameStateIntegrationMore: {
@@ -2532,7 +2532,7 @@ export const AppTranslations: Translations = {
     id: `Infoboxes beroperasi penuh.`, // #toBeUpdated
     fil: `Ang mga infobox ay ganap na gumagana.`, // #toBeUpdated
     zh: `信息框已完全运行。`, // #toBeUpdated
-    br: `As infoboxes estão totalmente operacionais.`, // #toBeUpdated
+    br: `As caixas de informação estão totalmente operacionais.`,
     es: `Los infoboxes están en pleno funcionamiento.`, // #toBeUpdated
   },
   InfoboxesIssueDota: {
@@ -2543,7 +2543,7 @@ export const AppTranslations: Translations = {
     id: `Infoboxes turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
     fil: `Ang mga infobox ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
     zh: `由于与 Dota 2 的连接无法正常工作，信息框已关闭。`, // #toBeUpdated
-    br: `As infoboxes estão inativas porque a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    br: `As caixas de informação estão inativas porque a conectividade com o Dota 2 não está funcionando corretamente.`,
     es: `Las infoboxes están inactivas porque la conectividad a Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   InfoboxesLaunchDota: {
@@ -2554,7 +2554,7 @@ export const AppTranslations: Translations = {
     id: `Luncurkan Dota 2 untuk menggunakan kotak info dalam game.`, // #toBeUpdated
     fil: `Ilunsad ang Dota 2 upang magamit ang in-game infoboxes.`, // #toBeUpdated
     zh: `启动 Dota 2 以使用游戏中的信息框。`, // #toBeUpdated
-    br: `Inicie o Dota 2 para usar infoboxes no jogo.`, // #toBeUpdated
+    br: `Inicie o Dota 2 para usar caixas de informação no jogo.`,
     es: `Inicia Dota 2 para usar las infoboxes del juego.`, // #toBeUpdated
   },
 
@@ -2568,7 +2568,7 @@ export const AppTranslations: Translations = {
     id: `Luncurkan Dota 2 untuk mendapatkan keuntungan dari fitur dalam game seperti statistik pemain, pengatur waktu, pelacakan kinerja, dan pembinaan.`, // #toBeUpdated
     fil: `Ilunsad ang Dota 2 upang makinabang mula sa mga tampok na in-game tulad ng stats ng manlalaro, timers, pagsubaybay sa pagganap at Pagtuturo.`, // #toBeUpdated
     zh: `启动 Dota 2 以受益于游戏内功能，例如玩家统计、计时器、表现跟踪和指导。`, // #toBeUpdated
-    br: `Inicie o Dota 2 para se beneficiar dos recursos do jogo, como estatísticas do jogador, cronômetros, rastreamento de desempenho e treinamento.`, // #toBeUpdated
+    br: `Inicie o Dota 2 para se beneficiar dos recursos do jogo como estatísticas do jogador, cronômetros, rastreamento de desempenho e treinamento.`,
     es: `Inicia Dota 2 para beneficiarte de las funciones del juego, como estadísticas de los jugadores, temporizadores, seguimiento del rendimiento y entrenamiento.`, // #toBeUpdated
   },
   FullyOperational: {
@@ -2579,7 +2579,7 @@ export const AppTranslations: Translations = {
     id: `Dota 2 sedang berjalan dan koneksi beroperasi penuh.`, // #toBeUpdated
     fil: `Ang Dota 2 ay tumatakbo at ang koneksyon ay ganap na pagpapatakbo.`, // #toBeUpdated
     zh: `Dota 2 正在运行并且连接已完全正常运行。`, // #toBeUpdated
-    br: `O Dota 2 está funcionando e a conexão está totalmente operacional.`, // #toBeUpdated
+    br: `O Dota 2 está funcionando e a conexão está totalmente operacional.`,
     es: `Dota 2 se está ejecutando y la conexión está completamente operativa.`, // #toBeUpdated
   },
 
@@ -2591,7 +2591,7 @@ export const AppTranslations: Translations = {
     id: `Match analytics beroperasi penuh.`, // #toBeUpdated
     fil: `Ang pagtutugma ng analytics ay ganap na gumagana.`, // #toBeUpdated
     zh: `比赛分析已全面运作。`, // #toBeUpdated
-    br: `A análise de correspondência está totalmente operacional.`, // #toBeUpdated
+    br: `A análise de partidas está totalmente operacional.`,
     es: `El análisis de partidos está en pleno funcionamiento.`, // #toBeUpdated
   },
   MatchAnalyticsLoading: {
@@ -2602,7 +2602,7 @@ export const AppTranslations: Translations = {
     id: `Match analytics memuat data benchmark.`, // #toBeUpdated
     fil: `Ang pagtutugma ng analytics ay naglo-load ng benchmark data.`, // #toBeUpdated
     zh: `比赛分析正在加载基准数据。`, // #toBeUpdated
-    br: `A análise de correspondência está carregando dados de benchmark.`, // #toBeUpdated
+    br: `A análise de partidas está carregando dados de referência.`,
     es: `El análisis de partidos está cargando datos de referencia.`, // #toBeUpdated
   },
   MatchAnalyticsError: {
@@ -2614,7 +2614,7 @@ export const AppTranslations: Translations = {
     id: `Match analytics tidak dapat mengukur kecocokan Anda karena gagal memuat data benchmark (#####).`, // #toBeUpdated
     fil: `Hindi maaaring benchmark ng match analytics ang iyong mga match dahil nabigo ito sa paglo-load ng benchmark data (#####).`, // #toBeUpdated
     zh: `比赛分析无法对您的比赛进行基准测试，因为它无法加载基准数据 (#####)。`, // #toBeUpdated
-    br: `A análise de correspondência não pode comparar suas correspondências, pois falhou ao carregar os dados de benchmark (#####).`, // #toBeUpdated
+    br: `A análise de partidas não pode comparar suas partidas porque falhou ao carregar os dados de referência (#####).`,
     es: `El análisis de partidos no puede comparar tus partidos porque no pudo cargar los datos de referencia (#####).`, // #toBeUpdated
   },
 
@@ -2626,7 +2626,7 @@ export const AppTranslations: Translations = {
     id: `Timer beroperasi penuh.`, // #toBeUpdated
     fil: `Ang mga timer ay ganap na pagpapatakbo.`, // #toBeUpdated
     zh: `计时器已完全运行。`, // #toBeUpdated
-    br: `Os temporizadores estão totalmente operacionais.`, // #toBeUpdated
+    br: `Os temporizadores estão totalmente operacionais.`,
     es: `Los temporizadores están en pleno funcionamiento.`, // #toBeUpdated
   },
   TimersIssueDota: {
@@ -2637,7 +2637,7 @@ export const AppTranslations: Translations = {
     id: `Timer turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
     fil: `Ang mga timer ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
     zh: `由于与 Dota 2 的连接无法正常工作，计时器已关闭。`, // #toBeUpdated
-    br: `Os temporizadores estão inativos porque a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    br: `Os temporizadores estão inativos porque a conectividade com o Dota 2 não está funcionando corretamente.`,
     es: `Los temporizadores están inactivos porque la conectividad a Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   TimersLaunchDota: {
@@ -2648,7 +2648,7 @@ export const AppTranslations: Translations = {
     id: `Luncurkan Dota 2 untuk menggunakan timer dalam game.`, // #toBeUpdated
     fil: `Ilunsad ang Dota 2 upang magamit ang in-game timers.`, // #toBeUpdated
     zh: `启动 Dota 2 以使用游戏中的计时器。`, // #toBeUpdated
-    br: `Inicie o Dota 2 para usar cronômetros no jogo.`, // #toBeUpdated
+    br: `Inicie o Dota 2 para usar cronômetros no jogo.`,
     es: `Inicia Dota 2 para usar temporizadores en el juego.`, // #toBeUpdated
   },
 
@@ -2660,7 +2660,7 @@ export const AppTranslations: Translations = {
     id: `Pelatihan dan pemberitahuan beroperasi penuh.`, // #toBeUpdated
     fil: `Ang Coaching at notification ay ganap na pagpapatakbo.`, // #toBeUpdated
     zh: `辅导和通知功能已全面运作。`, // #toBeUpdated
-    br: `O treinamento e as notificações estão totalmente operacionais.`, // #toBeUpdated
+    br: `O treinamento e as notificações estão totalmente operacionais.`,
     es: `El entrenamiento y las notificaciones están en pleno funcionamiento.`, // #toBeUpdated
   },
   CoachingIssueDota: {
@@ -2671,7 +2671,7 @@ export const AppTranslations: Translations = {
     id: `Pelatihan dan pemberitahuan turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
     fil: `Ang Coaching at notification ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
     zh: `由于与 Dota 2 的连接不正常，辅导和通知中断。`, // #toBeUpdated
-    br: `O treinamento e as notificações estão inativos, pois a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    br: `O treinamento e as notificações estão inativos, pois a conectividade com o Dota 2 não está funcionando corretamente.`,
     es: `El entrenamiento y las notificaciones están inactivos porque la conectividad a Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   CoachingLaunchDota: {
@@ -2682,7 +2682,7 @@ export const AppTranslations: Translations = {
     id: `Luncurkan Dota 2 untuk menggunakan pelatihan dan notifikasi dalam game.`, // #toBeUpdated
     fil: `Ilunsad ang Dota 2 upang magamit ang in-game coaching at notification.`, // #toBeUpdated
     zh: `启动 Dota 2 以使用游戏中的指导和通知。`, // #toBeUpdated
-    br: `Inicie o Dota 2 para usar treinamento e notificações no jogo.`, // #toBeUpdated
+    br: `Inicie o Dota 2 para usar treinamento e notificações no jogo.`,
     es: `Inicia Dota 2 para usar el entrenamiento y las notificaciones en el juego.`, // #toBeUpdated
   },
 
@@ -2694,7 +2694,7 @@ export const AppTranslations: Translations = {
     id: `Pelacak kinerja beroperasi penuh dan menunggu Anda untuk memilih pahlawan dalam permainan.`, // #toBeUpdated
     fil: `Pagganap tracker ay ganap na pagpapatakbo at naghihintay para sa iyo upang pumili ng isang bayani sa isang laro.`, // #toBeUpdated
     zh: `Performance Tracker 已完全运行，等待你在游戏中选择英雄。`, // #toBeUpdated
-    br: `O rastreador de desempenho está totalmente operacional e espera que você selecione um herói em um jogo.`, // #toBeUpdated
+    br: `O rastreador de desempenho está totalmente operacional e esperando que você selecione um herói em um jogo.`,
     es: `El rastreador de rendimiento está completamente operativo y espera que selecciones un héroe en un juego.`, // #toBeUpdated
   },
   PerformanceTrackerOperationalInGame: {
@@ -2705,7 +2705,7 @@ export const AppTranslations: Translations = {
     id: `Pelacak kinerja beroperasi penuh.`, // #toBeUpdated
     fil: `Ang tracker ng pagganap ay ganap na pagpapatakbo.`, // #toBeUpdated
     zh: `性能跟踪器已全面运行。`, // #toBeUpdated
-    br: `O rastreador de desempenho está totalmente operacional.`, // #toBeUpdated
+    br: `O rastreador de desempenho está totalmente operacional.`,
     es: `El rastreador de rendimiento está totalmente operativo.`, // #toBeUpdated
   },
   PerformanceTrackerIssueDota: {
@@ -2716,7 +2716,7 @@ export const AppTranslations: Translations = {
     id: `Pelacak kinerja turun karena konektivitas ke Dota 2 tidak berfungsi dengan baik.`, // #toBeUpdated
     fil: `Ang tracker ng pagganap ay bumaba dahil ang pagkakakonekta sa Dota 2 ay hindi gumagana ng maayos.`, // #toBeUpdated
     zh: `由于与 Dota 2 的连接无法正常工作，性能跟踪器已关闭。`, // #toBeUpdated
-    br: `O rastreador de desempenho está inativo porque a conectividade com o Dota 2 não está funcionando corretamente.`, // #toBeUpdated
+    br: `O rastreador de desempenho está inativo porque a conectividade com o Dota 2 não está funcionando corretamente.`,
     es: `El rastreador de rendimiento no funciona porque la conectividad con Dota 2 no funciona correctamente.`, // #toBeUpdated
   },
   PerformanceTrackerIssueAWS: {
@@ -2728,7 +2728,7 @@ export const AppTranslations: Translations = {
     id: `Pelacak kinerja tidak dapat membandingkan kinerja Anda karena data tolok ukur tidak dapat diambil dari server (####).`, // #toBeUpdated
     fil: `Hindi maaaring ihambing ng tagasubaybay ng pagganap ang iyong pagganap dahil ang benchmark data ay hindi makuha mula sa server (####).`, // #toBeUpdated
     zh: `性能跟踪器无法比较您的表现，因为无法从服务器 (####) 检索基准数据。`, // #toBeUpdated
-    br: `O rastreador de desempenho não pode comparar seu desempenho, pois os dados de benchmark não puderam ser recuperados do servidor (####).`, // #toBeUpdated
+    br: `O rastreador de desempenho não pode comparar seu desempenho porque os dados de referência não puderam ser recuperados do servidor (####).`,
     es: `El monitor de rendimiento no puede comparar tu rendimiento porque los datos de referencia no se pueden recuperar del servidor (####).`, // #toBeUpdated
   },
   PerformanceTrackerLaunchDota: {
@@ -2739,7 +2739,7 @@ export const AppTranslations: Translations = {
     id: `Luncurkan Dota 2 untuk menggunakan pelacak kinerja dalam game.`, // #toBeUpdated
     fil: `Ilunsad ang Dota 2 upang magamit ang in-game tracker ng pagganap.`, // #toBeUpdated
     zh: `启动 Dota 2 以使用游戏中的性能追踪器。`, // #toBeUpdated
-    br: `Abra o Dota 2 para usar o rastreador de desempenho no jogo`, // #toBeUpdated
+    br: `Abra o Dota 2 para usar o rastreador de desempenho no jogo`,
     es: `Inicia Dota 2 para usar el rastreador de rendimiento del juego.`, // #toBeUpdated
   },
 
@@ -2751,7 +2751,7 @@ export const AppTranslations: Translations = {
     id: `Menghubungkan ke Dota 2...`, // #toBeUpdated
     fil: `Kumokonekta sa Dota 2...`, // #toBeUpdated
     zh: `正在连接到 Dota 2...`, // #toBeUpdated
-    br: `Conectando-se ao Dota 2...`, // #toBeUpdated
+    br: `Conectando-se ao Dota 2...`,
     es: `Conectándose a Dota 2...`, // #toBeUpdated
   },
   DotaConnectivityStatus: {
@@ -2762,7 +2762,7 @@ export const AppTranslations: Translations = {
     id: `Menghubungkan ke Dota 2... <br>Statussaat ini: '#####' (####/#### upaya)`, // #toBeUpdated
     fil: `Kumokonekta sa Dota 2... <br>Kasalukuyangkatayuan: '#####' (####/### pagtatangka)`, // #toBeUpdated
     zh: `正在连接到 Dota 2...<br>当前状态：'####'（####/#### 次尝试）`, // #toBeUpdated
-    br: `Conectando-se ao Dota 2... <br>Status atual: '####' (####/#### tentativas)`, // #toBeUpdated
+    br: `Conectando-se ao Dota 2... <br>Status atual: '####' (####/#### tentativas)`,
     es: `Conectándose a Dota 2... <br>Estado actual: '####' (####/#### intentos)`, // #toBeUpdated
   },
   DotaConnectivityError: {
@@ -2773,7 +2773,7 @@ export const AppTranslations: Translations = {
     id: `Koneksi ke Dota 2 tidak dapat dibuat. <br>Silakancoba lagi nanti. <br>Galat: '#####'.`, // #toBeUpdated
     fil: `Ang koneksyon sa Dota 2 ay hindi maitatag. <br>Mangyaringsubukang muli mamaya. <br>Error: '####'.`, // #toBeUpdated
     zh: `无法建立与 Dota 2 的连接。<br>请稍后再试。<br>错误：'####'。`, // #toBeUpdated
-    br: `A conexão com o Dota 2 não pôde ser estabelecida. <br>Tente novamente mais tarde. <br>Erro: '####'.`, // #toBeUpdated
+    br: `A conexão com o Dota 2 não pôde ser estabelecida. <br>Tente novamente mais tarde. <br>Erro: '####'.`,
     es: `No se pudo establecer la conexión con Dota 2. <br>Vuelva a intentarlo más tarde. <br>Error: '####'.`, // #toBeUpdated
   },
   DotaConnectivityFailed: {
@@ -2785,7 +2785,7 @@ export const AppTranslations: Translations = {
     id: `Koneksi ke Dota 2 terganggu. Kami sedang mengerjakan perbaikan, silakan coba lagi nanti.`, // #toBeUpdated
     fil: `Ang koneksyon sa Dota 2 ay nasisira. Nagtatrabaho kami sa isang pag-aayos, mangyaring subukang muli mamaya.`, // #toBeUpdated
     zh: `与 Dota 2 的连接中断。我们正在修复问题，请稍后再试。`, // #toBeUpdated
-    br: `A conexão com o Dota 2 foi interrompida. Estamos trabalhando em uma correção, tente novamente mais tarde.`, // #toBeUpdated
+    br: `A conexão com o Dota 2 foi interrompida. Estamos trabalhando em uma correção, tente novamente mais tarde.`,
     es: `La conexión a Dota 2 está interrumpida. Estamos trabajando en una solución, inténtalo de nuevo más tarde.`, // #toBeUpdated
   },
   DotaConnectivityCrashed: {
@@ -2797,7 +2797,7 @@ export const AppTranslations: Translations = {
     id: `Koneksi ke Dota jatuh. Silakan coba untuk meluncurkan kembali aplikasi.`, // #toBeUpdated
     fil: `Ang koneksyon sa Dota ay nag-crash. Mangyaring subukan na muling ilunsad ang app.`, // #toBeUpdated
     zh: `与 Dota 的连接崩溃了。请尝试重新启动应用程序。`, // #toBeUpdated
-    br: `A conexão com o Dota travou. Tente reiniciar o aplicativo.`, // #toBeUpdated
+    br: `A conexão com o Dota travou. Tente reiniciar o aplicativo.`,
     es: `La conexión a Dota se bloqueó. Intente volver a iniciar la aplicación.`, // #toBeUpdated
   },
 
@@ -2860,7 +2860,7 @@ export const AppTranslations: Translations = {
     id: "Pengaturan Pelatih Dota", // #toBeUpdated
     fil: "Pag-setup ng Dota Coach", // #toBeUpdated
     zh: "刀塔教练设置", // #toBeUpdated
-    br: "Configuração do treinador Dota", // #toBeUpdated
+    br: "Configuração do Dota Coach",
     es: "Configuración de Dota Coach", // #toBeUpdated
   },
 
@@ -2872,7 +2872,7 @@ export const AppTranslations: Translations = {
     id: "Bahasa", // #toBeUpdated
     fil: "Wika", // #toBeUpdated
     zh: "语言", // #toBeUpdated
-    br: "Idioma", // #toBeUpdated
+    br: "Idioma",
     es: "Idioma", // #toBeUpdated
   },
 
@@ -2884,7 +2884,7 @@ export const AppTranslations: Translations = {
     id: "Profil", // #toBeUpdated
     fil: "Profile", // #toBeUpdated
     zh: "配置文件", // #toBeUpdated
-    br: "Perfil", // #toBeUpdated
+    br: "Perfil",
     es: "Perfil", // #toBeUpdated
   },
 
@@ -2896,7 +2896,7 @@ export const AppTranslations: Translations = {
     id: "Langganan Dota+", // #toBeUpdated
     fil: "Subscription ng Dota+", // #toBeUpdated
     zh: "Dota+ 订阅", // #toBeUpdated
-    br: "Assinatura Dota+", // #toBeUpdated
+    br: "Assinatura Dota+",
     es: "Suscripción a Dota+", // #toBeUpdated
   },
 
@@ -2908,7 +2908,7 @@ export const AppTranslations: Translations = {
     id: "Audio", // #toBeUpdated
     fil: "Audio", // #toBeUpdated
     zh: "音频", // #toBeUpdated
-    br: "Áudio", // #toBeUpdated
+    br: "Áudio",
     es: "Audio", // #toBeUpdated
   },
 
@@ -2920,7 +2920,7 @@ export const AppTranslations: Translations = {
     id: "Menyelesaikan", // #toBeUpdated
     fil: "I-finalize", // #toBeUpdated
     zh: "敲定", // #toBeUpdated
-    br: "Finalizar", // #toBeUpdated
+    br: "Finalizar",
     es: "Finalizar", // #toBeUpdated
   },
 
@@ -2934,7 +2934,7 @@ export const AppTranslations: Translations = {
     id: "Sebelumnya", // #toBeUpdated
     fil: "Nakaraang", // #toBeUpdated
     zh: "以前", // #toBeUpdated
-    br: "Anterior", // #toBeUpdated
+    br: "Anterior",
     es: "Anterior", // #toBeUpdated
   },
 
@@ -2946,7 +2946,7 @@ export const AppTranslations: Translations = {
     id: "Berikutnya", // #toBeUpdated
     fil: "Susunod", // #toBeUpdated
     zh: "下一步", // #toBeUpdated
-    br: "Próximo", // #toBeUpdated
+    br: "Próximo",
     es: "Próximo", // #toBeUpdated
   },
 
@@ -2958,7 +2958,7 @@ export const AppTranslations: Translations = {
     id: "Lewati", // #toBeUpdated
     fil: "Laktawan", // #toBeUpdated
     zh: "跳过", // #toBeUpdated
-    br: "Pular", // #toBeUpdated
+    br: "Pular",
     es: "Omitir", // #toBeUpdated
   },
 
@@ -2970,7 +2970,7 @@ export const AppTranslations: Translations = {
     id: "Selesai", // #toBeUpdated
     fil: "Tapos na", // #toBeUpdated
     zh: "完成了", // #toBeUpdated
-    br: "Feito", // #toBeUpdated
+    br: "Feito",
     es: "Terminado", // #toBeUpdated
   },
 
@@ -2982,7 +2982,7 @@ export const AppTranslations: Translations = {
     id: "Aktifkan", // #toBeUpdated
     fil: "Paganahin", // #toBeUpdated
     zh: "启用", // #toBeUpdated
-    br: "Ativar", // #toBeUpdated
+    br: "Ativar",
     es: "Habilitar", // #toBeUpdated
   },
 
@@ -2994,7 +2994,7 @@ export const AppTranslations: Translations = {
     id: "Nonaktifkan", // #toBeUpdated
     fil: "Huwag paganahin", // #toBeUpdated
     zh: "禁用", // #toBeUpdated
-    br: "Desativar", // #toBeUpdated
+    br: "Desativar",
     es: "Deshabilitar", // #toBeUpdated
   },
 
@@ -3008,7 +3008,7 @@ export const AppTranslations: Translations = {
     id: "Selamat datang di Dota Coach!", // #toBeUpdated
     fil: "Maligayang pagdating sa Dota Coach!", // #toBeUpdated
     zh: "欢迎来到刀塔教练！", // #toBeUpdated
-    br: "Bem-vindo ao Dota Coach!", // #toBeUpdated
+    br: "Bem-vindo ao Dota Coach!",
     es: "¡Bienvenido a Dota Coach!", // #toBeUpdated
   },
 
@@ -3020,7 +3020,7 @@ export const AppTranslations: Translations = {
     id: "Kami sekarang akan memandu Anda melalui langkah-langkah pengaturan kami yang mengambil sekitardua menit untuk menyelesaikannya.", // #toBeUpdated
     fil: "Gagabayan ka namin ngayon sa pamamagitan ng aming mga hakbang sa pag-setup na tumatagal sa paligiddalawang minuto upang makumpleto.", // #toBeUpdated
     zh: "现在，我们将引导您完成设置步骤还有两分钟才能完成。", // #toBeUpdated
-    br: "Agora vamos guiá-lo através de nossas etapas de configuração que levam em tornodois minutos para concluir.", // #toBeUpdated
+    br: "Agora vamos guiá-lo através de nossas etapas de configuração que levam em torno de dois minutos para concluir.",
     es: "Ahora lo guiaremos a través de nuestros pasos de configuración, que requierendos minutos para completarla.", // #toBeUpdated
   },
 
@@ -3032,7 +3032,7 @@ export const AppTranslations: Translations = {
     id: "Pilih bahasa Anda:", // #toBeUpdated
     fil: "Piliin ang iyong wika:", // #toBeUpdated
     zh: "选择你的语言：", // #toBeUpdated
-    br: "Selecione seu idioma:", // #toBeUpdated
+    br: "Selecione seu idioma:",
     es: "Selecciona tu idioma:", // #toBeUpdated
   },
 
@@ -3045,7 +3045,7 @@ export const AppTranslations: Translations = {
     id: "Pilih Profil Dota2 Anda:", // #toBeUpdated
     fil: "Piliin ang iyong Dota2 Profile:", // #toBeUpdated
     zh: "选择你的 Dota2 个人资料：", // #toBeUpdated
-    br: "Escolha seu perfil Dota2:", // #toBeUpdated
+    br: "Escolha seu perfil Dota2:",
     es: "Elige tu perfil de Dota2:", // #toBeUpdated
   },
 
@@ -3057,7 +3057,7 @@ export const AppTranslations: Translations = {
     id: "Pemula", // #toBeUpdated
     fil: "Baguhan", // #toBeUpdated
     zh: "初学者", // #toBeUpdated
-    br: "Iniciante", // #toBeUpdated
+    br: "Iniciante",
     es: "Principiante", // #toBeUpdated
   },
 
@@ -3069,7 +3069,7 @@ export const AppTranslations: Translations = {
     id: "Veteran", // #toBeUpdated
     fil: "Beterano", // #toBeUpdated
     zh: "老兵", // #toBeUpdated
-    br: "Veterano", // #toBeUpdated
+    br: "Veterano",
     es: "Veterano", // #toBeUpdated
   },
 
@@ -3081,7 +3081,7 @@ export const AppTranslations: Translations = {
     id: "Pelatihan Suara Pahlawan", // #toBeUpdated
     fil: "bayani boses Pagtuturo", // #toBeUpdated
     zh: "英雄语音教练", // #toBeUpdated
-    br: "Treinamento de voz de herói", // #toBeUpdated
+    br: "Treinamento de voz de herói",
     es: "Entrenamiento por voz de", // #toBeUpdated
   },
 
@@ -3093,7 +3093,7 @@ export const AppTranslations: Translations = {
     id: "Pemberitahuan Acara", // #toBeUpdated
     fil: "Mga Abiso ng Kag", // #toBeUpdated
     zh: "事件通知", // #toBeUpdated
-    br: "Notificações de", // #toBeUpdated
+    br: "Notificações de evento",
     es: "Avisos de eventos", // #toBeUpdated
   },
 
@@ -3105,7 +3105,7 @@ export const AppTranslations: Translations = {
     id: "Semua timer", // #toBeUpdated
     fil: "Lahat ng timers", // #toBeUpdated
     zh: "所有计时器", // #toBeUpdated
-    br: "Todos os temporizadores", // #toBeUpdated
+    br: "Todos os temporizadores",
     es: "Todos los temporizadores", // #toBeUpdated
   },
 
@@ -3117,7 +3117,7 @@ export const AppTranslations: Translations = {
     id: "Pemain dan Tim Infoboxes", // #toBeUpdated
     fil: "Mga Infobox ng Manlalaro at Koponan", // #toBeUpdated
     zh: "球员和队伍信息框", // #toBeUpdated
-    br: "Infoboxes de jogadores e equipes", // #toBeUpdated
+    br: "Caixas de informação de jogadores e equipes",
     es: "Infoboxes de jugadores y equipos", // #toBeUpdated
   },
 
@@ -3129,7 +3129,7 @@ export const AppTranslations: Translations = {
     id: "Jendela Subtitle", // #toBeUpdated
     fil: "Window ng Subtitle", // #toBeUpdated
     zh: "字幕窗口", // #toBeUpdated
-    br: "Janela de legenda", // #toBeUpdated
+    br: "Janela de legenda",
     es: "Ventana de subtítulos", // #toBeUpdated
   },
 
@@ -3141,7 +3141,7 @@ export const AppTranslations: Translations = {
     id: "Timer (Team Buyback dan Ultimates dinonaktifkan)", // #toBeUpdated
     fil: "Timers (Hindi pinagana ang Pagbili ng Koponan at Ultimates)", // #toBeUpdated
     zh: "计时器（已禁用团队回购和终极版）", // #toBeUpdated
-    br: "Temporizadores (Team Buyback e Ultimates desativados)", // #toBeUpdated
+    br: "Temporizadores (recompra de time e ultis desativados)",
     es: "Temporizadores (recompra de equipo y Ultimates desactivados)", // #toBeUpdated
   },
 
@@ -3153,7 +3153,7 @@ export const AppTranslations: Translations = {
     id: "Anda dapat mengaktifkan atau menonaktifkan komponen invidual nanti di menu Pengaturan!", // #toBeUpdated
     fil: "Maaari mong paganahin o huwag paganahin ang mga indibidwal na bahagi mamaya sa menu ng Mga Setting!", // #toBeUpdated
     zh: "您可以稍后在 “设置” 菜单中启用或禁用单个组件！", // #toBeUpdated
-    br: "Você pode ativar ou desativar componentes individuais posteriormente no menu Configurações!", // #toBeUpdated
+    br: "Você pode ativar ou desativar componentes individuais posteriormente no menu Configurações!",
     es: "Puede activar o desactivar componentes individuales más adelante en el menú Configuración.", // #toBeUpdated
   },
 
@@ -3166,7 +3166,7 @@ export const AppTranslations: Translations = {
     id: "Apakah Anda berlangganan Dota Plus?", // #toBeUpdated
     fil: "Nag-subscribe ka ba sa Dota Plus?", // #toBeUpdated
     zh: "你订阅了 Dota Plus 吗？", // #toBeUpdated
-    br: "Você está inscrito no Dota Plus?", // #toBeUpdated
+    br: "Você está inscrito no Dota Plus?",
     es: "¿Estás suscrito a Dota Plus?", // #toBeUpdated
   },
 
@@ -3178,7 +3178,7 @@ export const AppTranslations: Translations = {
     id: "ya", // #toBeUpdated
     fil: "oo", // #toBeUpdated
     zh: "是的", // #toBeUpdated
-    br: "sim", // #toBeUpdated
+    br: "sim",
     es: "sí", // #toBeUpdated
   },
 
@@ -3190,7 +3190,7 @@ export const AppTranslations: Translations = {
     id: "tidak", // #toBeUpdated
     fil: "hindi", // #toBeUpdated
     zh: "不", // #toBeUpdated
-    br: "não", // #toBeUpdated
+    br: "não",
     es: "no", // #toBeUpdated
   },
 
@@ -3202,7 +3202,7 @@ export const AppTranslations: Translations = {
     id: "Kami menggunakan informasi ini untuk memposisikan Pelacak Kinerja kami!", // #toBeUpdated
     fil: "Ginagamit namin ang impormasyong ito upang iposisyon ang aming Performance Tracker!", // #toBeUpdated
     zh: "我们使用这些信息来定位我们的绩效追踪器！", // #toBeUpdated
-    br: "Usamos essas informações para posicionar nosso Rastreador de Desempenho!", // #toBeUpdated
+    br: "Usamos essas informações para posicionar nosso Rastreador de Desempenho!",
     es: "¡Utilizamos esta información para posicionar nuestro Performance Tracker!", // #toBeUpdated
   },
 
@@ -3215,7 +3215,7 @@ export const AppTranslations: Translations = {
     id: "Pengubah klik mouse digunakan untuk mencegah klik miss pada komponen UI saat bermain. <br />Jika Anda memilih salah satu dari daftar, Anda harus menekan tombol pengubah sambil mengklik elemen UI. <br />Anda dapat mengubah pengubah nanti di Settings-Menu", // #toBeUpdated
     fil: "Ang modifier ng pag-click ng mouse ay ginagamit upang maiwasan ang mga pag-click ng miss sa mga bahagi ng UI habang nagpe-play. <br />Kung pumili ka ng isa mula sa listahan, kailangan mong pindutin ang key ng modifier habang nag-click sa mga elemento ng UI. <br />Maaari mong baguhin ang modifier mamaya sa Mga Setting-Menu", // #toBeUpdated
     zh: "鼠标点击修改器用于防止在播放时未点击界面组件。<br />如果从列表中选择一个，则必须在单击 UI 元素的同时按下修饰键。<br />你可以稍后在 “设置” 菜单中更改修改器", // #toBeUpdated
-    br: "O modificador de clique do mouse é usado para evitar cliques errados nos componentes da interface do usuário durante a reprodução. <br />Se você selecionar um na lista, terá que pressionar a tecla modificadora enquanto clica nos elementos da interface do usuário. <br />Você pode alterar o modificador posteriormente no menu Configurações", // #toBeUpdated
+    br: "O modificador de clique do mouse é usado para evitar cliques errados nos componentes da interface do usuário durante a reprodução. <br />Se você selecionar um na lista, terá que pressionar a tecla modificadora enquanto clica nos elementos da interface do usuário. <br />Você pode alterar o modificador posteriormente no menu Configurações",
     es: "El modificador de clic del ratón se utiliza para evitar clics fallidos en los componentes de la interfaz de usuario mientras se juega <br />Si selecciona uno de la lista, debe presionar la tecla modificadora mientras hace clic en los elementos de la interfaz de usuario. <br />Puedes cambiar el modificador más adelante en el menú de configuración", // #toBeUpdated
   },
 
@@ -3227,20 +3227,21 @@ export const AppTranslations: Translations = {
     id: "Sesuaikan volume dan pastikan speaker yang tepat dipilih. <br />Klik pada Test aftewards dan beberapa audio harus bermain. <br />Anda dapat menyesuaikannya nanti di menu pengaturan juga. <br />", // #toBeUpdated
     fil: "Ayusin ang lakas ng tunog at siguraduhin na napili ang tamang speaker. <br />I-click ang sa Pagsubok pagkatapos at dapat i-play ang ilang audio. <br />Maaari mo ring ayusin ang mga ito sa ibang pagkakataon sa menu ng mga setting pati na rin. <br />", // #toBeUpdated
     zh: "调整音量并确保选择了正确的扬声器。<br />之后单击 “测试”，即可播放一些音频。<br />您稍后也可以在设置菜单中调整这些设置。<br />", // #toBeUpdated
-    br: "Ajuste o volume e verifique se o alto-falante correto está selecionado. <br />Clique em Testar depois e um pouco de áudio deve ser reproduzido. <br />Você também pode ajustá-los posteriormente no menu de configurações. <br />", // #toBeUpdatedes: "Ajuste el volumen y asegúrese de que está seleccionado el altavoz correcto. <br />Haga clic en Probar después y se reproducirá algo de audio. <br />También puedes ajustarlos más adelante en el menú de configuración. <br />", // #toBeUpdated
+    br: "Ajuste o volume e verifique se o alto-falante correto está selecionado. <br />Depois clique em Testar e um pouco de áudio deve ser reproduzido. <br />Você também pode ajustá-los posteriormente no menu de configurações. <br />",
+    es: "Ajuste el volumen y asegúrese de que está seleccionado el altavoz correcto. <br />Haga clic en Probar después y se reproducirá algo de audio. <br />También puedes ajustarlos más adelante en el menú de configuración. <br />", // #toBeUpdated
   },
 
   // Finalize
 
   finalizeText: {
-    en: "If you want to change selections you made later on, head to thesettings menu!<br />Thank you for trying Dota Coach and good luck in your games!<br />",
+    en: "If you want to change selections you made later on, head to the settings menu!<br />Thank you for trying Dota Coach and good luck in your games!<br />",
     de: "Wenn Sie die später getroffene Auswahl ändern möchten, gehen Sie zuEinstellungen-Menü! <br />Danke, dass du Dota Coach ausprobiert hast und viel Glück bei deinen Spielen! <br />", // #toBeUpdated
     fr: "Si vous souhaitez modifier les sélections que vous avez effectuées ultérieurement, rendez-vous sur la pagemenu des paramètres ! <br />Merci d'avoir essayé Dota Coach et bonne chance dans tes jeux ! <br />", // #toBeUpdated
     ru: "Если вы хотите изменить выбор, сделанный позже, перейдите кменю настроек! <br />Спасибо, что попробовали Dota Coach и удачи в ваших играх! <br />", // #toBeUpdated
     id: "Jika Anda ingin mengubah pilihan yang Anda buat nanti, bukamenu pengaturan! <br />Terima kasih telah mencoba Dota Coach dan semoga sukses dalam permainan Anda! <br />", // #toBeUpdated
     fil: "Kung gusto mong baguhin ang mga seleksyon na ginawa mo sa ibang pagkakataon, magtungo samenu ng mga setting! <br />Salamat sa iyo para sa pagsubok Dota Coach at good luck sa iyong mga laro! <br />", // #toBeUpdated
     zh: "如果你想更改稍后所做的选择，请前往设置菜单！<br />感谢你试用 Dota Coach，祝你在游戏中好运！<br />", // #toBeUpdated
-    br: "Se você quiser alterar as seleções feitas mais tarde, vá para omenu de configurações! <br />Obrigado por experimentar o Dota Coach e boa sorte em seus jogos! <br />", // #toBeUpdated
+    br: "Se você quiser alterar as seleções feitas mais tarde, vá para o menu de configurações! <br />Obrigado por experimentar o Dota Coach e boa sorte em seus jogos! <br />",
     es: "Si quieres cambiar las selecciones que hiciste más adelante, dirígete a la¡menú de configuración! <br />¡Gracias por probar Dota Coach y buena suerte en tus juegos! <br />", // #toBeUpdated
   },
 };
