@@ -16,7 +16,7 @@ export const WebsiteTranslations: Translations = {
     id: "Kami minta maaf melihatmu pergi...", // #toBeUpdated
     fil: "Ikinalulungkot naming makita kang pumunta...", // #toBeUpdated
     zh: "我们很抱歉看到你走了...", // #toBeUpdated
-    br: "Lamentamos ver você ir...", // #toBeUpdated
+    br: "Sentimos muito em ver você ir...",
     es: "Sentimos que te vayas...", // #toBeUpdated
   },
   WhyLeaving: {
@@ -27,7 +27,7 @@ export const WebsiteTranslations: Translations = {
     id: "Kenapa kau meninggalkan kami?", // #toBeUpdated
     fil: "Bakit mo kami iniiwan?", // #toBeUpdated
     zh: "你为什么要离开我们？", // #toBeUpdated
-    br: "Por que está nos deixando?", // #toBeUpdated
+    br: "Por que está nos deixando?",
     es: "¿Por qué nos dejas?", // #toBeUpdated
   },
   LanguageNotSupported: {
@@ -38,7 +38,7 @@ export const WebsiteTranslations: Translations = {
     id: "Bahasa saya tidak didukung", // #toBeUpdated
     fil: "Ang aking wika ay hindi suportado", // #toBeUpdated
     zh: "我的语言不受支持", // #toBeUpdated
-    br: "Meu idioma não é suportado", // #toBeUpdated
+    br: "Meu idioma não é suportado",
     es: "No se admite mi idioma", // #toBeUpdated
   },
   TooManyAds: {
@@ -49,7 +49,7 @@ export const WebsiteTranslations: Translations = {
     id: "Terlalu banyak iklan", // #toBeUpdated
     fil: "Masyadong maraming mga ad", // #toBeUpdated
     zh: "广告太多", // #toBeUpdated
-    br: "Muitos anúncios", // #toBeUpdated
+    br: "Muitos anúncios",
     es: "Demasiados anuncios", // #toBeUpdated
   },
   PerformanceIssues: {
@@ -60,7 +60,7 @@ export const WebsiteTranslations: Translations = {
     id: "Masalah kinerja (FPS rendah)", // #toBeUpdated
     fil: "Mga isyu sa pagganap (mababang FPS)", // #toBeUpdated
     zh: "性能问题（低FPS）", // #toBeUpdated
-    br: "Problemas de desempenho (FPS baixo)", // #toBeUpdated
+    br: "Problemas de desempenho (FPS baixo)",
     es: "Problemas de rendimiento (FPS bajos)", // #toBeUpdated
   },
   AppDidntWork: {
@@ -71,7 +71,7 @@ export const WebsiteTranslations: Translations = {
     id: "Aplikasi tidak bekerja", // #toBeUpdated
     fil: "Hindi gumagana ang app", // #toBeUpdated
     zh: "应用程序无法正常工作", // #toBeUpdated
-    br: "O aplicativo não funcionou", // #toBeUpdated
+    br: "O aplicativo não funcionou",
     es: "La aplicación no funcionó", // #toBeUpdated
   },
   TooManyBugs: {
@@ -82,7 +82,7 @@ export const WebsiteTranslations: Translations = {
     id: "Terlalu banyak bug", // #toBeUpdated
     fil: "Masyadong maraming mga bug", // #toBeUpdated
     zh: "错误太多", // #toBeUpdated
-    br: "Muitos bugs", // #toBeUpdated
+    br: "Muitos bugs",
     es: "Demasiados errores", // #toBeUpdated
   },
   UXUIBad: {
@@ -93,7 +93,7 @@ export const WebsiteTranslations: Translations = {
     id: "UX/UI buruk", // #toBeUpdated
     fil: "UX/UI ay masama", // #toBeUpdated
     zh: "UX/UI 太糟糕了", // #toBeUpdated
-    br: "UX/UI estava ruim", // #toBeUpdated
+    br: "UX/UI ruim",
     es: "UX/UI estaba mal", // #toBeUpdated
   },
   OtherAppsBetter: {
@@ -104,7 +104,7 @@ export const WebsiteTranslations: Translations = {
     id: "Aplikasi lain lebih baik", // #toBeUpdated
     fil: "Ang iba pang mga app ay mas mahusay", // #toBeUpdated
     zh: "其他应用程序更好", // #toBeUpdated
-    br: "Outros aplicativos são melhores", // #toBeUpdated
+    br: "Outros aplicativos são melhores",
     es: "Otras aplicaciones son mejores", // #toBeUpdated
   },
   DontPlayDota: {
@@ -115,11 +115,11 @@ export const WebsiteTranslations: Translations = {
     id: "Saya tidak bermain Dota 2 lagi", // #toBeUpdated
     fil: "Hindi na ako naglalaro ng Dota 2", // #toBeUpdated
     zh: "我不再玩 Dota 2 了", // #toBeUpdated
-    br: "Eu não jogo mais Dota 2", // #toBeUpdated
+    br: "Eu não jogo mais Dota 2",
     es: "Ya no juego a Dota 2", // #toBeUpdated
   },
   OtherReason: {
-    // Other reason for not unsintalling app
+    // Other reason for uninstalling app
     en: "Other",
     de: "Andere",
     fr: "Autres",
@@ -127,7 +127,7 @@ export const WebsiteTranslations: Translations = {
     id: "Lainnya", // #toBeUpdated
     fil: "Iba", // #toBeUpdated
     zh: "其他", // #toBeUpdated
-    br: "Outros", // #toBeUpdated
+    br: "Outros",
     es: "Otro", // #toBeUpdated
   },
   WhatDoneBetter: {
@@ -138,7 +138,7 @@ export const WebsiteTranslations: Translations = {
     id: "Apa yang bisa kita lakukan lebih baik?", // #toBeUpdated
     fil: "Ano ang maaari nating gawin nang mas mahusay?", // #toBeUpdated
     zh: "我们能做得更好些什么？", // #toBeUpdated
-    br: "O que poderíamos ter feito melhor?", // #toBeUpdated
+    br: "O que poderíamos ter feito melhor?",
     es: "¿Qué podríamos haber hecho mejor?", // #toBeUpdated
   },
   ThankYouForMarkingAppBetter: {
@@ -149,7 +149,7 @@ export const WebsiteTranslations: Translations = {
     id: "Kami harap Anda dapat mencoba kami lagi di masa depan. <br>Terima kasih telah membuat Dota Coach lebih baik.", // #toBeUpdated
     fil: "Umaasa kami na maaari mong subukan kami muli sa hinaharap. <br>Salamat sa paggawa ng Dota Coach mas mahusay.", // #toBeUpdated
     zh: "我们希望你将来能再试一次。<br>感谢你让 Dota Coach 变得更好。", // #toBeUpdated
-    br: "Esperamos que você possa nos experimentar novamente no futuro. <br>Obrigado por tornar o Dota Coach melhor.", // #toBeUpdated (comment, first sentence is a couple of characters too)
+    br: "Esperamos que você possa nos experimentar novamente no futuro. Obrigado por tornar o Dota Coach melhor.",
     es: "Esperamos que puedas volver a probarnos en el futuro. <br>Gracias por hacer que Dota Coach sea mejor.", // #toBeUpdated
   },
   ThankYouForFeedback: {
@@ -160,7 +160,7 @@ export const WebsiteTranslations: Translations = {
     id: "Terima kasih atas tanggapan Anda!", // #toBeUpdated
     fil: "Salamat sa iyong feedback!", // #toBeUpdated
     zh: "谢谢你的反馈！", // #toBeUpdated
-    br: "Obrigado por seus comentários!", // #toBeUpdated
+    br: "Obrigado pelo feedback!",
     es: "¡Gracias por tus comentarios!", // #toBeUpdated
   },
   FeedbackPlacehodler: {
@@ -171,7 +171,7 @@ export const WebsiteTranslations: Translations = {
     id: "Misalnya bug, tidak cukup fitur, dll.", // #toBeUpdated
     fil: "Halimbawa, mga bug, hindi sapat na mga tampok, atbp.", // #toBeUpdated
     zh: "例如 bug、功能不足等。", // #toBeUpdated
-    br: "Por exemplo, bugs, recursos insuficientes, etc.", // #toBeUpdated
+    br: "Por exemplo: bugs, funcionalidades insuficientes, etc.",
     es: "Por ejemplo, errores, funciones insuficientes, etc.", // #toBeUpdated
   },
 };
