@@ -267,7 +267,7 @@ export function updateHTML() {
 export function updateHTMLElement(htmlElement: HTMLElement) {
   //if (htmlElement.classList.contains("i18n")) {
   if (htmlElement.hasAttribute("i18n")) {
-    // Update this  element
+    // Update this element
     updatei18nElement(htmlElement);
   } else {
     //const elements = htmlElement.getElementsByClassName("i18n");
@@ -330,7 +330,7 @@ function configureWebLinks(element: Element) {
           webLink = "https://dota-coach.com/video/DotaCoachTutorial-en.mp4";
         }
       }
-      //overwolf.utils.openUrlInOverwolfBrowser(webLink);
+      overwolf.utils.openUrlInOverwolfBrowser(webLink);
     });
   }
 }
