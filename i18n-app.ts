@@ -2642,7 +2642,7 @@ export const AppTranslations: Translations = {
   },
   TimersLaunchDota: {
     en: "Launch Dota 2 to use in-game timers.",
-    de: `Starte Dota 2, um die Timer im Spiel zu verwenden.`,
+    de: `Starte Dota 2 um die Timer im Spiel zu verwenden.`,
     fr: `Lance Dota 2 pour utiliser les minuteurs dans le jeu.`,
     ru: `Запустите Dota 2, чтобы использовать внутриигровые таймеры.`, // #toBeUpdated
     id: `Luncurkan Dota 2 untuk menggunakan timer dalam game.`, // #toBeUpdated
@@ -2676,7 +2676,7 @@ export const AppTranslations: Translations = {
   },
   CoachingLaunchDota: {
     en: "Launch Dota 2 to use in-game coaching and notifications.",
-    de: `Starte Dota 2, um Coaching und Benachrichtigungen im Spiel zu verwenden.`,
+    de: `Starte Dota 2 um Coaching und Benachrichtigungen im Spiel zu verwenden.`,
     fr: `Lance Dota 2 pour utiliser le coaching et les notifications en jeu.`,
     ru: `Запустите Dota 2, чтобы использовать внутриигровой коучинг и уведомления.`, // #toBeUpdated
     id: `Luncurkan Dota 2 untuk menggunakan pelatihan dan notifikasi dalam game.`, // #toBeUpdated
@@ -2733,7 +2733,7 @@ export const AppTranslations: Translations = {
   },
   PerformanceTrackerLaunchDota: {
     en: "Launch Dota 2 to use in-game performance tracker.",
-    de: `Starte Dota 2, um den Performance Tracker im Spiel zu verwenden.`,
+    de: `Starte Dota 2 um den Performance Tracker im Spiel zu verwenden.`,
     fr: `Lance Dota 2 pour utiliser le suivi des performances en jeu.`,
     ru: `Запустите Dota 2, чтобы использовать внутриигровой трекер производительности.`, // #toBeUpdated
     id: `Luncurkan Dota 2 untuk menggunakan pelacak kinerja dalam game.`, // #toBeUpdated

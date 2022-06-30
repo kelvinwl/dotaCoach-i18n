@@ -58,9 +58,7 @@ let activeTranslations = {};
 
 export function setTranslations(translations: Translations) {
   DL.log(
-    `i18n.setTranslations(): Setting translations with ${
-      Object.keys(translations).length
-    } tokens`
+    `i18n.setTranslations(): Setting translations with ${Object.keys(translations).length} tokens`
   );
   activeTranslations = translations;
 }
@@ -74,11 +72,7 @@ export function setTranslations(translations: Translations) {
  * @param tokens Variable values to replace inside i18n string
  * @returns i18n string of current language with replaced variable tokens.
  */
-export function replaceVarTokens(
-  buildSpan: boolean,
-  i18nT: string,
-  ...tokens: string[]
-): string {
+export function replaceVarTokens(buildSpan: boolean, i18nT: string, ...tokens: string[]): string {
   // Builds regex
   DL.log("replaceVarTokens: " + i18nT + " " + JSON.stringify(tokens));
 
@@ -141,21 +135,14 @@ export function t(token: string): string {
     const err = new Error();
     console.warn(err.stack);
 
-    if (
-      Object.prototype.hasOwnProperty.call(errorTranslation, currentLanguage)
-    ) {
+    if (Object.prototype.hasOwnProperty.call(errorTranslation, currentLanguage)) {
       return errorTranslation[currentLanguage];
     } else {
       return errorTranslation.en;
     }
   }
 
-  if (
-    Object.prototype.hasOwnProperty.call(
-      activeTranslations[token],
-      currentLanguage
-    )
-  ) {
+  if (Object.prototype.hasOwnProperty.call(activeTranslations[token], currentLanguage)) {
     return activeTranslations[token][currentLanguage];
   } else {
     return activeTranslations[token].en;
@@ -289,11 +276,7 @@ function updatei18nElement(element: Element) {
   );*/
   if (Object.prototype.hasOwnProperty.call(i18nVarTokenValues, i18nToken)) {
     /*console.log(`*** here we go`);*/
-    element.innerHTML = replaceVarTokens(
-      false,
-      i18nToken,
-      ...i18nVarTokenValues[i18nToken]
-    );
+    element.innerHTML = replaceVarTokens(false, i18nToken, ...i18nVarTokenValues[i18nToken]);
     /*  console.log(`*** element.innerHTML = ${element.innerHTML}`);*/
   } else {
     const innerHTML = t(i18nToken);
@@ -330,7 +313,8 @@ function configureWebLinks(element: Element) {
           webLink = "https://dota-coach.com/video/DotaCoachTutorial-en.mp4";
         }
       }
-      overwolf.utils.openUrlInOverwolfBrowser(webLink);
+      //overwolf.utils.openUrlInOverwolfBrowser(webLink);
+      overwolf.utils.openUrlInDefaultBrowser(webLink); // Overwolf recommends to use default browser (30.6.2022)
     });
   }
 }
