@@ -20,6 +20,10 @@
 import { Translations } from "./i18n";
 
 export const AppTranslations: Translations = {
+  Dota2: {
+    en: "Dota 2",
+  },
+
   // Desktop window
   // 'Notifications' exists already in settings
   MatchAnalytics: {
@@ -659,9 +663,9 @@ export const AppTranslations: Translations = {
     de: `Du hast heute als #### mit #### als #### <span class="txt-green">gewonnen</span>.`,
     fr: `Tu as <span class="txt-green">gagné</span> en tant que #### avec #### en tant que #### aujourd'hui.`,
     ru: `Вы <span class="txt-green"> выиграли </span> как #### с #### как #### сегодня.`,
-    id: `Anda <span class="txt-green">menang</span> sebagai ##### dengan #### sebagai #### hari ini.`, // #toBeUpdated
+    id: `Anda <span class="txt-green">menang</span> sebagai #### dengan #### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> ka bilang #### na may #### bilang #### ngayon.`, // #toBeUpdated
-    zh: `你今天以 ##### 的比分<span class="txt-green">赢了</span> #####。`, // #toBeUpdated
+    zh: `你今天以 #### 的比分<span class="txt-green">赢了</span> ####。`, // #toBeUpdated
     br: `Você <span class="txt-green">ganhou</span> como #### com #### como #### hoje.`, // #toBeUpdated
     es: `<span class="txt-green">Ganaste</span> como #### con #### como #### hoy.`, // #toBeUpdated
   },
@@ -670,9 +674,9 @@ export const AppTranslations: Translations = {
     de: `Du hast als #### mit #### als #### vor #### Tagen <span class="txt-green">gewonnen</span> .`,
     fr: `Tu as <span class="txt-green">gagné</span> #### avec #### comme #### il y a #### jours.`,
     ru: `<span class="txt-green">Выиграл</span> как #### с #### как #### #### дней назад.`,
-    id: `<span class="txt-green">Menang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
-    fil: `<span class="txt-green">Nanalo</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
-    zh: `几天前以 #### 的身份@@ <span class="txt-green">赢得</span> ##### ### ##。`, // #toBeUpdated
+    id: `<span class="txt-green">Menang</span> sebagai #### dengan #### #### beberapa hari yang lalu.`, // #toBeUpdated
+    fil: `<span class="txt-green">Nanalo</span> bilang #### na may #### bilang #### mga araw na nakalipas.`, // #toBeUpdated
+    zh: `几天前以 #### 的身份@@ <span class="txt-green">赢得</span> #### ####。`, // #toBeUpdated
     br: `<span class="txt-green">Ganhou</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-green">Ganó</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
@@ -681,9 +685,9 @@ export const AppTranslations: Translations = {
     de: `Du hast als #### mit #### als #### heute <span class="txt-red">verloren</span>.`,
     fr: `Tu as <span class="txt-red">perdu</span> en tant que #### avec #### en tant que #### aujourd'hui.`,
     ru: `<span class="txt-red">Проиграл </span> как #### с #### как #### сегодня.`,
-    id: `<span class="txt-red">Hilang</span> sebagai ##### dengan ##### sebagai #### hari ini.`, // #toBeUpdated
+    id: `<span class="txt-red">Hilang</span> sebagai #### dengan #### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang #### ngayon.`, // #toBeUpdated
-    zh: `今天@@ <span class="txt-red">迷失</span>为 ####，### 作为 ####。`, // #toBeUpdated
+    zh: `今天@@ <span class="txt-red">迷失</span>为 ####，#### 作为 ####。`, // #toBeUpdated
     br: `<span class="txt-red">Perdido</span> como #### com #### como #### hoje.`, // #toBeUpdated
     es: `<span class="txt-red">Perdido</span> como #### con #### como #### hoy.`, // #toBeUpdated
   },
@@ -692,9 +696,9 @@ export const AppTranslations: Translations = {
     de: `Du hast als #### mit #### als #### vor #### Tagen <span class="txt-red">verloren</span>.`,
     fr: `Tu as <span class="txt-red">perdu</span> comme #### avec #### comme #### il y a #### jours.`,
     ru: `<span class="txt-red">Проиграл</span> как #### с #### как #### #### дней назад.`,
-    id: `<span class="txt-red">Hilang</span> sebagai ##### dengan ##### #### beberapa hari yang lalu.`, // #toBeUpdated
-    fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang ### # # mga araw na nakalipas.`, // #toBeUpdated
-    zh: `几天前以 ##### 的形式@@<span class="txt-red"> 丢失</span>为 ##### ####。`, // #toBeUpdated
+    id: `<span class="txt-red">Hilang</span> sebagai #### dengan #### #### beberapa hari yang lalu.`, // #toBeUpdated
+    fil: `<span class="txt-red">Nawala</span> bilang #### na may #### bilang #### mga araw na nakalipas.`, // #toBeUpdated
+    zh: `几天前以 #### 的形式@@<span class="txt-red"> 丢失</span>为 #### ####。`, // #toBeUpdated
     br: `<span class="txt-red">Perdido</span> como #### com #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-red">Perdido</span> como #### con #### como #### #### hace días.`, // #toBeUpdated
   },
@@ -703,20 +707,20 @@ export const AppTranslations: Translations = {
     de: `Du hast heute als #### gegen #### als #### <span class="txt-green">gewonnen</span>.`,
     fr: `Tu as <span class="txt-green">gagné</span> en tant que #### contre #### en tant que #### aujourd'hui.`,
     ru: `Сегодня вы <span class="txt-green">выиграли</span> как #### против #### как ####.`, // #toBeUpdated
-    id: `Anda <span class="txt-green">menang</span> sebagai ##### vs ##### sebagai #### hari ini.`, // #toBeUpdated
+    id: `Anda <span class="txt-green">menang</span> sebagai #### vs #### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-green">Nanalo</span> ka bilang #### vs #### bilang #### ngayon.`, // #toBeUpdated
-    zh: `你今天以 #### vs ##### 的比分<span class="txt-green">赢</span>了 ####。`, // #toBeUpdated
+    zh: `你今天以 #### vs #### 的比分<span class="txt-green">赢</span>了 ####。`, // #toBeUpdated
     br: `Você <span class="txt-green">ganhou</span> como #### vs #### quanto #### hoje.`, // #toBeUpdated
-    es: `Hoy <span class="txt-green">ganaste</span> como #### contra #### como ###.`, // #toBeUpdated
+    es: `Hoy <span class="txt-green">ganaste</span> como #### contra #### como ####.`, // #toBeUpdated
   },
   playedWithWonVs: {
     en: `You <span class="txt-green">won</span> as #### vs #### as #### #### days ago.`,
     de: `Du hast als #### gegen #### als #### vor #### Tagen <span class="txt-green">gewonnen</span>.`,
     fr: `Tu as <span class="txt-green">gagné</span> comme #### contre #### comme #### il y a #### jours.`,
     ru: `<span class="txt-green">Выиграл</span> как #### против #### как #### #### дней назад.`,
-    id: `<span class="txt-green">Menang</span> sebagai ##### vs ######### beberapa hari yang lalu.`, // #toBeUpdated
-    fil: `<span class="txt-green">Nanalo</span> bilang #### vs #### bilang ### # # # mga araw na nakalipas.`, // #toBeUpdated
-    zh: `几天前以 #### vs ##### 作为 #######<span class="txt-green"> 赢</span>了。`, // #toBeUpdated
+    id: `<span class="txt-green">Menang</span> sebagai #### vs #### #### beberapa hari yang lalu.`, // #toBeUpdated
+    fil: `<span class="txt-green">Nanalo</span> bilang #### vs #### bilang #### mga araw na nakalipas.`, // #toBeUpdated
+    zh: `几天前以 #### vs #### 作为 #### ####<span class="txt-green"> 赢</span>了。`, // #toBeUpdated
     br: `<span class="txt-green">Ganhou</span> como #### vs #### como #### #### dias atrás.`, // #toBeUpdated
     es: `<span class="txt-green">Ganó</span> #### contra #### como #### #### hace días.`, // #toBeUpdated
   },
@@ -725,7 +729,7 @@ export const AppTranslations: Translations = {
     de: `Du hast heute als #### gegen #### als #### <span class="txt-red">verloren</span>.`,
     fr: `Tu as <span class="txt-red">perdu</span> en tant que #### contre #### en tant que #### aujourd'hui.`,
     ru: `Вы <span class="txt-red">проиграли</span> как #### против #### как #### сегодня.`, // #toBeUpdated
-    id: `Anda <span class="txt-red">kalah</span> sebagai ##### vs ##### sebagai #### hari ini.`, // #toBeUpdated
+    id: `Anda <span class="txt-red">kalah</span> sebagai #### vs #### sebagai #### hari ini.`, // #toBeUpdated
     fil: `<span class="txt-red">Nawala</span> ka bilang #### vs #### bilang #### ngayon.`, // #toBeUpdated
     zh: `你今天<span class="txt-red">输了</span> #### vs ####`, // #toBeUpdated
     br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### hoje.`, // #toBeUpdated
@@ -736,11 +740,11 @@ export const AppTranslations: Translations = {
     de: `Du hast als #### gegen #### als #### vor #### Tagen <span class="txt-red">verloren</span>.`,
     fr: `Tu as <span class="txt-red">perdu</span> comme #### contre #### comme #### #### il y a quelques jours.`,
     ru: `Вы <span class="txt-red"> проиграли </span> как #### против #### как #### #### дней назад.`,
-    id: `Anda <span class="txt-red">kalah</span> sebagai #### vs ##### sebagai ######## hari yang lalu.`, // #toBeUpdated
-    fil: `<span class="txt-red">Nawala</span> ka bilang #### vs ##### bilang #### ### araw na nakalipas.`, // #toBeUpdated
-    zh: `你<span class="txt-red">输了</span> #### vs ##### 和 ##### 几天前一样。`, // #toBeUpdated
+    id: `Anda <span class="txt-red">kalah</span> sebagai #### vs #### sebagai #### #### hari yang lalu.`, // #toBeUpdated
+    fil: `<span class="txt-red">Nawala</span> ka bilang #### vs #### bilang #### #### araw na nakalipas.`, // #toBeUpdated
+    zh: `你<span class="txt-red">输了</span> #### vs #### 和 #### 几天前一样。`, // #toBeUpdated
     br: `Você <span class="txt-red">perdeu</span> como #### vs #### como #### #### dias atrás.`, // #toBeUpdated
-    es: `<span class="txt-red">Perdiste</span> como #### vs ##### como ##### días atrás.`, // #toBeUpdated
+    es: `<span class="txt-red">Perdiste</span> como #### vs #### como #### días atrás.`, // #toBeUpdated
   },
 
   enemyHero: {
@@ -912,8 +916,8 @@ export const AppTranslations: Translations = {
     en: "You have a high win rate of ####% in the last #### matches",
     de: "Du hast eine hohe Gewinnrate von ####% in den letzten #### Spielen", // #toBeUpdated
     fr: "Vous avez un taux de victoire élevé de ####% lors des #### derniers matchs", // #toBeUpdated
-    ru: "У вас высокий #####% процент побед в последних #### матчах",
-    id: "Anda memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
+    ru: "У вас высокий ####% процент побед в последних #### матчах",
+    id: "Anda memiliki tingkat kemenangan tinggi ####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "Mayroon kang mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "在最后一场 #### 场比赛中，你的胜率高达 ####%", // #toBeUpdated
     br: "Você tem uma alta taxa de vitórias de ####% nas últimas partidas ####", // #toBeUpdated
@@ -923,8 +927,8 @@ export const AppTranslations: Translations = {
     en: "#### in your team has a high win rate of ####% in the last #### matches",
     de: "#### in deinem Team hat eine hohe Gewinnrate von ####% in den letzten #### Spielen", // #toBeUpdated
     fr: "#### dans ton équipe a un taux de victoire élevé de ####% lors des #### derniers matchs", // #toBeUpdated
-    ru: "#### в вашей команде имеет высокий #####% процент побед в последних #### матчах",
-    id: "#### di tim Anda memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
+    ru: "#### в вашей команде имеет высокий ####% процент побед в последних #### матчах",
+    id: "#### di tim Anda memiliki tingkat kemenangan tinggi ####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "#### sa iyong koponan ay may mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "你队伍中的 #### 在过去 #### 场比赛中有 ####% 的高胜率", // #toBeUpdated
     br: "#### em sua equipe tem uma alta taxa de vitórias de ####% nas últimas #### partidas", // #toBeUpdated
@@ -934,8 +938,8 @@ export const AppTranslations: Translations = {
     en: "#### in the enemy team has a high win rate of ####% in the last #### matches",
     de: "#### im gegnerischen Team hat eine hohe Siegrate von ####% in den letzten #### Spielen", // #toBeUpdated
     fr: "#### dans l'équipe adverse a un taux de victoire élevé de ####% lors des #### derniers matchs", // #toBeUpdated
-    ru: "#### во вражеской команде высокий #####% процент побед в последних #### матчах",
-    id: "#### di tim musuh memiliki tingkat kemenangan tinggi #####% dalam pertandingan terakhir ####", // #toBeUpdated
+    ru: "#### во вражеской команде высокий ####% процент побед в последних #### матчах",
+    id: "#### di tim musuh memiliki tingkat kemenangan tinggi ####% dalam pertandingan terakhir ####", // #toBeUpdated
     fil: "#### sa koponan ng kaaway ay may mataas na rate ng panalo ng ####% sa huling #### na mga tugma", // #toBeUpdated
     zh: "敌方队伍中的 #### 在最后 #### 场比赛中获得 ####% 的高胜率", // #toBeUpdated
     br: "#### na equipe inimiga tem uma alta taxa de vitória de ####% nas últimas #### partidas", // #toBeUpdated
@@ -958,7 +962,7 @@ export const AppTranslations: Translations = {
     de: "#### ist wahrscheinlich ein Smurf. Er hat eine Gewinnrate von ####% in den letzten #### Spielen.",
     fr: "#### est probablement un schtroumpf. Il a un taux de victoire de ####% sur les derniers #### matchs.", // #toBeUpdated
     ru: "#### скорее всего смурф. У него ####% процент побед в последних #### матчах.",
-    id: "#### kemungkinan akan menjadi smurf. Dia memiliki tingkat kemenangan #####% selama pertandingan #### terakhir.", // #toBeUpdated
+    id: "#### kemungkinan akan menjadi smurf. Dia memiliki tingkat kemenangan ####% selama pertandingan #### terakhir.", // #toBeUpdated
     fil: "#### ay malamang na maging isang smurf. Siya ay may panalo rate ng ####% sa huling #### na mga tugma.", // #toBeUpdated
     zh: "#### 很可能是蓝精灵。在过去的 #### 场比赛中，他的胜率为 ####%。", // #toBeUpdated
     br: "#### é provável que seja um smurf. Ele tem uma taxa de vitória de ####% nas últimas partidas ####.", // #toBeUpdated
@@ -1294,6 +1298,7 @@ export const AppTranslations: Translations = {
 
   // Infoboxes
   Infoboxes: {
+    // Also usd by "App Status" in Desktop window
     en: "Infoboxes",
     de: "Infoboxen",
     fr: "Infobox",
@@ -1386,6 +1391,7 @@ export const AppTranslations: Translations = {
   },
 
   Timers: {
+    // Also used in "App Status" in desktop window
     en: "Timers",
     de: "Timer",
     fr: "Minuteries",
@@ -1753,6 +1759,7 @@ export const AppTranslations: Translations = {
     es: "Roshan y aegis",
   },
   PerformanceTracker: {
+    // Also used for "App Status" in desktop
     en: "Performance tracker",
     de: "Leistungstracker",
     fr: "Traqueur de performance",
@@ -2523,6 +2530,88 @@ export const AppTranslations: Translations = {
     es: "MÁS",
   },
 
+  // Desktop window: Dota Launch message
+  LaunchDota: {
+    en: "Launch Dota 2 to benefit from in-game features such as player stats, timers, performance tracking and coaching.",
+    de: `Starte Dota 2 um die Appfunktionen wie Spielerstatistiken, Timern, Performance Tracking und Coaching zu nutzen.`,
+    fr: `Lance Dota 2 pour bénéficier des fonctionnalités de l'app telles que les statistiques des joueurs, les chronomètres, le suivi des performances et le coaching.`,
+    ru: "Запустите Dota 2, чтобы воспользоваться внутриигровыми функциями, такими как статистика игрока, таймеры, отслеживание эффективности и обучение",
+    id: `Luncurkan Dota 2 untuk mendapatkan keuntungan dari fitur dalam game seperti statistik pemain, pengatur waktu, pelacakan kinerja, dan pembinaan.`, // #toBeUpdated
+    fil: `Ilunsad ang Dota 2 upang makinabang mula sa mga tampok na in-game tulad ng stats ng manlalaro, timers, pagsubaybay sa pagganap at Pagtuturo.`, // #toBeUpdated
+    zh: `启动 Dota 2 以受益于游戏内功能，例如玩家统计、计时器、表现跟踪和指导。`, // #toBeUpdated
+    br: `Inicie o Dota 2 para se beneficiar dos recursos do jogo, como estatísticas do jogador, cronômetros, rastreamento de desempenho e treinamento.`, // #toBeUpdated
+    es: `Inicia Dota 2 para beneficiarte de las funciones del juego, como estadísticas de los jugadores, temporizadores, seguimiento del rendimiento y entrenamiento.`, // #toBeUpdated
+  },
+  FullyOperational: {
+    en: "Dota 2 is running and connection is fully operational.",
+    de: `Dota 2 läuft und die Verbindung ist voll funktionsfähig.`,
+    fr: `Dota 2 est en cours d'exécution et la connexion est pleinement opérationnelle.`,
+    ru: `Dota 2 запущена, а соединение полностью работоспособно.`, // #toBeUpdated
+    id: `Dota 2 sedang berjalan dan koneksi beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang Dota 2 ay tumatakbo at ang koneksyon ay ganap na pagpapatakbo.`, // #toBeUpdated
+    zh: `Dota 2 正在运行并且连接已完全正常运行。`, // #toBeUpdated
+    br: `O Dota 2 está funcionando e a conexão está totalmente operacional.`, // #toBeUpdated
+    es: `Dota 2 se está ejecutando y la conexión está completamente operativa.`, // #toBeUpdated
+  },
+
+  DotaConnectivityStart: {
+    en: "Connecting to Dota 2...",
+    de: `Verbindung zu Dota 2 wird hergestellt...`,
+    fr: `Connexion à Dota 2 en cours...`,
+    ru: "Подключение к Dota 2...",
+    id: `Menghubungkan ke Dota 2...`, // #toBeUpdated
+    fil: `Kumokonekta sa Dota 2...`, // #toBeUpdated
+    zh: `正在连接到 Dota 2...`, // #toBeUpdated
+    br: `Conectando-se ao Dota 2...`, // #toBeUpdated
+    es: `Conectándose a Dota 2...`, // #toBeUpdated
+  },
+  DotaConnectivityStatus: {
+    en: "Connecting to Dota 2...<br>Current status: '####' (####/#### attempts)",
+    de: `Verbindung zu Dota 2 wird hergestellt... <br>Aktueller Stand: '####' (####/#### Versuchen)`,
+    fr: `Connexion à Dota 2... <br>État actuel : '####' (####/#### tentatives)`,
+    ru: "Подключение к Dota 2...<br>Текущий статус: '####' (####/#### попытки)",
+    id: `Menghubungkan ke Dota 2... <br>Statussaat ini: '####' (####/#### upaya)`, // #toBeUpdated
+    fil: `Kumokonekta sa Dota 2... <br>Kasalukuyangkatayuan: '####' (####/#### pagtatangka)`, // #toBeUpdated
+    zh: `正在连接到 Dota 2...<br>当前状态：'####'（####/#### 次尝试）`, // #toBeUpdated
+    br: `Conectando-se ao Dota 2... <br>Status atual: '####' (####/#### tentativas)`, // #toBeUpdated
+    es: `Conectándose a Dota 2... <br>Estado actual: '####' (####/#### intentos)`, // #toBeUpdated
+  },
+  DotaConnectivityError: {
+    en: "Connection to Dota 2 could not be established.<br>Please try again later.<br>Error: '####'.",
+    de: `Verbindung zu Dota 2 konnte nicht hergestellt werden. <br>Bitte versuche es später erneut. <br>Fehler: '####'.`,
+    fr: `La connexion à Dota 2 n'a pas pu être établie. <br>Réessaye plus tard. <br>Erreur : « #### ».`,
+    ru: "Подключение к Dota 2 не установлено.<br>Пожалуйста, повторите попытку позже.<br>Ошибка: '####'.",
+    id: `Koneksi ke Dota 2 tidak dapat dibuat. <br>Silakancoba lagi nanti. <br>Galat: '####'.`, // #toBeUpdated
+    fil: `Ang koneksyon sa Dota 2 ay hindi maitatag. <br>Mangyaringsubukang muli mamaya. <br>Error: '####'.`, // #toBeUpdated
+    zh: `无法建立与 Dota 2 的连接。<br>请稍后再试。<br>错误：'####'。`, // #toBeUpdated
+    br: `A conexão com o Dota 2 não pôde ser estabelecida. <br>Tente novamente mais tarde. <br>Erro: '####'.`, // #toBeUpdated
+    es: `No se pudo establecer la conexión con Dota 2. <br>Vuelva a intentarlo más tarde. <br>Error: '####'.`, // #toBeUpdated
+  },
+  DotaConnectivityFailed: {
+    // {"plugin_error": "failed_initializing_monitor"}
+    en: "Connection to Dota 2 is disrupted. We are working on a fix, please try again later.",
+    de: `Die Verbindung zu Dota 2 ist unterbrochen. Wir arbeiten an einer Lösung, bitte versuche es später erneut.`,
+    fr: `La connexion à Dota 2 est interrompue. Nous travaillons sur un correctif, nous the prions de réessayer plus tard.`,
+    ru: "Соединение с Dota 2 прервано. Мы работаем над исправлением, повторите попытку позже.",
+    id: `Koneksi ke Dota 2 terganggu. Kami sedang mengerjakan perbaikan, silakan coba lagi nanti.`, // #toBeUpdated
+    fil: `Ang koneksyon sa Dota 2 ay nasisira. Nagtatrabaho kami sa isang pag-aayos, mangyaring subukang muli mamaya.`, // #toBeUpdated
+    zh: `与 Dota 2 的连接中断。我们正在修复问题，请稍后再试。`, // #toBeUpdated
+    br: `A conexão com o Dota 2 foi interrompida. Estamos trabalhando em uma correção, tente novamente mais tarde.`, // #toBeUpdated
+    es: `La conexión a Dota 2 está interrumpida. Estamos trabajando en una solución, inténtalo de nuevo más tarde.`, // #toBeUpdated
+  },
+  DotaConnectivityCrashed: {
+    // {""plugin_error"":""crashed_on_present""}
+    en: "Connection to Dota crashed. Please try to relaunch app.", // May be we should try to reconnect in the app?!
+    de: `Die Verbindung zu Dota ist abgestürzt. Bitte versuche die App neu zu starten.`,
+    fr: `La connexion à Dota s'est écrasée. Essaye de relancer l'application.`,
+    ru: "Сбой подключения к Dota. Попробуйте перезапустить приложение.",
+    id: `Koneksi ke Dota jatuh. Silakan coba untuk meluncurkan kembali aplikasi.`, // #toBeUpdated
+    fil: `Ang koneksyon sa Dota ay nag-crash. Mangyaring subukan na muling ilunsad ang app.`, // #toBeUpdated
+    zh: `与 Dota 的连接崩溃了。请尝试重新启动应用程序。`, // #toBeUpdated
+    br: `A conexão com o Dota travou. Tente reiniciar o aplicativo.`, // #toBeUpdated
+    es: `La conexión a Dota se bloqueó. Intente volver a iniciar la aplicación.`, // #toBeUpdated
+  },
+
   // Desktop status display
   InfoboxesOperational: {
     en: "Infoboxes are fully operational.",
@@ -2556,66 +2645,6 @@ export const AppTranslations: Translations = {
     zh: `启动 Dota 2 以使用游戏中的信息框。`, // #toBeUpdated
     br: `Inicie o Dota 2 para usar infoboxes no jogo.`, // #toBeUpdated
     es: `Inicia Dota 2 para usar las infoboxes del juego.`, // #toBeUpdated
-  },
-
-  // Desktop window: Dota Launch message
-  LaunchDota: {
-    en: "Launch Dota 2 to benefit from in-game features such as player stats, timers, performance tracking and coaching.",
-
-    de: `Starte Dota 2 um die Appfunktionen wie Spielerstatistiken, Timern, Performance Tracking und Coaching zu nutzen.`,
-    fr: `Lance Dota 2 pour bénéficier des fonctionnalités de l'app telles que les statistiques des joueurs, les chronomètres, le suivi des performances et le coaching.`,
-    ru: "Запустите Dota 2, чтобы воспользоваться внутриигровыми функциями, такими как статистика игрока, таймеры, отслеживание эффективности и обучение",
-    id: `Luncurkan Dota 2 untuk mendapatkan keuntungan dari fitur dalam game seperti statistik pemain, pengatur waktu, pelacakan kinerja, dan pembinaan.`, // #toBeUpdated
-    fil: `Ilunsad ang Dota 2 upang makinabang mula sa mga tampok na in-game tulad ng stats ng manlalaro, timers, pagsubaybay sa pagganap at Pagtuturo.`, // #toBeUpdated
-    zh: `启动 Dota 2 以受益于游戏内功能，例如玩家统计、计时器、表现跟踪和指导。`, // #toBeUpdated
-    br: `Inicie o Dota 2 para se beneficiar dos recursos do jogo, como estatísticas do jogador, cronômetros, rastreamento de desempenho e treinamento.`, // #toBeUpdated
-    es: `Inicia Dota 2 para beneficiarte de las funciones del juego, como estadísticas de los jugadores, temporizadores, seguimiento del rendimiento y entrenamiento.`, // #toBeUpdated
-  },
-  FullyOperational: {
-    en: "Dota 2 is running and connection is fully operational.",
-    de: `Dota 2 läuft und die Verbindung ist voll funktionsfähig.`,
-    fr: `Dota 2 est en cours d'exécution et la connexion est pleinement opérationnelle.`,
-    ru: `Dota 2 запущена, а соединение полностью работоспособно.`, // #toBeUpdated
-    id: `Dota 2 sedang berjalan dan koneksi beroperasi penuh.`, // #toBeUpdated
-    fil: `Ang Dota 2 ay tumatakbo at ang koneksyon ay ganap na pagpapatakbo.`, // #toBeUpdated
-    zh: `Dota 2 正在运行并且连接已完全正常运行。`, // #toBeUpdated
-    br: `O Dota 2 está funcionando e a conexão está totalmente operacional.`, // #toBeUpdated
-    es: `Dota 2 se está ejecutando y la conexión está completamente operativa.`, // #toBeUpdated
-  },
-
-  MatchAnalyticsOperational: {
-    en: "Match analytics is fully operational.",
-    de: `Die Spielanalyse ist voll funktionsfähig.`,
-    fr: `L'analyse des matchs est pleinement opérationnelle.`,
-    ru: `Аналитика матчей полностью работоспособна.`, // #toBeUpdated
-    id: `Match analytics beroperasi penuh.`, // #toBeUpdated
-    fil: `Ang pagtutugma ng analytics ay ganap na gumagana.`, // #toBeUpdated
-    zh: `比赛分析已全面运作。`, // #toBeUpdated
-    br: `A análise de correspondência está totalmente operacional.`, // #toBeUpdated
-    es: `El análisis de partidos está en pleno funcionamiento.`, // #toBeUpdated
-  },
-  MatchAnalyticsLoading: {
-    en: "Match analytics is loading benchmark data.",
-    de: `Match Analytics lädt die Benchmark-Daten.`,
-    fr: `L'analyse des matches charge les données de référence.`,
-    ru: `Аналитика матчей загружает данные тестов.`, // #toBeUpdated
-    id: `Match analytics memuat data benchmark.`, // #toBeUpdated
-    fil: `Ang pagtutugma ng analytics ay naglo-load ng benchmark data.`, // #toBeUpdated
-    zh: `比赛分析正在加载基准数据。`, // #toBeUpdated
-    br: `A análise de correspondência está carregando dados de benchmark.`, // #toBeUpdated
-    es: `El análisis de partidos está cargando datos de referencia.`, // #toBeUpdated
-  },
-  MatchAnalyticsError: {
-    en: "Match analytics can't benchmark your matches as it failed loading benchmark data (#####).", // Add button for try again?
-
-    de: `Die Spielanalyse kann deine Spiele nicht bewerten, da das Laden der Benchmark-Daten fehlgeschlagen ist (#####).`,
-    fr: `L'analyse des matchs ne peut pas comparer vos jeux car le chargement des données de référence a échoué (#####).`,
-    ru: `Аналитика матчей не может сравнивать ваши матчи, так как не удалось загрузить данные теста (#####).`, // #toBeUpdated
-    id: `Match analytics tidak dapat mengukur kecocokan Anda karena gagal memuat data benchmark (#####).`, // #toBeUpdated
-    fil: `Hindi maaaring benchmark ng match analytics ang iyong mga match dahil nabigo ito sa paglo-load ng benchmark data (#####).`, // #toBeUpdated
-    zh: `比赛分析无法对您的比赛进行基准测试，因为它无法加载基准数据 (#####)。`, // #toBeUpdated
-    br: `A análise de correspondência não pode comparar suas correspondências, pois falhou ao carregar os dados de benchmark (#####).`, // #toBeUpdated
-    es: `El análisis de partidos no puede comparar tus partidos porque no pudo cargar los datos de referencia (#####).`, // #toBeUpdated
   },
 
   TimersOperational: {
@@ -2652,6 +2681,9 @@ export const AppTranslations: Translations = {
     es: `Inicia Dota 2 para usar temporizadores en el juego.`, // #toBeUpdated
   },
 
+  CoachingStatus: {
+    en: "Coaching & notifications",
+  },
   CoachingOperational: {
     en: "Coaching and notifications are fully operational.",
     de: `Coaching und Benachrichtigungen sind voll funktionsfähig.`,
@@ -2743,62 +2775,52 @@ export const AppTranslations: Translations = {
     es: `Inicia Dota 2 para usar el rastreador de rendimiento del juego.`, // #toBeUpdated
   },
 
-  DotaConnectivityStart: {
-    en: "Connecting to Dota 2...",
-    de: `Verbindung zu Dota 2 wird hergestellt...`,
-    fr: `Connexion à Dota 2 en cours...`,
-    ru: "Подключение к Dota 2...",
-    id: `Menghubungkan ke Dota 2...`, // #toBeUpdated
-    fil: `Kumokonekta sa Dota 2...`, // #toBeUpdated
-    zh: `正在连接到 Dota 2...`, // #toBeUpdated
-    br: `Conectando-se ao Dota 2...`, // #toBeUpdated
-    es: `Conectándose a Dota 2...`, // #toBeUpdated
+  MatchAnalyticsStatus: {
+    en: "Match analytics",
   },
-  DotaConnectivityStatus: {
-    en: "Connecting to Dota 2...<br>Current status: '####' (####/#### attempts)",
-    de: `Verbindung zu Dota 2 wird hergestellt... <br>Aktueller Stand: '####' (####/### Versuchen)`,
-    fr: `Connexion à Dota 2... <br>État actuel : '####' (####/#### tentatives)`,
-    ru: "Подключение к Dota 2...<br>Текущий статус: '####' (####/#### попытки)",
-    id: `Menghubungkan ke Dota 2... <br>Statussaat ini: '#####' (####/#### upaya)`, // #toBeUpdated
-    fil: `Kumokonekta sa Dota 2... <br>Kasalukuyangkatayuan: '#####' (####/### pagtatangka)`, // #toBeUpdated
-    zh: `正在连接到 Dota 2...<br>当前状态：'####'（####/#### 次尝试）`, // #toBeUpdated
-    br: `Conectando-se ao Dota 2... <br>Status atual: '####' (####/#### tentativas)`, // #toBeUpdated
-    es: `Conectándose a Dota 2... <br>Estado actual: '####' (####/#### intentos)`, // #toBeUpdated
+  MatchAnalyticsOperational: {
+    en: "Match analytics is fully operational.",
+    de: `Die Spielanalyse ist voll funktionsfähig.`,
+    fr: `L'analyse des matchs est pleinement opérationnelle.`,
+    ru: `Аналитика матчей полностью работоспособна.`, // #toBeUpdated
+    id: `Match analytics beroperasi penuh.`, // #toBeUpdated
+    fil: `Ang pagtutugma ng analytics ay ganap na gumagana.`, // #toBeUpdated
+    zh: `比赛分析已全面运作。`, // #toBeUpdated
+    br: `A análise de correspondência está totalmente operacional.`, // #toBeUpdated
+    es: `El análisis de partidos está en pleno funcionamiento.`, // #toBeUpdated
   },
-  DotaConnectivityError: {
-    en: "Connection to Dota 2 could not be established.<br>Please try again later.<br>Error: '####'.",
-    de: `Verbindung zu Dota 2 konnte nicht hergestellt werden. <br>Bitte versuche es später erneut. <br>Fehler: '####'.`,
-    fr: `La connexion à Dota 2 n'a pas pu être établie. <br>Réessaye plus tard. <br>Erreur : « #### ».`,
-    ru: "Подключение к Dota 2 не установлено.<br>Пожалуйста, повторите попытку позже.<br>Ошибка: '####'.",
-    id: `Koneksi ke Dota 2 tidak dapat dibuat. <br>Silakancoba lagi nanti. <br>Galat: '#####'.`, // #toBeUpdated
-    fil: `Ang koneksyon sa Dota 2 ay hindi maitatag. <br>Mangyaringsubukang muli mamaya. <br>Error: '####'.`, // #toBeUpdated
-    zh: `无法建立与 Dota 2 的连接。<br>请稍后再试。<br>错误：'####'。`, // #toBeUpdated
-    br: `A conexão com o Dota 2 não pôde ser estabelecida. <br>Tente novamente mais tarde. <br>Erro: '####'.`, // #toBeUpdated
-    es: `No se pudo establecer la conexión con Dota 2. <br>Vuelva a intentarlo más tarde. <br>Error: '####'.`, // #toBeUpdated
+  MatchAnalyticsLoading: {
+    en: "Match analytics is loading benchmark data.",
+    de: `Match Analytics lädt die Benchmark-Daten.`,
+    fr: `L'analyse des matches charge les données de référence.`,
+    ru: `Аналитика матчей загружает данные тестов.`, // #toBeUpdated
+    id: `Match analytics memuat data benchmark.`, // #toBeUpdated
+    fil: `Ang pagtutugma ng analytics ay naglo-load ng benchmark data.`, // #toBeUpdated
+    zh: `比赛分析正在加载基准数据。`, // #toBeUpdated
+    br: `A análise de correspondência está carregando dados de benchmark.`, // #toBeUpdated
+    es: `El análisis de partidos está cargando datos de referencia.`, // #toBeUpdated
   },
-  DotaConnectivityFailed: {
-    // {"plugin_error": "failed_initializing_monitor"}
-    en: "Connection to Dota 2 is disrupted. We are working on a fix, please try again later.",
-    de: `Die Verbindung zu Dota 2 ist unterbrochen. Wir arbeiten an einer Lösung, bitte versuche es später erneut.`,
-    fr: `La connexion à Dota 2 est interrompue. Nous travaillons sur un correctif, nous the prions de réessayer plus tard.`,
-    ru: "Соединение с Dota 2 прервано. Мы работаем над исправлением, повторите попытку позже.",
-    id: `Koneksi ke Dota 2 terganggu. Kami sedang mengerjakan perbaikan, silakan coba lagi nanti.`, // #toBeUpdated
-    fil: `Ang koneksyon sa Dota 2 ay nasisira. Nagtatrabaho kami sa isang pag-aayos, mangyaring subukang muli mamaya.`, // #toBeUpdated
-    zh: `与 Dota 2 的连接中断。我们正在修复问题，请稍后再试。`, // #toBeUpdated
-    br: `A conexão com o Dota 2 foi interrompida. Estamos trabalhando em uma correção, tente novamente mais tarde.`, // #toBeUpdated
-    es: `La conexión a Dota 2 está interrumpida. Estamos trabajando en una solución, inténtalo de nuevo más tarde.`, // #toBeUpdated
+  MatchAnalyticsError: {
+    en: "Match analytics can't benchmark your matches as it failed loading benchmark data (####).", // Add button for try again?
+
+    de: `Die Spielanalyse kann deine Spiele nicht bewerten, da das Laden der Benchmark-Daten fehlgeschlagen ist (####).`,
+    fr: `L'analyse des matchs ne peut pas comparer vos jeux car le chargement des données de référence a échoué (####).`,
+    ru: `Аналитика матчей не может сравнивать ваши матчи, так как не удалось загрузить данные теста (####).`, // #toBeUpdated
+    id: `Match analytics tidak dapat mengukur kecocokan Anda karena gagal memuat data benchmark (####).`, // #toBeUpdated
+    fil: `Hindi maaaring benchmark ng match analytics ang iyong mga match dahil nabigo ito sa paglo-load ng benchmark data (####).`, // #toBeUpdated
+    zh: `比赛分析无法对您的比赛进行基准测试，因为它无法加载基准数据 (####)。`, // #toBeUpdated
+    br: `A análise de correspondência não pode comparar suas correspondências, pois falhou ao carregar os dados de benchmark (####).`, // #toBeUpdated
+    es: `El análisis de partidos no puede comparar tus partidos porque no pudo cargar los datos de referencia (####).`, // #toBeUpdated
   },
-  DotaConnectivityCrashed: {
-    // {""plugin_error"":""crashed_on_present""}
-    en: "Connection to Dota crashed. Please try to relaunch app.", // May be we should try to reconnect in the app?!
-    de: `Die Verbindung zu Dota ist abgestürzt. Bitte versuche die App neu zu starten.`,
-    fr: `La connexion à Dota s'est écrasée. Essaye de relancer l'application.`,
-    ru: "Сбой подключения к Dota. Попробуйте перезапустить приложение.",
-    id: `Koneksi ke Dota jatuh. Silakan coba untuk meluncurkan kembali aplikasi.`, // #toBeUpdated
-    fil: `Ang koneksyon sa Dota ay nag-crash. Mangyaring subukan na muling ilunsad ang app.`, // #toBeUpdated
-    zh: `与 Dota 的连接崩溃了。请尝试重新启动应用程序。`, // #toBeUpdated
-    br: `A conexão com o Dota travou. Tente reiniciar o aplicativo.`, // #toBeUpdated
-    es: `La conexión a Dota se bloqueó. Intente volver a iniciar la aplicación.`, // #toBeUpdated
+
+  InternetConnectivity: {
+    en: "Internet connectivity",
+  },
+  InternetConnectivityOnline: {
+    en: "Connection to the internet is operational.",
+  },
+  InternetConnectivityOffline: {
+    en: "There is no connection to the internet.",
   },
 
   // Welcome message for new users
